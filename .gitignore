@@ -132,3 +132,7 @@ dmypy.json
 ./.idea
 .idea
 *.iml
+
+# Notebooks
+.ipynb_checkpoints
+*.ipynb
