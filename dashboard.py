@@ -1,16 +1,11 @@
 from urllib.request import urlopen
 import json
 import pandas as pd
-import matplotlib.pyplot as plt
 
 import streamlit as st
 import plotly.express as px
-from plotly.graph_objs import Figure, Data
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-
-from rdkit import Chem
-from rdkit.Chem import Draw
+from wordcloud import WordCloud
 
 import utils
 import queries
@@ -248,7 +243,299 @@ with tab2:
     )
 
     st.header(
-        "Drug discovery and development",
+        "Skills relevant for drug discovery and development",
         divider="gray",
         help="This section allows you know explore the drug discovery and development expertise across the project found in the KG.",
     )
+
+    col = st.columns((1.5, 1.5), gap="medium")
+    with col[0]:
+        skill_groups = (
+            graph.run(queries.get_skill_group()).to_data_frame()["SkillGroup"].values
+        )
+        selected_skill = st.selectbox(
+            "Select a skill group you would like to explore.", skill_groups, index=0
+        )
+
+        skill_distribution_percentage = graph.run(
+            queries.skill_distribution()
+        ).to_data_frame()
+        m = skill_distribution_percentage["name"] == selected_skill
+        skill_distribution_percentage = skill_distribution_percentage[m]
+        fig = px.pie(
+            skill_distribution_percentage,
+            values="Individuals",
+            names="skill_name",
+            hover_name="skill_name",
+            hole=0.5,
+        )
+        fig.update_layout(
+            showlegend=False,
+            margin=dict(l=20, r=20, t=20, b=20),
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    with col[1]:
+        skill_metadata = graph.run(queries.skill_metadata()).to_data_frame()
+        skill_metadata_subset = skill_metadata[
+            skill_metadata["SkillGroup"] == selected_skill
+        ]
+        all_skills = skill_metadata_subset["Skill"].values
+
+        selected_metadata = st.selectbox(
+            "Select a skill to see description.", all_skills, index=0
+        )
+
+        skill_metadata_subset = skill_metadata_subset[
+            skill_metadata_subset["Skill"] == selected_metadata
+        ]
+        curie = skill_metadata_subset["Curie"].values[0]
+        description = skill_metadata_subset["description"].values[0]
+        url = skill_metadata_subset["url"].values[0]
+
+        st.write(f"**{selected_metadata}**")
+        st.write(f"**Curie**: {curie}")
+        st.write(f"**Description**: {description}")
+        st.write(f"**More information**: {url}")
+
+    st.header(
+        "Stakeholders for drug development and discovery centric skill",
+        divider="gray",
+        help="This section allows you to identify stakeholders with the domain expertise.",
+    )
+
+    selected_metadata = st.selectbox(
+        "Select a skill to see stakeholders.", skill_metadata["Skill"], index=0
+    )
+
+    col = st.columns((1.5, 1.5), gap="medium")
+    with col[0]:
+        people_with_skill = graph.run(queries.get_skill_info()).to_data_frame()
+        people_with_skill_filtered = people_with_skill[
+            people_with_skill["Skill"] == selected_metadata
+        ]
+        people_with_skill_filtered = people_with_skill_filtered[
+            ["Individual", "ORCID", "Email"]
+        ]
+        st.write(
+            f"Found :red[{people_with_skill_filtered.shape[0]}] individuals with this skill."
+        )
+        st.dataframe(
+            people_with_skill_filtered, hide_index=True, use_container_width=True
+        )
+    with col[1]:
+        st.write("Visualizing the distribution of skills across individuals.")
+        if people_with_skill_filtered.shape[0] > 0:
+            people_in_filtered = people_with_skill_filtered["Individual"].unique()
+
+            data_list = []
+            for individual in people_in_filtered:
+                tmp = people_with_skill[people_with_skill["Individual"] == individual]
+                for skill in skill_groups:
+                    skill_list = tmp[tmp["Group"] == skill]
+                    if skill == "Communication and Project Management Group":
+                        skill_name = "Communication"
+                    elif skill == "Drug Development Group":
+                        skill_name = "Drug Development"
+                    elif skill == "Drug Discovery Group":
+                        skill_name = "Drug Discovery"
+                    else:
+                        raise ValueError(f"Unknown skill group - {skill}")
+
+                    data_list.append(
+                        {
+                            "individual": individual,
+                            "skill": skill_name,
+                            "count": skill_list.shape[0],
+                        }
+                    )
+                # data_list.append(t)
+
+            data_df = pd.DataFrame(data_list)
+            new_df = data_df.pivot(index="individual", columns="skill")["count"].fillna(
+                0
+            )
+
+            fig = px.imshow(
+                new_df,
+                x=new_df.columns,
+                y=new_df.index,
+                color_continuous_scale="blues",
+                text_auto=True,
+                aspect="auto",
+            )
+            fig.update_layout(
+                xaxis_title="Individuals",
+                yaxis_title="Skills",
+                margin=dict(l=20, r=20, t=20, b=20),
+            )
+            fig.update(
+                data=[
+                    {
+                        "hovertemplate": "Individual: %{y}<br>Group: %{x}<br># Skills: %{z}"
+                    }
+                ],
+            )
+            fig.update_coloraxes(showscale=False)
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.write("No data to visualize.")
+
+    st.header(
+        "Technology stakeholders in drug repurposing",
+        divider="gray",
+        help="This section allows you to identify organization and individual stakeholders with the technological expertise in software, assay and target classes among others.",
+    )
+
+    with st.expander("Experimental stakeholders in drug repurposing"):
+        all_assays = graph.run(queries.get_all_assays()).to_data_frame()
+
+        selected_assay = st.selectbox(
+            "Select an assay to see stakeholders.", all_assays["Assay"], index=0
+        )
+
+        assay_data = graph.run(
+            queries.get_tech_info(name=selected_assay)
+        ).to_data_frame()
+
+        col = st.columns((1.5, 1.5), gap="medium")
+
+        with col[0]:
+            fig = px.pie(
+                assay_data,
+                values="Percentage",
+                names="Partner",
+                hover_name="Partner",
+            )
+            fig.update_layout(
+                showlegend=False,
+                margin=dict(l=20, r=20, t=20, b=20),
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col[1]:
+            assay_metatadata = all_assays[all_assays["Assay"] == selected_assay]
+            assay_curie = assay_metatadata["Curie"].values[0]
+            assay_description = assay_metatadata["Definition"].values[0]
+
+            st.write(f"**{selected_assay}**")
+            st.write(f"**Curie**: {assay_curie}")
+            st.write(f"**Description**: {assay_description}")
+            st.write(
+                f"Found :red[{assay_data.shape[0]}] organizations with expertise in :red[{selected_assay}]."
+            )
+
+    with st.expander(
+        "In-silico tools and target class stakeholders in drug repurposing"
+    ):
+        col = st.columns((1.5, 1.5), gap="medium")
+
+        with col[0]:
+            all_software = graph.run(queries.get_all_software()).to_data_frame()
+
+            selected_software = st.selectbox(
+                "Select a software/tool to see stakeholders.",
+                all_software["Software"],
+                index=0,
+            )
+
+            software_data = graph.run(
+                queries.get_tech_info(name=selected_software)
+            ).to_data_frame()
+
+            software_metatadata = all_software[
+                all_software["Software"] == selected_software
+            ]
+            software_curie = software_metatadata["Curie"].values[0]
+
+            st.write(
+                f"Found :red[{software_data.shape[0]}] organizations with expertise in :red[{selected_software} ({software_curie})]"
+            )
+
+            fig = px.pie(
+                software_data,
+                values="Percentage",
+                names="Partner",
+                hover_name="Partner",
+            )
+            fig.update_layout(
+                showlegend=False, margin=dict(l=20, r=20, t=20, b=20), autosize=False
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col[1]:
+            all_target_classes = graph.run(
+                queries.get_all_target_classes()
+            ).to_data_frame()
+
+            selected_target_class = st.selectbox(
+                "Select a target class to see stakeholders.",
+                all_target_classes["Target"],
+                index=0,
+            )
+
+            target_data = graph.run(
+                queries.get_tech_info(name=selected_target_class)
+            ).to_data_frame()
+
+            target_metatadata = all_target_classes[
+                all_target_classes["Target"] == selected_target_class
+            ]
+            target_curie = target_metatadata["Curie"].values[0]
+
+            st.write(
+                f"Found :red[{target_data.shape[0]}] organizations with expertise in :red[{selected_target_class} ({target_curie})]"
+            )
+
+            fig = px.pie(
+                target_data,
+                values="Percentage",
+                names="Partner",
+                hover_name="Partner",
+            )
+            fig.update_layout(
+                showlegend=False,
+                margin=dict(l=20, r=20, t=20, b=20),
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Organization and their expertise in drug repurposing")
+
+    col = st.columns((1.5, 1.5), gap="medium")
+
+    with col[0]:
+        partners = graph.run(queries.get_partner_info()).to_data_frame()
+        selected_partner = st.selectbox(
+            "Select a organization to see their expertise.", partners["Name"], index=0
+        )
+
+        partner_data = partners[partners["Name"] == selected_partner]
+        all_indivudals = graph.run(queries.get_person_info()).to_data_frame()
+        indivudals_in_selected_partner = all_indivudals[
+            all_indivudals["Partner"] == selected_partner
+        ]
+        if selected_partner == partner_data["acronym"].values[0]:
+            st.write(
+                f":red[**{selected_partner}**] has :red[{indivudals_in_selected_partner.shape[0]}] individuals working with them."
+            )
+        else:
+            st.write(
+                f":red[**{selected_partner}**], also known as :red[{partner_data['acronym'].values[0]}], has :red[{indivudals_in_selected_partner.shape[0]}] individuals working with them."
+            )
+
+        st.write(f"Find more about them [here]({partner_data['info_link'].values[0]})")
+    with col[1]:
+        all_partner_connections = graph.run(
+            queries.get_all_partner_relationships()
+        ).to_data_frame()
+
+        all_partner_connections = all_partner_connections[
+            all_partner_connections["Partner"] == selected_partner
+        ]
+        if all_partner_connections.shape[0] > 0:
+            wordcloud = WordCloud(
+                background_color="white", width=512, height=384
+            ).generate(" ".join(all_partner_connections.Name))
+            st.image(wordcloud.to_image(), use_column_width=True)
+        else:
+            st.write("No information found in KG.")
