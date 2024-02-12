@@ -10,3 +10,4 @@ networkx
 watchdog
 seaborn
 WordCloud
+py2neo
