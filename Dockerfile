@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 # Copy code and start script (this will place the files in home/username/)
 COPY requirements.txt $HOME/kg/requirements.txt
 COPY dashboard.py $HOME/kg/dashboard.py
+COPY utils.py $HOME/kg/utils.py
 COPY start-script.sh $HOME/kg/start-script.sh
 
 RUN pip install --no-cache-dir -r requirements.txt \
