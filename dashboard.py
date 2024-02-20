@@ -4,11 +4,7 @@ import pandas as pd
 
 import streamlit as st
 import plotly.express as px
-import plotly.graph_objects as go
 from wordcloud import WordCloud
-
-import utils
-import queries
 
 
 st.set_page_config(layout="wide", page_title="Remedi4all Dashboard", page_icon=":pill:")
@@ -18,11 +14,6 @@ st.title(
     anchor="center",
     help="This dashboard allows you to interact with the R4A KG and explore the data.",
 )
-
-# Connect to KG
-graph = utils.connect_to_kg()
-tx = graph.begin()
-
 
 with st.expander("Don't know what REMEDi4ALL is?"):
     st.write(
@@ -56,8 +47,7 @@ with tab1:
     ) as response:
         counties = json.load(response)  # GeoJSON counties
 
-    map_data = graph.run(queries.get_location()).to_data_frame()
-
+    map_data = pd.read_csv("data/location.csv")
     total_partners = map_data["Partner counts"].sum()
     total_countries = map_data.shape[0]
 
@@ -84,11 +74,11 @@ with tab1:
 
     st.subheader("Individuals from each organization contributing towards the project")
 
-    org_data = graph.run(queries.get_organization_info()).to_data_frame()
+    org_data = pd.read_csv("data/organization.csv")
     org_data.sort_values(by="Individuals", ascending=False, inplace=True)
     total_people = org_data["Individuals"].sum()
 
-    wp_data = graph.run(queries.get_wp_info()).to_data_frame()
+    wp_data = pd.read_csv("data/wp.csv")
 
     st.markdown(
         f"The project invovles :red[{total_people}] individuals working across countries to identify drug repositioning candidates for 4 indication areas, namely Pancreatic cancer, COVID-19, Osteogenesis imperfecta, and Multiple sulfatase deficiency. Collectively, they are working on :red[{len(wp_data)}] work packages (WP)."
@@ -155,9 +145,9 @@ with tab1:
         help="This section allows you know more about a KG and its utility in the project.",
     )
 
-    kg_node_count = graph.run(queries.get_node_counts()).to_data_frame().values[0][0]
-    kg_edge_count = graph.run(queries.get_edge_counts()).to_data_frame().values[0][0]
-    node_stats = graph.run(queries.get_node_stats()).to_data_frame()
+    kg_node_count = pd.read_csv("data/nodes.csv").values[0][0]
+    kg_edge_count = pd.read_csv("data/edges.csv").values[0][0]
+    node_stats = pd.read_csv("data/node_stats.csv")
 
     col = st.columns((1.5, 1.5), gap="medium")
 
@@ -250,16 +240,12 @@ with tab2:
 
     col = st.columns((1.5, 1.5), gap="medium")
     with col[0]:
-        skill_groups = (
-            graph.run(queries.get_skill_group()).to_data_frame()["SkillGroup"].values
-        )
+        skill_groups = pd.read_csv("data/skillgroups.csv")["SkillGroup"].values
         selected_skill = st.selectbox(
             "Select a skill group you would like to explore.", skill_groups, index=0
         )
 
-        skill_distribution_percentage = graph.run(
-            queries.skill_distribution()
-        ).to_data_frame()
+        skill_distribution_percentage = pd.read_csv("data/skills.csv")
         m = skill_distribution_percentage["name"] == selected_skill
         skill_distribution_percentage = skill_distribution_percentage[m]
         fig = px.pie(
@@ -276,7 +262,7 @@ with tab2:
         st.plotly_chart(fig, use_container_width=True)
 
     with col[1]:
-        skill_metadata = graph.run(queries.skill_metadata()).to_data_frame()
+        skill_metadata = pd.read_csv("data/skills_metadata.csv")
         skill_metadata_subset = skill_metadata[
             skill_metadata["SkillGroup"] == selected_skill
         ]
@@ -310,12 +296,12 @@ with tab2:
 
     col = st.columns((1.5, 1.5), gap="medium")
     with col[0]:
-        people_with_skill = graph.run(queries.get_skill_info()).to_data_frame()
+        people_with_skill = pd.read_csv("data/skills_info.csv")
         people_with_skill_filtered = people_with_skill[
             people_with_skill["Skill"] == selected_metadata
         ]
         people_with_skill_filtered = people_with_skill_filtered[
-            ["Individual", "ORCID", "Email"]
+            ["Individual", "ORCID", "Affiliation"]
         ]
         st.write(
             f"Found :red[{people_with_skill_filtered.shape[0]}] individuals with this skill."
@@ -349,7 +335,6 @@ with tab2:
                             "count": skill_list.shape[0],
                         }
                     )
-                # data_list.append(t)
 
             data_df = pd.DataFrame(data_list)
             new_df = data_df.pivot(index="individual", columns="skill")["count"].fillna(
@@ -388,15 +373,20 @@ with tab2:
     )
 
     with st.expander("Experimental stakeholders in drug repurposing"):
-        all_assays = graph.run(queries.get_all_assays()).to_data_frame()
+        all_assays = pd.read_csv("data/assays.csv")
 
         selected_assay = st.selectbox(
             "Select an assay to see stakeholders.", all_assays["Assay"], index=0
         )
 
-        assay_data = graph.run(
-            queries.get_tech_info(name=selected_assay)
-        ).to_data_frame()
+        assay_data = pd.read_csv("data/assay_data.csv")
+        assay_data = assay_data[assay_data["Name"] == selected_assay]
+        assay_data = (
+            assay_data.groupby("Partner")["info"]
+            .count()
+            .reset_index()
+            .assign(Percentage=lambda x: round((x["info"] / x["info"].sum()) * 100, 2))
+        )
 
         col = st.columns((1.5, 1.5), gap="medium")
 
@@ -431,7 +421,7 @@ with tab2:
         col = st.columns((1.5, 1.5), gap="medium")
 
         with col[0]:
-            all_software = graph.run(queries.get_all_software()).to_data_frame()
+            all_software = pd.read_csv("data/software.csv")
 
             selected_software = st.selectbox(
                 "Select a software/tool to see stakeholders.",
@@ -439,9 +429,16 @@ with tab2:
                 index=0,
             )
 
-            software_data = graph.run(
-                queries.get_tech_info(name=selected_software)
-            ).to_data_frame()
+            software_data = pd.read_csv("data/software_data.csv")
+            software_data = software_data[software_data["Name"] == selected_software]
+            software_data = (
+                software_data.groupby("Partner")["info"]
+                .count()
+                .reset_index()
+                .assign(
+                    Percentage=lambda x: round((x["info"] / x["info"].sum()) * 100, 2)
+                )
+            )
 
             software_metatadata = all_software[
                 all_software["Software"] == selected_software
@@ -464,9 +461,7 @@ with tab2:
             st.plotly_chart(fig, use_container_width=True)
 
         with col[1]:
-            all_target_classes = graph.run(
-                queries.get_all_target_classes()
-            ).to_data_frame()
+            all_target_classes = pd.read_csv("data/target_class.csv")
 
             selected_target_class = st.selectbox(
                 "Select a target class to see stakeholders.",
@@ -474,9 +469,17 @@ with tab2:
                 index=0,
             )
 
-            target_data = graph.run(
-                queries.get_tech_info(name=selected_target_class)
-            ).to_data_frame()
+            # TODO: Fix this part
+            target_data = pd.read_csv("data/target_data.csv")
+            target_data = target_data[target_data["Name"] == selected_target_class]
+            target_data = (
+                target_data.groupby("Partner")["info"]
+                .count()
+                .reset_index()
+                .assign(
+                    Percentage=lambda x: round((x["info"] / x["info"].sum()) * 100, 2)
+                )
+            )
 
             target_metatadata = all_target_classes[
                 all_target_classes["Target"] == selected_target_class
@@ -504,13 +507,13 @@ with tab2:
     col = st.columns((1.5, 1.5), gap="medium")
 
     with col[0]:
-        partners = graph.run(queries.get_partner_info()).to_data_frame()
+        partners = pd.read_csv("data/partner_info.csv")
         selected_partner = st.selectbox(
             "Select a organization to see their expertise.", partners["Name"], index=0
         )
 
         partner_data = partners[partners["Name"] == selected_partner]
-        all_indivudals = graph.run(queries.get_person_info()).to_data_frame()
+        all_indivudals = pd.read_csv("data/person_info.csv")
         indivudals_in_selected_partner = all_indivudals[
             all_indivudals["Partner"] == selected_partner
         ]
@@ -525,9 +528,7 @@ with tab2:
 
         st.write(f"Find more about them [here]({partner_data['info_link'].values[0]})")
     with col[1]:
-        all_partner_connections = graph.run(
-            queries.get_all_partner_relationships()
-        ).to_data_frame()
+        all_partner_connections = pd.read_csv("data/partner_data.csv")
 
         all_partner_connections = all_partner_connections[
             all_partner_connections["Partner"] == selected_partner

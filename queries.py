@@ -57,7 +57,7 @@ def skill_metadata():
 
 def get_skill_info():
     return """MATCH path=(s1:SkillGroup)-[]->(s2: Skill)<-[]-(p:Person)-[]->(i:Partner)
-    RETURN s1.name as Group, s2.name as Skill, p.name as Individual, p.info as ORCID, p.email as Email, i.name as Affiliation"""
+    RETURN s1.name as Group, s2.name as Skill, p.name as Individual, p.info as ORCID, i.name as Affiliation"""
 
 
 def get_all_assays():
@@ -82,7 +82,14 @@ def get_tech_info(name: str):
     WITH nodes(path) as no
     WITH no, last(no) as leaf
     WITH  [n IN no[..-1] | n.name] AS Partner, count(distinct leaf.name) as Percentage
-    RETURN Partner[0] as info, Partner[1] as Partner, Percentage"""
+    RETURN e.name, Partner[0] as info, Partner[1] as Partner, Percentage"""
+
+
+def get_tech_data(class_type: str):
+    """Get the technology information. The name could be software, assay, or target class"""
+    assert class_type in ["Software", "Experiment", "TargetClass"], "Invalid class type"
+    return f"""MATCH path=(e: {class_type})-[q]->(i: Partner)<-[]-(p:Person)
+    RETURN e.name as Name, p.name as info, i.name as Partner"""
 
 
 def get_partner_info():
@@ -92,7 +99,7 @@ def get_partner_info():
 
 def get_person_info():
     return """MATCH (p:Person)-[]->(i:Partner)
-    RETURN i.name as Partner, p.name as Name, p.email as Email"""
+    RETURN i.name as Partner, p.name as Name, p.info as ORCID"""
 
 
 def get_all_partner_relationships():

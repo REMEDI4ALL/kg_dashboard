@@ -1,5 +1,5 @@
 # Select base image (can be ubuntu, python, shiny etc)
-FROM python:3.9-slim
+FROM python:3.12-slim
 
 # Create user name and home directory variables. 
 # The variables are later used as $USER and $HOME. 
@@ -20,8 +20,6 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 # Copy code and start script (this will place the files in home/username/)
 COPY requirements.txt $HOME/kg/requirements.txt
 COPY dashboard.py $HOME/kg/dashboard.py
-COPY utils.py $HOME/kg/utils.py
-COPY queries.py $HOME/kg/queries.py
 COPY data/ $HOME/kg/data/
 COPY start-script.sh $HOME/kg/start-script.sh
 
