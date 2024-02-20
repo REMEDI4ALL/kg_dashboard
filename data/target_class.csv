@@ -1,0 +1,39 @@
+Target,Curie
+Oxidoreductases,EC:1.  
+Hydroxylases,EC:1.99. 1
+Transferases,EC:2.  
+Methyltransferases,EC:2. 1. 1
+Glycosyltransferases,EC:2. 4. 
+Hexosyltransferases,EC:2. 4. 1
+Nucleotidyltransferases,EC:2. 7. 7
+Protein-tyrosine kinases,EC:2. 7.10
+Protein-serine/threonine kinases,EC:2. 7.11
+Protein-histidine kinases,EC:2. 7.13
+Other protein kinases,EC:2. 7.99
+Thiosulfotransferases,EC:2. 8. 5
+Selenotransferases,EC:2. 9. 1
+Hydrolases,EC:3.  
+Glycosylases,EC:3. 2. 
+"Glycosidases, ie enzymes hydrolyzing O- and S-glycosyl compounds",EC:3. 2. 1
+Thioether and trialkylsulfonium hydrolases,EC:3. 3. 1
+alpha-Amino-acyl-peptide hydrolases,EC:3. 4. 1
+Peptidyl-amino-acid hydrolases,EC:3. 4. 2
+Dipeptide hydrolases,EC:3. 4. 3
+Aminopeptidases,EC:3. 4.11
+Dipeptidyl-peptidases and tripeptidyl-peptidases,EC:3. 4.14
+Peptidyl-dipeptidases,EC:3. 4.15
+Metallocarboxypeptidases,EC:3. 4.17
+Cysteine-type carboxypeptidases,EC:3. 4.18
+Serine endopeptidases,EC:3. 4.21
+Cysteine endopeptidases,EC:3. 4.22
+Aspartic endopeptidases,EC:3. 4.23
+Metalloendopeptidases,EC:3. 4.24
+Threonine endopeptidases,EC:3. 4.25
+Phosphorus-oxygen lyases,EC:4. 6. 
+Isomerases,EC:5.  
+Cis-trans-isomerases,EC:5. 2. 
+Ligases,EC:6.  
+membrane protein,BAO:0000367
+nuclear receptor,BAO:0000286
+lipid,BAO:0000171
+ion channel,BAO:0000280

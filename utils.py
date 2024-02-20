@@ -2,19 +2,11 @@
 
 """Helper functions"""
 
-import math
 import pandas as pd
+from tqdm import tqdm
 
-# from tqdm import tqdm
-# import pubchempy
 from py2neo import Graph
-from rdkit.Chem import CanonSmiles
-
-# from pubchempy import get_compounds
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+from queries import *
 
 # Neo4J Server
 FRAUNHOFER_ADMIN_NAME = "neo4j"
@@ -30,79 +22,36 @@ def connect_to_kg():
     return graph
 
 
-def check_smile(smile: str):
-    """Method to check if SMILES is valid."""
-    try:
-        CanonSmiles(smile)
-        return True
-    except ValueError:
-        return False
+def run_all_queries():
+    """Run all CYPHER queries and return the results in a dictionary"""
+    graph = connect_to_kg()
+    queries = [
+        ("location", get_location()),
+        ("organization", get_organization_info()),
+        ("wp", get_wp_info()),
+        ("nodes", get_node_counts()),
+        ("edges", get_edge_counts()),
+        ("node_stats", get_node_stats()),
+        ("skillgroups", get_skill_group()),
+        ("skills", skill_distribution()),
+        ("skills_metadata", skill_metadata()),
+        ("skills_info", get_skill_info()),
+        ("assays", get_all_assays()),
+        ("software", get_all_software()),
+        ("target_class", get_all_target_classes()),
+        ("partner_info", get_partner_info()),
+        ("person_info", get_person_info()),
+        ("partner_data", get_all_partner_relationships()),
+        ("software_data", get_tech_data("Software")),
+        ("assay_data", get_tech_data("Experiment")),
+        ("target_data", get_tech_data("TargetClass")),
+    ]
+
+    for file_name, query in tqdm(queries):
+        df = graph.run(query).to_data_frame()
+        df.to_csv(f"./data/{file_name}.csv", index=False)  # Save the data to a CSV file
 
 
-def get_idx_from_smile(smiles: str):
-    """Method to get pubchem and chembl compound id from SMILES."""
-
-    if pd.isna(smiles):
-        return None, None, None
-
-    if not check_smile(smiles):
-        return None, None, None
-
-    try:
-        compounds = get_compounds(smiles, "smiles")
-    except pubchempy.BadRequestError:
-        print(smiles)
-        return None, None, None
-
-    if len(compounds) < 1:
-        return None, None, None
-
-    compound = compounds[0]
-
-    if not compound.synonyms:
-        return None, None, compound.cid
-
-    name = compound.synonyms[0]
-    for idx in compound.synonyms:
-        if idx.startswith("CHEMBL"):
-            return name, idx, compound.cid
-
-    return name, None, compound.cid
-
-
-def val_to_pchembl(val: str, unit: str):
-    """Converting original values to pChEMBL values."""
-    if pd.isna(val) or val == "0.0":
-        return 0
-    elif unit == "nM" and pd.notna(val):
-        return round(9 - math.log10(float(val)))
-    elif unit == "uM" and pd.notna(val):
-        return round(6 - math.log10(float(val)))
-    elif unit == "mM" and pd.notna(val):
-        return round(3 - math.log10(float(val)))
-    else:
-        return 0
-
-
-def pchembl_to_val(val: str, unit: str):
-    """Converting pChEMBL values to original values."""
-    if unit == "M":
-        return 10 ** (0 - float(val))
-    elif unit == "nM":
-        return 10 ** (9 - float(val))
-    elif unit == "uM":
-        return 10 ** (6 - float(val))
-    elif unit == "mM":
-        return 10 ** (3 - float(val))
-    else:
-        raise ValueError(f"Unknown unit {unit}")
-
-
-def pchembls_to_val(value_df: pd.Series, unit: str):
-    """Converting pCHeMBL series to original values."""
-
-    values = []
-    for val in tqdm(value_df, desc="Converting pChEMBL to original values"):
-        values.append(pchembl_to_val(val, unit))
-
-    return values
+if __name__ == "__main__":
+    run_all_queries()
+    print("Data has been successfully saved to CSV files.")
