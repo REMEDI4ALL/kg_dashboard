@@ -10,7 +10,7 @@ from wordcloud import WordCloud
 st.set_page_config(layout="wide", page_title="Remedi4all Dashboard", page_icon=":pill:")
 
 st.title(
-    "REMEDi4ALL: Dashboard for R4A Experitse KG",
+    "REMEDi4ALL: Dashboard for R4A Expertise KG",
     anchor="center",
     help="This dashboard allows you to interact with the R4A KG and explore the data.",
 )
