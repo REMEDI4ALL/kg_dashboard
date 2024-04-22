@@ -1,83 +1,82 @@
 Assay,Curie,Definition
-1536 well plate,BAO:0000516,This microplate contains 1536 wells. It is highly miniaturized to accommodate more wells on one plate which reduces the plate handling time and allows working with very small volumes (few microliters) that reduces the cost of an assay.
-24 well plate,BAO:0000576,This microplate contains 24 wells. It is suitable for a low throughput assay.
-384 well plate,BAO:0000515,This microplate contains 384 wells. It is suitable for a HTS assay.
-96 well plate,BAO:0000513,This microplate contains 96 wells. It is suitable for a low throughput assay.
-acetylated histone assay,BAO:0010033,An assay that quantifies the levels of the acetylated histones in a cell. Acetylated histones are involved in the regulation of chromatin structure and thetranscription factor recruitment
-ADMET,BAO:0000009,"ADMET stands for absorption, distribution, metabolism, excretion and toxicity. Admet assays are performed for verifying the bio-availability,  toxicity, metabolic stability, and drug-drug interaction potential of drugs: They quantify absorption of drugs in the intestine which is dependent on their solubility; distribution which ascertains their binding to plasma proteins, central nervous system penetration; metabolism where the in vivo clearance is monitored; and finally, toxicity in terms of inhibition of liver cytochrome p450 enzymes or hERG which could cause drug-drug interactions and cardiac arrhythmias, respectively."
-antigen down assay,BAO:0000137,"An antigen-down immunoassay or immunometric assay involves binding the antigen to a solid surface instead of an antibody. Antigen-down immunoassays are used to bind antibodies found in a sample. When the sample is added (such as human serum), the antibodies (IgE for example) from the sample bind to the antigen coated on the plate."
+1536 well plate,BAO:0000516,
+24 well plate,BAO:0000576,
+384 well plate,BAO:0000515,
+96 well plate,BAO:0000513,
+acetylated histone assay,BAO:0010033,
+ADMET,BAO:0000009,
+antigen down assay,BAO:0000137,
 apoptosis assay,BAO:0002043,
-artifact assay,BAO:0000684,"Artifact (aka 'artefact') assays are performed to help interpret HTS results by testing whether a 'hit' might be due to some inherent physicochemical property of the compound or perturbagen alone - in the absence of any target. Examples include fluorescence, or inhibition of the enzyme luciferase, which are part of common assay designs; another example is solubility (e.g., if a compound aggregates and interferes with an assay readout)."
-assay format,BAO:0000019,"Assay format is a conceptualization of assays based on the biological and / or chemical features of the experimental system. For example assay formats include biochemical assays - referring to assays with purified protein, cell-based - referring to assays in whole cells, or organism-based - referring to assays performed in an organism."
-assay screening campaign stage,BAO:0000029,"The assay stage describes the purpose of the assay in an assay campaign.  Assay stage also relates to the order of assays in a screening campaign.  For example the primary assay, which is performed first, identifies hits. The primary hits are then confirmed in a confirmatory assay.  Subsequent secondary assays are run to eliminate compounds that are not of interest or to confirm hits using an alternate design / technology, or to further characterize compounds._x000D_
-Whether an assay is run in single concentration or concentration response is defined in the class 'assay measurement throughput quality'.  For example primary assays are typically run in single concentration with single measurements. However, the NCGC runs qHTS primary assays as concentration-response assays."
-assay screening throughput,BAO:0010073,This descripts the relative maximum throughput of an assay in regards to its screening potential.
-ATAC-seq epigenetic profiling assay,BAO:0010038,"ATAC-seq (assay for transposase-accessible chromatin using sequencing) is an assay that identifies open-chromatin sites on the whole genome level by using theTn5 transposase, which inserts sequencing adapters into accessible regions of chromatin"
+artifact assay,BAO:0000684,
+assay format,BAO:0000019,
+assay screening campaign stage,BAO:0000029,
+assay screening throughput,BAO:0010073,
+ATAC-seq epigenetic profiling assay,BAO:0010038,
 atomic force microscopy,BAO:0002523,
 Bead-based immunoassay for protein state,BAO:0010050,
-binding assay,BAO:0002989,"It is performed to quantify the interactions between two molecules, e.g. small molecule-protein, protein-protein, protein-DNA, etc."
-bioassay,BAO:0000015,"A set of instructions, methodology, operations, required reagents, instruments to carry out experiments for the purpose of testing the effect of a perturbing agent in a biological model system, measuring one or multiple effect(s) of the agent facilitated by an assay design method translate the perturbation into a detectable signal to arrive at one or multiple endpoint(s) that quantify or qualify the extent of the perturbation.  Bioassay is described by multiple bioassay components: assay format, biology (biological participants in various role and processes), design method, physical detection method / technology, screened entity, and endpoint. Bioassay includes one or multiple measure groups to describe panel, profiling, multiparametric (or multiplexed) assays (assays that measure more than one effect of the perturbagen on the system that is screened)."
-bioassay specification,BAO:0000026,"Description of an experiment carried out for the purpose of screening a perturbing agent in a biological system, measuring the effect of the agents using specified technology, and arriving at endpoints that satisfy particular criteria."
-bioassay type,BAO:0000008,"Categorization of bioassays based on the property or process that the assay is interrogating, e.g. ADMET, functional, etc."
-bioavailability assay,BAO:0002530,An assay to determine oral bioavailability by measuringplasma levels following p.o. and i.v. administration
-biochemical format,BAO:0000217,"It is an in vitro format used to measure the activity of a biological macromolecule, either a purified protein or a nucleic acid. It is most often a homogeneous assay type, but can be heterogeneous if a solid phase such as beads is used to immobilize the macromolecule."
-Bisulfite Sequencing assay,BAO:0010037,An assay that is used to determine themethylation marks in a cells genome
+binding assay,BAO:0002989,
+bioassay,BAO:0000015,
+bioassay specification,BAO:0000026,
+bioassay type,BAO:0000008,
+bioavailability assay,BAO:0002530,
+biochemical format,BAO:0000217,
+Bisulfite Sequencing assay,BAO:0010037,
 blood to plasma ratio assay,BAO:0010132,
-brightfield microscopy,BAO:0000457,"In brightfield microscopy, sample is illuminated with transmitted white light from below and observed from above."
+brightfield microscopy,BAO:0000457,
 BSEP inhibition assay,BAO:0010190,
-Caco-2 permeability assay,BAO:0010008,"A common in vitro ADME assay that uses the Caco-2 cell line (derived from human colon carcinoma) to assess transport in both directions (apical to basolateral (A-B) and basolateral to apical (B-A)) across the cell monolayer), to predict the in vivo absorption of drugs across the gut wall and to investigate drug efflux."
-calcium redistribution assay,BAO:0000649,Calcium functions as second messenger in cell signaling.
-cAMP redistribution assay,BAO:0000650,Cyclic AMP (cAMP) functions as second messenger in cell signaling.
-cell based format,BAO:0000219,"Involves the use of living cells of eukaryotic origin, derived from a multicellular organism, and is a heterogeneous assay type. Typically, this refers to permanent (immortal) cell lines, or primary cells, or some form of stem cells. This is distinct from a single-celled organism-based format (classically bacteria or yeast)."
+Caco-2 permeability assay,BAO:0010008,
+calcium redistribution assay,BAO:0000649,
+cAMP redistribution assay,BAO:0000650,
+cell based format,BAO:0000219,
 cell binding assay,BAO:0010250,
-cell cycle assay,BAO:0002041,endpoints: percent proliferation percent interphase percent mitosis percent G2-M arrested percent non-arrested
-cell density determination,BAO:0040015,"Cell density, typically measured by absorbance (often indicated as A600 or OD600), is often used for bacterial or fungal cultures as an indication of cell number, viability or proliferation."
+cell cycle assay,BAO:0002041,
+cell density determination,BAO:0040015,
 cell growth assay,BAO:0002100,
-cell morphology assay,BAO:0002991,It reports the size and shape of cells and organelles (phenotype). These are detected by microscopy.
-cell motility assay,BAO:0002992,It is performed to measure the movement of cells and organelles (phenotype).  These are detected by microscopy.
+cell morphology assay,BAO:0002991,
+cell motility assay,BAO:0002992,
 cell permeability assay,BAO:0002778,
 cell proliferation assay,BAO:0002805,
-cell viability assay,BAO:0003009,"This assay type measures the cellular state of living or dying by measuring an indicator of life or death. Cell life indicators include ATP content, cell number, dehydrogenase activity, DNA content, esterase activity, mitochondrial membrane potential, membrane integrity, and protease activity. Cell death indicators include caspase activity, chromatin condensation, and phospholipid redistribution."
+cell viability assay,BAO:0003009,
 cell viability ATP quantitation assay,BAO:0010001,
 chaperone activity assay,BAO:0002761,
-chemical stability assay,BAO:0010243,An assay to measure stability of compounds over time in differents solvents or matrices
+chemical stability assay,BAO:0010243,
 chemiluminescence-linked immunosorbent assay,BAO:0002417,
 chemotaxis assay,BAO:0010269,
-ChIP-seq assay,BAO:0010035,An assay that identifies genome-wide DNA binding sites for transcription factors and other proteins
+ChIP-seq assay,BAO:0010035,
 chloramphenicol acetyltransferase reporter gene assay,BAO:0003015,
-circular dichroism,BAO:0000161,Circular dichroism (CD) is a technology for assessing interactions of chiral molecules with circularly polarized electromagnetic rays. Secondary and tertiary structure of proteins will impart a distinct CD to that molecule allowing the use of CD to examine the protein folding under different conditions. Information about conformational properties of nucleic acids can be obtained by CD spectroscopy.
-competitive immunoassay,BAO:0000132,"A competitive binding assay is based upon the competition of labeled and unlabeled ligand for a limited number of antibody binding sites. Briefly, the free antigen and antibody are incubated to form antigen-antibody complex and then the complex are bound to antigen-coated surface in the assay plate. The unbound antibody-antigen complex is washed off before adding enzyme-linked secondary antibody against the primary antibody. The substrate is then added and the antigen concentration can then be determined by the signal strength elicited by the enzyme-substrate reaction. In this assay, the enzyme-linked secondary antibody compete with the sample antigen which is associated with the primary antibody."
-compound aggregation assay,BAO:0001100,This assay is performed to identify compounds that have a propensity to aggregate.
-compound fluorescence assay,BAO:0001099,This assay is performed to identify compounds that have a property of auto-fluorescence.
-compound library,BAO:0000648,"The name of a small molecule collection from one source, which can be either commercial or academic, e.g., MLSMR, LOPAC, etc. This collection is generally diverse and contains compounds that modulate diverse biological targets."
-compound redox activity assay,BAO:0001101,This assay is performed to identify compounds with redox (reducing or oxidizing) activity.
-compound toxicity assay,BAO:0000623,This assay is performed to identify compounds that have an ability to kill the cells (cytotoxic).
+circular dichroism,BAO:0000161,
+competitive immunoassay,BAO:0000132,
+compound aggregation assay,BAO:0001100,
+compound fluorescence assay,BAO:0001099,
+compound library,BAO:0000648,
+compound redox activity assay,BAO:0001101,
+compound toxicity assay,BAO:0000623,
 concentration response assay,BAO:0010258,
-confirmatory assay,BAO:0000030,Assay performed to confirm activity of compounds identified in the primary screen.  It can be performed as replicate measurements at a single screening concentration or as concentration-response assay.
-confocal microscopy,BAO:0000453,"Confocal microscopy has advantages over widefield optical microscopy, including the ability to eliminate or reduce background information away from the focal plane and collect serial optical sections from thick specimens. It uses point illumination and a spatial pinhole to eliminate out-of-focus light in specimens that are thicker than the focal plane."
-counter screening assay,BAO:0000803,"An assay run to eliminate those hits from the primary and confirmatory assay stages that are not of interest, i.e. do not act via the MMOA of interest; for example compounds that are assay artifacts (e.g. fluorescent), promiscuously active, toxic. "
+confirmatory assay,BAO:0000030,
+confocal microscopy,BAO:0000453,
+counter screening assay,BAO:0000803,
 cytochrome P450 enzyme activity assay,BAO:0002736,
-cytokine secretion assay,BAO:0003003,"It measures the types and amounts of cytokines that are released as the consequence of a signaling event. Cytokines can be quantitated using ELISA-based kits, PCR array, etc."
-direct enzyme activity measurement method,BAO:0000139,"An enzyme is a protein that acts as a catalyst for specific biochemical reaction, converting specific substrates into chemically distinct products. Enzyme activity assays quantify the kinetics of the product formation or substrate depletion in the reaction, which result in fluorescence, luminescence or colorimetric outputs."
-dot immunobinding assay,BAO:0002415,"Dot immunobinding assay (Dot Iba) is a simple and highly reproducible immunodiagnostic method. Antibody or antigen is dotted directly onto nitrocellulose membrane (NCM) discs. The diagnostic material to be checked can be incubated on this disc. Presence of antigen antibody complex in NCM discs can be directly demonstrated with enzyme-conjugated antiglobulins and substrate. Development of a purple-pink colored, insoluble substrate product in the NCM will be considered a positive result in the assay. This assay allows the processing of multiple specimens at a time."
+cytokine secretion assay,BAO:0003003,
+direct enzyme activity measurement method,BAO:0000139,
+dot immunobinding assay,BAO:0002415,
 drug absorption assay,BAO:0010082,
 drug excretion assay,BAO:0010139,
 drug metabolism assay,BAO:0010090,
-dye redistribution assay,BAO:0000653,"Dye redistribution is used to study flux of molecules across membranes, e.g. calcein AM, ethidium homodimer-1, etc."
-electron microscopy,BAO:0000449,"Electron microscopy involve the diffraction, reflection, or refraction of electron beams interacting with the subject of study, and the subsequent collection of this scattered radiation in order to build up an image."
-ELISA,BAO:0000134,"Enzyme linked immunosorbent assay or ELISA is used to detect the presence of a particular protein, either an antigen or antibody in the sample such as a body fluid."
+dye redistribution assay,BAO:0000653,
+electron microscopy,BAO:0000449,
+ELISA,BAO:0000134,
 ELISA protein secretion profiling assay,BAO:0010051,
 ELISA protein state assay,BAO:0010052,
-endpoint assay,BAO:0000410,"Reported results do not have a time dimension, but represent a static response. This does not mean that the result is indepent from the time of measurement, such as cell viablity at 12, 24 or 72h where the time point is associated metadata."
+endpoint assay,BAO:0000410,
 enzymatic stability assay,BAO:0010113,
-enzyme activity assay,BAO:0002994,"It is used to measure the effect of a perturbagen on the enzyme activity, which can be measured either directly or coupled to a secondary signal. "
+enzyme activity assay,BAO:0002994,
 enzyme complementation,BAO:0002496,
 enzyme fragment complementation,BAO:0002497,
 enzyme induction assay,BAO:0010146,
 enzyme inhibition assay,BAO:0010157,
-enzyme-linked immunosorbent spot assay,BAO:0002419,"The ELISPOT assay is based on, and was developed from a modified version of the ELISA immunoassay. ELISPOT assays were originally developed to enumerate B cells secreting antigen-specific antibodies, and have subsequently been adapted for various tasks, especially the identification and enumeration of cytokine-producing cells at the single cell level. Simply put, at appropriate conditions the ELISPOT assay allows visualization of the secretory product of individual activated or responding cells. Each spot that develops in the assay represents a single reactive cell. Thus, the ELISPOT assay provides both qualitative (type of immune protein) and quantitative (number of responding cells) information."
-epigenetic assay,BAO:0010031,Epigenetic assays that can be used to identify epigenome modifications together with the epigenetic enzymes that regulate it. The epigenetic assays are split in two categories: targeted epigenetic assays and epigenetic profiling assays depending on whether they are used to identify a modifications on a global scale or only measure and identify a predetermined list of targets
-epigenetic profiling assay,BAO:0010036,Assays that are used to capture the genome-wide epigenetic modifications in a cell
+enzyme-linked immunosorbent spot assay,BAO:0002419,
+epigenetic assay,BAO:0010031,
+epigenetic profiling assay,BAO:0010036,
 Fluorescence imaging apoptosis assay,BAO:0010053,
 Fluorescence imaging cell count assay,BAO:0010054,
 Fluorescence imaging cell cycle state assay,BAO:0010055,
@@ -85,93 +84,82 @@ Fluorescence imaging cell growth inhibition assay,BAO:0010056,
 Fluorescence imaging morphology assay,BAO:0010057,
 Fluorescence imaging multiplex cytological profiling assay,BAO:0010058,
 Fluorescence imaging protein state assay,BAO:0010059,
-fluorescence microscopy,BAO:0000450,Fluorescence microscopy is used to image the distribution of molecules based on the properties of fluorescence emission.  Excitation of fluorescent molecules with a specific wavelength results in the production of an image by the secondary fluorescence emission at longer wavelengths.
-fluorescence-linked immunosorbent assay,BAO:0002420,"Fluorescence-linked immunosorbent assay (FLISA) is a technique where a fluorescent probe is used on an antibody of interest, which results in direct detecting fluorescence intensity instead of more complicated enzymatic reaction. Compared with the sandwich ELISA, FLISA has similar sensitivity and specificity, but it is much more rapid, economic and convenient."
+fluorescence microscopy,BAO:0000450,
+fluorescence-linked immunosorbent assay,BAO:0002420,
 fluorescent protein reporter gene assay,BAO:0003012,
-functional,BAO:0000010,"An assay  where the measured signal corresponds to a direct read out of the analyte (e.g. enzyme activity) or an indirect complex response such as cell survival, proliferation, localization of a protein, nuclear translocation etc. "
-functional phenotypic,BAO:0013017,An assay  where the measured signal is a phenotypic response of the system or the  readout is indirect (e.g. comparing cell survival between wildtype and  mutant protein).
+functional,BAO:0000010,
+functional phenotypic,BAO:0013017,
 "functional target-based_x000D_
-",BAO:0013016,"An assay where the measure signal is a direct or coupled readout of the proteins native mechanistic or conformational cycle. This can include:_x000D_
-_x000D_
-(1) assays that directly or indirectly measure product of an enzymatic cycle (e.g.: NADPH consumption, antibody based  detection  of phosphorylated peptide substrate, mass spec product detection and  quantitation, electrofluidic mobility shift assay, etc);_x000D_
-_x000D_
-(2) assays  that directly or indirectly measure the transmission of signal as a  result of the interaction with a membrane bound receptor detected through fluorescent dye that detects the release of intracellular calcium,  nuclear receptor, and_x000D_
-_x000D_
-(3) biochemical assays that measures the increase or decrease of an RNA transcript as a result of interaction with a nuclear receptor"
+",BAO:0013016,
 gastric fluid stability assay,BAO:0010103,
-gene expression assay,BAO:0002785,"This assay quantifies the expression level of the entire gene pool in a cell or a subpopulation (e.g. tissue-specific gene expression, kinases) using either microarray, bead method, RNASeq, or reporter gene method."
-gene knock in,BAO:0002432,"A Knock-in refers to a genetic engineering method that involves the insertion of a protein coding cDNA sequence at a particular locus in an organism's chromosome. The difference between knock-in technology and transgenic technology is that a knock-in involves a gene inserted into a specific locus, and is a ""targeted"" insertion."
-gene knockdown,BAO:0002433,"Gene knockdown refers to techniques by which the expression of one or more of an organism's genes is reduced, either through genetic modification (a change in the DNA of one of the organism's chromosomes) or by treatment with a reagent such as a short DNA or RNA oligonucleotide with a sequence complementary to either an mRNA transcript or a gene."
-gene knockout,BAO:0002441,"A gene knockout is a genetic technique in which an organism is engineered to carry genes that have been made inoperative (have been ""knocked out"" of the organism)."
+gene expression assay,BAO:0002785,
+gene knock in,BAO:0002432,
+gene knockdown,BAO:0002433,
+gene knockout,BAO:0002441,
 gene-expression profile endpoint,BAO:0002138,
 genotoxicity assay,BAO:0002167,
-global chromatin epigenetic profiling assay,BAO:0010039,A mass spectrometry-based assay that is used to identify and quantify post-translational modifications on histone proteins from bulk chromatin
+global chromatin epigenetic profiling assay,BAO:0010039,
 GSH adduct formation,BAO:0010245,
 hepatocyte stability assay,BAO:0010100,
 high throughput screening,BAO:0010074,
-homogeneous time resolved fluorescence,BAO:0000002,"Homogenous time resolved fluorescence (HTRF) is a technology which combines standard FRET technology with the time-resolved measurement of fluorescence. Through this, HTRF eliminates the short-lived background fluorescence. Introducing a time delay (50-150 micro seconds) between the system excitation and fluorescence measurement, which allows the signal to be cleared of all non-specific short lived emissions."
+homogeneous time resolved fluorescence,BAO:0000002,
 HPLC System,BAO:0002733,
-hybrid screening,BAO:0002489,"Refers to variations on the two-hybrid technique, which measures activation of a reporter gene caused by binding between fusion proteins or other molecular entities."
-imaging cytometer,BAO:0002937,An imageing cytometer is an instrument for image-based study or measurement of cells. (definition from OBI)
-immunoassay,BAO:0000129,"It measures the concentration of a substance in a solution based on the specific binding of an antibody to that substance, which produces a measurable signal. The signal measured depends on the label that is associated with this interaction, namely radioactive element (in radioimmunoassays), fluorescent, phosphorescent and chemiluminescent dyes, etc."
+hybrid screening,BAO:0002489,
+imaging cytometer,BAO:0002937,
+immunoassay,BAO:0000129,
 immunoblot,BAO:0002422,
-immunocapture,BAO:0002503,"using capture antibodies which are able to isolate large enzyme complexes in the their fully intact, fully active states from small samples of tissue or cells."
-immunochromatography,BAO:0002504,"Test based on a strip of paper coated with an immobilized antibody specific for an antigen that is characteristic of a disease. Samples conjugated to a second antibody (which allows chromogenic detection) can be applied to the paper strip and results visualized in less than 10 minutes. By using multiple antigens at different positions on the strip, multiple diseases can be screened for in one sample."
-immunocytochemistry,BAO:0000416,"This technique is used to detect proteins and peptides in a cell by binding to specific antibodies. Subsequently, a secondary antibody that is conjugated to a fluorophore or an enzyme needed for the detection of a signal is hybridized to the primary antibody. Signal is generally detected by immunofluorescence or less commonly,  by a colored reaction. This allows the detection and subcellular localization of the protein of interest by visualization under a microscope."
-immunodepletion,BAO:0002505,The removal of certain proteins by the use of antibodies.
-immunofluorescent labeling,BAO:0002426,Immunofluorescence is the labeling of antibodies or antigens with fluorescent dyes.
-immunogold labeling,BAO:0002427,Immunolabeling method in which gold particles are conjugated to a primary or secondary antibody and used for identification of an antigen.
-immunohistochemistry,BAO:0000415,"This technique is used to detect proteins and peptides in a tissue section by binding to specific antibodies. Subsequently, a secondary antibody that is conjugated to a fluorophore or an enzyme needed for the detection of a signal is hybridized to the primary antibody. Signal is generally detected by immunofluorescence or less commonly, by a colored reaction. This allows the detection and subcellular localization of the protein of interest by visualization under a microscope."
-impedance,BAO:0000061,Impedance biosensors measure the electrical opposition of an interface in AC steady state with constant DC bias conditions. This is accomplished by imposing a small sinusoidal voltage at a particular frequency and measuring the resulting current; the process can be repeated at different frequencies. The current-voltage ratio gives the impedance.
-in situ immunoassay,BAO:0000128,In situ refers to in place or position; undisturbed with respect to the antigen that is being tested in the immunoassay. The protein detection and localization is achieved by visualization under a microscope.
-in vivo efficacy assay,BAO:0010011,"An in vivo efficacy assay is a study perfromed in a whole, living organism (usually an animal such as a mouse or rat) to test the effects of a treatment on a specific disease modeled in this animal."
+immunocapture,BAO:0002503,
+immunochromatography,BAO:0002504,
+immunocytochemistry,BAO:0000416,
+immunodepletion,BAO:0002505,
+immunofluorescent labeling,BAO:0002426,
+immunogold labeling,BAO:0002427,
+immunohistochemistry,BAO:0000415,
+impedance,BAO:0000061,
+in situ immunoassay,BAO:0000128,
+in vivo efficacy assay,BAO:0010011,
 in vivo PK/PD assay,BAO:0010256,
-in-cell western assay,BAO:0002423,"The In-Cell Western Assay is an immunocytochemical assay that uses NIR fluorescence to detect and quantify proteins in fixed cells. Detecting proteins in their cellular context increases quantification precision. Proteins in fixed, cultured cells are detected directly in microplates, which yields higher throughput compared to Western blotting and eliminates typical Western blotting steps such as cell lysate preparation, electrophoresis, and membrane transfer. Using the In-Cell Western Assay kits, the cost per well for secondary screening is reduced to a fraction of the cost of typical western blots."
+in-cell western assay,BAO:0002423,
 interstitial fluid stability assay,BAO:0010109,
 intestinal fluid stability assay,BAO:0010106,
-ion channel assay,BAO:0002997,"Ion channel assays are performed in electrically active cells: neurons, muscle, and endocrine cells."
-isothermal titration calorimetry,BAO:0000428,"ITC is a thermodynamic technique that can directly measure the heat released or absorbed during a biomolecular binding event. It can measure the binding affinity (Ka), reaction stoichiometry (n), enthalpy (∆H) and entropy (ΔS) of the interaction between two or more molecules in solution.</obo:IAO_0000115>_x000D_
-    "
+ion channel assay,BAO:0002997,
+isothermal titration calorimetry,BAO:0000428,
 kinase activity assay,BAO:0002005,
-kinetic assay,BAO:0000411,"The measurements and reported outcome / result of the kinetic assay quantify a change / response over a time course; the reported result has a time component, for example a reaction constant or rate.  This is in contrast to an endpoint that does not have a time dimension, but is associated with a time point as metadata, such as cell viablity at 12, 24 or 72 hs, but not the speed with which the cells propargate or die."
+kinetic assay,BAO:0000411,
 kinome activity assay,BAO:0010248,
-lead optimization assay,BAO:0000538,Assays performed in the lead optimization stage. They are typically concentration-response high quality assays. They can involve a number of different assays depending on the required profile of the desired lead compound.
+lead optimization assay,BAO:0000538,
 lipophilicity assay,BAO:0010241,
 Liquid Chromatography/Mass Spectroscopy (LC/MS) protein quantification,BAO:0010071,
 localization assay,BAO:0002196,
 low throughput screening,BAO:0010076,
 luciferase enzyme activity assay,BAO:0002735,
 luciferase reporter gene assay,BAO:0002661,
-mass spectrometry,BAO:0000055,"This method is used to detect compounds that are bound to the protein targets. The unbound compounds are separated by affinity based, size exclusion, or ultrafiltration methods. The bound compounds are eluted from the protein and detected by mass spectrometry. Based on the separation method, the throughput varies: between 200-2700 compounds can be loaded in each run for separation._x000D_
-Mass spectrometry is used to determine the chemical structure of molecules. The samples are vaporized, followed by ionization and then the mass to charge ratio of the particles is analyzed."
+mass spectrometry,BAO:0000055,
 medium throughput screening,BAO:0010075,
 meiotic cell cycle state assay,BAO:0002585,
-membrane permeability assessment,BAO:0000167,"Live cells with intact membranes have the ability to exclude dyes that easily penetrate dead or damaged cells. Examples of the dyes include propidium iodide, 7-amino actinomycin D, and trypan blue. Cells stained with the former two can be quantified by flow cytometry, while the latter is by manual counting using hemocytometer.   "
-membrane potential assay,BAO:0002996,This reports the membrane potential of a cell by using electrophysiological techniques or by staining with dyes whose binding is dependent on the membrane potential.
+membrane permeability assessment,BAO:0000167,
+membrane potential assay,BAO:0002996,
 metabolic stability assay,BAO:0010095,
-metabolomic assay,BAO:0010040,Assays that identify and quantify cell metabolites (metabolic analytes)
-metabolomic profiling assay,BAO:0010042,Assays that profile key metabolomic parameters
+metabolomic assay,BAO:0010040,
+metabolomic profiling assay,BAO:0010042,
 metastasis assay,BAO:0002535,
-microsomal stability assay,BAO:0010006,"A common in vitro ADME assay that tests the stability of compounds when incubated with liver microsomes (subcellular fractions which contain membrane-bound drug-metabolizing enzymes).  Assay is used to measure in vitro intrinsic clearance or to identify metabolites formed. Typically liver microsomes from one or more mammalian species (mouse, rat, dog, monkey, human) are analyzed to understand differences in metabolism. Can be reported as % recovery after a set time (single timepoint), or as half-life (multiple timepoints)."
-Migration Assay,NCIT:C19425,An in vitro assay in which cultured cells are monitored and analyzed for their ability to move into an acellular area of a culture material.
+microsomal stability assay,BAO:0010006,
+Migration Assay,NCIT:C19425,
 mitochondrial membrane potential assay,BAO:0002190,
-mitochondrial membrane potential assessment,BAO:0000423,"Activity of the mitochondrial respiratory chain results in the generation of a proton gradient which consists of two components: a membrane potential and a pH gradient. Disruption of delta-psi has been shown to be one of the first intracellular changes following the onset of apoptosis. Delta-psi is generally quantitated by staining with specific dyes whose binding is dependent on the potential and less commonly, by electrophysiological techniques."
+mitochondrial membrane potential assessment,BAO:0000423,
 mitosis/apoptosis assay,BAO:0010004,
-mitotic cell cycle state assay,BAO:0002584,"involves biological process' some 'mitotic cell cycle arrest' _x000D_
-_x000D_
-_x000D_
-'involves biological process' some 'mitotic cell cycle arrest' and 'apoptotic process'"
+mitotic cell cycle state assay,BAO:0002584,
 MS protein quantification assay,BAO:0010061,
 MS protein state assay,BAO:0010062,
 neurite outgrowth assay,BAO:0002803,
-optical microscopy,BAO:0000451,Optical or light microscopy involves passing visible light transmitted through or reflected from the sample through a single or multiple lenses to allow a magnified view of the sample
+optical microscopy,BAO:0000451,
 organism behavior assay,BAO:0002765,
 other pharmacokinetic studies,BAO:0010226,
 oxidative phosphorylation assay,BAO:0002181,
 oxidative stress assay,BAO:0002168,
 oxidoreductase activity assay,BAO:0002792,
-parental cell line assay,BAO:0000647,This assay is performed with the unmodified or parental cell line instead of the one modified with a DNA construct that was used in primary or confirmatory assays.
-patch clamp,BAO:0000062,"The patch clamping technique is refined from the voltage clamp technique, wherein a blunt electrode is placed on the surface of the cell membrane. It is a common intracellular recording technique in electrophysiology that allows either the measurement of current passing through individual ion channels in cells or through whole cells. Suction is applied via the blunt electrode (glass pipette in classical patch clamp technique) to create a high resistance (gigaohm) between the electrode and cell surface. This seal isolates the ion channels within the patch from the rest of the membrane and allows the neurophysiologist to record only from these ion channels."
+parental cell line assay,BAO:0000647,
+patch clamp,BAO:0000062,
 PD biomarker assay,BAO:0010270,
 permeability assay,BAO:0010083,
 pH stability assay,BAO:0010244,
@@ -181,80 +169,76 @@ Pharmacology: Pharmacodynamic Drug Interactions,NCIT:C79367,
 Pharmacology: Primary Pharmacodynamics,NCIT:C79364,
 Pharmacology: Secondary Pharmacodynamics,NCIT:C79365,
 phosphatase activity assay,BAO:0002762,
-phosphorylation assay,BAO:0003005,"This assay quantifies the phosphorylation levels of a protein. The phosphorylation status is detected by one of several methods: using phosphorylation specific antibodies followed by western blotting or imaging, mass spectrometry, etc.|detect some (protein phosphorilation and ('catalyzed by' some kinase))"
-physicochemical assay,BAO:0010009,"Physicochemical assays measure inherent properties of molecules, and include turbidimetric and thermodynamic solubility (in water or PBS), chemical stability, pKa, and lipophilicity (logP and logD)"
+phosphorylation assay,BAO:0003005,
+physicochemical assay,BAO:0010009,
 plasma protein binding assay,BAO:0010135,
-plasma stability assay,BAO:0010007,"A common in vitro ADME assay that tests the stability of compounds when incubated with plasma.  Assay is used to measure stability of new chemical entities in plasma, as compounds that rapidly degrade in plasma generally show poor in vivo efficacy. Typically lplasma from one or more mammalian species (mouse, rat, dog, monkey, human) are analyzed. Can be reported as % recovery after a set time (single timepoint), or as half-life (multiple timepoints)."
-posttranslation modification assay,BAO:0003004,"This assay quantifies the modification that a protein can undergo after it is synthesized by translation. E.g. phosphorylation, acetylation, etc. The modification status is detected by one of several methods such as using modification specific antibodies followed by western blotting, imaging; mass spectrometry, etc."
-preclinical development stage,BAO:0010025,"Assays performed in the pre-clinical development stage. These are assays on a lead candidate to develop it to an Investigative New Drug (IND). This stage typically includes both in vitro and in vivo assays, including thorough PK/PD profiling, toxicity, and in vivo dosing/ formulation optimization for efficacy."
-primary assay,BAO:0000031,"The first assay performed in a in a screening campaign. The purpose of the primary assay is to identify hits, which are potentially biologically active chemical entities. Generally in this assay, the perturbagens are tested at a single concentration with only one measurement. It is followed by a confirmatory screen, which can be run at a single concentration with multiple replicates or as concentration-response assay."
+plasma stability assay,BAO:0010007,
+posttranslation modification assay,BAO:0003004,
+preclinical development stage,BAO:0010025,
+primary assay,BAO:0000031,
 protease activity assay,BAO:0002764,
 protein expression assay,BAO:0010252,
-protein folding assay,BAO:0002998,"This assay quantifies the protein folding/conformation using technologies, such as nuclear magnetic resonance, circular dichroism are used to determine the protein folding/conformation."
-protein profiling assay,BAO:0010026,Protein profiling assays can be used to identify and quantify proteins together with their post-translational modifications
-protein redistribution assay,BAO:0000378,"Cellular signaling can bring about the movement of proteins in cells. Upon receiving a cue, proteins undergo posttranslational modifications, e.g. phosphorylation, dephosphorylation, etc, which results in their activation and migration to different compartments, often to the nucleus, where they regulate gene expression.|Add a relation between this class and immunoassay using a new object property 'is detected by'."
+protein folding assay,BAO:0002998,
+protein profiling assay,BAO:0010026,
+protein redistribution assay,BAO:0000378,
 protein stability assay,BAO:0002804,
 protein unfolding assay,BAO:0002779,
-protein-protein interaction assay,BAO:0002990,"It is performed to quantify the interactions between two protein molecules, using methods such as protein fragment complementation assay, immunoassay, radioligand binding, etc."
-protein-small molecule interaction assay,BAO:0000110,"It is an interaction between a protein (e.g., receptor, transcription factor) and small molecule (e.g., hormone, organic compound with a low molecular weight (<800 Da))."
-protein-turnover assay,BAO:0003010,"This assay quantifies the protein turnover, which is a natural phenomenon in healthy cells, but becomes aberrant in diseased cells. The protein that is needed to be degraded first undergoes ubiquitinated. Ubiquitinated proteins are degraded in the proteasome complex. The protein degradation is quantitated by using reporters, such as green fluorescent protein as proteasome substrates.  "
+protein-protein interaction assay,BAO:0002990,
+protein-small molecule interaction assay,BAO:0000110,
+protein-turnover assay,BAO:0003010,
 quantitative PCR,BAO:0003031,
-quantitative reverse transcription PCR,BAO:0002090,Quantitative reverse transcription PCR is a PCR technique used to determine the amount of cDNA in a sample. It is the most commonly used form of quantitative PCR (qPCR). This technique is also called real-time reverse transcription PCR.
-real-time PCR ,BAO:0002084,"In molecular biology, real-time polymerase chain reaction, also called quantitative real time polymerase chain reaction (Q-PCR/qPCR) or kinetic polymerase chain reaction, is a laboratory technique based on the PCR, which is used to amplify and simultaneously quantify a targeted DNA molecule. It enables both detection and quantification (as absolute number of copies or relative amount when normalized to DNA input or additional normalizing genes) of one or more specific sequences in a DNA sample."
+quantitative reverse transcription PCR,BAO:0002090,
+real-time PCR ,BAO:0002084,
 receptor induction assay,BAO:0010144,
 receptor internalization assay,BAO:0010093,
-redistribution assay,BAO:0002999,"It is performed to measure the redistribution of organelles and molecules within the cell (proteins, second messengers, metal ions, dyes, etc. ). This is visualized by microscopy. "
-reporter gene assay,BAO:0003006,"Reporter gene assay measures the gene expression from a reporter gene. The reporter gene is inserted under the control of a foreign promoter or an artificial regulatory element of interest. Reporters include luciferase, beta galactosidase, beta lactamase, chloramphenicol acetyl transferase, or a fluorescent protein.|reports some _x000D_
-('gene expression' and ('has part' some 'reporter gene'))_x000D_
-needs clean up to say has part gene with role of reporter."
-reverse transcription PCR,BAO:0002089,"Reverse transcription polymerase chain reaction (RT-PCR) is a variant of PCR in which the RNA strand is first reverse transcribed into its DNA complement (complementary DNA, or cDNA) using the enzyme reverse transcriptase, and the resulting cDNA is amplified using traditional or real-time PCR."
-RNA-seq gene expression profiling assay,BAO:0010045,An assay that uses NGS (Next Generation Sequencing) to quantify the expression of the entire RNA transcripts in a cell / cell population
+redistribution assay,BAO:0002999,
+reporter gene assay,BAO:0003006,
+reverse transcription PCR,BAO:0002089,
+RNA-seq gene expression profiling assay,BAO:0010045,
 safety pharmacology assay,BAO:0002533,
-sandwich ELISA,BAO:0002421,"The sandwich ELISA measures the amount of antigen between two layers of antibodies. The antigens to be measured must contain at least two antigenic sites, capable of binding to antibody, since at least two antibodies act in the sandwich. So sandwich assays are restricted to the quantitation of multivalent antigens such as proteins or polysaccharides. Sandwich ELISAs for quantitation of antigens are especially valuable when the concentration of antigens is low and/or they are contained in high concentrations of contaminating protein."
+sandwich ELISA,BAO:0002421,
 SAR by NMR,BAO:0002412,
-scanning electron microscopy,BAO:0000454,"Scanning electron microscopy (SEM) visualizes details on the surfaces of cells and particles and gives a very nice 3D view. It gives results much like those of the stereo light microscope, and, akin to that, its most useful magnification is in the lower range than that of the transmission electron microscope."
-second messenger assay,BAO:0003007,"This assay quantifies the second messengers (calcium, cAMP, cGMP) produced in the cell as a result of a signaling event."
-secondary assay,BAO:0000032,"Additional assays following the confirmatory stage to confirm the biological activity of chemical entities via a different type of assay or to eliminate certain active compounds based on their mechanism of action, toxicity or activity profile.  Secondary assays can also include selectivity and specificity assays."
-selectivity assay,BAO:0000478,Assay employed to elucidate the specificity of biologically active chemical entities towards one or more targets that are (closely) related to the (intended) primary target.
-shotgun MS protein profiling assay,BAO:0010027,An assay that is used to identify in a data-dependent mode proteins by combining the HPLC and MS methods. It is also known as liquid chromatography-coupled tandem mass spectrometry (LC-MS)
-signal transduction assay,BAO:0003002,This assay measures one of the series of events that are downstream to the receipt of a chemical signal at the cell
+scanning electron microscopy,BAO:0000454,
+second messenger assay,BAO:0003007,
+secondary assay,BAO:0000032,
+selectivity assay,BAO:0000478,
+shotgun MS protein profiling assay,BAO:0010027,
+signal transduction assay,BAO:0003002,
 signaling pathway assay,BAO:0010251,
 simulated gastric fluid stability assay,BAO:0010104,
 simulated gastric fluid stability assay (with enzymes),BAO:0010105,
 simulated interstitial fluid stability assay,BAO:0010110,
 simulated intestinal fluid stability assay,BAO:0010108,
 simulated intestinal fluid stability assay (with enzymes),BAO:0010107,
-solubility assay,BAO:0010010,A physicochemical assay that measures the maximum solubility of a molecule in a particular solvent (typically water or PBS).
-surface plasmon resonance,BAO:0000054,"For surface plasmon resonance measurements, target protein is immobilized onto a solid surface via covalent or noncovalent interaction. Binding of small molecule compounds changes the refractive index of the immobilized target, which can be detected by optical sensing. Shift in wavelength of light is proportional to mass changes near the sensor surface, with sensitivity to detect mass change being ~300 Da."
-SWATH MS protein profiling assay,BAO:0010028,Sequential window acquisition of all theoretical mass spectra (SWATH) MS is a mass spectrometrical method thatcouples data-independent acquisition is coupled with peptide spectral library match
+solubility assay,BAO:0010010,
+surface plasmon resonance,BAO:0000054,
+SWATH MS protein profiling assay,BAO:0010028,
 SWATH-MS protein quantification assay,BAO:0010066,
 target engagement assay,BAO:0010259,
-targeted epigenetic assay,BAO:0010032,Assays that measure a targeted and predetermined subset of the epigenetic modifications in a cell
+targeted epigenetic assay,BAO:0010032,
 targeted metabolomic assay,BAO:0010041,
-targeted transcriptional assay,BAO:0010044,Assays that quantify the expression of a predetermined RNA transcript / set of transcripts
+targeted transcriptional assay,BAO:0010044,
 T-cell activation assay,BAO:0010253,
 T-cell cytotoxicity assay,BAO:0010262,
 thermal shift assay,BAO:0010261,
 thermodynamic solubility assay,BAO:0010246,
-time resolved fluorescence resonance energy transfer,BAO:0000004,"Time resolved-fluorescence resonance energy transfer (TR-FRET) unites TRF (Time-Resolved Fluorescence) and FRET (Fluorescence Resonance Energy Transfer) principles. This combination brings together the low background benefits of TRF with the homogeneous assay format of FRET. Introducing a time delay (50-150 micro seconds) between the system excitation and fluorescence measurement allows the signal to be cleared of all non-specific short lived emissions. TR-FRET uses lanthanide donors which are fluorophores with long emission half-lives._x000D_
-    _x000D_
-"
-tissue distribution assay,BAO:0002532,"An assay to determine tissue distribution of a compound after administration via different routes (e.g., p.o., i.v., i.p.)"
+time resolved fluorescence resonance energy transfer,BAO:0000004,
+tissue distribution assay,BAO:0002532,
 tissue homogenate stability assay,BAO:0010111,
 toxicity assay,BAO:0002189,
-transcriptional profiling assay,BAO:0002995,"This assay quantifies the expression level of the entire gene pool in a cell or a subpopulation (e.g. tissue-specific gene expression, kinases) using a bead-based method."
-transmission electron microscopy,BAO:0000455,"Transmission electron microscopy (TEM) is quite similar to the compound light microscope, by sending an electron beam through a very thin slice of the specimen. The resolution limit in 2005 was approximately 0.05 nanometer and has not increased appreciably since that time."
+transcriptional profiling assay,BAO:0002995,
+transmission electron microscopy,BAO:0000455,
 turbidimetric solubility assay,BAO:0010247,
 whole blood stability assay,BAO:0010098,
-x ray powder diffraction,CHMO:0000158,A method for determining structure by directing a beam of X-rays at a powdered solid sample and detecting the positions and intensities of the diffracted X-rays as a pattern of spots on a photographic plate.
-differential scanning calorimetry ,ERO:0001615,A calorimetry technique in which the difference in the amount of heat required to increase the temperature of a sample and reference is measured as a function of temperature. Both the sample and reference are maintained at nearly the same temperature throughout the experiment.
-thermogravimetric analysis ,CHMO:0002121,"A piece of apparatus, consisting of a quartz or alumina chamber, a balance, a sample pan and a heating mechanism, which is used to record the mass of a sample as a function of increasing temperature."
-rotational rheometry,,"Analytical technique for measuring/comparing the viscosity, viscoelastic properties (e.g. G’, G”, tan δ), crosslinking, molecular weight and transient properties (e.g. creep, modulus) for a wide range of samples including fluids, semi-solids, and solids."
-Raman microscopy,CHMO:0000056,The collection of spatially resolved Raman spectra of a sample during optical microscopy.
-laser diffraction analysis,,A techique used to evalute  droplet and particle size distribution through light diffraction patterns. 
-dynamic light scattering,CHMO:0000167,A method for determining the size distribution of a sample of small particles in solution by illuminating the sample with a light source (usually a laser) and measuring the time-dependent fluctuations in the intensity of the scattered light caused by Brownian motion
-contact angle measurement,,Measurement of a static and dynamic contact angle of a liquid drop on a solid surface in orer to asssess surface wettability
-laser Doppler electrophoresis,,Particle motion under an applied electric field in order to assess particle Zeta potential.
-dissolution profile,MI:2113,"The rate of dissolution is a key target for controlling the duration of a drug's effect, and as such, several dosage forms that contain the same active ingredient may be available, differing only in the rate of dissolution. If a drug is supplied in a form that is not readily dissolved, the drug may be released more gradually over time with a longer duration of action. Having a longer duration of action may improve compliance since the medication will not have to be taken as often. Additionally, slow-release dosage forms may maintain concentrations within an acceptable therapeutic range over a long period of time, as opposed to quick-release dosage forms which may result in sharper peaks and troughs in serum concentrations."
+x ray powder diffraction,CHMO:0000158,
+differential scanning calorimetry ,ERO:0001615,
+thermogravimetric analysis ,CHMO:0002121,
+rotational rheometry,,
+Raman microscopy,CHMO:0000056,
+laser diffraction analysis,,
+dynamic light scattering,CHMO:0000167,
+contact angle measurement,,
+laser Doppler electrophoresis,,
+dissolution profile,MI:2113,
 solid state peptide synthesis,,
-C. elegans  studies,,"These assays are used to determine the cute and sub-acute toxic effects of compounds. They include the viability, lifespan, health span, reproduction, and development of worms. The evaluation of the motility, pharyngeal function, and synaptic transmission can also be done. "
+C. elegans  studies,,
