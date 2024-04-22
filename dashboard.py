@@ -7,10 +7,10 @@ import plotly.express as px
 from wordcloud import WordCloud
 
 
-st.set_page_config(layout="wide", page_title="Remedi4all Dashboard", page_icon=":pill:")
+st.set_page_config(layout="wide", page_title="REMEDi4ALL Dashboard", page_icon=":pill:")
 
 st.title(
-    "REMEDi4ALL: Dashboard for R4A Expertise KG",
+    "Dashboard of REMEDi4ALL Expertise",
     anchor="center",
     help="This dashboard allows you to interact with the R4A KG and explore the data.",
 )
@@ -27,19 +27,24 @@ tab1, tab2 = st.tabs(
     ]
 )
 
-# Comparison between CVL fractions of positive control and other spectra
+# Main content on R4A project
 with tab1:
     st.write(
-        """The [REMEDi4ALL consortium](https://remedi4all.org/) brings together a unique combination of expertise to address the complexities of drug repurposing. Under the leadership of EATRIS, the European infrastructure for translational medicine, 24 organisations in the fields of clinical and translational research, clinical operations, patient engagement and education, regulatory framework, funding, governance, Health Technology Assessment (HTA) and pricing and reimbursement will closely collaborate to make drug repurposing mainstream."""
+        """The [REMEDi4ALL consortium] 
+        The vast majority of the over 7000 known diseases are without effective treatments—there is thus an urgent need to make better use of the medicines that we already have in hand. These include medicines that have already been approved for human use, as well as experimental medicines still in clinical trials already showing good pharmaceutical properties and human safety. In fact, most approved drugs intrinsically have the potential to treat many more diseases than they were originally approved for, even diseases seemingly unrelated to those for which they are currently being prescribed.
+        
+        [REMEDi4ALL](https://remedi4all.org/) is an EU-funded initiative (HORIZON EUROPE) whose key mission is to make it easier and more reliable to find new medical uses for drugs we already know are safe and effective. We also aim to show that in many cases such “repurposed” medicines can be taken all the way into clinic faster and at the fraction of the cost of developing a completely new drug from scratch. 
+        
+        But with hundreds or even thousands of opportunities to repurpose approved and experimental medicines—for the thousands of diseases that remain without any approved treatments at all—REMEDi4ALL must also help to transform the very landscape of drug repurposing. This needs to encompass not only the scientific, clinical research and patient communities, but regulatory, policy and commercial drug and investment sectors as well, so that all researchers will face fewer barriers and be able to bring much needed treatments to patients faster and more effectively—to “float all boats” in the drug repurposing ecosystem."""
     )
 
     st.header(
-        "Project overview from the KG",
+        "REMEDi4ALL structure and partners",
         divider="gray",
         help="This section allows you know more about the REMEDi4ALL project and see the basic information surrounding the project in the KG.",
     )
 
-    st.subheader("Drug repurposing stakeholder around the globe")
+    # st.subheader("Drug repurposing stakeholder around the globe")
 
     # Get map data
     with urlopen(
@@ -51,8 +56,12 @@ with tab1:
     total_partners = map_data["Partner counts"].sum()
     total_countries = map_data.shape[0]
 
+    org_data = pd.read_csv("data/organization.csv")
+    org_data.sort_values(by="Individuals", ascending=False, inplace=True)
+    total_people = org_data["Individuals"].sum()
+
     st.markdown(
-        f"The REMEDi4ALL project is a consortium of :red[{total_partners}] partners from :red[{total_countries}] countries."
+        f"REMEDi4ALL project is composed of :red[{total_people}] from :red[{total_partners}] partner organisations from :red[{total_countries}] countries that bring together a unique combination of expertise to address the complexities of drug repurposing with a patient-centric approach. At our core is a patient-centric drug repurposing platform designed to encompass the complete value chain supporting high impact projects initiating at any phase of development through to market entry and patient access."
     )
 
     # Geographic Map
@@ -72,16 +81,16 @@ with tab1:
     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
     st.plotly_chart(fig, use_container_width=True)
 
-    st.subheader("Individuals from each organization contributing towards the project")
-
-    org_data = pd.read_csv("data/organization.csv")
-    org_data.sort_values(by="Individuals", ascending=False, inplace=True)
-    total_people = org_data["Individuals"].sum()
+    # st.subheader("Individuals from each organization contributing towards the project")
 
     wp_data = pd.read_csv("data/wp.csv")
 
     st.markdown(
-        f"The project invovles :red[{total_people}] individuals working across countries to identify drug repositioning candidates for 4 indication areas, namely Pancreatic cancer, COVID-19, Osteogenesis imperfecta, and Multiple sulfatase deficiency. Collectively, they are working on :red[{len(wp_data)}] work packages (WP)."
+        f"""REMEDi4ALL was designed with four imbedded drug repurposing projects at various stages of discovery and development to serve as “Demonstrator” projects with which our core platform could be put into practice from the start. In turn, experiences and lessons learned from designing and implementing project plans for these four Demonstrator have already been key in helping to validate, identify gaps and improve the structure of and resources/expertise contained in our core platform. These projects four Demonstrator focus on different indications, namely metastatic pancreatic cancer (mPDAC), pandemic preparedness, osteogenesis imperfecta (OI), and multiple sulfatase deficiency (MSD). The demonstrator portfolio covers different phases of the development path and represents the diverse nature of repurposing projects we are likely to work on in the future. 
+        
+        In the coming year, REMEDi4ALL will begin processes to expand its project portfolio by bringing on additional “User” projects to be supported by our core drug repurposing platform.
+        
+        The work distribution among REMEDi4ALL partner institutions is delineated through the allocation of work packages, each representing a distinct set of tasks or objectives. There are :red[{len(wp_data)}] work packages in REMEDi4ALL, which serve as the building blocks of collaboration between partners."""
     )
 
     col = st.columns((1.5, 1, 1.5), gap="medium")
@@ -109,12 +118,72 @@ with tab1:
         selected_wp_name = selected_wp_data["WP"].values[0]
         selected_wp_lead = selected_wp_data["lead"].values[0]
         selected_wp_individuals = selected_wp_data["Individuals"].values[0]
+        selected_wp_organizations = selected_wp_data["Organizations"].values[0]
 
         container = st.container(border=True)
         container.write(
-            f""":red[{selected_wp}] coordinated the activities related to :red[{selected_wp_name}].
-            It is lead by :red[{selected_wp_lead}] and has :red[{selected_wp_individuals}] individuals working on it."""
+            f""":red[{selected_wp}] is led by :red[{selected_wp_lead}] and has :red[{selected_wp_organizations}] contributing partners and a total of :red[{selected_wp_individuals}] individuals working on it."""
         )
+
+        if selected_wp == "WP1":
+            container.write(
+                """WP1 spearheads the "Patients-users co-creation" approach, ensuring patient engagement and partnership from project inception to medicine delivery. It drives the creation of the drug repurposing platform across all stages, from discovery to market access. WP1 is integral to Demonstrator and future User projects, collaborating with Research Development Teams and forming Patient Advocacy Groups. Initial efforts focus on engaging the patient community and implementing co-creation processes, with lessons learned informing the framework for future projects."""
+            )
+
+        elif selected_wp == "WP2":
+            container.write(
+                """WP2 focuses on developing and optimising development of a robust, operational model for the REMEDi4ALL drug repurposing platform. This operational model is being implemented for ongoing Demonstrator Projects and will also be used to support and manage future User Projects. In parallel, WP2 runs the REMEDi4ALL concierge , a portal that facilitates proactive engagement between REMEDi4ALL and a wide array of stakeholders, encompassing researchers, patients, clinicians, funders, investors, and companies involved in translational efforts across Europe, the UK, and beyond"""
+            )
+
+        elif selected_wp == "WP3":
+            container.write(
+                """WP3 focuses on training and education to strengthen the overall capacity within the drug repurposing ecosystem. REMEDi4ALL is dedicated to tackling the inherent challenges of drug repurposing by fostering collaboration among patients, researchers, and developers to refine therapeutic hypotheses and guide candidates through robust preclinical and clinical plans. Thus, an essential component of REMEDi4ALL's mission involves sharing insights and best practices with diverse stakeholders, including patients, researchers, funders, industry partners, and regulatory bodies."""
+            )
+
+        elif selected_wp == "WP4":
+            container.write(
+                """WP4 focuses on the initial phases of drug repurposing projects, with subsequent WPs addressing in vitro approaches and preclinical studies (WP5 and 6, respectively). WP4 is currently dedicated to organizing and assessing a diverse array of in silico resources. These resources support the development of therapeutic hypotheses and the establishment of critical paths for preclinical and clinical development, guided by Target Product Profiles (TPPs) specific to each repurposing project."""
+            )
+
+        elif selected_wp == "WP5":
+            container.write(
+                """WP5 focuses on in vitro biology discovery and screening and is the second of three WPs (WP4, 5, and 6) within REMEDi4ALL dedicated to the discovery and preclinical aspects of drug repurposing projects."""
+            )
+
+        elif selected_wp == "WP6":
+            container.write(
+                """WP6 is the final of the three WPs in REMEDi4ALL dedicated to preclinical discovery and development (WP4, 5, and 6). WP6 focuses on inventorying, systematizing, and applying preclinical resources and expertise across the platform."""
+            )
+
+        elif selected_wp == "WP7":
+            container.write(
+                """WP7 focuses on supporting the implementations of multinational trials, which are key in rare disease contexts."""
+            )
+
+        elif selected_wp == "WP8":
+            container.write(
+                """WP8 aims to improve the European policy environment for drug repurposing."""
+            )
+
+        elif selected_wp == "WP9":
+            container.write(
+                """WP9 aims to transform the drug repurposing ecosystem by actively engaging funders throughout the project lifecycle. By acquiring a deeper understanding of funders' perspectives and building a network encompassing public and private, non-profit, and commercial sectors, WP9 seeks to develop strategies to address market failures and improve conditions for successful drug repurposing."""
+            )
+
+        elif selected_wp == "WP10":
+            container.write(
+                """WP10 focuses on guiding and managing the four Demonstrator projects. These projects serve not only to address scientific and clinical needs but also to inform, optimize, and validate the operational framework of the platform. This hands-on approach fosters collaboration, trust-building, and skill development, positioning REMEDi4ALL to onboard new User projects, thus expanding its impact and sustainability."""
+            )
+
+        elif selected_wp == "WP11":
+            container.write(
+                """WP11 plays a pivotal role in ensuring the meaningful impact of REMEDi4ALL through effective communication, dissemination, and exploitation strategies aligned with project objectives."""
+            )
+
+        elif selected_wp == "WP12":
+            container.write(
+                """WP12 focuses on mapping the drug repurposing landscape, establishing connections with key stakeholders, and engaging with international consortia and repurposing initiatives. This grants significant presence of REMEDi4ALL at both global and EU levels, facilitates alignment of international agendas, and prevents fragmentation within the field. WP12 is led by EATRIS with X contributing partners and a total of 3 individuals working on it."""
+            )
 
     with col[2]:
         st.markdown(
@@ -140,7 +209,7 @@ with tab1:
         )
 
     st.header(
-        "Understanding the REMEDi4ALL KG",
+        "The REMEDi4ALL Knowledge Graph (KG)",
         divider="gray",
         help="This section allows you know more about a KG and its utility in the project.",
     )
@@ -198,22 +267,22 @@ with tab1:
 
     with col[1]:
         st.subheader("What can you do with the KG?")
-        st.markdown(""":blue[One can ask **organizational** questions like:]""")
-        st.markdown("- What are the top 10 organizations contributing to the project?")
+        st.markdown(""":blue[One can ask **organisational** questions like:]""")
+        st.markdown("- What are the top 10 organisations contributing to the project?")
         st.markdown("- How many individuals are working on each work package?")
-        st.markdown("- What is the distribution of organization across countries?")
+        st.markdown("- What is the distribution of organisation across countries?")
 
         st.write(
             """:blue[One can also ask question for surrounding the **drug respurposing research community** with questions like:]"""
         )
         st.markdown(
-            "- What expertise does a given organization have in the context of drug repurposing?"
+            "- What expertise does a given organisation have in the context of drug repurposing?"
         )
         st.markdown("- Whom to contact for a specific expertise?")
         st.markdown(
-            "- Which target classes are being researched on by an organization?"
+            "- Which target classes are being researched on by an organisation?"
         )
-        st.markdown("- How big is the research community in an organization?")
+        st.markdown("- How big is the research community in an organisation?")
 
         st.write(
             """**We are constantly updating the KG with new data. In the future versions, users would be able ask drug discovery based question in the context of COVID-19.**"""
