@@ -30,12 +30,15 @@ tab1, tab2 = st.tabs(
 # Main content on R4A project
 with tab1:
     st.write(
-        """The [REMEDi4ALL consortium] 
-        The vast majority of the over 7000 known diseases are without effective treatments—there is thus an urgent need to make better use of the medicines that we already have in hand. These include medicines that have already been approved for human use, as well as experimental medicines still in clinical trials already showing good pharmaceutical properties and human safety. In fact, most approved drugs intrinsically have the potential to treat many more diseases than they were originally approved for, even diseases seemingly unrelated to those for which they are currently being prescribed.
-        
-        [REMEDi4ALL](https://remedi4all.org/) is an EU-funded initiative (HORIZON EUROPE) whose key mission is to make it easier and more reliable to find new medical uses for drugs we already know are safe and effective. We also aim to show that in many cases such “repurposed” medicines can be taken all the way into clinic faster and at the fraction of the cost of developing a completely new drug from scratch. 
-        
-        But with hundreds or even thousands of opportunities to repurpose approved and experimental medicines—for the thousands of diseases that remain without any approved treatments at all—REMEDi4ALL must also help to transform the very landscape of drug repurposing. This needs to encompass not only the scientific, clinical research and patient communities, but regulatory, policy and commercial drug and investment sectors as well, so that all researchers will face fewer barriers and be able to bring much needed treatments to patients faster and more effectively—to “float all boats” in the drug repurposing ecosystem."""
+        "The vast majority of the over 7000 known diseases are without effective treatments—there is thus an urgent need to make better use of the medicines that we already have in hand. These include medicines that have already been approved for human use, as well as experimental medicines still in clinical trials already showing good pharmaceutical properties and human safety. In fact, most approved drugs intrinsically have the potential to treat many more diseases than they were originally approved for, even diseases seemingly unrelated to those for which they are currently being prescribed. \n"
+    )
+
+    st.write(
+        "[REMEDi4ALL](https://remedi4all.org/) is an EU-funded initiative (HORIZON EUROPE) whose key mission is to make it easier and more reliable to find new medical uses for drugs we already know are safe and effective. We also aim to show that in many cases such “repurposed” medicines can be taken all the way into clinic faster and at the fraction of the cost of developing a completely new drug from scratch. \n"
+    )
+
+    st.write(
+        "But with hundreds or even thousands of opportunities to repurpose approved and experimental medicines—for the thousands of diseases that remain without any approved treatments at all—REMEDi4ALL must also help to transform the very landscape of drug repurposing. This needs to encompass not only the scientific, clinical research and patient communities, but regulatory, policy and commercial drug and investment sectors as well, so that all researchers will face fewer barriers and be able to bring much needed treatments to patients faster and more effectively—to “float all boats” in the drug repurposing ecosystem. \n"
     )
 
     st.header(
@@ -43,8 +46,6 @@ with tab1:
         divider="gray",
         help="This section allows you know more about the REMEDi4ALL project and see the basic information surrounding the project in the KG.",
     )
-
-    # st.subheader("Drug repurposing stakeholder around the globe")
 
     # Get map data
     with urlopen(
@@ -61,7 +62,7 @@ with tab1:
     total_people = org_data["Individuals"].sum()
 
     st.markdown(
-        f"REMEDi4ALL project is composed of :red[{total_people}] from :red[{total_partners}] partner organisations from :red[{total_countries}] countries that bring together a unique combination of expertise to address the complexities of drug repurposing with a patient-centric approach. At our core is a patient-centric drug repurposing platform designed to encompass the complete value chain supporting high impact projects initiating at any phase of development through to market entry and patient access."
+        f"REMEDi4ALL project is composed of :red[{total_people}] individuals from :red[{total_partners}] partner organisations working across :red[{total_countries}] countries that bring together a unique combination of expertise to address the complexities of drug repurposing with a patient-centric approach. At our core is a patient-centric drug repurposing platform designed to encompass the complete value chain supporting high impact projects initiating at any phase of development through to market entry and patient access."
     )
 
     # Geographic Map
@@ -85,12 +86,16 @@ with tab1:
 
     wp_data = pd.read_csv("data/wp.csv")
 
+    st.write(
+        "REMEDi4ALL was designed with four imbedded drug repurposing projects at various stages of discovery and development to serve as “Demonstrator” projects with which our core platform could be put into practice from the start. In turn, experiences and lessons learned from designing and implementing project plans for these four Demonstrator have already been key in helping to validate, identify gaps and improve the structure of and resources/expertise contained in our core platform. These projects four Demonstrator focus on different indications, namely metastatic pancreatic cancer (mPDAC), pandemic preparedness, osteogenesis imperfecta (OI), and multiple sulfatase deficiency (MSD). The demonstrator portfolio covers different phases of the development path and represents the diverse nature of repurposing projects we are likely to work on in the future. \n"
+    )
+
+    st.write(
+        "In the coming year, REMEDi4ALL will begin processes to expand its project portfolio by bringing on additional “User” projects to be supported by our core drug repurposing platform. \n"
+    )
+
     st.markdown(
-        f"""REMEDi4ALL was designed with four imbedded drug repurposing projects at various stages of discovery and development to serve as “Demonstrator” projects with which our core platform could be put into practice from the start. In turn, experiences and lessons learned from designing and implementing project plans for these four Demonstrator have already been key in helping to validate, identify gaps and improve the structure of and resources/expertise contained in our core platform. These projects four Demonstrator focus on different indications, namely metastatic pancreatic cancer (mPDAC), pandemic preparedness, osteogenesis imperfecta (OI), and multiple sulfatase deficiency (MSD). The demonstrator portfolio covers different phases of the development path and represents the diverse nature of repurposing projects we are likely to work on in the future. 
-        
-        In the coming year, REMEDi4ALL will begin processes to expand its project portfolio by bringing on additional “User” projects to be supported by our core drug repurposing platform.
-        
-        The work distribution among REMEDi4ALL partner institutions is delineated through the allocation of work packages, each representing a distinct set of tasks or objectives. There are :red[{len(wp_data)}] work packages in REMEDi4ALL, which serve as the building blocks of collaboration between partners."""
+        f"""The work distribution among REMEDi4ALL partner institutions is delineated through the allocation of work packages, each representing a distinct set of tasks or objectives. There are :red[{len(wp_data)}] work packages in REMEDi4ALL, which serve as the building blocks of collaboration between partners."""
     )
 
     col = st.columns((1.5, 1, 1.5), gap="medium")
@@ -182,7 +187,7 @@ with tab1:
 
         elif selected_wp == "WP12":
             container.write(
-                """WP12 focuses on mapping the drug repurposing landscape, establishing connections with key stakeholders, and engaging with international consortia and repurposing initiatives. This grants significant presence of REMEDi4ALL at both global and EU levels, facilitates alignment of international agendas, and prevents fragmentation within the field. WP12 is led by EATRIS with X contributing partners and a total of 3 individuals working on it."""
+                """WP12 focuses on mapping the drug repurposing landscape, establishing connections with key stakeholders, and engaging with international consortia and repurposing initiatives. This grants significant presence of REMEDi4ALL at both global and EU levels, facilitates alignment of international agendas, and prevents fragmentation within the field."""
             )
 
     with col[2]:
