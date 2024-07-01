@@ -297,6 +297,33 @@ with tab1:
         # st.markdown("- What are the top 10 indications being researched on?")
         # st.markdown("- What are the top 10 drug classes being researched on?")
 
+    # Define your custom CSS
+    custom_css = """
+    <style>
+    .my-container {
+    background-color: #54c3c0;
+    padding: 20px;
+    border-radius: 5px;
+    }
+    </style>
+    """
+
+    st.markdown(custom_css, unsafe_allow_html=True)
+    col = st.columns((0.08, 0.84, 0.08))
+    with col[0]:
+        st.image("data/eu_logo.png", width=70)
+    
+    with col[1]:
+        st.markdown(
+            '<div class="my-container"> The REMEDi4ALL project has received \
+            funding from the European Union’s Horizon Europe Research & Innovation programme \
+            under grant agreement No 101057442. </div>', 
+            unsafe_allow_html=True
+        )
+
+    with col[2]:
+        st.image("data/Remedi4Alllogo.png", width=90)
+
 
 with tab2:
     st.write(
@@ -614,3 +641,18 @@ with tab2:
             st.image(wordcloud.to_image(), use_column_width=True)
         else:
             st.write("No information found in KG.")
+
+    col = st.columns((0.08, 0.84, 0.08))
+    with col[0]:
+        st.image("data/eu_logo.png", width=70)
+    
+    with col[1]:
+        st.markdown(
+            '<div class="my-container"> The REMEDi4ALL project has received \
+            funding from the European Union’s Horizon Europe Research & Innovation programme \
+            under grant agreement No 101057442. </div>', 
+            unsafe_allow_html=True
+        )
+
+    with col[2]:
+        st.image("data/Remedi4Alllogo.png", width=90)
