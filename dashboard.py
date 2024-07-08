@@ -1,3 +1,4 @@
+import os
 from urllib.request import urlopen
 import json
 import pandas as pd
@@ -17,13 +18,21 @@ st.title(
 
 with st.expander("Don't know what REMEDi4ALL is?"):
     st.write(
-        """The REMEDi4ALL consortium brings together a unique combination of expertise to address the complexities of drug repurposing. Under the leadership of EATRIS, the European infrastructure for translational medicine, 24 organisations in the fields of clinical and translational research, clinical operations, patient engagement and education, regulatory framework, funding, governance, Health Technology Assessment (HTA) and pricing and reimbursement will closely collaborate to make drug repurposing mainstream. Please check out our website for more information: https://remedi4all.org/"""
+        """The REMEDi4ALL consortium brings together a unique combination of \
+        expertise to address the complexities of drug repurposing. Under the \
+        leadership of EATRIS, the European infrastructure for translational \
+        medicine, 24 organisations in the fields of clinical and translational \
+        research, clinical operations, patient engagement and education, \
+        regulatory framework, funding, governance, Health Technology Assessment (HTA) \
+        and pricing and reimbursement will closely collaborate to make drug repurposing \
+        mainstream. Please check out our website for more information: https://remedi4all.org/"""
     )
 
-tab1, tab2 = st.tabs(
+tab1, tab2, tab3 = st.tabs(
     [
         "Project Information",
-        "KG Drug Discovery ",
+        "Drug Discovery Expertise",
+        "Clinical Trials Expertise",
     ]
 )
 
@@ -328,9 +337,13 @@ with tab1:
 with tab2:
     st.write(
         """
-        Drug discovery involves the discovery and design of drugs or potential drug compounds. This includes methods that search compound collections, generate or analyse drug 3D conformations, identify drug targets with structural docking etc. Moreover, this encompass our preclinical, regulatory, clinical and other drug discovery aspects that are part of REMEDi4ALL.
+        :blue-background[Drug discovery] involves the discovery and design of promising drug \
+        candidates. This includes methods that search compound collections, \
+        generate or analyse drug 3D conformations, identify drug targets with \
+        structural docking etc.
         
-        💡 In this section we look into potential stakeholder's in the project that can assist you in drug discovery domain."""
+        💡 In this section we look into potential stakeholder's in the project \
+        that can assist you in drug discovery domain."""
     )
 
     st.header(
@@ -646,6 +659,100 @@ with tab2:
     with col[0]:
         st.image("data/eu_logo.png", width=70)
     
+    with col[1]:
+        st.markdown(
+            '<div class="my-container"> The REMEDi4ALL project has received \
+            funding from the European Union’s Horizon Europe Research & Innovation programme \
+            under grant agreement No 101057442. </div>', 
+            unsafe_allow_html=True
+        )
+
+    with col[2]:
+        st.image("data/Remedi4Alllogo.png", width=90)
+
+
+with tab3:
+    st.write(
+        """
+        :blue-background[Clinical Trials] involves research study that \
+        prospectively assigns human participants or groups of humans to one \
+        or more health-related interventions to evaluate the effects on \
+        health outcomes.
+
+        💡 In this section we look into potential stakeholder's in the project \
+        that can assist to managing various aspects of a clinical trial."""
+    )
+
+    st.header(
+        "Skills relevant for clinical trials management",
+        divider="gray",
+        help="This section allows you know explore the clinical trial related expertise across the project.",
+    )
+
+    clincal_skills = pd.read_csv("data/clinical_expertise_info.tsv", sep='\t')
+
+    selected_clin_skill = st.selectbox(
+        "Select a clinical skill group you would like to explore.", 
+        clincal_skills, index=0
+    )
+
+    # Add description
+    tmp = clincal_skills[clincal_skills["Services"] == selected_clin_skill]
+
+    st.write(
+        f"**Description**: {tmp['Definition'].values[0]}\n"
+    )
+    if pd.notna(tmp['Source link'].values[0]):
+        st.markdown(
+            f"**Source**: [{tmp['Source'].values[0]}]({tmp['Source link'].values[0]})\n"
+        )
+    else:
+        st.markdown(
+            f"**Source**: {tmp['Source'].values[0]}\n"
+        )
+
+    # Display the stakeholders
+    clincal_stakeholders = pd.read_csv(
+        "data/clinical_expertise.tsv",
+        sep='\t',
+        index_col=0
+    )
+    clincal_stakeholders.fillna(0, inplace=True)
+    clincal_stakeholders.replace("Available", 0.2, inplace=True)
+
+    for col in clincal_stakeholders.columns:
+        original_val = clincal_stakeholders.loc[selected_clin_skill, col]
+        if original_val > 0:
+            clincal_stakeholders.loc[selected_clin_skill, col] = 1
+
+    fig = px.imshow(
+        clincal_stakeholders,
+        aspect="auto",
+        width=800,
+        height=1000,
+        color_continuous_scale="PuBu"
+    )
+
+    fig.update_layout(
+        xaxis_title="",
+        yaxis_title="",
+        margin=dict(l=20, r=20, t=20, b=20),
+        yaxis=dict(tickfont=dict(size=18)),
+        xaxis=dict(tickfont=dict(size=18))
+    )
+    fig.update(
+        data=[
+            {
+                "hovertemplate": "Skill: %{y}<br>Organization: %{x}<br> Availability: %{z}"
+            }
+        ],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    col = st.columns((0.08, 0.84, 0.08))
+    with col[0]:
+        st.image("data/eu_logo.png", width=70)
+
     with col[1]:
         st.markdown(
             '<div class="my-container"> The REMEDi4ALL project has received \
