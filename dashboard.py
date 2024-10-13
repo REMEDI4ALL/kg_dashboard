@@ -28,6 +28,17 @@ with st.expander("Don't know what REMEDi4ALL is?"):
         mainstream. Please check out our website for more information: https://remedi4all.org/"""
     )
 
+st.markdown(
+    """
+        <style>
+            .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {font-size:1rem;}
+            .stExpander [data-testid="stMarkdownContainer"] p {font-size: 18px;}
+        </style>
+    """,
+    unsafe_allow_html=True,
+)  # .block-conatiner controls the padding of the page, .stTabs controls the font size of the text in the tabs
+
+
 tab1, tab2, tab3 = st.tabs(
     [
         "Project Information",
@@ -136,7 +147,7 @@ with tab1:
 
         container = st.container(border=True)
         container.write(
-            f""":red[{selected_wp}] is led by :red[{selected_wp_lead}] and has :red[{selected_wp_organizations}] contributing partners and a total of :red[{selected_wp_individuals}] individuals working on it."""
+            f""":blue[{selected_wp_name}] (:red[{selected_wp}]) is led by :red[{selected_wp_lead}] and has :red[{selected_wp_organizations}] contributing partners and a total of :red[{selected_wp_individuals}] individuals working on it."""
         )
 
         if selected_wp == "WP1":
@@ -321,13 +332,13 @@ with tab1:
     col = st.columns((0.08, 0.84, 0.08))
     with col[0]:
         st.image("data/eu_logo.png", width=70)
-    
+
     with col[1]:
         st.markdown(
             '<div class="my-container"> The REMEDi4ALL project has received \
             funding from the European Union’s Horizon Europe Research & Innovation programme \
-            under grant agreement No 101057442. </div>', 
-            unsafe_allow_html=True
+            under grant agreement No 101057442. </div>',
+            unsafe_allow_html=True,
         )
 
     with col[2]:
@@ -658,13 +669,13 @@ with tab2:
     col = st.columns((0.08, 0.84, 0.08))
     with col[0]:
         st.image("data/eu_logo.png", width=70)
-    
+
     with col[1]:
         st.markdown(
             '<div class="my-container"> The REMEDi4ALL project has received \
             funding from the European Union’s Horizon Europe Research & Innovation programme \
-            under grant agreement No 101057442. </div>', 
-            unsafe_allow_html=True
+            under grant agreement No 101057442. </div>',
+            unsafe_allow_html=True,
         )
 
     with col[2]:
@@ -689,33 +700,28 @@ with tab3:
         help="This section allows you know explore the clinical trial related expertise across the project.",
     )
 
-    clincal_skills = pd.read_csv("data/clinical_expertise_info.tsv", sep='\t')
+    clincal_skills = pd.read_csv("data/clinical_expertise_info.tsv", sep="\t")
 
     selected_clin_skill = st.selectbox(
-        "Select a clinical skill group you would like to explore.", 
-        clincal_skills, index=0
+        "Select a clinical skill group you would like to explore.",
+        clincal_skills,
+        index=0,
     )
 
     # Add description
     tmp = clincal_skills[clincal_skills["Services"] == selected_clin_skill]
 
-    st.write(
-        f"**Description**: {tmp['Definition'].values[0]}\n"
-    )
-    if pd.notna(tmp['Source link'].values[0]):
+    st.write(f"**Description**: {tmp['Definition'].values[0]}\n")
+    if pd.notna(tmp["Source link"].values[0]):
         st.markdown(
             f"**Source**: [{tmp['Source'].values[0]}]({tmp['Source link'].values[0]})\n"
         )
     else:
-        st.markdown(
-            f"**Source**: {tmp['Source'].values[0]}\n"
-        )
+        st.markdown(f"**Source**: {tmp['Source'].values[0]}\n")
 
     # Display the stakeholders
     clincal_stakeholders = pd.read_csv(
-        "data/clinical_expertise.tsv",
-        sep='\t',
-        index_col=0
+        "data/clinical_expertise.tsv", sep="\t", index_col=0
     )
     clincal_stakeholders.fillna(0, inplace=True)
     clincal_stakeholders.replace("Available", 0.2, inplace=True)
@@ -730,7 +736,7 @@ with tab3:
         aspect="auto",
         width=800,
         height=1000,
-        color_continuous_scale="PuBu"
+        color_continuous_scale="PuBu",
     )
 
     fig.update_layout(
@@ -738,7 +744,7 @@ with tab3:
         yaxis_title="",
         margin=dict(l=20, r=20, t=20, b=20),
         yaxis=dict(tickfont=dict(size=18)),
-        xaxis=dict(tickfont=dict(size=18))
+        xaxis=dict(tickfont=dict(size=18)),
     )
     fig.update(
         data=[
@@ -757,8 +763,8 @@ with tab3:
         st.markdown(
             '<div class="my-container"> The REMEDi4ALL project has received \
             funding from the European Union’s Horizon Europe Research & Innovation programme \
-            under grant agreement No 101057442. </div>', 
-            unsafe_allow_html=True
+            under grant agreement No 101057442. </div>',
+            unsafe_allow_html=True,
         )
 
     with col[2]:
