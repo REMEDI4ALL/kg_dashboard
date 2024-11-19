@@ -1,7 +1,7 @@
 scikit-learn
 pandas
 numpy
-streamlit
+streamlit==1.40.1
 rdkit
 plotly
 matplotlib
