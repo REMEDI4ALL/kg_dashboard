@@ -266,7 +266,7 @@ with tab1:
     with col[1]:
         st.image(
             "./data/kg_intro.png",
-            use_column_width=True,
+            use_container_width=True,
             caption="KG applications. Figure taken from Ontotext.",
             output_format="PNG",
         )
@@ -287,7 +287,7 @@ with tab1:
     with col[0]:
         st.image(
             "./data/schema.png",
-            use_column_width=True,
+            use_container_width=True,
             caption="Schema of the Expertise KG.",
             output_format="PNG",
         )
@@ -314,37 +314,6 @@ with tab1:
         st.write(
             """**We are constantly updating the KG with new data. In the future versions, users would be able ask drug discovery based question in the context of COVID-19.**"""
         )
-        # st.markdown("- What are the top 10 compounds being researched on?")
-        # st.markdown("- What are the top 10 targets being researched on?")
-        # st.markdown("- What are the top 10 indications being researched on?")
-        # st.markdown("- What are the top 10 drug classes being researched on?")
-
-    # Define your custom CSS
-    custom_css = """
-    <style>
-    .my-container {
-    background-color: #54c3c0;
-    padding: 20px;
-    border-radius: 5px;
-    }
-    </style>
-    """
-
-    st.markdown(custom_css, unsafe_allow_html=True)
-    col = st.columns((0.08, 0.84, 0.08))
-    with col[0]:
-        st.image("data/eu_logo.png", width=70)
-
-    with col[1]:
-        st.markdown(
-            '<div class="my-container"> The REMEDi4ALL project has received \
-            funding from the European Union’s Horizon Europe Research & Innovation programme \
-            under grant agreement No 101057442. </div>',
-            unsafe_allow_html=True,
-        )
-
-    with col[2]:
-        st.image("data/Remedi4Alllogo.png", width=90)
 
 
 with tab2:
@@ -433,9 +402,22 @@ with tab2:
         st.write(
             f"Found :red[{people_with_skill_filtered.shape[0]}] individuals with this skill."
         )
-        st.dataframe(
-            people_with_skill_filtered, hide_index=True, use_container_width=True
+
+        st.data_editor(
+            people_with_skill_filtered,
+            column_config={
+                "ORCID": st.column_config.LinkColumn(
+                    "Research profile",
+                    help="The ORCID of the individual.",
+                    validate=r"^https://orcid\.org/\d{4}-\d{4}-\d{4}-\d{3}[X0-9]$",
+                    max_chars=100,
+                    display_text=r"https://(.*?)\.streamlit\.app",
+                ),
+            },
+            disabled=True,
+            hide_index=True,
         )
+
     with col[1]:
         st.write("Visualizing the distribution of skills across individuals.")
         if people_with_skill_filtered.shape[0] > 0:
@@ -664,24 +646,9 @@ with tab2:
             wordcloud = WordCloud(
                 background_color="white", width=512, height=384
             ).generate(" ".join(all_partner_connections.Name))
-            st.image(wordcloud.to_image(), use_column_width=True)
+            st.image(wordcloud.to_image(), use_container_width=True)
         else:
             st.write("No information found in KG.")
-
-    col = st.columns((0.08, 0.84, 0.08))
-    with col[0]:
-        st.image("data/eu_logo.png", width=70)
-
-    with col[1]:
-        st.markdown(
-            '<div class="my-container"> The REMEDi4ALL project has received \
-            funding from the European Union’s Horizon Europe Research & Innovation programme \
-            under grant agreement No 101057442. </div>',
-            unsafe_allow_html=True,
-        )
-
-    with col[2]:
-        st.image("data/Remedi4Alllogo.png", width=90)
 
 
 with tab3:
@@ -757,53 +724,59 @@ with tab3:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    col = st.columns((0.08, 0.84, 0.08))
-    with col[0]:
-        st.image("data/eu_logo.png", width=70)
-
-    with col[1]:
-        st.markdown(
-            '<div class="my-container"> The REMEDi4ALL project has received \
-            funding from the European Union’s Horizon Europe Research & Innovation programme \
-            under grant agreement No 101057442. </div>',
-            unsafe_allow_html=True,
-        )
-
-    with col[2]:
-        st.image("data/Remedi4Alllogo.png", width=90)
-
 
 with tab4:
     so_data = pd.read_csv("data/standard_operations.tsv", sep="\t")
     so_sub = so_data[~so_data["ID"].str.contains("SOC", na=False)]
-    so_display = so_sub[["ID", "Category", "Title", "Type", "DOI", "Creator", "Reviewer"]]
+    so_display = so_sub[
+        ["ID", "Category", "Title", "Type", "DOI", "Creator", "Reviewer"]
+    ]
 
     all_socs = sorted(list(set(so_data["Category"].dropna())))
-    all_keywords = sorted(list(set(
-            kw.strip() for kws in so_data["Keywords"].dropna()
-            for kw in kws.split(","))))
-    all_creators = sorted(list(set(
-            creator.strip() for creators in so_data["Creator"].dropna()
-            for creator in creators.split(","))))
-    all_reviewers = sorted(list(set(
-            reviewer.strip()
-            for reviewers in so_data["Reviewer"].dropna()
-            for reviewer in reviewers.split(","))))
-    all_types = ["Standard Operating Guideline (SOG)", "Standard Operating Protocol (SOP)", "SOG+SOP"]
+    all_keywords = sorted(
+        list(
+            set(
+                kw.strip()
+                for kws in so_data["Keywords"].dropna()
+                for kw in kws.split(",")
+            )
+        )
+    )
+    all_creators = sorted(
+        list(
+            set(
+                creator.strip()
+                for creators in so_data["Creator"].dropna()
+                for creator in creators.split(",")
+            )
+        )
+    )
+    all_reviewers = sorted(
+        list(
+            set(
+                reviewer.strip()
+                for reviewers in so_data["Reviewer"].dropna()
+                for reviewer in reviewers.split(",")
+            )
+        )
+    )
+    all_types = [
+        "Standard Operating Guideline (SOG)",
+        "Standard Operating Protocol (SOP)",
+        "SOG+SOP",
+    ]
     all_names = list(set(all_creators + all_reviewers))
 
     st.write(
         """
-        A :blue-background[Standard Operating procedure] is a set of instructions to help project members to carry out routine operation
-        in a standardized way. Here we distinguish between :blue-background[Standard Operating Protocol (SOPs)] for detailed step-by-step manuals and 
-        :blue-background[Standard Operating Guidelines (SOGs)] for more general principles. Our SOGs and SOPs are assigned to 4 distinct categories 
-        (:blue-background[Standard Operating Categories, SOCs]) whether they instruct on computational analysis, data management and quality, hit
-        identification and validation or other procedures. On this page you can find and search all our published procedures and 
-        find expertise on a SOG/P of interest"""
+        A :blue-background[Standard Operating procedure] is a set of instructions to help project members to carry out routine operation in a standardized way. Here we distinguish between :blue-background[Standard Operating Protocol (SOPs)] for detailed step-by-step manuals and :blue-background[Standard Operating Guidelines (SOGs)] for more general principles. 
+        
+        Our SOGs and SOPs are assigned to 4 distinct categories (:blue-background[Standard Operating Categories, SOCs]) whether they instruct on: (a) computational analysis, (b) data management and quality, (c) hit identification and validation or (d)d other procedures. On this page you can find and search all our published procedures and 
+        find expertise on a SOG/SOP of interest"""
     )
 
     st.header(
-        "Standard Operating categories",
+        "Standard Operating Categories",
         divider="gray",
         help="This section allows you to explore the different categories standard operating protocols and guidelines are grouped in.",
     )
@@ -817,34 +790,41 @@ with tab4:
                 Distribution of Standard Operating Protocols/Guidelines across Categories
             </div>
             """,
-            unsafe_allow_html=True
+            unsafe_allow_html=True,
         )
-        soc_stats = so_data['Category'].value_counts().reset_index()
-        soc_stats['count'] = soc_stats['count'] - 1
+        soc_stats = so_data["Category"].value_counts().reset_index()
+        soc_stats["Count"] = soc_stats["count"] - 1
 
         fig = px.bar(
-        soc_stats,
-        x="Category",
-        y="count",
-        labels={"Category": "Standard Operating Category", "counts": "Count"},
-        color_discrete_sequence=["#54c3c0"],
-        text_auto=True,
-        hover_name="Category",
+            soc_stats,
+            x="Category",
+            y="Count",
+            color_discrete_sequence=["#54c3c0"],
+            text_auto=True,
+            hover_name="Category",
+        )
+        fig.update_traces(
+            hovertemplate="Category: %{x}<br>Count: %{y}",
         )
         st.plotly_chart(fig, use_container_width=True)
 
-        st.write("")
-        st.write("")
-        st.write("")
         selected_soc = st.selectbox(
-            "Select a standard operating category to see description.", all_socs, index=0
+            "Select a standard operating category to see description.",
+            all_socs,
+            index=0,
         )
-        id = so_data[(so_data['Category'] == selected_soc) & (so_data['ID'].str.contains('SOC', na=False))]['ID'].iloc[0]
-        description = so_data[(so_data['Category'] == selected_soc) & (so_data['ID'].str.contains('SOC', na=False))]['Description'].iloc[0]
+        id = so_data[
+            (so_data["Category"] == selected_soc)
+            & (so_data["ID"].str.contains("SOC", na=False))
+        ]["ID"].iloc[0]
+        description = so_data[
+            (so_data["Category"] == selected_soc)
+            & (so_data["ID"].str.contains("SOC", na=False))
+        ]["Description"].iloc[0]
 
-        st.write(f"**{selected_soc}**")
+        st.write(f"**Category name**: {selected_soc}")
         st.write(f"**Description**: {description}")
-    
+
     with col[1]:
         st.markdown(
             """
@@ -852,11 +832,8 @@ with tab4:
                 Distribution of Standard Operating Expertise across Categories
             </div>
             """,
-            unsafe_allow_html=True
+            unsafe_allow_html=True,
         )
-        #st.write("**Distribution of Standard Operating Expertise across Categories**")
-        st.write("")
-        st.write("")
         ###Code to create the person/SOC heatmap data###
 
         # Initialize the result DataFrame with zero counts
@@ -893,20 +870,22 @@ with tab4:
             margin=dict(l=20, r=20, t=20, b=20),
         )
         fig.update(
-            data=[
-                {
-                    "hovertemplate": "Individual: %{y}<br>SOC: %{x}<br>#SOG/Ps: %{z}"
-                }
-            ],
+            data=[{"hovertemplate": "Individual: %{y}<br>SOC: %{x}<br>#SOG/Ps: %{z}"}],
         )
         fig.update_coloraxes(showscale=False)
 
         st.plotly_chart(fig, use_container_width=True)
 
+        st.markdown(
+            """
+            **Interested in knowing more about the individuals above?** 
+            
+            Check out the [Expertise section](#stakeholders-for-drug-development-and-discovery-centric-skill) or download the information below."""
+        )
+
         left, middle, right = st.columns(3)
         middle.write("")
-        middle.write("")
-        
+
         @st.cache_data
         def convert_df(df):
             # IMPORTANT: Cache the conversion to prevent computation on every rerun
@@ -919,9 +898,10 @@ with tab4:
             data=csv,
             file_name="SOP_expertise.csv",
             mime="text/csv",
+            use_container_width=True,
         ):
-            middle.write("Downloaded dataset")
-    st.write("")
+            st.write("Downloaded dataset")
+
     st.header(
         "Find a Standard Operating Protocol/Guideline",
         divider="gray",
@@ -931,18 +911,28 @@ with tab4:
     col2 = st.columns((1.5, 1), gap="large")
 
     with col2[0]:
-        all_filters = ["SOG/Ps Name", "ID", "Category", "Keywords", "Type", "Creator", "Reviewer"]
+        all_filters = [
+            "SOG/Ps Name",
+            "ID",
+            "Category",
+            "Keywords",
+            "Type",
+            "Creator",
+            "Reviewer",
+        ]
         selected_filter = st.selectbox(
-                "Select a filter to search SOG/Ps.", all_filters, index=2
-            )
-    
+            "Select a filter to search SOGs/SOPs.", all_filters, index=2
+        )
+
     with col2[1]:
         if selected_filter == "Category":
             all_socs.insert(0, "All")
             selected_soc = st.selectbox(
-            "Select a standard operating category to see all related SOG/Ps.", all_socs, index=0
+                "Select a standard operating category to see all related SOG/Ps.",
+                all_socs,
+                index=0,
             )
-                
+
         if selected_filter == "SOG/Ps Name":
             text_input = st.text_input(
                 "Enter parts or the full name of the SOG/Ps you are looking for:",
@@ -954,77 +944,144 @@ with tab4:
         if selected_filter == "Type":
             all_types.insert(0, "All")
             selected_type = st.selectbox(
-            "Select a standard operating type to see all related SOG/Ps.", all_types, index=0
+                "Select a standard operating type to see all related SOG/Ps.",
+                all_types,
+                index=0,
             )
         if selected_filter == "Creator":
             selected_creator = st.selectbox(
-            "Select a creator to see all SOG/Ps they created.", all_creators, index=0
+                "Select a creator to see all SOG/Ps they created.",
+                all_creators,
+                index=0,
             )
         if selected_filter == "Reviewer":
             selected_reviewer = st.selectbox(
-            "Select a reviewer to see all SOG/Ps they reviewed.", all_reviewers, index=0
+                "Select a reviewer to see all SOG/Ps they reviewed.",
+                all_reviewers,
+                index=0,
             )
         if selected_filter == "Keywords":
             text_input2 = st.text_input(
                 "Enter parts or the full name of keywords to filter (selection is case-sensitive):",
             )
             if text_input2 == "":
-                selection_kw = st.pills("Keywords", all_keywords, selection_mode="multi")
+                selection_kw = st.pills(
+                    "Keywords", all_keywords, selection_mode="multi"
+                )
             else:
-                filtered_kws = [key for key in all_keywords if key.find(text_input2) != -1]
-                selection_kw = st.pills("Keywords", filtered_kws, selection_mode="multi")
+                filtered_kws = [
+                    key for key in all_keywords if key.find(text_input2) != -1
+                ]
+                selection_kw = st.pills(
+                    "Keywords", filtered_kws, selection_mode="multi"
+                )
     st.write("")
-    if selected_filter == "Category":
-        if selected_soc == "All":
-                st.dataframe(so_display, hide_index=True, use_container_width=True)
+    if selected_soc == "All":
+        dataframe_subset = so_display
+    elif selected_filter == "Category" and selected_soc != "All":
+        dataframe_subset = so_display[so_sub["Category"] == selected_soc]
+    elif selected_filter == "SOG/Ps Name" and selected_soc != "All":
+        dataframe_subset = so_display[
+            so_sub["Title"].str.contains(text_input, case=False, na=False)
+        ]
+    elif selected_filter == "ID" and selected_soc != "All":
+        dataframe_subset = so_display[
+            so_sub["ID"].str.contains(text_input, case=False, na=False)
+        ]
+    elif selected_filter == "Type":
+        if selected_type == "All":
+            dataframe_subset = so_display
         else:
-            st.dataframe(so_display[so_sub["Category"] == selected_soc], hide_index=True, use_container_width=True)
-    if selected_filter == "SOG/Ps Name":
-        if not text_input == "":
-            st.dataframe(so_display[so_sub["Title"].str.contains(text_input, case=False, na=False)],
-                        hide_index=True, use_container_width=True)
-        else:
-            st.dataframe(so_display, hide_index=True, use_container_width=True)
-    if selected_filter == "ID":
-        if not text_input == "":
-            st.dataframe(so_display[so_sub["ID"].str.contains(text_input, case=False, na=False)],
-                        hide_index=True, use_container_width=True)
-        else:
-            st.dataframe(so_display, hide_index=True, use_container_width=True)
-    if selected_filter == "Type":
-        if selected_type == all_types[0]:
-            st.dataframe(so_display, hide_index=True, use_container_width=True)
-        elif selected_type == all_types[1]:
-            st.dataframe(so_display[so_sub["Type"] == "SOG"], hide_index=True, use_container_width=True)
-        elif selected_type == all_types[2]:
-            st.dataframe(so_display[so_sub["Type"] == "SOP"], hide_index=True, use_container_width=True)
-        else:
-            st.dataframe(so_display[so_sub["Type"] == "SOP, SOG"], hide_index=True, use_container_width=True)
-    if selected_filter == "Creator":
-        st.dataframe(so_display[so_sub["Creator"].str.contains(selected_creator, case=False, na=False)], hide_index=True, use_container_width=True)
-    if selected_filter == "Reviewer":
-        st.dataframe(so_display[so_sub["Reviewer"].str.contains(selected_reviewer, case=False, na=False)], hide_index=True, use_container_width=True)
-    if selected_filter == "Keywords":
+            mapper = {
+                "Standard Operating Guideline (SOG)": "SOG",
+                "Standard Operating Protocol (SOP)": "SOP",
+                "SOG+SOP": "SOP, SOG",
+            }
+            dataframe_subset = so_display[so_sub["Type"] == mapper[selected_type]]
+
+    elif selected_filter == "Creator" and selected_soc != "All":
+        dataframe_subset = so_display[
+            so_sub["Creator"].str.contains(selected_creator, case=False, na=False)
+        ]
+    if selected_filter == "Reviewer" and selected_soc != "All":
+        dataframe_subset = so_display[
+            so_sub["Reviewer"].str.contains(selected_reviewer, case=False, na=False)
+        ]
+    if selected_filter == "Keywords" and selected_soc != "All":
         pattern = "|".join(selection_kw)
-        st.dataframe(so_display[so_sub["Keywords"].str.contains(pattern, case=False, na=False)], hide_index=True, use_container_width=True)
+        dataframe_subset = so_display[
+            so_sub["Keywords"].str.contains(pattern, case=False, na=False)
+        ]
+
+    dataframe_subset["DOI"] = dataframe_subset["DOI"].apply(
+        lambda x: f"https://doi.org/{x}" if pd.notna(x) else x
+    )
+
+    st.data_editor(
+        dataframe_subset,
+        column_config={
+            "DOI": st.column_config.LinkColumn(
+                "Zenodo entry",
+                help="The Zenodo entry for the SOP/SOG.",
+                max_chars=100,
+                display_text=r"https://(.*?)\.streamlit\.app",
+            ),
+        },
+        disabled=True,
+        hide_index=True,
+    )
     st.write("")
     st.header(
         "Access a Standard Operating Protocol or Guideline",
         divider="gray",
         help="This section allows you to access a specific Standard Operating Protocol or Guideline with its ID.",
     )
-    #iframe_src = "https://zenodo.org/badge/DOI/10.5281/zenodo.13880870.svg"
-    #components.iframe(iframe_src)
     col4 = st.columns((1, 1.5), gap="medium")
 
     with col4[0]:
-    
-        access_so = st.text_input("Type the ID of the SOP/G you want to access")
-        if not access_so == "":
-            zenodo = so_sub[so_sub["ID"] == access_so]["DOI"].tolist()
-            if zenodo:
-                st.html(
-                f'<a href="https://doi.org/{zenodo[0]}"><img src="https://zenodo.org/badge/DOI/{zenodo[0]}.svg" alt="DOI"></a>'
+        access_so = st.selectbox(
+            "Type the ID of the SOP/G you want to access", so_display["ID"], index=0
+        )
+
+        zenodo = so_sub[so_sub["ID"] == access_so]["DOI"].tolist()
+
+    with col4[1]:
+        st.write("")
+        if zenodo:
+            if len(zenodo) < 1 or pd.isna(zenodo[0]):
+                st.warning(
+                    f"No Zenodo entry for {access_so} found! Please check back later."
                 )
             else:
-                st.write(f"No Zenodo link for {access_so} found")
+                zenodo_id = zenodo[0].split(".")[-1]
+                components.iframe(
+                    f"https://zenodo.org/record/12700122", height=300
+                )  # TODO: Still to fix this issue!
+
+# Define your custom CSS
+custom_css = """
+<style>
+.my-container {
+background-color: #54c3c0;
+padding: 20px;
+border-radius: 5px;
+}
+</style>
+"""
+
+st.markdown(custom_css, unsafe_allow_html=True)
+
+col = st.columns((0.08, 0.84, 0.08))
+with col[0]:
+    st.image("data/eu_logo.png", width=70)
+
+with col[1]:
+    st.markdown(
+        '<div class="my-container"> The REMEDi4ALL project has received \
+        funding from the European Union’s Horizon Europe Research & Innovation programme \
+        under grant agreement No 101057442. </div>',
+        unsafe_allow_html=True,
+    )
+
+with col[2]:
+    st.image("data/Remedi4Alllogo.png", width=90)
