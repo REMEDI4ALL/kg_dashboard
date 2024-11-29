@@ -880,7 +880,7 @@ with tab4:
             """
             **Interested in knowing more about the individuals above?** 
             
-            Check out the [Expertise section](#stakeholders-for-drug-development-and-discovery-centric-skill) or download the information below."""
+            Download the information below."""
         )
 
         left, middle, right = st.columns(3)
