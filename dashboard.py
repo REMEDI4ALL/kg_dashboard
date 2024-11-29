@@ -2,6 +2,7 @@ import os
 from urllib.request import urlopen
 import json
 import pandas as pd
+import random
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -742,6 +743,12 @@ with tab4:
             )
         )
     )
+    if "random_keywords" not in st.session_state:
+        st.session_state.random_keywords = random.sample(all_keywords, min(10, len(all_keywords)))
+
+    if "selection_kw" not in st.session_state:
+        st.session_state.selection_kw = []  # Initialize the selected keywords list
+
     all_creators = sorted(
         list(
             set(
@@ -772,8 +779,14 @@ with tab4:
         A :blue-background[Standard Operating procedure] is a set of instructions to help project members to carry out routine operation in a standardized way. Here we distinguish between :blue-background[Standard Operating Protocol (SOPs)] for detailed step-by-step manuals and :blue-background[Standard Operating Guidelines (SOGs)] for more general principles. 
         
         Our SOGs and SOPs are assigned to 4 distinct categories (:blue-background[Standard Operating Categories, SOCs]) whether they instruct on: (a) computational analysis, (b) data management and quality, (c) hit identification and validation or (d)d other procedures. On this page you can find and search all our published procedures and 
-        find expertise on a SOG/SOP of interest"""
+        find expertise on a SOG/SOP of interest."""
     )
+
+    with st.expander("You want to know more about SOP/Gs and the related deliverable in Remedi4All?"):
+        st.write('''
+            [Click here](https://remedi4all.org/wp-content/uploads/2024/10/REMEDi4ALL_D6.1-Catalogue-of-standards-and-workflows_v1.0.pdf) to learn about the Deliverable "6.1 Catalogue of experimental standards 
+                 and workflows" within Remedi4All.
+        ''')
 
     st.header(
         "Standard Operating Categories",
@@ -781,7 +794,7 @@ with tab4:
         help="This section allows you to explore the different categories standard operating protocols and guidelines are grouped in.",
     )
 
-    col = st.columns((1, 1), gap="medium")
+    col = st.columns((1, 1), gap="large")
 
     with col[0]:
         st.markdown(
@@ -795,10 +808,12 @@ with tab4:
         soc_stats = so_data["Category"].value_counts().reset_index()
         soc_stats["Count"] = soc_stats["count"] - 1
 
+        category_order = ["Hit Identification and validation", "Computational analysis", "Data management and quality", "Others"]
         fig = px.bar(
             soc_stats,
             x="Category",
             y="Count",
+            category_orders={"Category": category_order},
             color_discrete_sequence=["#54c3c0"],
             text_auto=True,
             hover_name="Category",
@@ -822,7 +837,6 @@ with tab4:
             & (so_data["ID"].str.contains("SOC", na=False))
         ]["Description"].iloc[0]
 
-        st.write(f"**Category name**: {selected_soc}")
         st.write(f"**Description**: {description}")
 
     with col[1]:
@@ -878,10 +892,9 @@ with tab4:
 
         st.markdown(
             """
-            **Interested in knowing more about the individuals above?** 
+            **Interested in downloading the underlying data?** 
             
-            Download the information below."""
-        )
+            Download the information with the button below.""")
 
         left, middle, right = st.columns(3)
         middle.write("")
@@ -893,14 +906,12 @@ with tab4:
 
         csv = convert_df(so_sub)
 
-        if middle.download_button(
+        middle.download_button(
             label="Download Expertise data",
             data=csv,
             file_name="SOP_expertise.csv",
             mime="text/csv",
-            use_container_width=True,
-        ):
-            st.write("Downloaded dataset")
+            use_container_width=True,)
 
     st.header(
         "Find a Standard Operating Protocol/Guideline",
@@ -960,21 +971,25 @@ with tab4:
                 all_reviewers,
                 index=0,
             )
+
         if selected_filter == "Keywords":
             text_input2 = st.text_input(
                 "Enter parts or the full name of keywords to filter (selection is case-sensitive):",
             )
             if text_input2 == "":
                 selection_kw = st.pills(
-                    "Keywords", all_keywords, selection_mode="multi"
+                    "Some example keywords", st.session_state.random_keywords, selection_mode="multi"
                 )
             else:
                 filtered_kws = [
                     key for key in all_keywords if key.find(text_input2) != -1
                 ]
                 selection_kw = st.pills(
-                    "Keywords", filtered_kws, selection_mode="multi"
+                    "Found keywords", filtered_kws, selection_mode="multi"
                 )
+            # Save the user's selected keywords in session state
+            st.session_state.selection_kw = selection_kw
+
     st.write("")
     if selected_soc == "All":
         dataframe_subset = so_display
@@ -1008,13 +1023,16 @@ with tab4:
             so_sub["Reviewer"].str.contains(selected_reviewer, case=False, na=False)
         ]
     if selected_filter == "Keywords" and selected_soc != "All":
-        pattern = "|".join(selection_kw)
-        dataframe_subset = so_display[
-            so_sub["Keywords"].str.contains(pattern, case=False, na=False)
-        ]
+        if st.session_state.selection_kw:  # Check if any keywords are selected
+            pattern = "|".join(st.session_state.selection_kw)
+            dataframe_subset = so_display[
+                so_sub["Keywords"].str.contains(pattern, case=False, na=False)
+            ]
+        else:
+            dataframe_subset = so_display.copy()
 
     dataframe_subset["DOI"] = dataframe_subset["DOI"].apply(
-        lambda x: f"https://doi.org/{x}" if pd.notna(x) else x
+        lambda x: f"https://doi.org/{x}" if pd.notna(x) else None
     )
 
     st.data_editor(
@@ -1030,33 +1048,6 @@ with tab4:
         disabled=True,
         hide_index=True,
     )
-    st.write("")
-    st.header(
-        "Access a Standard Operating Protocol or Guideline",
-        divider="gray",
-        help="This section allows you to access a specific Standard Operating Protocol or Guideline with its ID.",
-    )
-    col4 = st.columns((1, 1.5), gap="medium")
-
-    with col4[0]:
-        access_so = st.selectbox(
-            "Type the ID of the SOP/G you want to access", so_display["ID"], index=0
-        )
-
-        zenodo = so_sub[so_sub["ID"] == access_so]["DOI"].tolist()
-
-    with col4[1]:
-        st.write("")
-        if zenodo:
-            if len(zenodo) < 1 or pd.isna(zenodo[0]):
-                st.warning(
-                    f"No Zenodo entry for {access_so} found! Please check back later."
-                )
-            else:
-                zenodo_id = zenodo[0].split(".")[-1]
-                components.iframe(
-                    f"https://zenodo.org/record/12700122", height=300
-                )  # TODO: Still to fix this issue!
 
 # Define your custom CSS
 custom_css = """
@@ -1070,6 +1061,9 @@ border-radius: 5px;
 """
 
 st.markdown(custom_css, unsafe_allow_html=True)
+st.write("")
+st.write("")
+st.write("Last updated: 29.11.24")
 
 col = st.columns((0.08, 0.84, 0.08))
 with col[0]:

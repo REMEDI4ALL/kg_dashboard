@@ -4,5 +4,5 @@ R4A_SOC:2	Computational analysis							Computational analysis covers in-silico g
 R4A_SOC:3	Data management and quality							Data management and quality covers generic guidelines allowing to check for quality of the data generated through the SOGs and future prospective of data dissemination such as FAIR data assessment of data, cell-based screening data validation, hit quality control etc.
 R4A_SOC:4	Others							Others covers topic relevant to drug discovery but might not necessarily be part of the remaining catgeories.
 R4A_SO:1	Hit Identification and validation	SOP	Detection of Drug-Induced-Phospholipidosis	10.5281/zenodo.13880869	phospholipidosis, drug-induced phospholipidosis, high-content sceening, HCS, repurposing lysosomes, endosomal pathway disturbance	Maria Kuzikov	Annika Jensen, Kun Qian	
-R4A_SO:3	Data management and quality	SOG	Fair Data Management		fair, data management, quality assessment,	Yojana Gadiya	Philip Gribbon, Annika Jensen	
+R4A_SO:3	Data management and quality	SOG	Fair Data Management		fair, data management, quality assessment	Yojana Gadiya	Philip Gribbon, Annika Jensen	
 R4A_SO:4	Hit Identification and validation	SOG	Detecting and Managing Nuisance Compounds			Hanna Axelsson, Kun Qian 	Annika Jensen, Michaela Vallin	
