@@ -782,7 +782,7 @@ with tab4:
         find expertise on a SOG/SOP of interest."""
     )
 
-    with st.expander("You want to know more about SOP/Gs and the related deliverable in Remedi4All?"):
+    with st.expander("You want to know more about SOP/Gs and the related deliverable in REMEDi4ALL?"):
         st.write('''
             [Click here](https://remedi4all.org/wp-content/uploads/2024/10/REMEDi4ALL_D6.1-Catalogue-of-standards-and-workflows_v1.0.pdf) to learn about the Deliverable "6.1 Catalogue of experimental standards 
                  and workflows" within Remedi4All.
@@ -1031,9 +1031,9 @@ with tab4:
         else:
             dataframe_subset = so_display.copy()
 
-    dataframe_subset["DOI"] = dataframe_subset["DOI"].apply(
-        lambda x: f"https://doi.org/{x}" if pd.notna(x) else None
-    )
+    #dataframe_subset["DOI"] = dataframe_subset["DOI"].apply(
+     #   lambda x: f"https://doi.org/{x}" if pd.notna(x) else None
+    #
 
     st.data_editor(
         dataframe_subset,
