@@ -1,3 +1,53 @@
-# Expertise KG Dashabord
+# Expertise KG Dashboard
 
 This is a repository for building the REMEDi4ALL expertise KG dashboard and deploying the dashboard on SERVE platform.
+
+# Missing Data? Incorrect information?
+
+The form represents data collected from the survey form ([here](https://forms.office.com/e/31VQV0E9bp)). If the information is incorrect or incomplete, reach out to Philip Gribbon (Fraunhofer ITMP).
+
+
+# Local testing
+
+Prior to pushing the final commits live, ensure that the webpage looks as expected. You can do so using the following command in the terminal:
+```bash
+streamlit run dashboard.py
+```
+
+Ensure that: (a) you are in the appropriate conda environment and (b) you are in the `r4a_kg_dashboard` directory.
+
+# Deploying Live
+
+### Using PRs
+Once you have tested your local changes, open a pull request (PR). As a good practice, it is good to have your PR reviewed by co-workers to ensure code readability (if possible). 
+
+### Docker deployment
+Upon reviewing, merge the PR into the main branch. Each commit to the main branch calls a GitHub workflow that allows for building a Docker image of the current instance or updates the old image to the new one. The list of all previous images can be found [here](https://github.com/REMEDI4ALL/kg_dashboard/pkgs/container/kg_dashboard%2Fkg_dashboard). 
+
+A green tick (see below) in front of the commit confirms that the Docker image was built without errors. If you see a red cross, please check the run log for you commit [here](https://github.com/REMEDI4ALL/kg_dashboard/actions) and debug the error. Assistance from the SERVE team can also be asked if needed.
+![docs_1](docs/docker_success.png)
+
+### Updating the SERVE instance
+
+To update the live instance, open the project on SERVE ([link](https://serve.scilifelab.se/projects/expertise-kg-dashboard-mxc/))^. In the **Serve** section of the project, go to Action -> Settings (see figure below).
+
+![project](docs/kg_project_serve.png)
+
+In the settings, scroll down to the **Image** section and replace this with the latest version from the [packages](https://github.com/REMEDI4ALL/kg_dashboard/pkgs/container/kg_dashboard%2Fkg_dashboard). The latest version is always on the top. Make sure, it starts with *ghcr.io/xxx*.
+
+*^ You need an active [SERVE account](https://serve.scilifelab.se/) and access to the project.*
+
+Once you have saved the changes, wait for the **Status** of the project to change from *Running* to *Created* and back to *Running*. Once you see the *Running* option, the updated version is now life.
+
+If you see an *Error* status, reach out to the SERVE team over Slack for assistance.
+
+# Developers and Contributors
+
+* Yojana Gadiya, Fraunhofer ITMP (Lead)
+* Leonie Von Berlin, Fraunhofer ITMP (Co-Lead)
+
+### Data providers
+
+* WP 4-6 (Technical expertise)
+* WP 7 (Clinical services)
+* Michaela Vallin, Karloinka Institute; Annika Jenmalm Jensen, Karloinka Institute; and Katja Herzog, Fraunhofer ITMP (SOP/SOG)
