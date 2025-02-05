@@ -6,6 +6,22 @@ This is a repository for building the REMEDi4ALL expertise KG dashboard and depl
 
 The form represents data collected from the survey form ([here](https://forms.office.com/e/31VQV0E9bp)). If the information is incorrect or incomplete, reach out to Philip Gribbon (Fraunhofer ITMP).
 
+# Preparing files for updating dashboard
+
+The dashboard is linked to the Expertise KG and hence it pulls data from there. Thus, when the KG is updated, make sure you update the respective files in this repo as well. 
+
+To do so, we make use of CYPHER for querying our Neo4J graph. All CYPHER queries can be found [here](queries.py). If you have new data added, please make sure you have CYPHER query to fetch that data. With the CYPHER queries you can create all files in the [data](data) directory.
+
+To run the file, edit the credentials at the bottom of the python file:
+```python
+graph = connect_to_kg(url="bolt://localhost:7687", username="neo4j", password="password")  #
+```
+and then run the file in the terminal:
+```bash
+python run queries.py
+```
+
+If new data modality is added, please ensure that you add and adpat this in the `run_all_queries()` function.
 
 # Local testing
 

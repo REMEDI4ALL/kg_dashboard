@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
 import os
 from urllib.request import urlopen
 import json
 import pandas as pd
 import random
+from datetime import datetime
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -266,7 +268,7 @@ with tab1:
 
     with col[1]:
         st.image(
-            "./data/kg_intro.png",
+            "./docs/kg_intro.png",
             use_container_width=True,
             caption="KG applications. Figure taken from Ontotext.",
             output_format="PNG",
@@ -287,7 +289,7 @@ with tab1:
     col = st.columns((1.5, 1.5), gap="medium")
     with col[0]:
         st.image(
-            "./data/schema.png",
+            "./docs/schema.png",
             use_container_width=True,
             caption="Schema of the Expertise KG.",
             output_format="PNG",
@@ -744,7 +746,9 @@ with tab4:
         )
     )
     if "random_keywords" not in st.session_state:
-        st.session_state.random_keywords = random.sample(all_keywords, min(10, len(all_keywords)))
+        st.session_state.random_keywords = random.sample(
+            all_keywords, min(10, len(all_keywords))
+        )
 
     if "selection_kw" not in st.session_state:
         st.session_state.selection_kw = []  # Initialize the selected keywords list
@@ -782,11 +786,15 @@ with tab4:
         find expertise on a SOG/SOP of interest."""
     )
 
-    with st.expander("You want to know more about SOP/Gs and the related deliverable in REMEDi4ALL?"):
-        st.write('''
+    with st.expander(
+        "You want to know more about SOP/Gs and the related deliverable in REMEDi4ALL?"
+    ):
+        st.write(
+            """
             [Click here](https://remedi4all.org/wp-content/uploads/2024/10/REMEDi4ALL_D6.1-Catalogue-of-standards-and-workflows_v1.0.pdf) to learn about the Deliverable "6.1 Catalogue of experimental standards 
                  and workflows" within Remedi4All.
-        ''')
+        """
+        )
 
     st.header(
         "Standard Operating Categories",
@@ -808,7 +816,12 @@ with tab4:
         soc_stats = so_data["Category"].value_counts().reset_index()
         soc_stats["Count"] = soc_stats["count"] - 1
 
-        category_order = ["Hit Identification and validation", "Computational analysis", "Data management and quality", "Others"]
+        category_order = [
+            "Hit Identification and validation",
+            "Computational analysis",
+            "Data management and quality",
+            "Others",
+        ]
         fig = px.bar(
             soc_stats,
             x="Category",
@@ -894,7 +907,8 @@ with tab4:
             """
             **Interested in downloading the underlying data?** 
             
-            Download the information with the button below.""")
+            Download the information with the button below."""
+        )
 
         left, middle, right = st.columns(3)
         middle.write("")
@@ -911,7 +925,8 @@ with tab4:
             data=csv,
             file_name="SOP_expertise.csv",
             mime="text/csv",
-            use_container_width=True,)
+            use_container_width=True,
+        )
 
     st.header(
         "Find a Standard Operating Protocol/Guideline",
@@ -978,7 +993,9 @@ with tab4:
             )
             if text_input2 == "":
                 selection_kw = st.pills(
-                    "Some example keywords", st.session_state.random_keywords, selection_mode="multi"
+                    "Some example keywords",
+                    st.session_state.random_keywords,
+                    selection_mode="multi",
                 )
             else:
                 filtered_kws = [
@@ -1031,8 +1048,8 @@ with tab4:
         else:
             dataframe_subset = so_display.copy()
 
-    #dataframe_subset["DOI"] = dataframe_subset["DOI"].apply(
-     #   lambda x: f"https://doi.org/{x}" if pd.notna(x) else None
+    # dataframe_subset["DOI"] = dataframe_subset["DOI"].apply(
+    #   lambda x: f"https://doi.org/{x}" if pd.notna(x) else None
     #
 
     st.data_editor(
@@ -1063,11 +1080,11 @@ border-radius: 5px;
 st.markdown(custom_css, unsafe_allow_html=True)
 st.write("")
 st.write("")
-st.write("Last updated: 29.11.24")
+st.write(f"Last updated: {datetime.now()}")
 
 col = st.columns((0.08, 0.84, 0.08))
 with col[0]:
-    st.image("data/eu_logo.png", width=70)
+    st.image("./docs/eu_logo.png", width=70)
 
 with col[1]:
     st.markdown(
@@ -1078,4 +1095,4 @@ with col[1]:
     )
 
 with col[2]:
-    st.image("data/Remedi4Alllogo.png", width=90)
+    st.image("./docs/Remedi4Alllogo.png", width=90)

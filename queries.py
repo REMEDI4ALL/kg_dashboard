@@ -1,3 +1,16 @@
+# -*- coding: utf-8 -*-
+from tqdm import tqdm
+from py2neo import Graph
+
+
+def connect_to_kg(url, username, password):
+    graph = Graph(
+        url,
+        auth=(username, password),
+    )
+    return graph
+
+
 def get_location():
     return """MATCH (p:Partner)
     CALL {
@@ -107,3 +120,41 @@ def get_all_partner_relationships():
     return """MATCH (p)-[]-(i:Partner)
     WHERE not labels(p) = ['Person']
     RETURN p.name as Name, i.name as Partner"""
+
+
+def run_all_queries():
+    """Run all CYPHER queries and return the results in a dictionary"""
+    queries = [
+        ("location", get_location()),
+        ("organization", get_organization_info()),
+        ("wp", get_wp_info()),
+        ("nodes", get_node_counts()),
+        ("edges", get_edge_counts()),
+        ("node_stats", get_node_stats()),
+        ("skillgroups", get_skill_group()),
+        ("skills", skill_distribution()),
+        ("skills_metadata", skill_metadata()),
+        ("skills_info", get_skill_info()),
+        ("assays", get_all_assays()),
+        ("software", get_all_software()),
+        ("target_class", get_all_target_classes()),
+        ("partner_info", get_partner_info()),
+        ("person_info", get_person_info()),
+        ("partner_data", get_all_partner_relationships()),
+        ("software_data", get_tech_data("Software")),
+        ("assay_data", get_tech_data("Experiment")),
+        ("target_data", get_tech_data("TargetClass")),
+    ]
+
+    # Save the data to CSV files
+    for file_name, query in tqdm(queries):
+        df = graph.run(query).to_data_frame()
+        df.to_csv(f"./data/{file_name}.csv", index=False)
+
+
+if __name__ == "__main__":
+    graph = connect_to_kg(
+        url="bolt://localhost:7687", username="neo4j", password="password"
+    )  #
+    run_all_queries()
+    print("Data has been successfully saved to CSV files.")
