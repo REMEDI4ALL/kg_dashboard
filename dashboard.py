@@ -729,13 +729,13 @@ with tab3:
 
 
 with tab4:
-    so_data = pd.read_csv("data/standard_operations.tsv", sep="\t")
-    so_sub = so_data[~so_data["ID"].str.contains("SOC", na=False)]
-    so_display = so_sub[
+    so_data = pd.read_csv("data/standard_operations.csv", sep=",")
+    so_categories = pd.read_csv("data/so_categories.csv", sep=",")
+    so_display = so_data[
         ["ID", "Category", "Title", "Type", "DOI", "Creator", "Reviewer"]
     ]
 
-    all_socs = sorted(list(set(so_data["Category"].dropna())))
+    all_socs = sorted(list(so_categories["Category"].dropna()))
     all_keywords = sorted(
         list(
             set(
@@ -814,7 +814,6 @@ with tab4:
             unsafe_allow_html=True,
         )
         soc_stats = so_data["Category"].value_counts().reset_index()
-        soc_stats["Count"] = soc_stats["count"] - 1
 
         category_order = [
             "Hit Identification and validation",
@@ -822,10 +821,14 @@ with tab4:
             "Data management and quality",
             "Others",
         ]
+        for category in category_order:
+            if category not in soc_stats["Category"].values:
+                soc_stats.loc[len(soc_stats)] = {"Category" : category, "count" : 0}
+
         fig = px.bar(
             soc_stats,
             x="Category",
-            y="Count",
+            y="count",
             category_orders={"Category": category_order},
             color_discrete_sequence=["#54c3c0"],
             text_auto=True,
@@ -841,14 +844,8 @@ with tab4:
             all_socs,
             index=0,
         )
-        id = so_data[
-            (so_data["Category"] == selected_soc)
-            & (so_data["ID"].str.contains("SOC", na=False))
-        ]["ID"].iloc[0]
-        description = so_data[
-            (so_data["Category"] == selected_soc)
-            & (so_data["ID"].str.contains("SOC", na=False))
-        ]["Description"].iloc[0]
+        id = so_data[so_data["Category"] == selected_soc]["ID"]
+        description = so_categories[so_categories["Category"] == selected_soc]["Description"].iloc[0]
 
         st.write(f"**Description**: {description}")
 
@@ -864,13 +861,13 @@ with tab4:
         ###Code to create the person/SOC heatmap data###
 
         # Initialize the result DataFrame with zero counts
-        all_categories = list(set(so_sub["Category"].tolist()))
+        all_categories = list(so_categories["Category"].tolist())
         expertise_hp = pd.DataFrame(0, index=all_names, columns=all_categories)
-        so_sub["Creator"] = so_sub["Creator"].fillna("").astype(str)
-        so_sub["Reviewer"] = so_sub["Reviewer"].fillna("").astype(str)
+        so_data["Creator"] = so_data["Creator"].fillna("").astype(str)
+        so_data["Reviewer"] = so_data["Reviewer"].fillna("").astype(str)
 
         # Populate the counts
-        for _, row in so_sub.iterrows():
+        for _, row in so_data.iterrows():
             category = row["Category"]
             # Split and clean Creator and Reviewer names
             creators = [name.strip() for name in row["Creator"].split(",")]
@@ -918,7 +915,7 @@ with tab4:
             # IMPORTANT: Cache the conversion to prevent computation on every rerun
             return df.to_csv().encode("utf-8")
 
-        csv = convert_df(so_sub)
+        csv = convert_df(so_data)
 
         middle.download_button(
             label="Download Expertise data",
@@ -1011,14 +1008,14 @@ with tab4:
     if selected_soc == "All":
         dataframe_subset = so_display
     elif selected_filter == "Category" and selected_soc != "All":
-        dataframe_subset = so_display[so_sub["Category"] == selected_soc]
+        dataframe_subset = so_display[so_data["Category"] == selected_soc]
     elif selected_filter == "SOG/Ps Name" and selected_soc != "All":
         dataframe_subset = so_display[
-            so_sub["Title"].str.contains(text_input, case=False, na=False)
+            so_data["Title"].str.contains(text_input, case=False, na=False)
         ]
     elif selected_filter == "ID" and selected_soc != "All":
         dataframe_subset = so_display[
-            so_sub["ID"].str.contains(text_input, case=False, na=False)
+            so_data["ID"].str.contains(text_input, case=False, na=False)
         ]
     elif selected_filter == "Type":
         if selected_type == "All":
@@ -1029,28 +1026,24 @@ with tab4:
                 "Standard Operating Protocol (SOP)": "SOP",
                 "SOG+SOP": "SOP, SOG",
             }
-            dataframe_subset = so_display[so_sub["Type"] == mapper[selected_type]]
+            dataframe_subset = so_display[so_data["Type"] == mapper[selected_type]]
 
     elif selected_filter == "Creator" and selected_soc != "All":
         dataframe_subset = so_display[
-            so_sub["Creator"].str.contains(selected_creator, case=False, na=False)
+            so_data["Creator"].str.contains(selected_creator, case=False, na=False)
         ]
     if selected_filter == "Reviewer" and selected_soc != "All":
         dataframe_subset = so_display[
-            so_sub["Reviewer"].str.contains(selected_reviewer, case=False, na=False)
+            so_data["Reviewer"].str.contains(selected_reviewer, case=False, na=False)
         ]
     if selected_filter == "Keywords" and selected_soc != "All":
         if st.session_state.selection_kw:  # Check if any keywords are selected
             pattern = "|".join(st.session_state.selection_kw)
             dataframe_subset = so_display[
-                so_sub["Keywords"].str.contains(pattern, case=False, na=False)
+                so_data["Keywords"].str.contains(pattern, case=False, na=False)
             ]
         else:
             dataframe_subset = so_display.copy()
-
-    # dataframe_subset["DOI"] = dataframe_subset["DOI"].apply(
-    #   lambda x: f"https://doi.org/{x}" if pd.notna(x) else None
-    #
 
     st.data_editor(
         dataframe_subset,

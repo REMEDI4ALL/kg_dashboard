@@ -28,8 +28,8 @@ def get_organization_info():
 
 
 def get_wp_info():
-    return """MATCH (n:Partner)<-[e]-(p:Person)-[i]->(w:WP)
-    RETURN w.name as WP, w.lead_institute as lead, w.wp as id, COUNT(distinct p) as Individuals,
+    return """MATCH (n:Partner)<-[e]-(p:Person)-[i]->(w:WorkPackage)
+    RETURN w.name as WP, w.lead_institute as lead, w.WorkPackage as id, COUNT(distinct p) as Individuals,
     COUNT(distinct n) as Organizations"""
 
 
@@ -122,6 +122,16 @@ def get_all_partner_relationships():
     RETURN p.name as Name, i.name as Partner"""
 
 
+def get_sop_categories():
+    return """MATCH (s:StandardOperationCategory)
+    RETURN s.id AS ID, s.name AS Category, s.description AS Description"""
+
+
+def get_sops():
+    return """MATCH (so:StandardOperation)
+    RETURN so.id as ID, so.category as Category, so.type as Type, so.name as Title, so.doi as DOI, so.keywords as Keywords, so.creators as Creator, so.reviewers as Reviewer"""
+
+
 def run_all_queries():
     """Run all CYPHER queries and return the results in a dictionary"""
     queries = [
@@ -144,6 +154,8 @@ def run_all_queries():
         ("software_data", get_tech_data("Software")),
         ("assay_data", get_tech_data("Experiment")),
         ("target_data", get_tech_data("TargetClass")),
+        ("so_categories", get_sop_categories()),
+        ("standard_operations", get_sops())
     ]
 
     # Save the data to CSV files
