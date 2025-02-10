@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import os
 from urllib.request import urlopen
 import json
 import pandas as pd
@@ -7,7 +6,6 @@ import random
 from datetime import datetime
 
 import streamlit as st
-import streamlit.components.v1 as components
 import plotly.express as px
 from wordcloud import WordCloud
 
@@ -823,7 +821,7 @@ with tab4:
         ]
         for category in category_order:
             if category not in soc_stats["Category"].values:
-                soc_stats.loc[len(soc_stats)] = {"Category" : category, "count" : 0}
+                soc_stats.loc[len(soc_stats)] = {"Category": category, "count": 0}
 
         fig = px.bar(
             soc_stats,
@@ -845,7 +843,9 @@ with tab4:
             index=0,
         )
         id = so_data[so_data["Category"] == selected_soc]["ID"]
-        description = so_categories[so_categories["Category"] == selected_soc]["Description"].iloc[0]
+        description = so_categories[so_categories["Category"] == selected_soc][
+            "Description"
+        ].iloc[0]
 
         st.write(f"**Description**: {description}")
 
