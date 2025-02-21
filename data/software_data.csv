@@ -293,15 +293,6 @@ three dimensional QSAR,Philip Gribbon,Fraunhofer-Gesellschaft
 topomer search,Philip Gribbon,Fraunhofer-Gesellschaft
 two dimensional QSAR,Philip Gribbon,Fraunhofer-Gesellschaft
 virtual screening,Philip Gribbon,Fraunhofer-Gesellschaft
-automatic pathway analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-cheminformatics method,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-computational analysis of gene expression,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-Cytoscape network analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-decision tree,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-genetic algorithm search,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-integrated pathway analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-k means clustering,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
-pathway analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
 automatic pathway analysis,Markus Vähä-Koskela,University of Helsinki (FIMM-UH)
 cheminformatics method,Markus Vähä-Koskela,University of Helsinki (FIMM-UH)
 computational analysis of gene expression,Markus Vähä-Koskela,University of Helsinki (FIMM-UH)
@@ -325,195 +316,6 @@ pathway analysis,Jordi Carreras-Puigvert,Uppsala Universitet
 principal component analysis,Jordi Carreras-Puigvert,Uppsala Universitet
 sequence alignment by method,Jordi Carreras-Puigvert,Uppsala Universitet
 two dimensional QSAR,Jordi Carreras-Puigvert,Uppsala Universitet
-2D structure prediction,Andrea Zaliani,Fraunhofer-Gesellschaft
-2D structure similarity search,Andrea Zaliani,Fraunhofer-Gesellschaft
-3D structure prediction,Andrea Zaliani,Fraunhofer-Gesellschaft
-3D structure similarity search,Andrea Zaliani,Fraunhofer-Gesellschaft
-AutoDock docking method,Andrea Zaliani,Fraunhofer-Gesellschaft
-cartesian conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
-cheminformatics method,Andrea Zaliani,Fraunhofer-Gesellschaft
-circular fingerprint search,Andrea Zaliani,Fraunhofer-Gesellschaft
-Clustal sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-ClustalW sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-ClustalX sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-computational phylogenetic analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-computational structure analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-computer simulation method,Andrea Zaliani,Fraunhofer-Gesellschaft
-computer simulation method by force field,Andrea Zaliani,Fraunhofer-Gesellschaft
-conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
-conjugate gradient method,Andrea Zaliani,Fraunhofer-Gesellschaft
-constraint molecular dynamics simulation,Andrea Zaliani,Fraunhofer-Gesellschaft
-Cytoscape network analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-data based structure generation,Andrea Zaliani,Fraunhofer-Gesellschaft
-database filtering,Andrea Zaliani,Fraunhofer-Gesellschaft
-de novo structure design,Andrea Zaliani,Fraunhofer-Gesellschaft
-decision tree,Andrea Zaliani,Fraunhofer-Gesellschaft
-descriptor matching method,Andrea Zaliani,Fraunhofer-Gesellschaft
-dihedral conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
-distance comparison modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
-distance matrix alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-DrugScore scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
-energy minimization method,Andrea Zaliani,Fraunhofer-Gesellschaft
-exact match structure search,Andrea Zaliani,Fraunhofer-Gesellschaft
-experimental design method,Andrea Zaliani,Fraunhofer-Gesellschaft
-FASTA local sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-force field based scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
-fractional factorial design,Andrea Zaliani,Fraunhofer-Gesellschaft
-fragment based structure generation,Andrea Zaliani,Fraunhofer-Gesellschaft
-full factorial design,Andrea Zaliani,Fraunhofer-Gesellschaft
-global minimum search,Andrea Zaliani,Fraunhofer-Gesellschaft
-GOLD docking method,Andrea Zaliani,Fraunhofer-Gesellschaft
-GOLD scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
-Hartree-Fock method,Andrea Zaliani,Fraunhofer-Gesellschaft
-hierarchial clustering,Andrea Zaliani,Fraunhofer-Gesellschaft
-homology modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
-k means clustering,Andrea Zaliani,Fraunhofer-Gesellschaft
-ligand based pharmacophore model,Andrea Zaliani,Fraunhofer-Gesellschaft
-ligand based virtual screening,Andrea Zaliani,Fraunhofer-Gesellschaft
-linear QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-Lipinski rule of 5 filtering,Andrea Zaliani,Fraunhofer-Gesellschaft
-local minimum search,Andrea Zaliani,Fraunhofer-Gesellschaft
-local sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-MMFF force field simulation,Andrea Zaliani,Fraunhofer-Gesellschaft
-MODELLER homology modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
-molecular docking,Andrea Zaliani,Fraunhofer-Gesellschaft
-molecular docking by method,Andrea Zaliani,Fraunhofer-Gesellschaft
-molecular docking by scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
-molecular dynamics simulation,Andrea Zaliani,Fraunhofer-Gesellschaft
-multiple sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-natural language processing,Andrea Zaliani,Fraunhofer-Gesellschaft
-network analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-neural network model,Andrea Zaliani,Fraunhofer-Gesellschaft
-neural network QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-Newton-Raphson method,Andrea Zaliani,Fraunhofer-Gesellschaft
-non-linear QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-pairwise sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-parameterized model number 3,Andrea Zaliani,Fraunhofer-Gesellschaft
-partial least squares QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-post Hartree-Fock method,Andrea Zaliani,Fraunhofer-Gesellschaft
-principal component analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-protein-protein docking,Andrea Zaliani,Fraunhofer-Gesellschaft
-quantitative structure activity relationship analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-random conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
-randomized block design,Andrea Zaliani,Fraunhofer-Gesellschaft
-RAPTOR protein threading,Andrea Zaliani,Fraunhofer-Gesellschaft
-receptor based pharmacophore search,Andrea Zaliani,Fraunhofer-Gesellschaft
-recursive partitioning QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-regression QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-restricted open-shell Hartree-Fock,Andrea Zaliani,Fraunhofer-Gesellschaft
-scaffold hopping,Andrea Zaliani,Fraunhofer-Gesellschaft
-secondary structure analysis method,Andrea Zaliani,Fraunhofer-Gesellschaft
-self organizing molecular field analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-sequence alignment by method,Andrea Zaliani,Fraunhofer-Gesellschaft
-sequence alignment by type,Andrea Zaliani,Fraunhofer-Gesellschaft
-sequencing data alignment software,Andrea Zaliani,Fraunhofer-Gesellschaft
-sequencing data analysis software,Andrea Zaliani,Fraunhofer-Gesellschaft
-shape fingerprint search,Andrea Zaliani,Fraunhofer-Gesellschaft
-simulated annealing,Andrea Zaliani,Fraunhofer-Gesellschaft
-structure activity relationship analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
-structure alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
-structure based virtual screening,Andrea Zaliani,Fraunhofer-Gesellschaft
-structure database search,Andrea Zaliani,Fraunhofer-Gesellschaft
-structure similarity search,Andrea Zaliani,Fraunhofer-Gesellschaft
-substructure search,Andrea Zaliani,Fraunhofer-Gesellschaft
-SwissModel homology modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
-systematic conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
-three dimensional QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-topomer search,Andrea Zaliani,Fraunhofer-Gesellschaft
-two dimensional QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
-virtual screening,Andrea Zaliani,Fraunhofer-Gesellschaft
-2D structure prediction,Brinton Seashore-Ludlow,Karolinska Institutet
-2D structure similarity search,Brinton Seashore-Ludlow,Karolinska Institutet
-3D structure prediction,Brinton Seashore-Ludlow,Karolinska Institutet
-3D structure similarity search,Brinton Seashore-Ludlow,Karolinska Institutet
-AMBER force field simulation,Brinton Seashore-Ludlow,Karolinska Institutet
-AutoDock docking method,Brinton Seashore-Ludlow,Karolinska Institutet
-cheminformatics method,Brinton Seashore-Ludlow,Karolinska Institutet
-circular fingerprint search,Brinton Seashore-Ludlow,Karolinska Institutet
-Clustal sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
-ClustalW sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
-ClustalX sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
-CoMFA pharmacophore search,Brinton Seashore-Ludlow,Karolinska Institutet
-comparative molecular field analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-computational phylogenetic analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-computational structure analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-computer simulation method,Brinton Seashore-Ludlow,Karolinska Institutet
-computer simulation method by force field,Brinton Seashore-Ludlow,Karolinska Institutet
-conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
-conjugate gradient method,Brinton Seashore-Ludlow,Karolinska Institutet
-constraint molecular dynamics simulation,Brinton Seashore-Ludlow,Karolinska Institutet
-data based structure generation,Brinton Seashore-Ludlow,Karolinska Institutet
-database filtering,Brinton Seashore-Ludlow,Karolinska Institutet
-de novo structure design,Brinton Seashore-Ludlow,Karolinska Institutet
-decision tree,Brinton Seashore-Ludlow,Karolinska Institutet
-descriptor matching method,Brinton Seashore-Ludlow,Karolinska Institutet
-dihedral conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
-distance comparison modeling,Brinton Seashore-Ludlow,Karolinska Institutet
-DOCK docking method,Brinton Seashore-Ludlow,Karolinska Institutet
-empirical scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
-energy minimization method,Brinton Seashore-Ludlow,Karolinska Institutet
-exact match structure search,Brinton Seashore-Ludlow,Karolinska Institutet
-experimental design method,Brinton Seashore-Ludlow,Karolinska Institutet
-FASTA local sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
-force field based scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
-fractional factorial design,Brinton Seashore-Ludlow,Karolinska Institutet
-fragment based structure generation,Brinton Seashore-Ludlow,Karolinska Institutet
-full factorial design,Brinton Seashore-Ludlow,Karolinska Institutet
-genetic algorithm method,Brinton Seashore-Ludlow,Karolinska Institutet
-GOLD docking method,Brinton Seashore-Ludlow,Karolinska Institutet
-GOLD scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
-hierarchial clustering,Brinton Seashore-Ludlow,Karolinska Institutet
-homology modeling,Brinton Seashore-Ludlow,Karolinska Institutet
-k means clustering,Brinton Seashore-Ludlow,Karolinska Institutet
-knowledge based scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
-ligand based pharmacophore model,Brinton Seashore-Ludlow,Karolinska Institutet
-ligand based virtual screening,Brinton Seashore-Ludlow,Karolinska Institutet
-linear QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
-Lipinski rule of 5 filtering,Brinton Seashore-Ludlow,Karolinska Institutet
-local minimum search,Brinton Seashore-Ludlow,Karolinska Institutet
-MMFF force field simulation,Brinton Seashore-Ludlow,Karolinska Institutet
-MODELLER homology modeling,Brinton Seashore-Ludlow,Karolinska Institutet
-molecular docking,Brinton Seashore-Ludlow,Karolinska Institutet
-molecular docking by method,Brinton Seashore-Ludlow,Karolinska Institutet
-molecular docking by scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
-molecular dynamics simulation,Brinton Seashore-Ludlow,Karolinska Institutet
-multiple sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
-neural network QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
-Newton-Raphson method,Brinton Seashore-Ludlow,Karolinska Institutet
-non-linear QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
-partial least squares QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
-pathway analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-principal component analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-protein-protein docking,Brinton Seashore-Ludlow,Karolinska Institutet
-quantitative structure activity relationship analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-random conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
-receptor based pharmacophore search,Brinton Seashore-Ludlow,Karolinska Institutet
-regression QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
-scaffold hopping,Brinton Seashore-Ludlow,Karolinska Institutet
-sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
-shape fingerprint search,Brinton Seashore-Ludlow,Karolinska Institutet
-structure activity relationship analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-structure alignment,Brinton Seashore-Ludlow,Karolinska Institutet
-structure based virtual screening,Brinton Seashore-Ludlow,Karolinska Institutet
-structure database search,Brinton Seashore-Ludlow,Karolinska Institutet
-structure similarity search,Brinton Seashore-Ludlow,Karolinska Institutet
-substructure search,Brinton Seashore-Ludlow,Karolinska Institutet
-SwissModel homology modeling,Brinton Seashore-Ludlow,Karolinska Institutet
-systematic conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
-target family knowledge analysis,Brinton Seashore-Ludlow,Karolinska Institutet
-three dimensional QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
-two dimensional QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
-virtual screening,Brinton Seashore-Ludlow,Karolinska Institutet
-automatic pathway analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
-cheminformatics method,Tero Aittokallio,University of Helsinki (FIMM-UH)
-computational analysis of gene expression,Tero Aittokallio,University of Helsinki (FIMM-UH)
-Cytoscape network analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
-decision tree,Tero Aittokallio,University of Helsinki (FIMM-UH)
-genetic algorithm search,Tero Aittokallio,University of Helsinki (FIMM-UH)
-integrated pathway analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
-k means clustering,Tero Aittokallio,University of Helsinki (FIMM-UH)
-pathway analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
 automatic pathway analysis,Swapnil Potdar,University of Helsinki (FIMM-UH)
 cheminformatics method,Swapnil Potdar,University of Helsinki (FIMM-UH)
 computational analysis of gene expression,Swapnil Potdar,University of Helsinki (FIMM-UH)
@@ -998,104 +800,6 @@ three dimensional QSAR,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 topomer search,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 two dimensional QSAR,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 virtual screening,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
-2D structure prediction,Aimo Kannt,Fraunhofer-Gesellschaft
-2D structure similarity search,Aimo Kannt,Fraunhofer-Gesellschaft
-3D structure prediction,Aimo Kannt,Fraunhofer-Gesellschaft
-3D structure similarity search,Aimo Kannt,Fraunhofer-Gesellschaft
-AutoDock docking method,Aimo Kannt,Fraunhofer-Gesellschaft
-cartesian conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
-cheminformatics method,Aimo Kannt,Fraunhofer-Gesellschaft
-circular fingerprint search,Aimo Kannt,Fraunhofer-Gesellschaft
-Clustal sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-ClustalW sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-ClustalX sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-computational phylogenetic analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-computational structure analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-computer simulation method,Aimo Kannt,Fraunhofer-Gesellschaft
-computer simulation method by force field,Aimo Kannt,Fraunhofer-Gesellschaft
-conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
-conjugate gradient method,Aimo Kannt,Fraunhofer-Gesellschaft
-constraint molecular dynamics simulation,Aimo Kannt,Fraunhofer-Gesellschaft
-Cytoscape network analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-data based structure generation,Aimo Kannt,Fraunhofer-Gesellschaft
-database filtering,Aimo Kannt,Fraunhofer-Gesellschaft
-de novo structure design,Aimo Kannt,Fraunhofer-Gesellschaft
-decision tree,Aimo Kannt,Fraunhofer-Gesellschaft
-descriptor matching method,Aimo Kannt,Fraunhofer-Gesellschaft
-dihedral conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
-distance comparison modeling,Aimo Kannt,Fraunhofer-Gesellschaft
-distance matrix alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-DrugScore scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
-energy minimization method,Aimo Kannt,Fraunhofer-Gesellschaft
-exact match structure search,Aimo Kannt,Fraunhofer-Gesellschaft
-experimental design method,Aimo Kannt,Fraunhofer-Gesellschaft
-FASTA local sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-force field based scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
-fractional factorial design,Aimo Kannt,Fraunhofer-Gesellschaft
-fragment based structure generation,Aimo Kannt,Fraunhofer-Gesellschaft
-full factorial design,Aimo Kannt,Fraunhofer-Gesellschaft
-global minimum search,Aimo Kannt,Fraunhofer-Gesellschaft
-GOLD docking method,Aimo Kannt,Fraunhofer-Gesellschaft
-GOLD scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
-Hartree-Fock method,Aimo Kannt,Fraunhofer-Gesellschaft
-hierarchial clustering,Aimo Kannt,Fraunhofer-Gesellschaft
-homology modeling,Aimo Kannt,Fraunhofer-Gesellschaft
-k means clustering,Aimo Kannt,Fraunhofer-Gesellschaft
-ligand based pharmacophore model,Aimo Kannt,Fraunhofer-Gesellschaft
-ligand based virtual screening,Aimo Kannt,Fraunhofer-Gesellschaft
-linear QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-Lipinski rule of 5 filtering,Aimo Kannt,Fraunhofer-Gesellschaft
-local minimum search,Aimo Kannt,Fraunhofer-Gesellschaft
-local sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-MMFF force field simulation,Aimo Kannt,Fraunhofer-Gesellschaft
-MODELLER homology modeling,Aimo Kannt,Fraunhofer-Gesellschaft
-molecular docking,Aimo Kannt,Fraunhofer-Gesellschaft
-molecular docking by method,Aimo Kannt,Fraunhofer-Gesellschaft
-molecular docking by scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
-molecular dynamics simulation,Aimo Kannt,Fraunhofer-Gesellschaft
-multiple sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-natural language processing,Aimo Kannt,Fraunhofer-Gesellschaft
-network analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-neural network model,Aimo Kannt,Fraunhofer-Gesellschaft
-neural network QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-Newton-Raphson method,Aimo Kannt,Fraunhofer-Gesellschaft
-non-linear QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-pairwise sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-parameterized model number 3,Aimo Kannt,Fraunhofer-Gesellschaft
-partial least squares QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-post Hartree-Fock method,Aimo Kannt,Fraunhofer-Gesellschaft
-principal component analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-protein-protein docking,Aimo Kannt,Fraunhofer-Gesellschaft
-quantitative structure activity relationship analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-random conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
-randomized block design,Aimo Kannt,Fraunhofer-Gesellschaft
-RAPTOR protein threading,Aimo Kannt,Fraunhofer-Gesellschaft
-receptor based pharmacophore search,Aimo Kannt,Fraunhofer-Gesellschaft
-recursive partitioning QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-regression QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-restricted open-shell Hartree-Fock,Aimo Kannt,Fraunhofer-Gesellschaft
-scaffold hopping,Aimo Kannt,Fraunhofer-Gesellschaft
-secondary structure analysis method,Aimo Kannt,Fraunhofer-Gesellschaft
-self organizing molecular field analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-sequence alignment by method,Aimo Kannt,Fraunhofer-Gesellschaft
-sequence alignment by type,Aimo Kannt,Fraunhofer-Gesellschaft
-sequencing data alignment software,Aimo Kannt,Fraunhofer-Gesellschaft
-sequencing data analysis software,Aimo Kannt,Fraunhofer-Gesellschaft
-shape fingerprint search,Aimo Kannt,Fraunhofer-Gesellschaft
-simulated annealing,Aimo Kannt,Fraunhofer-Gesellschaft
-structure activity relationship analysis,Aimo Kannt,Fraunhofer-Gesellschaft
-structure alignment,Aimo Kannt,Fraunhofer-Gesellschaft
-structure based virtual screening,Aimo Kannt,Fraunhofer-Gesellschaft
-structure database search,Aimo Kannt,Fraunhofer-Gesellschaft
-structure similarity search,Aimo Kannt,Fraunhofer-Gesellschaft
-substructure search,Aimo Kannt,Fraunhofer-Gesellschaft
-SwissModel homology modeling,Aimo Kannt,Fraunhofer-Gesellschaft
-systematic conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
-three dimensional QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-topomer search,Aimo Kannt,Fraunhofer-Gesellschaft
-two dimensional QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
-virtual screening,Aimo Kannt,Fraunhofer-Gesellschaft
 AutoDock docking method,Rok Dreu,Ljubljana University
 AutoDock3 scoring function,Rok Dreu,Ljubljana University
 Chem-X structure generation,Rok Dreu,Ljubljana University
@@ -1298,104 +1002,6 @@ target family knowledge analysis,Flavio Ballante,Karolinska Institutet
 three dimensional QSAR,Flavio Ballante,Karolinska Institutet
 two dimensional QSAR,Flavio Ballante,Karolinska Institutet
 virtual screening,Flavio Ballante,Karolinska Institutet
-2D structure prediction,Marc Jacobs,Fraunhofer-Gesellschaft
-2D structure similarity search,Marc Jacobs,Fraunhofer-Gesellschaft
-3D structure prediction,Marc Jacobs,Fraunhofer-Gesellschaft
-3D structure similarity search,Marc Jacobs,Fraunhofer-Gesellschaft
-AutoDock docking method,Marc Jacobs,Fraunhofer-Gesellschaft
-cartesian conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
-cheminformatics method,Marc Jacobs,Fraunhofer-Gesellschaft
-circular fingerprint search,Marc Jacobs,Fraunhofer-Gesellschaft
-Clustal sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-ClustalW sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-ClustalX sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-computational phylogenetic analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-computational structure analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-computer simulation method,Marc Jacobs,Fraunhofer-Gesellschaft
-computer simulation method by force field,Marc Jacobs,Fraunhofer-Gesellschaft
-conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
-conjugate gradient method,Marc Jacobs,Fraunhofer-Gesellschaft
-constraint molecular dynamics simulation,Marc Jacobs,Fraunhofer-Gesellschaft
-Cytoscape network analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-data based structure generation,Marc Jacobs,Fraunhofer-Gesellschaft
-database filtering,Marc Jacobs,Fraunhofer-Gesellschaft
-de novo structure design,Marc Jacobs,Fraunhofer-Gesellschaft
-decision tree,Marc Jacobs,Fraunhofer-Gesellschaft
-descriptor matching method,Marc Jacobs,Fraunhofer-Gesellschaft
-dihedral conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
-distance comparison modeling,Marc Jacobs,Fraunhofer-Gesellschaft
-distance matrix alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-DrugScore scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
-energy minimization method,Marc Jacobs,Fraunhofer-Gesellschaft
-exact match structure search,Marc Jacobs,Fraunhofer-Gesellschaft
-experimental design method,Marc Jacobs,Fraunhofer-Gesellschaft
-FASTA local sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-force field based scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
-fractional factorial design,Marc Jacobs,Fraunhofer-Gesellschaft
-fragment based structure generation,Marc Jacobs,Fraunhofer-Gesellschaft
-full factorial design,Marc Jacobs,Fraunhofer-Gesellschaft
-global minimum search,Marc Jacobs,Fraunhofer-Gesellschaft
-GOLD docking method,Marc Jacobs,Fraunhofer-Gesellschaft
-GOLD scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
-Hartree-Fock method,Marc Jacobs,Fraunhofer-Gesellschaft
-hierarchial clustering,Marc Jacobs,Fraunhofer-Gesellschaft
-homology modeling,Marc Jacobs,Fraunhofer-Gesellschaft
-k means clustering,Marc Jacobs,Fraunhofer-Gesellschaft
-ligand based pharmacophore model,Marc Jacobs,Fraunhofer-Gesellschaft
-ligand based virtual screening,Marc Jacobs,Fraunhofer-Gesellschaft
-linear QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-Lipinski rule of 5 filtering,Marc Jacobs,Fraunhofer-Gesellschaft
-local minimum search,Marc Jacobs,Fraunhofer-Gesellschaft
-local sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-MMFF force field simulation,Marc Jacobs,Fraunhofer-Gesellschaft
-MODELLER homology modeling,Marc Jacobs,Fraunhofer-Gesellschaft
-molecular docking,Marc Jacobs,Fraunhofer-Gesellschaft
-molecular docking by method,Marc Jacobs,Fraunhofer-Gesellschaft
-molecular docking by scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
-molecular dynamics simulation,Marc Jacobs,Fraunhofer-Gesellschaft
-multiple sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-natural language processing,Marc Jacobs,Fraunhofer-Gesellschaft
-network analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-neural network model,Marc Jacobs,Fraunhofer-Gesellschaft
-neural network QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-Newton-Raphson method,Marc Jacobs,Fraunhofer-Gesellschaft
-non-linear QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-pairwise sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-parameterized model number 3,Marc Jacobs,Fraunhofer-Gesellschaft
-partial least squares QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-post Hartree-Fock method,Marc Jacobs,Fraunhofer-Gesellschaft
-principal component analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-protein-protein docking,Marc Jacobs,Fraunhofer-Gesellschaft
-quantitative structure activity relationship analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-random conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
-randomized block design,Marc Jacobs,Fraunhofer-Gesellschaft
-RAPTOR protein threading,Marc Jacobs,Fraunhofer-Gesellschaft
-receptor based pharmacophore search,Marc Jacobs,Fraunhofer-Gesellschaft
-recursive partitioning QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-regression QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-restricted open-shell Hartree-Fock,Marc Jacobs,Fraunhofer-Gesellschaft
-scaffold hopping,Marc Jacobs,Fraunhofer-Gesellschaft
-secondary structure analysis method,Marc Jacobs,Fraunhofer-Gesellschaft
-self organizing molecular field analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-sequence alignment by method,Marc Jacobs,Fraunhofer-Gesellschaft
-sequence alignment by type,Marc Jacobs,Fraunhofer-Gesellschaft
-sequencing data alignment software,Marc Jacobs,Fraunhofer-Gesellschaft
-sequencing data analysis software,Marc Jacobs,Fraunhofer-Gesellschaft
-shape fingerprint search,Marc Jacobs,Fraunhofer-Gesellschaft
-simulated annealing,Marc Jacobs,Fraunhofer-Gesellschaft
-structure activity relationship analysis,Marc Jacobs,Fraunhofer-Gesellschaft
-structure alignment,Marc Jacobs,Fraunhofer-Gesellschaft
-structure based virtual screening,Marc Jacobs,Fraunhofer-Gesellschaft
-structure database search,Marc Jacobs,Fraunhofer-Gesellschaft
-structure similarity search,Marc Jacobs,Fraunhofer-Gesellschaft
-substructure search,Marc Jacobs,Fraunhofer-Gesellschaft
-SwissModel homology modeling,Marc Jacobs,Fraunhofer-Gesellschaft
-systematic conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
-three dimensional QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-topomer search,Marc Jacobs,Fraunhofer-Gesellschaft
-two dimensional QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
-virtual screening,Marc Jacobs,Fraunhofer-Gesellschaft
 AMBER force field simulation,Alessandra Leone,Istituto Nazionale Tumori
 AutoDock docking method,Alessandra Leone,Istituto Nazionale Tumori
 AutoDock3 docking method,Alessandra Leone,Istituto Nazionale Tumori
@@ -1445,88 +1051,6 @@ structure database search,Alessandra Leone,Istituto Nazionale Tumori
 structure similarity search,Alessandra Leone,Istituto Nazionale Tumori
 SwissModel homology modeling,Alessandra Leone,Istituto Nazionale Tumori
 virtual screening,Alessandra Leone,Istituto Nazionale Tumori
-2D structure prediction,Annika Jensen,Karolinska Institutet
-2D structure similarity search,Annika Jensen,Karolinska Institutet
-3D structure prediction,Annika Jensen,Karolinska Institutet
-3D structure similarity search,Annika Jensen,Karolinska Institutet
-AMBER force field simulation,Annika Jensen,Karolinska Institutet
-AutoDock docking method,Annika Jensen,Karolinska Institutet
-cheminformatics method,Annika Jensen,Karolinska Institutet
-circular fingerprint search,Annika Jensen,Karolinska Institutet
-Clustal sequence alignment,Annika Jensen,Karolinska Institutet
-ClustalW sequence alignment,Annika Jensen,Karolinska Institutet
-ClustalX sequence alignment,Annika Jensen,Karolinska Institutet
-CoMFA pharmacophore search,Annika Jensen,Karolinska Institutet
-comparative molecular field analysis,Annika Jensen,Karolinska Institutet
-computational phylogenetic analysis,Annika Jensen,Karolinska Institutet
-computational structure analysis,Annika Jensen,Karolinska Institutet
-computer simulation method,Annika Jensen,Karolinska Institutet
-computer simulation method by force field,Annika Jensen,Karolinska Institutet
-conformational search,Annika Jensen,Karolinska Institutet
-conjugate gradient method,Annika Jensen,Karolinska Institutet
-constraint molecular dynamics simulation,Annika Jensen,Karolinska Institutet
-data based structure generation,Annika Jensen,Karolinska Institutet
-database filtering,Annika Jensen,Karolinska Institutet
-de novo structure design,Annika Jensen,Karolinska Institutet
-decision tree,Annika Jensen,Karolinska Institutet
-descriptor matching method,Annika Jensen,Karolinska Institutet
-dihedral conformational search,Annika Jensen,Karolinska Institutet
-distance comparison modeling,Annika Jensen,Karolinska Institutet
-DOCK docking method,Annika Jensen,Karolinska Institutet
-empirical scoring function,Annika Jensen,Karolinska Institutet
-energy minimization method,Annika Jensen,Karolinska Institutet
-exact match structure search,Annika Jensen,Karolinska Institutet
-experimental design method,Annika Jensen,Karolinska Institutet
-FASTA local sequence alignment,Annika Jensen,Karolinska Institutet
-force field based scoring function,Annika Jensen,Karolinska Institutet
-fractional factorial design,Annika Jensen,Karolinska Institutet
-fragment based structure generation,Annika Jensen,Karolinska Institutet
-full factorial design,Annika Jensen,Karolinska Institutet
-genetic algorithm method,Annika Jensen,Karolinska Institutet
-GOLD docking method,Annika Jensen,Karolinska Institutet
-GOLD scoring function,Annika Jensen,Karolinska Institutet
-hierarchial clustering,Annika Jensen,Karolinska Institutet
-homology modeling,Annika Jensen,Karolinska Institutet
-k means clustering,Annika Jensen,Karolinska Institutet
-knowledge based scoring function,Annika Jensen,Karolinska Institutet
-ligand based pharmacophore model,Annika Jensen,Karolinska Institutet
-ligand based virtual screening,Annika Jensen,Karolinska Institutet
-linear QSAR,Annika Jensen,Karolinska Institutet
-Lipinski rule of 5 filtering,Annika Jensen,Karolinska Institutet
-local minimum search,Annika Jensen,Karolinska Institutet
-MMFF force field simulation,Annika Jensen,Karolinska Institutet
-MODELLER homology modeling,Annika Jensen,Karolinska Institutet
-molecular docking,Annika Jensen,Karolinska Institutet
-molecular docking by method,Annika Jensen,Karolinska Institutet
-molecular docking by scoring function,Annika Jensen,Karolinska Institutet
-molecular dynamics simulation,Annika Jensen,Karolinska Institutet
-multiple sequence alignment,Annika Jensen,Karolinska Institutet
-neural network QSAR,Annika Jensen,Karolinska Institutet
-Newton-Raphson method,Annika Jensen,Karolinska Institutet
-non-linear QSAR,Annika Jensen,Karolinska Institutet
-partial least squares QSAR,Annika Jensen,Karolinska Institutet
-pathway analysis,Annika Jensen,Karolinska Institutet
-principal component analysis,Annika Jensen,Karolinska Institutet
-protein-protein docking,Annika Jensen,Karolinska Institutet
-quantitative structure activity relationship analysis,Annika Jensen,Karolinska Institutet
-random conformational search,Annika Jensen,Karolinska Institutet
-receptor based pharmacophore search,Annika Jensen,Karolinska Institutet
-regression QSAR,Annika Jensen,Karolinska Institutet
-scaffold hopping,Annika Jensen,Karolinska Institutet
-sequence alignment,Annika Jensen,Karolinska Institutet
-shape fingerprint search,Annika Jensen,Karolinska Institutet
-structure activity relationship analysis,Annika Jensen,Karolinska Institutet
-structure alignment,Annika Jensen,Karolinska Institutet
-structure based virtual screening,Annika Jensen,Karolinska Institutet
-structure database search,Annika Jensen,Karolinska Institutet
-structure similarity search,Annika Jensen,Karolinska Institutet
-substructure search,Annika Jensen,Karolinska Institutet
-SwissModel homology modeling,Annika Jensen,Karolinska Institutet
-systematic conformational search,Annika Jensen,Karolinska Institutet
-target family knowledge analysis,Annika Jensen,Karolinska Institutet
-three dimensional QSAR,Annika Jensen,Karolinska Institutet
-two dimensional QSAR,Annika Jensen,Karolinska Institutet
-virtual screening,Annika Jensen,Karolinska Institutet
 2D structure prediction,Katja Herzog,Fraunhofer-Gesellschaft
 2D structure similarity search,Katja Herzog,Fraunhofer-Gesellschaft
 3D structure prediction,Katja Herzog,Fraunhofer-Gesellschaft
@@ -1707,3 +1231,1408 @@ target family knowledge analysis,Anna-Lena Gustavsson,Karolinska Institutet
 three dimensional QSAR,Anna-Lena Gustavsson,Karolinska Institutet
 two dimensional QSAR,Anna-Lena Gustavsson,Karolinska Institutet
 virtual screening,Anna-Lena Gustavsson,Karolinska Institutet
+2D structure prediction,Leonie von Berlin,Fraunhofer-Gesellschaft
+2D structure similarity search,Leonie von Berlin,Fraunhofer-Gesellschaft
+3D structure prediction,Leonie von Berlin,Fraunhofer-Gesellschaft
+3D structure similarity search,Leonie von Berlin,Fraunhofer-Gesellschaft
+AutoDock docking method,Leonie von Berlin,Fraunhofer-Gesellschaft
+cartesian conformational search,Leonie von Berlin,Fraunhofer-Gesellschaft
+cheminformatics method,Leonie von Berlin,Fraunhofer-Gesellschaft
+circular fingerprint search,Leonie von Berlin,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+computational structure analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+computer simulation method,Leonie von Berlin,Fraunhofer-Gesellschaft
+computer simulation method by force field,Leonie von Berlin,Fraunhofer-Gesellschaft
+conformational search,Leonie von Berlin,Fraunhofer-Gesellschaft
+conjugate gradient method,Leonie von Berlin,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Leonie von Berlin,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+data based structure generation,Leonie von Berlin,Fraunhofer-Gesellschaft
+database filtering,Leonie von Berlin,Fraunhofer-Gesellschaft
+de novo structure design,Leonie von Berlin,Fraunhofer-Gesellschaft
+decision tree,Leonie von Berlin,Fraunhofer-Gesellschaft
+descriptor matching method,Leonie von Berlin,Fraunhofer-Gesellschaft
+dihedral conformational search,Leonie von Berlin,Fraunhofer-Gesellschaft
+distance comparison modeling,Leonie von Berlin,Fraunhofer-Gesellschaft
+distance matrix alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+DrugScore scoring function,Leonie von Berlin,Fraunhofer-Gesellschaft
+energy minimization method,Leonie von Berlin,Fraunhofer-Gesellschaft
+exact match structure search,Leonie von Berlin,Fraunhofer-Gesellschaft
+experimental design method,Leonie von Berlin,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+force field based scoring function,Leonie von Berlin,Fraunhofer-Gesellschaft
+fractional factorial design,Leonie von Berlin,Fraunhofer-Gesellschaft
+fragment based structure generation,Leonie von Berlin,Fraunhofer-Gesellschaft
+full factorial design,Leonie von Berlin,Fraunhofer-Gesellschaft
+global minimum search,Leonie von Berlin,Fraunhofer-Gesellschaft
+GOLD docking method,Leonie von Berlin,Fraunhofer-Gesellschaft
+GOLD scoring function,Leonie von Berlin,Fraunhofer-Gesellschaft
+Hartree-Fock method,Leonie von Berlin,Fraunhofer-Gesellschaft
+hierarchial clustering,Leonie von Berlin,Fraunhofer-Gesellschaft
+homology modeling,Leonie von Berlin,Fraunhofer-Gesellschaft
+k means clustering,Leonie von Berlin,Fraunhofer-Gesellschaft
+ligand based pharmacophore model,Leonie von Berlin,Fraunhofer-Gesellschaft
+ligand based virtual screening,Leonie von Berlin,Fraunhofer-Gesellschaft
+linear QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+Lipinski rule of 5 filtering,Leonie von Berlin,Fraunhofer-Gesellschaft
+local minimum search,Leonie von Berlin,Fraunhofer-Gesellschaft
+local sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+MMFF force field simulation,Leonie von Berlin,Fraunhofer-Gesellschaft
+MODELLER homology modeling,Leonie von Berlin,Fraunhofer-Gesellschaft
+molecular docking,Leonie von Berlin,Fraunhofer-Gesellschaft
+molecular docking by method,Leonie von Berlin,Fraunhofer-Gesellschaft
+molecular docking by scoring function,Leonie von Berlin,Fraunhofer-Gesellschaft
+molecular dynamics simulation,Leonie von Berlin,Fraunhofer-Gesellschaft
+multiple sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+natural language processing,Leonie von Berlin,Fraunhofer-Gesellschaft
+network analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+neural network model,Leonie von Berlin,Fraunhofer-Gesellschaft
+neural network QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+Newton-Raphson method,Leonie von Berlin,Fraunhofer-Gesellschaft
+non-linear QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+pairwise sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+parameterized model number 3,Leonie von Berlin,Fraunhofer-Gesellschaft
+partial least squares QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+post Hartree-Fock method,Leonie von Berlin,Fraunhofer-Gesellschaft
+principal component analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+protein-protein docking,Leonie von Berlin,Fraunhofer-Gesellschaft
+quantitative structure activity relationship analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+random conformational search,Leonie von Berlin,Fraunhofer-Gesellschaft
+randomized block design,Leonie von Berlin,Fraunhofer-Gesellschaft
+RAPTOR protein threading,Leonie von Berlin,Fraunhofer-Gesellschaft
+receptor based pharmacophore search,Leonie von Berlin,Fraunhofer-Gesellschaft
+recursive partitioning QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+regression QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+restricted open-shell Hartree-Fock,Leonie von Berlin,Fraunhofer-Gesellschaft
+scaffold hopping,Leonie von Berlin,Fraunhofer-Gesellschaft
+secondary structure analysis method,Leonie von Berlin,Fraunhofer-Gesellschaft
+self organizing molecular field analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+sequence alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+sequence alignment by method,Leonie von Berlin,Fraunhofer-Gesellschaft
+sequence alignment by type,Leonie von Berlin,Fraunhofer-Gesellschaft
+sequencing data alignment software,Leonie von Berlin,Fraunhofer-Gesellschaft
+sequencing data analysis software,Leonie von Berlin,Fraunhofer-Gesellschaft
+shape fingerprint search,Leonie von Berlin,Fraunhofer-Gesellschaft
+simulated annealing,Leonie von Berlin,Fraunhofer-Gesellschaft
+structure activity relationship analysis,Leonie von Berlin,Fraunhofer-Gesellschaft
+structure alignment,Leonie von Berlin,Fraunhofer-Gesellschaft
+structure based virtual screening,Leonie von Berlin,Fraunhofer-Gesellschaft
+structure database search,Leonie von Berlin,Fraunhofer-Gesellschaft
+structure similarity search,Leonie von Berlin,Fraunhofer-Gesellschaft
+substructure search,Leonie von Berlin,Fraunhofer-Gesellschaft
+SwissModel homology modeling,Leonie von Berlin,Fraunhofer-Gesellschaft
+systematic conformational search,Leonie von Berlin,Fraunhofer-Gesellschaft
+three dimensional QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+topomer search,Leonie von Berlin,Fraunhofer-Gesellschaft
+two dimensional QSAR,Leonie von Berlin,Fraunhofer-Gesellschaft
+virtual screening,Leonie von Berlin,Fraunhofer-Gesellschaft
+2D structure prediction,Maria Kuzikov,Fraunhofer-Gesellschaft
+2D structure similarity search,Maria Kuzikov,Fraunhofer-Gesellschaft
+3D structure prediction,Maria Kuzikov,Fraunhofer-Gesellschaft
+3D structure similarity search,Maria Kuzikov,Fraunhofer-Gesellschaft
+AutoDock docking method,Maria Kuzikov,Fraunhofer-Gesellschaft
+cartesian conformational search,Maria Kuzikov,Fraunhofer-Gesellschaft
+cheminformatics method,Maria Kuzikov,Fraunhofer-Gesellschaft
+circular fingerprint search,Maria Kuzikov,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+computational structure analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+computer simulation method,Maria Kuzikov,Fraunhofer-Gesellschaft
+computer simulation method by force field,Maria Kuzikov,Fraunhofer-Gesellschaft
+conformational search,Maria Kuzikov,Fraunhofer-Gesellschaft
+conjugate gradient method,Maria Kuzikov,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Maria Kuzikov,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+data based structure generation,Maria Kuzikov,Fraunhofer-Gesellschaft
+database filtering,Maria Kuzikov,Fraunhofer-Gesellschaft
+de novo structure design,Maria Kuzikov,Fraunhofer-Gesellschaft
+decision tree,Maria Kuzikov,Fraunhofer-Gesellschaft
+descriptor matching method,Maria Kuzikov,Fraunhofer-Gesellschaft
+dihedral conformational search,Maria Kuzikov,Fraunhofer-Gesellschaft
+distance comparison modeling,Maria Kuzikov,Fraunhofer-Gesellschaft
+distance matrix alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+DrugScore scoring function,Maria Kuzikov,Fraunhofer-Gesellschaft
+energy minimization method,Maria Kuzikov,Fraunhofer-Gesellschaft
+exact match structure search,Maria Kuzikov,Fraunhofer-Gesellschaft
+experimental design method,Maria Kuzikov,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+force field based scoring function,Maria Kuzikov,Fraunhofer-Gesellschaft
+fractional factorial design,Maria Kuzikov,Fraunhofer-Gesellschaft
+fragment based structure generation,Maria Kuzikov,Fraunhofer-Gesellschaft
+full factorial design,Maria Kuzikov,Fraunhofer-Gesellschaft
+global minimum search,Maria Kuzikov,Fraunhofer-Gesellschaft
+GOLD docking method,Maria Kuzikov,Fraunhofer-Gesellschaft
+GOLD scoring function,Maria Kuzikov,Fraunhofer-Gesellschaft
+Hartree-Fock method,Maria Kuzikov,Fraunhofer-Gesellschaft
+hierarchial clustering,Maria Kuzikov,Fraunhofer-Gesellschaft
+homology modeling,Maria Kuzikov,Fraunhofer-Gesellschaft
+k means clustering,Maria Kuzikov,Fraunhofer-Gesellschaft
+ligand based pharmacophore model,Maria Kuzikov,Fraunhofer-Gesellschaft
+ligand based virtual screening,Maria Kuzikov,Fraunhofer-Gesellschaft
+linear QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+Lipinski rule of 5 filtering,Maria Kuzikov,Fraunhofer-Gesellschaft
+local minimum search,Maria Kuzikov,Fraunhofer-Gesellschaft
+local sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+MMFF force field simulation,Maria Kuzikov,Fraunhofer-Gesellschaft
+MODELLER homology modeling,Maria Kuzikov,Fraunhofer-Gesellschaft
+molecular docking,Maria Kuzikov,Fraunhofer-Gesellschaft
+molecular docking by method,Maria Kuzikov,Fraunhofer-Gesellschaft
+molecular docking by scoring function,Maria Kuzikov,Fraunhofer-Gesellschaft
+molecular dynamics simulation,Maria Kuzikov,Fraunhofer-Gesellschaft
+multiple sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+natural language processing,Maria Kuzikov,Fraunhofer-Gesellschaft
+network analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+neural network model,Maria Kuzikov,Fraunhofer-Gesellschaft
+neural network QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+Newton-Raphson method,Maria Kuzikov,Fraunhofer-Gesellschaft
+non-linear QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+pairwise sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+parameterized model number 3,Maria Kuzikov,Fraunhofer-Gesellschaft
+partial least squares QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+post Hartree-Fock method,Maria Kuzikov,Fraunhofer-Gesellschaft
+principal component analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+protein-protein docking,Maria Kuzikov,Fraunhofer-Gesellschaft
+quantitative structure activity relationship analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+random conformational search,Maria Kuzikov,Fraunhofer-Gesellschaft
+randomized block design,Maria Kuzikov,Fraunhofer-Gesellschaft
+RAPTOR protein threading,Maria Kuzikov,Fraunhofer-Gesellschaft
+receptor based pharmacophore search,Maria Kuzikov,Fraunhofer-Gesellschaft
+recursive partitioning QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+regression QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+restricted open-shell Hartree-Fock,Maria Kuzikov,Fraunhofer-Gesellschaft
+scaffold hopping,Maria Kuzikov,Fraunhofer-Gesellschaft
+secondary structure analysis method,Maria Kuzikov,Fraunhofer-Gesellschaft
+self organizing molecular field analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+sequence alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+sequence alignment by method,Maria Kuzikov,Fraunhofer-Gesellschaft
+sequence alignment by type,Maria Kuzikov,Fraunhofer-Gesellschaft
+sequencing data alignment software,Maria Kuzikov,Fraunhofer-Gesellschaft
+sequencing data analysis software,Maria Kuzikov,Fraunhofer-Gesellschaft
+shape fingerprint search,Maria Kuzikov,Fraunhofer-Gesellschaft
+simulated annealing,Maria Kuzikov,Fraunhofer-Gesellschaft
+structure activity relationship analysis,Maria Kuzikov,Fraunhofer-Gesellschaft
+structure alignment,Maria Kuzikov,Fraunhofer-Gesellschaft
+structure based virtual screening,Maria Kuzikov,Fraunhofer-Gesellschaft
+structure database search,Maria Kuzikov,Fraunhofer-Gesellschaft
+structure similarity search,Maria Kuzikov,Fraunhofer-Gesellschaft
+substructure search,Maria Kuzikov,Fraunhofer-Gesellschaft
+SwissModel homology modeling,Maria Kuzikov,Fraunhofer-Gesellschaft
+systematic conformational search,Maria Kuzikov,Fraunhofer-Gesellschaft
+three dimensional QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+topomer search,Maria Kuzikov,Fraunhofer-Gesellschaft
+two dimensional QSAR,Maria Kuzikov,Fraunhofer-Gesellschaft
+virtual screening,Maria Kuzikov,Fraunhofer-Gesellschaft
+2D structure prediction,Axel Pahl,Fraunhofer-Gesellschaft
+2D structure similarity search,Axel Pahl,Fraunhofer-Gesellschaft
+3D structure prediction,Axel Pahl,Fraunhofer-Gesellschaft
+3D structure similarity search,Axel Pahl,Fraunhofer-Gesellschaft
+AutoDock docking method,Axel Pahl,Fraunhofer-Gesellschaft
+cartesian conformational search,Axel Pahl,Fraunhofer-Gesellschaft
+cheminformatics method,Axel Pahl,Fraunhofer-Gesellschaft
+circular fingerprint search,Axel Pahl,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Axel Pahl,Fraunhofer-Gesellschaft
+computational structure analysis,Axel Pahl,Fraunhofer-Gesellschaft
+computer simulation method,Axel Pahl,Fraunhofer-Gesellschaft
+computer simulation method by force field,Axel Pahl,Fraunhofer-Gesellschaft
+conformational search,Axel Pahl,Fraunhofer-Gesellschaft
+conjugate gradient method,Axel Pahl,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Axel Pahl,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Axel Pahl,Fraunhofer-Gesellschaft
+data based structure generation,Axel Pahl,Fraunhofer-Gesellschaft
+database filtering,Axel Pahl,Fraunhofer-Gesellschaft
+de novo structure design,Axel Pahl,Fraunhofer-Gesellschaft
+decision tree,Axel Pahl,Fraunhofer-Gesellschaft
+descriptor matching method,Axel Pahl,Fraunhofer-Gesellschaft
+dihedral conformational search,Axel Pahl,Fraunhofer-Gesellschaft
+distance comparison modeling,Axel Pahl,Fraunhofer-Gesellschaft
+distance matrix alignment,Axel Pahl,Fraunhofer-Gesellschaft
+DrugScore scoring function,Axel Pahl,Fraunhofer-Gesellschaft
+energy minimization method,Axel Pahl,Fraunhofer-Gesellschaft
+exact match structure search,Axel Pahl,Fraunhofer-Gesellschaft
+experimental design method,Axel Pahl,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+force field based scoring function,Axel Pahl,Fraunhofer-Gesellschaft
+fractional factorial design,Axel Pahl,Fraunhofer-Gesellschaft
+fragment based structure generation,Axel Pahl,Fraunhofer-Gesellschaft
+full factorial design,Axel Pahl,Fraunhofer-Gesellschaft
+global minimum search,Axel Pahl,Fraunhofer-Gesellschaft
+GOLD docking method,Axel Pahl,Fraunhofer-Gesellschaft
+GOLD scoring function,Axel Pahl,Fraunhofer-Gesellschaft
+Hartree-Fock method,Axel Pahl,Fraunhofer-Gesellschaft
+hierarchial clustering,Axel Pahl,Fraunhofer-Gesellschaft
+homology modeling,Axel Pahl,Fraunhofer-Gesellschaft
+k means clustering,Axel Pahl,Fraunhofer-Gesellschaft
+ligand based pharmacophore model,Axel Pahl,Fraunhofer-Gesellschaft
+ligand based virtual screening,Axel Pahl,Fraunhofer-Gesellschaft
+linear QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+Lipinski rule of 5 filtering,Axel Pahl,Fraunhofer-Gesellschaft
+local minimum search,Axel Pahl,Fraunhofer-Gesellschaft
+local sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+MMFF force field simulation,Axel Pahl,Fraunhofer-Gesellschaft
+MODELLER homology modeling,Axel Pahl,Fraunhofer-Gesellschaft
+molecular docking,Axel Pahl,Fraunhofer-Gesellschaft
+molecular docking by method,Axel Pahl,Fraunhofer-Gesellschaft
+molecular docking by scoring function,Axel Pahl,Fraunhofer-Gesellschaft
+molecular dynamics simulation,Axel Pahl,Fraunhofer-Gesellschaft
+multiple sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+natural language processing,Axel Pahl,Fraunhofer-Gesellschaft
+network analysis,Axel Pahl,Fraunhofer-Gesellschaft
+neural network model,Axel Pahl,Fraunhofer-Gesellschaft
+neural network QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+Newton-Raphson method,Axel Pahl,Fraunhofer-Gesellschaft
+non-linear QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+pairwise sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+parameterized model number 3,Axel Pahl,Fraunhofer-Gesellschaft
+partial least squares QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+post Hartree-Fock method,Axel Pahl,Fraunhofer-Gesellschaft
+principal component analysis,Axel Pahl,Fraunhofer-Gesellschaft
+protein-protein docking,Axel Pahl,Fraunhofer-Gesellschaft
+quantitative structure activity relationship analysis,Axel Pahl,Fraunhofer-Gesellschaft
+random conformational search,Axel Pahl,Fraunhofer-Gesellschaft
+randomized block design,Axel Pahl,Fraunhofer-Gesellschaft
+RAPTOR protein threading,Axel Pahl,Fraunhofer-Gesellschaft
+receptor based pharmacophore search,Axel Pahl,Fraunhofer-Gesellschaft
+recursive partitioning QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+regression QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+restricted open-shell Hartree-Fock,Axel Pahl,Fraunhofer-Gesellschaft
+scaffold hopping,Axel Pahl,Fraunhofer-Gesellschaft
+secondary structure analysis method,Axel Pahl,Fraunhofer-Gesellschaft
+self organizing molecular field analysis,Axel Pahl,Fraunhofer-Gesellschaft
+sequence alignment,Axel Pahl,Fraunhofer-Gesellschaft
+sequence alignment by method,Axel Pahl,Fraunhofer-Gesellschaft
+sequence alignment by type,Axel Pahl,Fraunhofer-Gesellschaft
+sequencing data alignment software,Axel Pahl,Fraunhofer-Gesellschaft
+sequencing data analysis software,Axel Pahl,Fraunhofer-Gesellschaft
+shape fingerprint search,Axel Pahl,Fraunhofer-Gesellschaft
+simulated annealing,Axel Pahl,Fraunhofer-Gesellschaft
+structure activity relationship analysis,Axel Pahl,Fraunhofer-Gesellschaft
+structure alignment,Axel Pahl,Fraunhofer-Gesellschaft
+structure based virtual screening,Axel Pahl,Fraunhofer-Gesellschaft
+structure database search,Axel Pahl,Fraunhofer-Gesellschaft
+structure similarity search,Axel Pahl,Fraunhofer-Gesellschaft
+substructure search,Axel Pahl,Fraunhofer-Gesellschaft
+SwissModel homology modeling,Axel Pahl,Fraunhofer-Gesellschaft
+systematic conformational search,Axel Pahl,Fraunhofer-Gesellschaft
+three dimensional QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+topomer search,Axel Pahl,Fraunhofer-Gesellschaft
+two dimensional QSAR,Axel Pahl,Fraunhofer-Gesellschaft
+virtual screening,Axel Pahl,Fraunhofer-Gesellschaft
+AMBER force field simulation,Alfredo Budillon,Istituto Nazionale Tumori
+AutoDock docking method,Alfredo Budillon,Istituto Nazionale Tumori
+AutoDock3 docking method,Alfredo Budillon,Istituto Nazionale Tumori
+AutoDock3 scoring function,Alfredo Budillon,Istituto Nazionale Tumori
+automatic pathway analysis,Alfredo Budillon,Istituto Nazionale Tumori
+basic local alignment search tool,Alfredo Budillon,Istituto Nazionale Tumori
+CFF force field simulation,Alfredo Budillon,Istituto Nazionale Tumori
+CHARMM force field simulation,Alfredo Budillon,Istituto Nazionale Tumori
+Clustal sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+ClustalW sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+ClustalX sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+conjugate gradient method,Alfredo Budillon,Istituto Nazionale Tumori
+Cytoscape network analysis,Alfredo Budillon,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+DOCK docking method,Alfredo Budillon,Istituto Nazionale Tumori
+DOCK4 docking method,Alfredo Budillon,Istituto Nazionale Tumori
+energy minimization method,Alfredo Budillon,Istituto Nazionale Tumori
+FASTA local sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+force field based scoring function,Alfredo Budillon,Istituto Nazionale Tumori
+GROMOS force field simulation,Alfredo Budillon,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Alfredo Budillon,Istituto Nazionale Tumori
+homology modeling,Alfredo Budillon,Istituto Nazionale Tumori
+ligand based pharmacophore model,Alfredo Budillon,Istituto Nazionale Tumori
+ligand based virtual screening,Alfredo Budillon,Istituto Nazionale Tumori
+local sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+MODELLER homology modeling,Alfredo Budillon,Istituto Nazionale Tumori
+molecular docking,Alfredo Budillon,Istituto Nazionale Tumori
+molecular docking by method,Alfredo Budillon,Istituto Nazionale Tumori
+molecular dynamics simulation,Alfredo Budillon,Istituto Nazionale Tumori
+multiple sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+network analysis,Alfredo Budillon,Istituto Nazionale Tumori
+pairwise sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+pathway analysis,Alfredo Budillon,Istituto Nazionale Tumori
+PREDATOR structure prediction,Alfredo Budillon,Istituto Nazionale Tumori
+PredictProtein structure prediction,Alfredo Budillon,Istituto Nazionale Tumori
+principal component analysis,Alfredo Budillon,Istituto Nazionale Tumori
+protein threading,Alfredo Budillon,Istituto Nazionale Tumori
+protein-protein docking,Alfredo Budillon,Istituto Nazionale Tumori
+second generation force field simulation,Alfredo Budillon,Istituto Nazionale Tumori
+secondary structure analysis method,Alfredo Budillon,Istituto Nazionale Tumori
+self organizing molecular field analysis,Alfredo Budillon,Istituto Nazionale Tumori
+sequence alignment,Alfredo Budillon,Istituto Nazionale Tumori
+statistical classification method,Alfredo Budillon,Istituto Nazionale Tumori
+structure alignment,Alfredo Budillon,Istituto Nazionale Tumori
+structure based virtual screening,Alfredo Budillon,Istituto Nazionale Tumori
+structure database search,Alfredo Budillon,Istituto Nazionale Tumori
+structure similarity search,Alfredo Budillon,Istituto Nazionale Tumori
+SwissModel homology modeling,Alfredo Budillon,Istituto Nazionale Tumori
+virtual screening,Alfredo Budillon,Istituto Nazionale Tumori
+2D structure prediction,Andrea Zaliani,Fraunhofer-Gesellschaft
+2D structure similarity search,Andrea Zaliani,Fraunhofer-Gesellschaft
+3D structure prediction,Andrea Zaliani,Fraunhofer-Gesellschaft
+3D structure similarity search,Andrea Zaliani,Fraunhofer-Gesellschaft
+AutoDock docking method,Andrea Zaliani,Fraunhofer-Gesellschaft
+cartesian conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
+cheminformatics method,Andrea Zaliani,Fraunhofer-Gesellschaft
+circular fingerprint search,Andrea Zaliani,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+computational structure analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+computer simulation method,Andrea Zaliani,Fraunhofer-Gesellschaft
+computer simulation method by force field,Andrea Zaliani,Fraunhofer-Gesellschaft
+conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
+conjugate gradient method,Andrea Zaliani,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Andrea Zaliani,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+data based structure generation,Andrea Zaliani,Fraunhofer-Gesellschaft
+database filtering,Andrea Zaliani,Fraunhofer-Gesellschaft
+de novo structure design,Andrea Zaliani,Fraunhofer-Gesellschaft
+decision tree,Andrea Zaliani,Fraunhofer-Gesellschaft
+descriptor matching method,Andrea Zaliani,Fraunhofer-Gesellschaft
+dihedral conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
+distance comparison modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
+distance matrix alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+DrugScore scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
+energy minimization method,Andrea Zaliani,Fraunhofer-Gesellschaft
+exact match structure search,Andrea Zaliani,Fraunhofer-Gesellschaft
+experimental design method,Andrea Zaliani,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+force field based scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
+fractional factorial design,Andrea Zaliani,Fraunhofer-Gesellschaft
+fragment based structure generation,Andrea Zaliani,Fraunhofer-Gesellschaft
+full factorial design,Andrea Zaliani,Fraunhofer-Gesellschaft
+global minimum search,Andrea Zaliani,Fraunhofer-Gesellschaft
+GOLD docking method,Andrea Zaliani,Fraunhofer-Gesellschaft
+GOLD scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
+Hartree-Fock method,Andrea Zaliani,Fraunhofer-Gesellschaft
+hierarchial clustering,Andrea Zaliani,Fraunhofer-Gesellschaft
+homology modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
+k means clustering,Andrea Zaliani,Fraunhofer-Gesellschaft
+ligand based pharmacophore model,Andrea Zaliani,Fraunhofer-Gesellschaft
+ligand based virtual screening,Andrea Zaliani,Fraunhofer-Gesellschaft
+linear QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+Lipinski rule of 5 filtering,Andrea Zaliani,Fraunhofer-Gesellschaft
+local minimum search,Andrea Zaliani,Fraunhofer-Gesellschaft
+local sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+MMFF force field simulation,Andrea Zaliani,Fraunhofer-Gesellschaft
+MODELLER homology modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
+molecular docking,Andrea Zaliani,Fraunhofer-Gesellschaft
+molecular docking by method,Andrea Zaliani,Fraunhofer-Gesellschaft
+molecular docking by scoring function,Andrea Zaliani,Fraunhofer-Gesellschaft
+molecular dynamics simulation,Andrea Zaliani,Fraunhofer-Gesellschaft
+multiple sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+natural language processing,Andrea Zaliani,Fraunhofer-Gesellschaft
+network analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+neural network model,Andrea Zaliani,Fraunhofer-Gesellschaft
+neural network QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+Newton-Raphson method,Andrea Zaliani,Fraunhofer-Gesellschaft
+non-linear QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+pairwise sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+parameterized model number 3,Andrea Zaliani,Fraunhofer-Gesellschaft
+partial least squares QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+post Hartree-Fock method,Andrea Zaliani,Fraunhofer-Gesellschaft
+principal component analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+protein-protein docking,Andrea Zaliani,Fraunhofer-Gesellschaft
+quantitative structure activity relationship analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+random conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
+randomized block design,Andrea Zaliani,Fraunhofer-Gesellschaft
+RAPTOR protein threading,Andrea Zaliani,Fraunhofer-Gesellschaft
+receptor based pharmacophore search,Andrea Zaliani,Fraunhofer-Gesellschaft
+recursive partitioning QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+regression QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+restricted open-shell Hartree-Fock,Andrea Zaliani,Fraunhofer-Gesellschaft
+scaffold hopping,Andrea Zaliani,Fraunhofer-Gesellschaft
+secondary structure analysis method,Andrea Zaliani,Fraunhofer-Gesellschaft
+self organizing molecular field analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+sequence alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+sequence alignment by method,Andrea Zaliani,Fraunhofer-Gesellschaft
+sequence alignment by type,Andrea Zaliani,Fraunhofer-Gesellschaft
+sequencing data alignment software,Andrea Zaliani,Fraunhofer-Gesellschaft
+sequencing data analysis software,Andrea Zaliani,Fraunhofer-Gesellschaft
+shape fingerprint search,Andrea Zaliani,Fraunhofer-Gesellschaft
+simulated annealing,Andrea Zaliani,Fraunhofer-Gesellschaft
+structure activity relationship analysis,Andrea Zaliani,Fraunhofer-Gesellschaft
+structure alignment,Andrea Zaliani,Fraunhofer-Gesellschaft
+structure based virtual screening,Andrea Zaliani,Fraunhofer-Gesellschaft
+structure database search,Andrea Zaliani,Fraunhofer-Gesellschaft
+structure similarity search,Andrea Zaliani,Fraunhofer-Gesellschaft
+substructure search,Andrea Zaliani,Fraunhofer-Gesellschaft
+SwissModel homology modeling,Andrea Zaliani,Fraunhofer-Gesellschaft
+systematic conformational search,Andrea Zaliani,Fraunhofer-Gesellschaft
+three dimensional QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+topomer search,Andrea Zaliani,Fraunhofer-Gesellschaft
+two dimensional QSAR,Andrea Zaliani,Fraunhofer-Gesellschaft
+virtual screening,Andrea Zaliani,Fraunhofer-Gesellschaft
+2D structure prediction,Brinton Seashore-Ludlow,Karolinska Institutet
+2D structure similarity search,Brinton Seashore-Ludlow,Karolinska Institutet
+3D structure prediction,Brinton Seashore-Ludlow,Karolinska Institutet
+3D structure similarity search,Brinton Seashore-Ludlow,Karolinska Institutet
+AMBER force field simulation,Brinton Seashore-Ludlow,Karolinska Institutet
+AutoDock docking method,Brinton Seashore-Ludlow,Karolinska Institutet
+cheminformatics method,Brinton Seashore-Ludlow,Karolinska Institutet
+circular fingerprint search,Brinton Seashore-Ludlow,Karolinska Institutet
+Clustal sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
+ClustalW sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
+ClustalX sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
+CoMFA pharmacophore search,Brinton Seashore-Ludlow,Karolinska Institutet
+comparative molecular field analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+computational phylogenetic analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+computational structure analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+computer simulation method,Brinton Seashore-Ludlow,Karolinska Institutet
+computer simulation method by force field,Brinton Seashore-Ludlow,Karolinska Institutet
+conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
+conjugate gradient method,Brinton Seashore-Ludlow,Karolinska Institutet
+constraint molecular dynamics simulation,Brinton Seashore-Ludlow,Karolinska Institutet
+data based structure generation,Brinton Seashore-Ludlow,Karolinska Institutet
+database filtering,Brinton Seashore-Ludlow,Karolinska Institutet
+de novo structure design,Brinton Seashore-Ludlow,Karolinska Institutet
+decision tree,Brinton Seashore-Ludlow,Karolinska Institutet
+descriptor matching method,Brinton Seashore-Ludlow,Karolinska Institutet
+dihedral conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
+distance comparison modeling,Brinton Seashore-Ludlow,Karolinska Institutet
+DOCK docking method,Brinton Seashore-Ludlow,Karolinska Institutet
+empirical scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
+energy minimization method,Brinton Seashore-Ludlow,Karolinska Institutet
+exact match structure search,Brinton Seashore-Ludlow,Karolinska Institutet
+experimental design method,Brinton Seashore-Ludlow,Karolinska Institutet
+FASTA local sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
+force field based scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
+fractional factorial design,Brinton Seashore-Ludlow,Karolinska Institutet
+fragment based structure generation,Brinton Seashore-Ludlow,Karolinska Institutet
+full factorial design,Brinton Seashore-Ludlow,Karolinska Institutet
+genetic algorithm method,Brinton Seashore-Ludlow,Karolinska Institutet
+GOLD docking method,Brinton Seashore-Ludlow,Karolinska Institutet
+GOLD scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
+hierarchial clustering,Brinton Seashore-Ludlow,Karolinska Institutet
+homology modeling,Brinton Seashore-Ludlow,Karolinska Institutet
+k means clustering,Brinton Seashore-Ludlow,Karolinska Institutet
+knowledge based scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
+ligand based pharmacophore model,Brinton Seashore-Ludlow,Karolinska Institutet
+ligand based virtual screening,Brinton Seashore-Ludlow,Karolinska Institutet
+linear QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
+Lipinski rule of 5 filtering,Brinton Seashore-Ludlow,Karolinska Institutet
+local minimum search,Brinton Seashore-Ludlow,Karolinska Institutet
+MMFF force field simulation,Brinton Seashore-Ludlow,Karolinska Institutet
+MODELLER homology modeling,Brinton Seashore-Ludlow,Karolinska Institutet
+molecular docking,Brinton Seashore-Ludlow,Karolinska Institutet
+molecular docking by method,Brinton Seashore-Ludlow,Karolinska Institutet
+molecular docking by scoring function,Brinton Seashore-Ludlow,Karolinska Institutet
+molecular dynamics simulation,Brinton Seashore-Ludlow,Karolinska Institutet
+multiple sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
+neural network QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
+Newton-Raphson method,Brinton Seashore-Ludlow,Karolinska Institutet
+non-linear QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
+partial least squares QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
+pathway analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+principal component analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+protein-protein docking,Brinton Seashore-Ludlow,Karolinska Institutet
+quantitative structure activity relationship analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+random conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
+receptor based pharmacophore search,Brinton Seashore-Ludlow,Karolinska Institutet
+regression QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
+scaffold hopping,Brinton Seashore-Ludlow,Karolinska Institutet
+sequence alignment,Brinton Seashore-Ludlow,Karolinska Institutet
+shape fingerprint search,Brinton Seashore-Ludlow,Karolinska Institutet
+structure activity relationship analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+structure alignment,Brinton Seashore-Ludlow,Karolinska Institutet
+structure based virtual screening,Brinton Seashore-Ludlow,Karolinska Institutet
+structure database search,Brinton Seashore-Ludlow,Karolinska Institutet
+structure similarity search,Brinton Seashore-Ludlow,Karolinska Institutet
+substructure search,Brinton Seashore-Ludlow,Karolinska Institutet
+SwissModel homology modeling,Brinton Seashore-Ludlow,Karolinska Institutet
+systematic conformational search,Brinton Seashore-Ludlow,Karolinska Institutet
+target family knowledge analysis,Brinton Seashore-Ludlow,Karolinska Institutet
+three dimensional QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
+two dimensional QSAR,Brinton Seashore-Ludlow,Karolinska Institutet
+virtual screening,Brinton Seashore-Ludlow,Karolinska Institutet
+automatic pathway analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+cheminformatics method,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+computational analysis of gene expression,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+Cytoscape network analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+decision tree,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+genetic algorithm search,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+integrated pathway analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+k means clustering,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+pathway analysis,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
+2D structure prediction,Aimo Kannt,Fraunhofer-Gesellschaft
+2D structure similarity search,Aimo Kannt,Fraunhofer-Gesellschaft
+3D structure prediction,Aimo Kannt,Fraunhofer-Gesellschaft
+3D structure similarity search,Aimo Kannt,Fraunhofer-Gesellschaft
+AutoDock docking method,Aimo Kannt,Fraunhofer-Gesellschaft
+cartesian conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
+cheminformatics method,Aimo Kannt,Fraunhofer-Gesellschaft
+circular fingerprint search,Aimo Kannt,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+computational structure analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+computer simulation method,Aimo Kannt,Fraunhofer-Gesellschaft
+computer simulation method by force field,Aimo Kannt,Fraunhofer-Gesellschaft
+conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
+conjugate gradient method,Aimo Kannt,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Aimo Kannt,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+data based structure generation,Aimo Kannt,Fraunhofer-Gesellschaft
+database filtering,Aimo Kannt,Fraunhofer-Gesellschaft
+de novo structure design,Aimo Kannt,Fraunhofer-Gesellschaft
+decision tree,Aimo Kannt,Fraunhofer-Gesellschaft
+descriptor matching method,Aimo Kannt,Fraunhofer-Gesellschaft
+dihedral conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
+distance comparison modeling,Aimo Kannt,Fraunhofer-Gesellschaft
+distance matrix alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+DrugScore scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
+energy minimization method,Aimo Kannt,Fraunhofer-Gesellschaft
+exact match structure search,Aimo Kannt,Fraunhofer-Gesellschaft
+experimental design method,Aimo Kannt,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+force field based scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
+fractional factorial design,Aimo Kannt,Fraunhofer-Gesellschaft
+fragment based structure generation,Aimo Kannt,Fraunhofer-Gesellschaft
+full factorial design,Aimo Kannt,Fraunhofer-Gesellschaft
+global minimum search,Aimo Kannt,Fraunhofer-Gesellschaft
+GOLD docking method,Aimo Kannt,Fraunhofer-Gesellschaft
+GOLD scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
+Hartree-Fock method,Aimo Kannt,Fraunhofer-Gesellschaft
+hierarchial clustering,Aimo Kannt,Fraunhofer-Gesellschaft
+homology modeling,Aimo Kannt,Fraunhofer-Gesellschaft
+k means clustering,Aimo Kannt,Fraunhofer-Gesellschaft
+ligand based pharmacophore model,Aimo Kannt,Fraunhofer-Gesellschaft
+ligand based virtual screening,Aimo Kannt,Fraunhofer-Gesellschaft
+linear QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+Lipinski rule of 5 filtering,Aimo Kannt,Fraunhofer-Gesellschaft
+local minimum search,Aimo Kannt,Fraunhofer-Gesellschaft
+local sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+MMFF force field simulation,Aimo Kannt,Fraunhofer-Gesellschaft
+MODELLER homology modeling,Aimo Kannt,Fraunhofer-Gesellschaft
+molecular docking,Aimo Kannt,Fraunhofer-Gesellschaft
+molecular docking by method,Aimo Kannt,Fraunhofer-Gesellschaft
+molecular docking by scoring function,Aimo Kannt,Fraunhofer-Gesellschaft
+molecular dynamics simulation,Aimo Kannt,Fraunhofer-Gesellschaft
+multiple sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+natural language processing,Aimo Kannt,Fraunhofer-Gesellschaft
+network analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+neural network model,Aimo Kannt,Fraunhofer-Gesellschaft
+neural network QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+Newton-Raphson method,Aimo Kannt,Fraunhofer-Gesellschaft
+non-linear QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+pairwise sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+parameterized model number 3,Aimo Kannt,Fraunhofer-Gesellschaft
+partial least squares QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+post Hartree-Fock method,Aimo Kannt,Fraunhofer-Gesellschaft
+principal component analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+protein-protein docking,Aimo Kannt,Fraunhofer-Gesellschaft
+quantitative structure activity relationship analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+random conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
+randomized block design,Aimo Kannt,Fraunhofer-Gesellschaft
+RAPTOR protein threading,Aimo Kannt,Fraunhofer-Gesellschaft
+receptor based pharmacophore search,Aimo Kannt,Fraunhofer-Gesellschaft
+recursive partitioning QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+regression QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+restricted open-shell Hartree-Fock,Aimo Kannt,Fraunhofer-Gesellschaft
+scaffold hopping,Aimo Kannt,Fraunhofer-Gesellschaft
+secondary structure analysis method,Aimo Kannt,Fraunhofer-Gesellschaft
+self organizing molecular field analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+sequence alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+sequence alignment by method,Aimo Kannt,Fraunhofer-Gesellschaft
+sequence alignment by type,Aimo Kannt,Fraunhofer-Gesellschaft
+sequencing data alignment software,Aimo Kannt,Fraunhofer-Gesellschaft
+sequencing data analysis software,Aimo Kannt,Fraunhofer-Gesellschaft
+shape fingerprint search,Aimo Kannt,Fraunhofer-Gesellschaft
+simulated annealing,Aimo Kannt,Fraunhofer-Gesellschaft
+structure activity relationship analysis,Aimo Kannt,Fraunhofer-Gesellschaft
+structure alignment,Aimo Kannt,Fraunhofer-Gesellschaft
+structure based virtual screening,Aimo Kannt,Fraunhofer-Gesellschaft
+structure database search,Aimo Kannt,Fraunhofer-Gesellschaft
+structure similarity search,Aimo Kannt,Fraunhofer-Gesellschaft
+substructure search,Aimo Kannt,Fraunhofer-Gesellschaft
+SwissModel homology modeling,Aimo Kannt,Fraunhofer-Gesellschaft
+systematic conformational search,Aimo Kannt,Fraunhofer-Gesellschaft
+three dimensional QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+topomer search,Aimo Kannt,Fraunhofer-Gesellschaft
+two dimensional QSAR,Aimo Kannt,Fraunhofer-Gesellschaft
+virtual screening,Aimo Kannt,Fraunhofer-Gesellschaft
+AMBER force field simulation,Susan Costantini,Istituto Nazionale Tumori
+AutoDock docking method,Susan Costantini,Istituto Nazionale Tumori
+AutoDock3 docking method,Susan Costantini,Istituto Nazionale Tumori
+AutoDock3 scoring function,Susan Costantini,Istituto Nazionale Tumori
+automatic pathway analysis,Susan Costantini,Istituto Nazionale Tumori
+basic local alignment search tool,Susan Costantini,Istituto Nazionale Tumori
+CFF force field simulation,Susan Costantini,Istituto Nazionale Tumori
+CHARMM force field simulation,Susan Costantini,Istituto Nazionale Tumori
+Clustal sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+ClustalW sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+ClustalX sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+conjugate gradient method,Susan Costantini,Istituto Nazionale Tumori
+Cytoscape network analysis,Susan Costantini,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+DOCK docking method,Susan Costantini,Istituto Nazionale Tumori
+DOCK4 docking method,Susan Costantini,Istituto Nazionale Tumori
+energy minimization method,Susan Costantini,Istituto Nazionale Tumori
+FASTA local sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+force field based scoring function,Susan Costantini,Istituto Nazionale Tumori
+GROMOS force field simulation,Susan Costantini,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Susan Costantini,Istituto Nazionale Tumori
+homology modeling,Susan Costantini,Istituto Nazionale Tumori
+ligand based pharmacophore model,Susan Costantini,Istituto Nazionale Tumori
+ligand based virtual screening,Susan Costantini,Istituto Nazionale Tumori
+local sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+MODELLER homology modeling,Susan Costantini,Istituto Nazionale Tumori
+molecular docking,Susan Costantini,Istituto Nazionale Tumori
+molecular docking by method,Susan Costantini,Istituto Nazionale Tumori
+molecular dynamics simulation,Susan Costantini,Istituto Nazionale Tumori
+multiple sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+network analysis,Susan Costantini,Istituto Nazionale Tumori
+pairwise sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+pathway analysis,Susan Costantini,Istituto Nazionale Tumori
+PREDATOR structure prediction,Susan Costantini,Istituto Nazionale Tumori
+PredictProtein structure prediction,Susan Costantini,Istituto Nazionale Tumori
+principal component analysis,Susan Costantini,Istituto Nazionale Tumori
+protein threading,Susan Costantini,Istituto Nazionale Tumori
+protein-protein docking,Susan Costantini,Istituto Nazionale Tumori
+second generation force field simulation,Susan Costantini,Istituto Nazionale Tumori
+secondary structure analysis method,Susan Costantini,Istituto Nazionale Tumori
+self organizing molecular field analysis,Susan Costantini,Istituto Nazionale Tumori
+sequence alignment,Susan Costantini,Istituto Nazionale Tumori
+statistical classification method,Susan Costantini,Istituto Nazionale Tumori
+structure alignment,Susan Costantini,Istituto Nazionale Tumori
+structure based virtual screening,Susan Costantini,Istituto Nazionale Tumori
+structure database search,Susan Costantini,Istituto Nazionale Tumori
+structure similarity search,Susan Costantini,Istituto Nazionale Tumori
+SwissModel homology modeling,Susan Costantini,Istituto Nazionale Tumori
+virtual screening,Susan Costantini,Istituto Nazionale Tumori
+cheminformatics method,Ola Spjuth,Uppsala Universitet
+computational structure analysis,Ola Spjuth,Uppsala Universitet
+database filtering,Ola Spjuth,Uppsala Universitet
+experimental design method,Ola Spjuth,Uppsala Universitet
+k means clustering,Ola Spjuth,Uppsala Universitet
+linear QSAR,Ola Spjuth,Uppsala Universitet
+Lipinski rule of 5 filtering,Ola Spjuth,Uppsala Universitet
+multiple sequence alignment,Ola Spjuth,Uppsala Universitet
+pairwise sequence alignment,Ola Spjuth,Uppsala Universitet
+partial least squares QSAR,Ola Spjuth,Uppsala Universitet
+pathway analysis,Ola Spjuth,Uppsala Universitet
+principal component analysis,Ola Spjuth,Uppsala Universitet
+sequence alignment by method,Ola Spjuth,Uppsala Universitet
+two dimensional QSAR,Ola Spjuth,Uppsala Universitet
+AMBER force field simulation,Maria Serena Roca ,Istituto Nazionale Tumori
+AutoDock docking method,Maria Serena Roca ,Istituto Nazionale Tumori
+AutoDock3 docking method,Maria Serena Roca ,Istituto Nazionale Tumori
+AutoDock3 scoring function,Maria Serena Roca ,Istituto Nazionale Tumori
+automatic pathway analysis,Maria Serena Roca ,Istituto Nazionale Tumori
+basic local alignment search tool,Maria Serena Roca ,Istituto Nazionale Tumori
+CFF force field simulation,Maria Serena Roca ,Istituto Nazionale Tumori
+CHARMM force field simulation,Maria Serena Roca ,Istituto Nazionale Tumori
+Clustal sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+ClustalW sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+ClustalX sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+conjugate gradient method,Maria Serena Roca ,Istituto Nazionale Tumori
+Cytoscape network analysis,Maria Serena Roca ,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+DOCK docking method,Maria Serena Roca ,Istituto Nazionale Tumori
+DOCK4 docking method,Maria Serena Roca ,Istituto Nazionale Tumori
+energy minimization method,Maria Serena Roca ,Istituto Nazionale Tumori
+FASTA local sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+force field based scoring function,Maria Serena Roca ,Istituto Nazionale Tumori
+GROMOS force field simulation,Maria Serena Roca ,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Maria Serena Roca ,Istituto Nazionale Tumori
+homology modeling,Maria Serena Roca ,Istituto Nazionale Tumori
+ligand based pharmacophore model,Maria Serena Roca ,Istituto Nazionale Tumori
+ligand based virtual screening,Maria Serena Roca ,Istituto Nazionale Tumori
+local sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+MODELLER homology modeling,Maria Serena Roca ,Istituto Nazionale Tumori
+molecular docking,Maria Serena Roca ,Istituto Nazionale Tumori
+molecular docking by method,Maria Serena Roca ,Istituto Nazionale Tumori
+molecular dynamics simulation,Maria Serena Roca ,Istituto Nazionale Tumori
+multiple sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+network analysis,Maria Serena Roca ,Istituto Nazionale Tumori
+pairwise sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+pathway analysis,Maria Serena Roca ,Istituto Nazionale Tumori
+PREDATOR structure prediction,Maria Serena Roca ,Istituto Nazionale Tumori
+PredictProtein structure prediction,Maria Serena Roca ,Istituto Nazionale Tumori
+principal component analysis,Maria Serena Roca ,Istituto Nazionale Tumori
+protein threading,Maria Serena Roca ,Istituto Nazionale Tumori
+protein-protein docking,Maria Serena Roca ,Istituto Nazionale Tumori
+second generation force field simulation,Maria Serena Roca ,Istituto Nazionale Tumori
+secondary structure analysis method,Maria Serena Roca ,Istituto Nazionale Tumori
+self organizing molecular field analysis,Maria Serena Roca ,Istituto Nazionale Tumori
+sequence alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+statistical classification method,Maria Serena Roca ,Istituto Nazionale Tumori
+structure alignment,Maria Serena Roca ,Istituto Nazionale Tumori
+structure based virtual screening,Maria Serena Roca ,Istituto Nazionale Tumori
+structure database search,Maria Serena Roca ,Istituto Nazionale Tumori
+structure similarity search,Maria Serena Roca ,Istituto Nazionale Tumori
+SwissModel homology modeling,Maria Serena Roca ,Istituto Nazionale Tumori
+virtual screening,Maria Serena Roca ,Istituto Nazionale Tumori
+AMBER force field simulation,Federica Iannelli ,Istituto Nazionale Tumori
+AutoDock docking method,Federica Iannelli ,Istituto Nazionale Tumori
+AutoDock3 docking method,Federica Iannelli ,Istituto Nazionale Tumori
+AutoDock3 scoring function,Federica Iannelli ,Istituto Nazionale Tumori
+automatic pathway analysis,Federica Iannelli ,Istituto Nazionale Tumori
+basic local alignment search tool,Federica Iannelli ,Istituto Nazionale Tumori
+CFF force field simulation,Federica Iannelli ,Istituto Nazionale Tumori
+CHARMM force field simulation,Federica Iannelli ,Istituto Nazionale Tumori
+Clustal sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+ClustalW sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+ClustalX sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+conjugate gradient method,Federica Iannelli ,Istituto Nazionale Tumori
+Cytoscape network analysis,Federica Iannelli ,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+DOCK docking method,Federica Iannelli ,Istituto Nazionale Tumori
+DOCK4 docking method,Federica Iannelli ,Istituto Nazionale Tumori
+energy minimization method,Federica Iannelli ,Istituto Nazionale Tumori
+FASTA local sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+force field based scoring function,Federica Iannelli ,Istituto Nazionale Tumori
+GROMOS force field simulation,Federica Iannelli ,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Federica Iannelli ,Istituto Nazionale Tumori
+homology modeling,Federica Iannelli ,Istituto Nazionale Tumori
+ligand based pharmacophore model,Federica Iannelli ,Istituto Nazionale Tumori
+ligand based virtual screening,Federica Iannelli ,Istituto Nazionale Tumori
+local sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+MODELLER homology modeling,Federica Iannelli ,Istituto Nazionale Tumori
+molecular docking,Federica Iannelli ,Istituto Nazionale Tumori
+molecular docking by method,Federica Iannelli ,Istituto Nazionale Tumori
+molecular dynamics simulation,Federica Iannelli ,Istituto Nazionale Tumori
+multiple sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+network analysis,Federica Iannelli ,Istituto Nazionale Tumori
+pairwise sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+pathway analysis,Federica Iannelli ,Istituto Nazionale Tumori
+PREDATOR structure prediction,Federica Iannelli ,Istituto Nazionale Tumori
+PredictProtein structure prediction,Federica Iannelli ,Istituto Nazionale Tumori
+principal component analysis,Federica Iannelli ,Istituto Nazionale Tumori
+protein threading,Federica Iannelli ,Istituto Nazionale Tumori
+protein-protein docking,Federica Iannelli ,Istituto Nazionale Tumori
+second generation force field simulation,Federica Iannelli ,Istituto Nazionale Tumori
+secondary structure analysis method,Federica Iannelli ,Istituto Nazionale Tumori
+self organizing molecular field analysis,Federica Iannelli ,Istituto Nazionale Tumori
+sequence alignment,Federica Iannelli ,Istituto Nazionale Tumori
+statistical classification method,Federica Iannelli ,Istituto Nazionale Tumori
+structure alignment,Federica Iannelli ,Istituto Nazionale Tumori
+structure based virtual screening,Federica Iannelli ,Istituto Nazionale Tumori
+structure database search,Federica Iannelli ,Istituto Nazionale Tumori
+structure similarity search,Federica Iannelli ,Istituto Nazionale Tumori
+SwissModel homology modeling,Federica Iannelli ,Istituto Nazionale Tumori
+virtual screening,Federica Iannelli ,Istituto Nazionale Tumori
+2D structure prediction,Marc Jacobs,Fraunhofer-Gesellschaft
+2D structure similarity search,Marc Jacobs,Fraunhofer-Gesellschaft
+3D structure prediction,Marc Jacobs,Fraunhofer-Gesellschaft
+3D structure similarity search,Marc Jacobs,Fraunhofer-Gesellschaft
+AutoDock docking method,Marc Jacobs,Fraunhofer-Gesellschaft
+cartesian conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
+cheminformatics method,Marc Jacobs,Fraunhofer-Gesellschaft
+circular fingerprint search,Marc Jacobs,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+computational structure analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+computer simulation method,Marc Jacobs,Fraunhofer-Gesellschaft
+computer simulation method by force field,Marc Jacobs,Fraunhofer-Gesellschaft
+conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
+conjugate gradient method,Marc Jacobs,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Marc Jacobs,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+data based structure generation,Marc Jacobs,Fraunhofer-Gesellschaft
+database filtering,Marc Jacobs,Fraunhofer-Gesellschaft
+de novo structure design,Marc Jacobs,Fraunhofer-Gesellschaft
+decision tree,Marc Jacobs,Fraunhofer-Gesellschaft
+descriptor matching method,Marc Jacobs,Fraunhofer-Gesellschaft
+dihedral conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
+distance comparison modeling,Marc Jacobs,Fraunhofer-Gesellschaft
+distance matrix alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+DrugScore scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
+energy minimization method,Marc Jacobs,Fraunhofer-Gesellschaft
+exact match structure search,Marc Jacobs,Fraunhofer-Gesellschaft
+experimental design method,Marc Jacobs,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+force field based scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
+fractional factorial design,Marc Jacobs,Fraunhofer-Gesellschaft
+fragment based structure generation,Marc Jacobs,Fraunhofer-Gesellschaft
+full factorial design,Marc Jacobs,Fraunhofer-Gesellschaft
+global minimum search,Marc Jacobs,Fraunhofer-Gesellschaft
+GOLD docking method,Marc Jacobs,Fraunhofer-Gesellschaft
+GOLD scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
+Hartree-Fock method,Marc Jacobs,Fraunhofer-Gesellschaft
+hierarchial clustering,Marc Jacobs,Fraunhofer-Gesellschaft
+homology modeling,Marc Jacobs,Fraunhofer-Gesellschaft
+k means clustering,Marc Jacobs,Fraunhofer-Gesellschaft
+ligand based pharmacophore model,Marc Jacobs,Fraunhofer-Gesellschaft
+ligand based virtual screening,Marc Jacobs,Fraunhofer-Gesellschaft
+linear QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+Lipinski rule of 5 filtering,Marc Jacobs,Fraunhofer-Gesellschaft
+local minimum search,Marc Jacobs,Fraunhofer-Gesellschaft
+local sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+MMFF force field simulation,Marc Jacobs,Fraunhofer-Gesellschaft
+MODELLER homology modeling,Marc Jacobs,Fraunhofer-Gesellschaft
+molecular docking,Marc Jacobs,Fraunhofer-Gesellschaft
+molecular docking by method,Marc Jacobs,Fraunhofer-Gesellschaft
+molecular docking by scoring function,Marc Jacobs,Fraunhofer-Gesellschaft
+molecular dynamics simulation,Marc Jacobs,Fraunhofer-Gesellschaft
+multiple sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+natural language processing,Marc Jacobs,Fraunhofer-Gesellschaft
+network analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+neural network model,Marc Jacobs,Fraunhofer-Gesellschaft
+neural network QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+Newton-Raphson method,Marc Jacobs,Fraunhofer-Gesellschaft
+non-linear QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+pairwise sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+parameterized model number 3,Marc Jacobs,Fraunhofer-Gesellschaft
+partial least squares QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+post Hartree-Fock method,Marc Jacobs,Fraunhofer-Gesellschaft
+principal component analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+protein-protein docking,Marc Jacobs,Fraunhofer-Gesellschaft
+quantitative structure activity relationship analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+random conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
+randomized block design,Marc Jacobs,Fraunhofer-Gesellschaft
+RAPTOR protein threading,Marc Jacobs,Fraunhofer-Gesellschaft
+receptor based pharmacophore search,Marc Jacobs,Fraunhofer-Gesellschaft
+recursive partitioning QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+regression QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+restricted open-shell Hartree-Fock,Marc Jacobs,Fraunhofer-Gesellschaft
+scaffold hopping,Marc Jacobs,Fraunhofer-Gesellschaft
+secondary structure analysis method,Marc Jacobs,Fraunhofer-Gesellschaft
+self organizing molecular field analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+sequence alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+sequence alignment by method,Marc Jacobs,Fraunhofer-Gesellschaft
+sequence alignment by type,Marc Jacobs,Fraunhofer-Gesellschaft
+sequencing data alignment software,Marc Jacobs,Fraunhofer-Gesellschaft
+sequencing data analysis software,Marc Jacobs,Fraunhofer-Gesellschaft
+shape fingerprint search,Marc Jacobs,Fraunhofer-Gesellschaft
+simulated annealing,Marc Jacobs,Fraunhofer-Gesellschaft
+structure activity relationship analysis,Marc Jacobs,Fraunhofer-Gesellschaft
+structure alignment,Marc Jacobs,Fraunhofer-Gesellschaft
+structure based virtual screening,Marc Jacobs,Fraunhofer-Gesellschaft
+structure database search,Marc Jacobs,Fraunhofer-Gesellschaft
+structure similarity search,Marc Jacobs,Fraunhofer-Gesellschaft
+substructure search,Marc Jacobs,Fraunhofer-Gesellschaft
+SwissModel homology modeling,Marc Jacobs,Fraunhofer-Gesellschaft
+systematic conformational search,Marc Jacobs,Fraunhofer-Gesellschaft
+three dimensional QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+topomer search,Marc Jacobs,Fraunhofer-Gesellschaft
+two dimensional QSAR,Marc Jacobs,Fraunhofer-Gesellschaft
+virtual screening,Marc Jacobs,Fraunhofer-Gesellschaft
+2D structure prediction,Tanja Rossmanith,Fraunhofer-Gesellschaft
+2D structure similarity search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+3D structure prediction,Tanja Rossmanith,Fraunhofer-Gesellschaft
+3D structure similarity search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+AutoDock docking method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+cartesian conformational search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+cheminformatics method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+circular fingerprint search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+computational structure analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+computer simulation method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+computer simulation method by force field,Tanja Rossmanith,Fraunhofer-Gesellschaft
+conformational search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+conjugate gradient method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+data based structure generation,Tanja Rossmanith,Fraunhofer-Gesellschaft
+database filtering,Tanja Rossmanith,Fraunhofer-Gesellschaft
+de novo structure design,Tanja Rossmanith,Fraunhofer-Gesellschaft
+decision tree,Tanja Rossmanith,Fraunhofer-Gesellschaft
+descriptor matching method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+dihedral conformational search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+distance comparison modeling,Tanja Rossmanith,Fraunhofer-Gesellschaft
+distance matrix alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+DrugScore scoring function,Tanja Rossmanith,Fraunhofer-Gesellschaft
+energy minimization method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+exact match structure search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+experimental design method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+force field based scoring function,Tanja Rossmanith,Fraunhofer-Gesellschaft
+fractional factorial design,Tanja Rossmanith,Fraunhofer-Gesellschaft
+fragment based structure generation,Tanja Rossmanith,Fraunhofer-Gesellschaft
+full factorial design,Tanja Rossmanith,Fraunhofer-Gesellschaft
+global minimum search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+GOLD docking method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+GOLD scoring function,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Hartree-Fock method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+hierarchial clustering,Tanja Rossmanith,Fraunhofer-Gesellschaft
+homology modeling,Tanja Rossmanith,Fraunhofer-Gesellschaft
+k means clustering,Tanja Rossmanith,Fraunhofer-Gesellschaft
+ligand based pharmacophore model,Tanja Rossmanith,Fraunhofer-Gesellschaft
+ligand based virtual screening,Tanja Rossmanith,Fraunhofer-Gesellschaft
+linear QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Lipinski rule of 5 filtering,Tanja Rossmanith,Fraunhofer-Gesellschaft
+local minimum search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+local sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+MMFF force field simulation,Tanja Rossmanith,Fraunhofer-Gesellschaft
+MODELLER homology modeling,Tanja Rossmanith,Fraunhofer-Gesellschaft
+molecular docking,Tanja Rossmanith,Fraunhofer-Gesellschaft
+molecular docking by method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+molecular docking by scoring function,Tanja Rossmanith,Fraunhofer-Gesellschaft
+molecular dynamics simulation,Tanja Rossmanith,Fraunhofer-Gesellschaft
+multiple sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+natural language processing,Tanja Rossmanith,Fraunhofer-Gesellschaft
+network analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+neural network model,Tanja Rossmanith,Fraunhofer-Gesellschaft
+neural network QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Newton-Raphson method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+non-linear QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+pairwise sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+parameterized model number 3,Tanja Rossmanith,Fraunhofer-Gesellschaft
+partial least squares QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+post Hartree-Fock method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+principal component analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+protein-protein docking,Tanja Rossmanith,Fraunhofer-Gesellschaft
+quantitative structure activity relationship analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+random conformational search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+randomized block design,Tanja Rossmanith,Fraunhofer-Gesellschaft
+RAPTOR protein threading,Tanja Rossmanith,Fraunhofer-Gesellschaft
+receptor based pharmacophore search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+recursive partitioning QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+regression QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+restricted open-shell Hartree-Fock,Tanja Rossmanith,Fraunhofer-Gesellschaft
+scaffold hopping,Tanja Rossmanith,Fraunhofer-Gesellschaft
+secondary structure analysis method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+self organizing molecular field analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+sequence alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+sequence alignment by method,Tanja Rossmanith,Fraunhofer-Gesellschaft
+sequence alignment by type,Tanja Rossmanith,Fraunhofer-Gesellschaft
+sequencing data alignment software,Tanja Rossmanith,Fraunhofer-Gesellschaft
+sequencing data analysis software,Tanja Rossmanith,Fraunhofer-Gesellschaft
+shape fingerprint search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+simulated annealing,Tanja Rossmanith,Fraunhofer-Gesellschaft
+structure activity relationship analysis,Tanja Rossmanith,Fraunhofer-Gesellschaft
+structure alignment,Tanja Rossmanith,Fraunhofer-Gesellschaft
+structure based virtual screening,Tanja Rossmanith,Fraunhofer-Gesellschaft
+structure database search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+structure similarity search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+substructure search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+SwissModel homology modeling,Tanja Rossmanith,Fraunhofer-Gesellschaft
+systematic conformational search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+three dimensional QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+topomer search,Tanja Rossmanith,Fraunhofer-Gesellschaft
+two dimensional QSAR,Tanja Rossmanith,Fraunhofer-Gesellschaft
+virtual screening,Tanja Rossmanith,Fraunhofer-Gesellschaft
+2D structure prediction,Annika Jenmalm Jensen,Karolinska Institutet
+2D structure similarity search,Annika Jenmalm Jensen,Karolinska Institutet
+3D structure prediction,Annika Jenmalm Jensen,Karolinska Institutet
+3D structure similarity search,Annika Jenmalm Jensen,Karolinska Institutet
+AMBER force field simulation,Annika Jenmalm Jensen,Karolinska Institutet
+AutoDock docking method,Annika Jenmalm Jensen,Karolinska Institutet
+cheminformatics method,Annika Jenmalm Jensen,Karolinska Institutet
+circular fingerprint search,Annika Jenmalm Jensen,Karolinska Institutet
+Clustal sequence alignment,Annika Jenmalm Jensen,Karolinska Institutet
+ClustalW sequence alignment,Annika Jenmalm Jensen,Karolinska Institutet
+ClustalX sequence alignment,Annika Jenmalm Jensen,Karolinska Institutet
+CoMFA pharmacophore search,Annika Jenmalm Jensen,Karolinska Institutet
+comparative molecular field analysis,Annika Jenmalm Jensen,Karolinska Institutet
+computational phylogenetic analysis,Annika Jenmalm Jensen,Karolinska Institutet
+computational structure analysis,Annika Jenmalm Jensen,Karolinska Institutet
+computer simulation method,Annika Jenmalm Jensen,Karolinska Institutet
+computer simulation method by force field,Annika Jenmalm Jensen,Karolinska Institutet
+conformational search,Annika Jenmalm Jensen,Karolinska Institutet
+conjugate gradient method,Annika Jenmalm Jensen,Karolinska Institutet
+constraint molecular dynamics simulation,Annika Jenmalm Jensen,Karolinska Institutet
+data based structure generation,Annika Jenmalm Jensen,Karolinska Institutet
+database filtering,Annika Jenmalm Jensen,Karolinska Institutet
+de novo structure design,Annika Jenmalm Jensen,Karolinska Institutet
+decision tree,Annika Jenmalm Jensen,Karolinska Institutet
+descriptor matching method,Annika Jenmalm Jensen,Karolinska Institutet
+dihedral conformational search,Annika Jenmalm Jensen,Karolinska Institutet
+distance comparison modeling,Annika Jenmalm Jensen,Karolinska Institutet
+DOCK docking method,Annika Jenmalm Jensen,Karolinska Institutet
+empirical scoring function,Annika Jenmalm Jensen,Karolinska Institutet
+energy minimization method,Annika Jenmalm Jensen,Karolinska Institutet
+exact match structure search,Annika Jenmalm Jensen,Karolinska Institutet
+experimental design method,Annika Jenmalm Jensen,Karolinska Institutet
+FASTA local sequence alignment,Annika Jenmalm Jensen,Karolinska Institutet
+force field based scoring function,Annika Jenmalm Jensen,Karolinska Institutet
+fractional factorial design,Annika Jenmalm Jensen,Karolinska Institutet
+fragment based structure generation,Annika Jenmalm Jensen,Karolinska Institutet
+full factorial design,Annika Jenmalm Jensen,Karolinska Institutet
+genetic algorithm method,Annika Jenmalm Jensen,Karolinska Institutet
+GOLD docking method,Annika Jenmalm Jensen,Karolinska Institutet
+GOLD scoring function,Annika Jenmalm Jensen,Karolinska Institutet
+hierarchial clustering,Annika Jenmalm Jensen,Karolinska Institutet
+homology modeling,Annika Jenmalm Jensen,Karolinska Institutet
+k means clustering,Annika Jenmalm Jensen,Karolinska Institutet
+knowledge based scoring function,Annika Jenmalm Jensen,Karolinska Institutet
+ligand based pharmacophore model,Annika Jenmalm Jensen,Karolinska Institutet
+ligand based virtual screening,Annika Jenmalm Jensen,Karolinska Institutet
+linear QSAR,Annika Jenmalm Jensen,Karolinska Institutet
+Lipinski rule of 5 filtering,Annika Jenmalm Jensen,Karolinska Institutet
+local minimum search,Annika Jenmalm Jensen,Karolinska Institutet
+MMFF force field simulation,Annika Jenmalm Jensen,Karolinska Institutet
+MODELLER homology modeling,Annika Jenmalm Jensen,Karolinska Institutet
+molecular docking,Annika Jenmalm Jensen,Karolinska Institutet
+molecular docking by method,Annika Jenmalm Jensen,Karolinska Institutet
+molecular docking by scoring function,Annika Jenmalm Jensen,Karolinska Institutet
+molecular dynamics simulation,Annika Jenmalm Jensen,Karolinska Institutet
+multiple sequence alignment,Annika Jenmalm Jensen,Karolinska Institutet
+neural network QSAR,Annika Jenmalm Jensen,Karolinska Institutet
+Newton-Raphson method,Annika Jenmalm Jensen,Karolinska Institutet
+non-linear QSAR,Annika Jenmalm Jensen,Karolinska Institutet
+partial least squares QSAR,Annika Jenmalm Jensen,Karolinska Institutet
+pathway analysis,Annika Jenmalm Jensen,Karolinska Institutet
+principal component analysis,Annika Jenmalm Jensen,Karolinska Institutet
+protein-protein docking,Annika Jenmalm Jensen,Karolinska Institutet
+quantitative structure activity relationship analysis,Annika Jenmalm Jensen,Karolinska Institutet
+random conformational search,Annika Jenmalm Jensen,Karolinska Institutet
+receptor based pharmacophore search,Annika Jenmalm Jensen,Karolinska Institutet
+regression QSAR,Annika Jenmalm Jensen,Karolinska Institutet
+scaffold hopping,Annika Jenmalm Jensen,Karolinska Institutet
+sequence alignment,Annika Jenmalm Jensen,Karolinska Institutet
+shape fingerprint search,Annika Jenmalm Jensen,Karolinska Institutet
+structure activity relationship analysis,Annika Jenmalm Jensen,Karolinska Institutet
+structure alignment,Annika Jenmalm Jensen,Karolinska Institutet
+structure based virtual screening,Annika Jenmalm Jensen,Karolinska Institutet
+structure database search,Annika Jenmalm Jensen,Karolinska Institutet
+structure similarity search,Annika Jenmalm Jensen,Karolinska Institutet
+substructure search,Annika Jenmalm Jensen,Karolinska Institutet
+SwissModel homology modeling,Annika Jenmalm Jensen,Karolinska Institutet
+systematic conformational search,Annika Jenmalm Jensen,Karolinska Institutet
+target family knowledge analysis,Annika Jenmalm Jensen,Karolinska Institutet
+three dimensional QSAR,Annika Jenmalm Jensen,Karolinska Institutet
+two dimensional QSAR,Annika Jenmalm Jensen,Karolinska Institutet
+virtual screening,Annika Jenmalm Jensen,Karolinska Institutet
+automatic pathway analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
+cheminformatics method,Tero Aittokallio,University of Helsinki (FIMM-UH)
+computational analysis of gene expression,Tero Aittokallio,University of Helsinki (FIMM-UH)
+Cytoscape network analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
+decision tree,Tero Aittokallio,University of Helsinki (FIMM-UH)
+genetic algorithm search,Tero Aittokallio,University of Helsinki (FIMM-UH)
+integrated pathway analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
+k means clustering,Tero Aittokallio,University of Helsinki (FIMM-UH)
+pathway analysis,Tero Aittokallio,University of Helsinki (FIMM-UH)
+2D structure prediction,Elin Asp,Karolinska Institutet
+2D structure similarity search,Elin Asp,Karolinska Institutet
+3D structure prediction,Elin Asp,Karolinska Institutet
+3D structure similarity search,Elin Asp,Karolinska Institutet
+AMBER force field simulation,Elin Asp,Karolinska Institutet
+AutoDock docking method,Elin Asp,Karolinska Institutet
+cheminformatics method,Elin Asp,Karolinska Institutet
+circular fingerprint search,Elin Asp,Karolinska Institutet
+Clustal sequence alignment,Elin Asp,Karolinska Institutet
+ClustalW sequence alignment,Elin Asp,Karolinska Institutet
+ClustalX sequence alignment,Elin Asp,Karolinska Institutet
+CoMFA pharmacophore search,Elin Asp,Karolinska Institutet
+comparative molecular field analysis,Elin Asp,Karolinska Institutet
+computational phylogenetic analysis,Elin Asp,Karolinska Institutet
+computational structure analysis,Elin Asp,Karolinska Institutet
+computer simulation method,Elin Asp,Karolinska Institutet
+computer simulation method by force field,Elin Asp,Karolinska Institutet
+conformational search,Elin Asp,Karolinska Institutet
+conjugate gradient method,Elin Asp,Karolinska Institutet
+constraint molecular dynamics simulation,Elin Asp,Karolinska Institutet
+data based structure generation,Elin Asp,Karolinska Institutet
+database filtering,Elin Asp,Karolinska Institutet
+de novo structure design,Elin Asp,Karolinska Institutet
+decision tree,Elin Asp,Karolinska Institutet
+descriptor matching method,Elin Asp,Karolinska Institutet
+dihedral conformational search,Elin Asp,Karolinska Institutet
+distance comparison modeling,Elin Asp,Karolinska Institutet
+DOCK docking method,Elin Asp,Karolinska Institutet
+empirical scoring function,Elin Asp,Karolinska Institutet
+energy minimization method,Elin Asp,Karolinska Institutet
+exact match structure search,Elin Asp,Karolinska Institutet
+experimental design method,Elin Asp,Karolinska Institutet
+FASTA local sequence alignment,Elin Asp,Karolinska Institutet
+force field based scoring function,Elin Asp,Karolinska Institutet
+fractional factorial design,Elin Asp,Karolinska Institutet
+fragment based structure generation,Elin Asp,Karolinska Institutet
+full factorial design,Elin Asp,Karolinska Institutet
+genetic algorithm method,Elin Asp,Karolinska Institutet
+GOLD docking method,Elin Asp,Karolinska Institutet
+GOLD scoring function,Elin Asp,Karolinska Institutet
+hierarchial clustering,Elin Asp,Karolinska Institutet
+homology modeling,Elin Asp,Karolinska Institutet
+k means clustering,Elin Asp,Karolinska Institutet
+knowledge based scoring function,Elin Asp,Karolinska Institutet
+ligand based pharmacophore model,Elin Asp,Karolinska Institutet
+ligand based virtual screening,Elin Asp,Karolinska Institutet
+linear QSAR,Elin Asp,Karolinska Institutet
+Lipinski rule of 5 filtering,Elin Asp,Karolinska Institutet
+local minimum search,Elin Asp,Karolinska Institutet
+MMFF force field simulation,Elin Asp,Karolinska Institutet
+MODELLER homology modeling,Elin Asp,Karolinska Institutet
+molecular docking,Elin Asp,Karolinska Institutet
+molecular docking by method,Elin Asp,Karolinska Institutet
+molecular docking by scoring function,Elin Asp,Karolinska Institutet
+molecular dynamics simulation,Elin Asp,Karolinska Institutet
+multiple sequence alignment,Elin Asp,Karolinska Institutet
+neural network QSAR,Elin Asp,Karolinska Institutet
+Newton-Raphson method,Elin Asp,Karolinska Institutet
+non-linear QSAR,Elin Asp,Karolinska Institutet
+partial least squares QSAR,Elin Asp,Karolinska Institutet
+pathway analysis,Elin Asp,Karolinska Institutet
+principal component analysis,Elin Asp,Karolinska Institutet
+protein-protein docking,Elin Asp,Karolinska Institutet
+quantitative structure activity relationship analysis,Elin Asp,Karolinska Institutet
+random conformational search,Elin Asp,Karolinska Institutet
+receptor based pharmacophore search,Elin Asp,Karolinska Institutet
+regression QSAR,Elin Asp,Karolinska Institutet
+scaffold hopping,Elin Asp,Karolinska Institutet
+sequence alignment,Elin Asp,Karolinska Institutet
+shape fingerprint search,Elin Asp,Karolinska Institutet
+structure activity relationship analysis,Elin Asp,Karolinska Institutet
+structure alignment,Elin Asp,Karolinska Institutet
+structure based virtual screening,Elin Asp,Karolinska Institutet
+structure database search,Elin Asp,Karolinska Institutet
+structure similarity search,Elin Asp,Karolinska Institutet
+substructure search,Elin Asp,Karolinska Institutet
+SwissModel homology modeling,Elin Asp,Karolinska Institutet
+systematic conformational search,Elin Asp,Karolinska Institutet
+target family knowledge analysis,Elin Asp,Karolinska Institutet
+three dimensional QSAR,Elin Asp,Karolinska Institutet
+two dimensional QSAR,Elin Asp,Karolinska Institutet
+virtual screening,Elin Asp,Karolinska Institutet
+AMBER force field simulation,Antonio Avallone,Istituto Nazionale Tumori
+AutoDock docking method,Antonio Avallone,Istituto Nazionale Tumori
+AutoDock3 docking method,Antonio Avallone,Istituto Nazionale Tumori
+AutoDock3 scoring function,Antonio Avallone,Istituto Nazionale Tumori
+automatic pathway analysis,Antonio Avallone,Istituto Nazionale Tumori
+basic local alignment search tool,Antonio Avallone,Istituto Nazionale Tumori
+CFF force field simulation,Antonio Avallone,Istituto Nazionale Tumori
+CHARMM force field simulation,Antonio Avallone,Istituto Nazionale Tumori
+Clustal sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+ClustalW sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+ClustalX sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+conjugate gradient method,Antonio Avallone,Istituto Nazionale Tumori
+Cytoscape network analysis,Antonio Avallone,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+DOCK docking method,Antonio Avallone,Istituto Nazionale Tumori
+DOCK4 docking method,Antonio Avallone,Istituto Nazionale Tumori
+energy minimization method,Antonio Avallone,Istituto Nazionale Tumori
+FASTA local sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+force field based scoring function,Antonio Avallone,Istituto Nazionale Tumori
+GROMOS force field simulation,Antonio Avallone,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Antonio Avallone,Istituto Nazionale Tumori
+homology modeling,Antonio Avallone,Istituto Nazionale Tumori
+ligand based pharmacophore model,Antonio Avallone,Istituto Nazionale Tumori
+ligand based virtual screening,Antonio Avallone,Istituto Nazionale Tumori
+local sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+MODELLER homology modeling,Antonio Avallone,Istituto Nazionale Tumori
+molecular docking,Antonio Avallone,Istituto Nazionale Tumori
+molecular docking by method,Antonio Avallone,Istituto Nazionale Tumori
+molecular dynamics simulation,Antonio Avallone,Istituto Nazionale Tumori
+multiple sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+network analysis,Antonio Avallone,Istituto Nazionale Tumori
+pairwise sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+pathway analysis,Antonio Avallone,Istituto Nazionale Tumori
+PREDATOR structure prediction,Antonio Avallone,Istituto Nazionale Tumori
+PredictProtein structure prediction,Antonio Avallone,Istituto Nazionale Tumori
+principal component analysis,Antonio Avallone,Istituto Nazionale Tumori
+protein threading,Antonio Avallone,Istituto Nazionale Tumori
+protein-protein docking,Antonio Avallone,Istituto Nazionale Tumori
+second generation force field simulation,Antonio Avallone,Istituto Nazionale Tumori
+secondary structure analysis method,Antonio Avallone,Istituto Nazionale Tumori
+self organizing molecular field analysis,Antonio Avallone,Istituto Nazionale Tumori
+sequence alignment,Antonio Avallone,Istituto Nazionale Tumori
+statistical classification method,Antonio Avallone,Istituto Nazionale Tumori
+structure alignment,Antonio Avallone,Istituto Nazionale Tumori
+structure based virtual screening,Antonio Avallone,Istituto Nazionale Tumori
+structure database search,Antonio Avallone,Istituto Nazionale Tumori
+structure similarity search,Antonio Avallone,Istituto Nazionale Tumori
+SwissModel homology modeling,Antonio Avallone,Istituto Nazionale Tumori
+virtual screening,Antonio Avallone,Istituto Nazionale Tumori
+AMBER force field simulation,Eugenia Passaro,Istituto Nazionale Tumori
+AutoDock docking method,Eugenia Passaro,Istituto Nazionale Tumori
+AutoDock3 docking method,Eugenia Passaro,Istituto Nazionale Tumori
+AutoDock3 scoring function,Eugenia Passaro,Istituto Nazionale Tumori
+automatic pathway analysis,Eugenia Passaro,Istituto Nazionale Tumori
+basic local alignment search tool,Eugenia Passaro,Istituto Nazionale Tumori
+CFF force field simulation,Eugenia Passaro,Istituto Nazionale Tumori
+CHARMM force field simulation,Eugenia Passaro,Istituto Nazionale Tumori
+Clustal sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+ClustalW sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+ClustalX sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+conjugate gradient method,Eugenia Passaro,Istituto Nazionale Tumori
+Cytoscape network analysis,Eugenia Passaro,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+DOCK docking method,Eugenia Passaro,Istituto Nazionale Tumori
+DOCK4 docking method,Eugenia Passaro,Istituto Nazionale Tumori
+energy minimization method,Eugenia Passaro,Istituto Nazionale Tumori
+FASTA local sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+force field based scoring function,Eugenia Passaro,Istituto Nazionale Tumori
+GROMOS force field simulation,Eugenia Passaro,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Eugenia Passaro,Istituto Nazionale Tumori
+homology modeling,Eugenia Passaro,Istituto Nazionale Tumori
+ligand based pharmacophore model,Eugenia Passaro,Istituto Nazionale Tumori
+ligand based virtual screening,Eugenia Passaro,Istituto Nazionale Tumori
+local sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+MODELLER homology modeling,Eugenia Passaro,Istituto Nazionale Tumori
+molecular docking,Eugenia Passaro,Istituto Nazionale Tumori
+molecular docking by method,Eugenia Passaro,Istituto Nazionale Tumori
+molecular dynamics simulation,Eugenia Passaro,Istituto Nazionale Tumori
+multiple sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+network analysis,Eugenia Passaro,Istituto Nazionale Tumori
+pairwise sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+pathway analysis,Eugenia Passaro,Istituto Nazionale Tumori
+PREDATOR structure prediction,Eugenia Passaro,Istituto Nazionale Tumori
+PredictProtein structure prediction,Eugenia Passaro,Istituto Nazionale Tumori
+principal component analysis,Eugenia Passaro,Istituto Nazionale Tumori
+protein threading,Eugenia Passaro,Istituto Nazionale Tumori
+protein-protein docking,Eugenia Passaro,Istituto Nazionale Tumori
+second generation force field simulation,Eugenia Passaro,Istituto Nazionale Tumori
+secondary structure analysis method,Eugenia Passaro,Istituto Nazionale Tumori
+self organizing molecular field analysis,Eugenia Passaro,Istituto Nazionale Tumori
+sequence alignment,Eugenia Passaro,Istituto Nazionale Tumori
+statistical classification method,Eugenia Passaro,Istituto Nazionale Tumori
+structure alignment,Eugenia Passaro,Istituto Nazionale Tumori
+structure based virtual screening,Eugenia Passaro,Istituto Nazionale Tumori
+structure database search,Eugenia Passaro,Istituto Nazionale Tumori
+structure similarity search,Eugenia Passaro,Istituto Nazionale Tumori
+SwissModel homology modeling,Eugenia Passaro,Istituto Nazionale Tumori
+virtual screening,Eugenia Passaro,Istituto Nazionale Tumori
+AMBER force field simulation,Elena Di Gennaro,Istituto Nazionale Tumori
+AutoDock docking method,Elena Di Gennaro,Istituto Nazionale Tumori
+AutoDock3 docking method,Elena Di Gennaro,Istituto Nazionale Tumori
+AutoDock3 scoring function,Elena Di Gennaro,Istituto Nazionale Tumori
+automatic pathway analysis,Elena Di Gennaro,Istituto Nazionale Tumori
+basic local alignment search tool,Elena Di Gennaro,Istituto Nazionale Tumori
+CFF force field simulation,Elena Di Gennaro,Istituto Nazionale Tumori
+CHARMM force field simulation,Elena Di Gennaro,Istituto Nazionale Tumori
+Clustal sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+ClustalW sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+ClustalX sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+conjugate gradient method,Elena Di Gennaro,Istituto Nazionale Tumori
+Cytoscape network analysis,Elena Di Gennaro,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+DOCK docking method,Elena Di Gennaro,Istituto Nazionale Tumori
+DOCK4 docking method,Elena Di Gennaro,Istituto Nazionale Tumori
+energy minimization method,Elena Di Gennaro,Istituto Nazionale Tumori
+FASTA local sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+force field based scoring function,Elena Di Gennaro,Istituto Nazionale Tumori
+GROMOS force field simulation,Elena Di Gennaro,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Elena Di Gennaro,Istituto Nazionale Tumori
+homology modeling,Elena Di Gennaro,Istituto Nazionale Tumori
+ligand based pharmacophore model,Elena Di Gennaro,Istituto Nazionale Tumori
+ligand based virtual screening,Elena Di Gennaro,Istituto Nazionale Tumori
+local sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+MODELLER homology modeling,Elena Di Gennaro,Istituto Nazionale Tumori
+molecular docking,Elena Di Gennaro,Istituto Nazionale Tumori
+molecular docking by method,Elena Di Gennaro,Istituto Nazionale Tumori
+molecular dynamics simulation,Elena Di Gennaro,Istituto Nazionale Tumori
+multiple sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+network analysis,Elena Di Gennaro,Istituto Nazionale Tumori
+pairwise sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+pathway analysis,Elena Di Gennaro,Istituto Nazionale Tumori
+PREDATOR structure prediction,Elena Di Gennaro,Istituto Nazionale Tumori
+PredictProtein structure prediction,Elena Di Gennaro,Istituto Nazionale Tumori
+principal component analysis,Elena Di Gennaro,Istituto Nazionale Tumori
+protein threading,Elena Di Gennaro,Istituto Nazionale Tumori
+protein-protein docking,Elena Di Gennaro,Istituto Nazionale Tumori
+second generation force field simulation,Elena Di Gennaro,Istituto Nazionale Tumori
+secondary structure analysis method,Elena Di Gennaro,Istituto Nazionale Tumori
+self organizing molecular field analysis,Elena Di Gennaro,Istituto Nazionale Tumori
+sequence alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+statistical classification method,Elena Di Gennaro,Istituto Nazionale Tumori
+structure alignment,Elena Di Gennaro,Istituto Nazionale Tumori
+structure based virtual screening,Elena Di Gennaro,Istituto Nazionale Tumori
+structure database search,Elena Di Gennaro,Istituto Nazionale Tumori
+structure similarity search,Elena Di Gennaro,Istituto Nazionale Tumori
+SwissModel homology modeling,Elena Di Gennaro,Istituto Nazionale Tumori
+virtual screening,Elena Di Gennaro,Istituto Nazionale Tumori
+AMBER force field simulation,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+AutoDock docking method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+AutoDock3 docking method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+AutoDock3 scoring function,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+automatic pathway analysis,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+basic local alignment search tool,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+CFF force field simulation,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+CHARMM force field simulation,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+Clustal sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+ClustalW sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+ClustalX sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+conjugate gradient method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+Cytoscape network analysis,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+DOCK docking method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+DOCK4 docking method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+energy minimization method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+FASTA local sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+force field based scoring function,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+GROMOS force field simulation,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+homology modeling,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+ligand based pharmacophore model,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+ligand based virtual screening,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+local sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+MODELLER homology modeling,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+molecular docking,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+molecular docking by method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+molecular dynamics simulation,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+multiple sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+network analysis,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+pairwise sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+pathway analysis,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+PREDATOR structure prediction,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+PredictProtein structure prediction,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+principal component analysis,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+protein threading,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+protein-protein docking,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+second generation force field simulation,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+secondary structure analysis method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+self organizing molecular field analysis,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+sequence alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+statistical classification method,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+structure alignment,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+structure based virtual screening,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+structure database search,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+structure similarity search,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+SwissModel homology modeling,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+virtual screening,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+AMBER force field simulation,Gianfranco De Feo,Istituto Nazionale Tumori
+AutoDock docking method,Gianfranco De Feo,Istituto Nazionale Tumori
+AutoDock3 docking method,Gianfranco De Feo,Istituto Nazionale Tumori
+AutoDock3 scoring function,Gianfranco De Feo,Istituto Nazionale Tumori
+automatic pathway analysis,Gianfranco De Feo,Istituto Nazionale Tumori
+basic local alignment search tool,Gianfranco De Feo,Istituto Nazionale Tumori
+CFF force field simulation,Gianfranco De Feo,Istituto Nazionale Tumori
+CHARMM force field simulation,Gianfranco De Feo,Istituto Nazionale Tumori
+Clustal sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+ClustalW sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+ClustalX sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+conjugate gradient method,Gianfranco De Feo,Istituto Nazionale Tumori
+Cytoscape network analysis,Gianfranco De Feo,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+DOCK docking method,Gianfranco De Feo,Istituto Nazionale Tumori
+DOCK4 docking method,Gianfranco De Feo,Istituto Nazionale Tumori
+energy minimization method,Gianfranco De Feo,Istituto Nazionale Tumori
+FASTA local sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+force field based scoring function,Gianfranco De Feo,Istituto Nazionale Tumori
+GROMOS force field simulation,Gianfranco De Feo,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Gianfranco De Feo,Istituto Nazionale Tumori
+homology modeling,Gianfranco De Feo,Istituto Nazionale Tumori
+ligand based pharmacophore model,Gianfranco De Feo,Istituto Nazionale Tumori
+ligand based virtual screening,Gianfranco De Feo,Istituto Nazionale Tumori
+local sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+MODELLER homology modeling,Gianfranco De Feo,Istituto Nazionale Tumori
+molecular docking,Gianfranco De Feo,Istituto Nazionale Tumori
+molecular docking by method,Gianfranco De Feo,Istituto Nazionale Tumori
+molecular dynamics simulation,Gianfranco De Feo,Istituto Nazionale Tumori
+multiple sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+network analysis,Gianfranco De Feo,Istituto Nazionale Tumori
+pairwise sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+pathway analysis,Gianfranco De Feo,Istituto Nazionale Tumori
+PREDATOR structure prediction,Gianfranco De Feo,Istituto Nazionale Tumori
+PredictProtein structure prediction,Gianfranco De Feo,Istituto Nazionale Tumori
+principal component analysis,Gianfranco De Feo,Istituto Nazionale Tumori
+protein threading,Gianfranco De Feo,Istituto Nazionale Tumori
+protein-protein docking,Gianfranco De Feo,Istituto Nazionale Tumori
+second generation force field simulation,Gianfranco De Feo,Istituto Nazionale Tumori
+secondary structure analysis method,Gianfranco De Feo,Istituto Nazionale Tumori
+self organizing molecular field analysis,Gianfranco De Feo,Istituto Nazionale Tumori
+sequence alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+statistical classification method,Gianfranco De Feo,Istituto Nazionale Tumori
+structure alignment,Gianfranco De Feo,Istituto Nazionale Tumori
+structure based virtual screening,Gianfranco De Feo,Istituto Nazionale Tumori
+structure database search,Gianfranco De Feo,Istituto Nazionale Tumori
+structure similarity search,Gianfranco De Feo,Istituto Nazionale Tumori
+SwissModel homology modeling,Gianfranco De Feo,Istituto Nazionale Tumori
+virtual screening,Gianfranco De Feo,Istituto Nazionale Tumori
