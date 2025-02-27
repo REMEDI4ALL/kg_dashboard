@@ -7,51 +7,12 @@ Protein-serine/threonine kinases,EATRIS
 Isomerases,EATRIS
 Cis-trans-isomerases,EATRIS
 Ligases,EATRIS
-membrane protein,EATRIS
-nuclear receptor,EATRIS
-lipid,EATRIS
-ion channel,EATRIS
-2D structure similarity search,Chemotargets
-3D structure similarity search,Chemotargets
-AutoDock docking method,Chemotargets
-AutoDock3 docking method,Chemotargets
-AutoDock3 scoring function,Chemotargets
-cheminformatics method,Chemotargets
-comparative molecular similarity indices analysis,Chemotargets
-computational phylogenetic analysis,Chemotargets
-computational structure analysis,Chemotargets
-computational structure solution,Chemotargets
-computer simulation method,Chemotargets
-constraint molecular dynamics simulation,Chemotargets
-data based structure generation,Chemotargets
-database filtering,Chemotargets
-de novo structure design,Chemotargets
-empirical scoring function,Chemotargets
-energy minimization method,Chemotargets
-exact match structure search,Chemotargets
-fragment based structure generation,Chemotargets
-knowledge based scoring function,Chemotargets
-ligand based pharmacophore model,Chemotargets
-ligand based virtual screening,Chemotargets
-linear QSAR,Chemotargets
-Lipinski rule of 5 filtering,Chemotargets
-molecular docking by method,Chemotargets
-molecular dynamics simulation,Chemotargets
-neural network model,Chemotargets
-neural network QSAR,Chemotargets
-Newton-Raphson method,Chemotargets
-partial least squares QSAR,Chemotargets
-quantitative structure activity relationship analysis,Chemotargets
-receptor based pharmacophore search,Chemotargets
-regression QSAR,Chemotargets
-scaffold hopping,Chemotargets
-structure based virtual screening,Chemotargets
-structure database search,Chemotargets
-structure similarity search,Chemotargets
-substructure search,Chemotargets
-target family knowledge analysis,Chemotargets
-two dimensional QSAR,Chemotargets
-virtual screening,Chemotargets
+Membrane protein,EATRIS
+Nuclear receptor,EATRIS
+Lipid,EATRIS
+Ion channel,EATRIS
+Peptidases/Proteases,EATRIS
+GPCR complex,EATRIS
 24 well plate,Fraunhofer-Gesellschaft
 384 well plate,Fraunhofer-Gesellschaft
 96 well plate,Fraunhofer-Gesellschaft
@@ -318,9 +279,256 @@ Serine endopeptidases,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Fraunhofer-Gesellschaft
 Ligases,Fraunhofer-Gesellschaft
-membrane protein,Fraunhofer-Gesellschaft
-nuclear receptor,Fraunhofer-Gesellschaft
-ion channel,Fraunhofer-Gesellschaft
+Membrane protein,Fraunhofer-Gesellschaft
+Nuclear receptor,Fraunhofer-Gesellschaft
+Ion channel,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Fraunhofer-Gesellschaft
+GPCR complex,Fraunhofer-Gesellschaft
+1536 well plate,University of Helsinki (FIMM-UH)
+24 well plate,University of Helsinki (FIMM-UH)
+384 well plate,University of Helsinki (FIMM-UH)
+96 well plate,University of Helsinki (FIMM-UH)
+ADMET,University of Helsinki (FIMM-UH)
+antigen down assay,University of Helsinki (FIMM-UH)
+apoptosis assay,University of Helsinki (FIMM-UH)
+artifact assay,University of Helsinki (FIMM-UH)
+assay format,University of Helsinki (FIMM-UH)
+assay screening campaign stage,University of Helsinki (FIMM-UH)
+assay screening throughput,University of Helsinki (FIMM-UH)
+binding assay,University of Helsinki (FIMM-UH)
+bioassay,University of Helsinki (FIMM-UH)
+bioassay specification,University of Helsinki (FIMM-UH)
+bioassay type,University of Helsinki (FIMM-UH)
+biochemical format,University of Helsinki (FIMM-UH)
+brightfield microscopy,University of Helsinki (FIMM-UH)
+cell based format,University of Helsinki (FIMM-UH)
+cell cycle assay,University of Helsinki (FIMM-UH)
+cell density determination,University of Helsinki (FIMM-UH)
+cell growth assay,University of Helsinki (FIMM-UH)
+cell morphology assay,University of Helsinki (FIMM-UH)
+cell motility assay,University of Helsinki (FIMM-UH)
+cell permeability assay,University of Helsinki (FIMM-UH)
+cell proliferation assay,University of Helsinki (FIMM-UH)
+cell viability assay,University of Helsinki (FIMM-UH)
+cell viability ATP quantitation assay,University of Helsinki (FIMM-UH)
+chemotaxis assay,University of Helsinki (FIMM-UH)
+competitive immunoassay,University of Helsinki (FIMM-UH)
+compound fluorescence assay,University of Helsinki (FIMM-UH)
+compound library,University of Helsinki (FIMM-UH)
+compound toxicity assay,University of Helsinki (FIMM-UH)
+concentration response assay,University of Helsinki (FIMM-UH)
+confirmatory assay,University of Helsinki (FIMM-UH)
+confocal microscopy,University of Helsinki (FIMM-UH)
+counter screening assay,University of Helsinki (FIMM-UH)
+cytokine secretion assay,University of Helsinki (FIMM-UH)
+direct enzyme activity measurement method,University of Helsinki (FIMM-UH)
+drug absorption assay,University of Helsinki (FIMM-UH)
+drug excretion assay,University of Helsinki (FIMM-UH)
+dye redistribution assay,University of Helsinki (FIMM-UH)
+ELISA,University of Helsinki (FIMM-UH)
+endpoint assay,University of Helsinki (FIMM-UH)
+enzymatic stability assay,University of Helsinki (FIMM-UH)
+enzyme activity assay,University of Helsinki (FIMM-UH)
+enzyme complementation,University of Helsinki (FIMM-UH)
+enzyme fragment complementation,University of Helsinki (FIMM-UH)
+enzyme induction assay,University of Helsinki (FIMM-UH)
+enzyme inhibition assay,University of Helsinki (FIMM-UH)
+Fluorescence imaging apoptosis assay,University of Helsinki (FIMM-UH)
+Fluorescence imaging cell count assay,University of Helsinki (FIMM-UH)
+Fluorescence imaging cell cycle state assay,University of Helsinki (FIMM-UH)
+Fluorescence imaging cell growth inhibition assay,University of Helsinki (FIMM-UH)
+Fluorescence imaging morphology assay,University of Helsinki (FIMM-UH)
+Fluorescence imaging multiplex cytological profiling assay,University of Helsinki (FIMM-UH)
+Fluorescence imaging protein state assay,University of Helsinki (FIMM-UH)
+fluorescence microscopy,University of Helsinki (FIMM-UH)
+fluorescent protein reporter gene assay,University of Helsinki (FIMM-UH)
+functional,University of Helsinki (FIMM-UH)
+functional phenotypic,University of Helsinki (FIMM-UH)
+"functional target-based_x000D_
+",University of Helsinki (FIMM-UH)
+gene expression assay,University of Helsinki (FIMM-UH)
+gene knock in,University of Helsinki (FIMM-UH)
+gene knockdown,University of Helsinki (FIMM-UH)
+gene knockout,University of Helsinki (FIMM-UH)
+high throughput screening,University of Helsinki (FIMM-UH)
+homogeneous time resolved fluorescence,University of Helsinki (FIMM-UH)
+immunoassay,University of Helsinki (FIMM-UH)
+kinase activity assay,University of Helsinki (FIMM-UH)
+kinome activity assay,University of Helsinki (FIMM-UH)
+low throughput screening,University of Helsinki (FIMM-UH)
+luciferase enzyme activity assay,University of Helsinki (FIMM-UH)
+luciferase reporter gene assay,University of Helsinki (FIMM-UH)
+medium throughput screening,University of Helsinki (FIMM-UH)
+membrane permeability assessment,University of Helsinki (FIMM-UH)
+membrane potential assay,University of Helsinki (FIMM-UH)
+metabolic stability assay,University of Helsinki (FIMM-UH)
+Migration Assay,University of Helsinki (FIMM-UH)
+mitochondrial membrane potential assay,University of Helsinki (FIMM-UH)
+mitosis/apoptosis assay,University of Helsinki (FIMM-UH)
+primary assay,University of Helsinki (FIMM-UH)
+protein folding assay,University of Helsinki (FIMM-UH)
+protein-protein interaction assay,University of Helsinki (FIMM-UH)
+real-time PCR ,University of Helsinki (FIMM-UH)
+reporter gene assay,University of Helsinki (FIMM-UH)
+RNA-seq gene expression profiling assay,University of Helsinki (FIMM-UH)
+sandwich ELISA,University of Helsinki (FIMM-UH)
+secondary assay,University of Helsinki (FIMM-UH)
+selectivity assay,University of Helsinki (FIMM-UH)
+signal transduction assay,University of Helsinki (FIMM-UH)
+signaling pathway assay,University of Helsinki (FIMM-UH)
+time resolved fluorescence resonance energy transfer,University of Helsinki (FIMM-UH)
+toxicity assay,University of Helsinki (FIMM-UH)
+automatic pathway analysis,University of Helsinki (FIMM-UH)
+cheminformatics method,University of Helsinki (FIMM-UH)
+computational analysis of gene expression,University of Helsinki (FIMM-UH)
+Cytoscape network analysis,University of Helsinki (FIMM-UH)
+decision tree,University of Helsinki (FIMM-UH)
+genetic algorithm search,University of Helsinki (FIMM-UH)
+integrated pathway analysis,University of Helsinki (FIMM-UH)
+k means clustering,University of Helsinki (FIMM-UH)
+pathway analysis,University of Helsinki (FIMM-UH)
+Protein-tyrosine kinases,University of Helsinki (FIMM-UH)
+Protein-serine/threonine kinases,University of Helsinki (FIMM-UH)
+Other protein kinases,University of Helsinki (FIMM-UH)
+24 well plate,Mario Negri Institute for Pharmacological Research
+96 well plate,Mario Negri Institute for Pharmacological Research
+ADMET,Mario Negri Institute for Pharmacological Research
+assay screening throughput,Mario Negri Institute for Pharmacological Research
+ATAC-seq epigenetic profiling assay,Mario Negri Institute for Pharmacological Research
+atomic force microscopy,Mario Negri Institute for Pharmacological Research
+binding assay,Mario Negri Institute for Pharmacological Research
+bioassay,Mario Negri Institute for Pharmacological Research
+bioassay specification,Mario Negri Institute for Pharmacological Research
+bioassay type,Mario Negri Institute for Pharmacological Research
+bioavailability assay,Mario Negri Institute for Pharmacological Research
+biochemical format,Mario Negri Institute for Pharmacological Research
+brightfield microscopy,Mario Negri Institute for Pharmacological Research
+cell based format,Mario Negri Institute for Pharmacological Research
+cell binding assay,Mario Negri Institute for Pharmacological Research
+cell cycle assay,Mario Negri Institute for Pharmacological Research
+cell density determination,Mario Negri Institute for Pharmacological Research
+cell growth assay,Mario Negri Institute for Pharmacological Research
+cell morphology assay,Mario Negri Institute for Pharmacological Research
+cell motility assay,Mario Negri Institute for Pharmacological Research
+cell permeability assay,Mario Negri Institute for Pharmacological Research
+cell proliferation assay,Mario Negri Institute for Pharmacological Research
+cell viability assay,Mario Negri Institute for Pharmacological Research
+cell viability ATP quantitation assay,Mario Negri Institute for Pharmacological Research
+chemiluminescence-linked immunosorbent assay,Mario Negri Institute for Pharmacological Research
+chemotaxis assay,Mario Negri Institute for Pharmacological Research
+ChIP-seq assay,Mario Negri Institute for Pharmacological Research
+circular dichroism,Mario Negri Institute for Pharmacological Research
+compound aggregation assay,Mario Negri Institute for Pharmacological Research
+compound fluorescence assay,Mario Negri Institute for Pharmacological Research
+compound toxicity assay,Mario Negri Institute for Pharmacological Research
+confocal microscopy,Mario Negri Institute for Pharmacological Research
+cytokine secretion assay,Mario Negri Institute for Pharmacological Research
+dot immunobinding assay,Mario Negri Institute for Pharmacological Research
+electron microscopy,Mario Negri Institute for Pharmacological Research
+ELISA,Mario Negri Institute for Pharmacological Research
+endpoint assay,Mario Negri Institute for Pharmacological Research
+Fluorescence imaging apoptosis assay,Mario Negri Institute for Pharmacological Research
+Fluorescence imaging cell count assay,Mario Negri Institute for Pharmacological Research
+Fluorescence imaging cell cycle state assay,Mario Negri Institute for Pharmacological Research
+Fluorescence imaging cell growth inhibition assay,Mario Negri Institute for Pharmacological Research
+Fluorescence imaging morphology assay,Mario Negri Institute for Pharmacological Research
+Fluorescence imaging multiplex cytological profiling assay,Mario Negri Institute for Pharmacological Research
+Fluorescence imaging protein state assay,Mario Negri Institute for Pharmacological Research
+fluorescence microscopy,Mario Negri Institute for Pharmacological Research
+functional,Mario Negri Institute for Pharmacological Research
+functional phenotypic,Mario Negri Institute for Pharmacological Research
+"functional target-based_x000D_
+",Mario Negri Institute for Pharmacological Research
+gene expression assay,Mario Negri Institute for Pharmacological Research
+gene knock in,Mario Negri Institute for Pharmacological Research
+gene knockdown,Mario Negri Institute for Pharmacological Research
+gene knockout,Mario Negri Institute for Pharmacological Research
+genotoxicity assay,Mario Negri Institute for Pharmacological Research
+HPLC System,Mario Negri Institute for Pharmacological Research
+immunoassay,Mario Negri Institute for Pharmacological Research
+immunoblot,Mario Negri Institute for Pharmacological Research
+immunocapture,Mario Negri Institute for Pharmacological Research
+immunocytochemistry,Mario Negri Institute for Pharmacological Research
+immunodepletion,Mario Negri Institute for Pharmacological Research
+immunofluorescent labeling,Mario Negri Institute for Pharmacological Research
+immunogold labeling,Mario Negri Institute for Pharmacological Research
+immunohistochemistry,Mario Negri Institute for Pharmacological Research
+in situ immunoassay,Mario Negri Institute for Pharmacological Research
+in vivo efficacy assay,Mario Negri Institute for Pharmacological Research
+kinetic assay,Mario Negri Institute for Pharmacological Research
+localization assay,Mario Negri Institute for Pharmacological Research
+low throughput screening,Mario Negri Institute for Pharmacological Research
+luciferase reporter gene assay,Mario Negri Institute for Pharmacological Research
+mass spectrometry,Mario Negri Institute for Pharmacological Research
+metastasis assay,Mario Negri Institute for Pharmacological Research
+Migration Assay,Mario Negri Institute for Pharmacological Research
+mitochondrial membrane potential assay,Mario Negri Institute for Pharmacological Research
+mitosis/apoptosis assay,Mario Negri Institute for Pharmacological Research
+mitotic cell cycle state assay,Mario Negri Institute for Pharmacological Research
+optical microscopy,Mario Negri Institute for Pharmacological Research
+organism behavior assay,Mario Negri Institute for Pharmacological Research
+other pharmacokinetic studies,Mario Negri Institute for Pharmacological Research
+oxidative stress assay,Mario Negri Institute for Pharmacological Research
+permeability assay,Mario Negri Institute for Pharmacological Research
+pharmacokinetic assay,Mario Negri Institute for Pharmacological Research
+Pharmacology: Pharmacodynamic Drug Interactions,Mario Negri Institute for Pharmacological Research
+Pharmacology: Primary Pharmacodynamics,Mario Negri Institute for Pharmacological Research
+Pharmacology: Secondary Pharmacodynamics,Mario Negri Institute for Pharmacological Research
+phosphorylation assay,Mario Negri Institute for Pharmacological Research
+plasma stability assay,Mario Negri Institute for Pharmacological Research
+posttranslation modification assay,Mario Negri Institute for Pharmacological Research
+preclinical development stage,Mario Negri Institute for Pharmacological Research
+protease activity assay,Mario Negri Institute for Pharmacological Research
+protein expression assay,Mario Negri Institute for Pharmacological Research
+protein folding assay,Mario Negri Institute for Pharmacological Research
+protein profiling assay,Mario Negri Institute for Pharmacological Research
+protein unfolding assay,Mario Negri Institute for Pharmacological Research
+protein-protein interaction assay,Mario Negri Institute for Pharmacological Research
+protein-small molecule interaction assay,Mario Negri Institute for Pharmacological Research
+quantitative PCR,Mario Negri Institute for Pharmacological Research
+quantitative reverse transcription PCR,Mario Negri Institute for Pharmacological Research
+real-time PCR ,Mario Negri Institute for Pharmacological Research
+reporter gene assay,Mario Negri Institute for Pharmacological Research
+reverse transcription PCR,Mario Negri Institute for Pharmacological Research
+RNA-seq gene expression profiling assay,Mario Negri Institute for Pharmacological Research
+sandwich ELISA,Mario Negri Institute for Pharmacological Research
+signal transduction assay,Mario Negri Institute for Pharmacological Research
+signaling pathway assay,Mario Negri Institute for Pharmacological Research
+surface plasmon resonance,Mario Negri Institute for Pharmacological Research
+targeted transcriptional assay,Mario Negri Institute for Pharmacological Research
+tissue distribution assay,Mario Negri Institute for Pharmacological Research
+toxicity assay,Mario Negri Institute for Pharmacological Research
+transcriptional profiling assay,Mario Negri Institute for Pharmacological Research
+transmission electron microscopy,Mario Negri Institute for Pharmacological Research
+turbidimetric solubility assay,Mario Negri Institute for Pharmacological Research
+3D structure prediction,Mario Negri Institute for Pharmacological Research
+3D structure similarity search,Mario Negri Institute for Pharmacological Research
+AMBER force field simulation,Mario Negri Institute for Pharmacological Research
+CHARMM force field simulation,Mario Negri Institute for Pharmacological Research
+classical force field simulation,Mario Negri Institute for Pharmacological Research
+Clustal sequence alignment,Mario Negri Institute for Pharmacological Research
+ClustalW sequence alignment,Mario Negri Institute for Pharmacological Research
+computational structure analysis,Mario Negri Institute for Pharmacological Research
+computer simulation method,Mario Negri Institute for Pharmacological Research
+computer simulation method by force field,Mario Negri Institute for Pharmacological Research
+energy minimization method,Mario Negri Institute for Pharmacological Research
+force field based scoring function,Mario Negri Institute for Pharmacological Research
+GROMOS force field simulation,Mario Negri Institute for Pharmacological Research
+homology modeling,Mario Negri Institute for Pharmacological Research
+k means clustering,Mario Negri Institute for Pharmacological Research
+molecular docking,Mario Negri Institute for Pharmacological Research
+molecular docking by method,Mario Negri Institute for Pharmacological Research
+molecular docking by scoring function,Mario Negri Institute for Pharmacological Research
+molecular dynamics simulation,Mario Negri Institute for Pharmacological Research
+principal component analysis,Mario Negri Institute for Pharmacological Research
+protein threading,Mario Negri Institute for Pharmacological Research
+protein-protein docking,Mario Negri Institute for Pharmacological Research
+Peptidyl-dipeptidases,Mario Negri Institute for Pharmacological Research
+Cysteine endopeptidases,Mario Negri Institute for Pharmacological Research
+Metalloendopeptidases,Mario Negri Institute for Pharmacological Research
+Membrane protein,Mario Negri Institute for Pharmacological Research
+Nuclear receptor,Mario Negri Institute for Pharmacological Research
+GPCR complex,Mario Negri Institute for Pharmacological Research
 1536 well plate,Istituto Nazionale Tumori
 24 well plate,Istituto Nazionale Tumori
 384 well plate,Istituto Nazionale Tumori
@@ -462,8 +670,9 @@ virtual screening,Istituto Nazionale Tumori
 Transferases,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Istituto Nazionale Tumori
-lipid,Istituto Nazionale Tumori
-ion channel,Istituto Nazionale Tumori
+Lipid,Istituto Nazionale Tumori
+Ion channel,Istituto Nazionale Tumori
+Histone deacetylase,Istituto Nazionale Tumori
 1536 well plate,Karolinska Institutet
 24 well plate,Karolinska Institutet
 384 well plate,Karolinska Institutet
@@ -707,9 +916,55 @@ Other protein kinases,Karolinska Institutet
 Glycosylases,Karolinska Institutet
 Aminopeptidases,Karolinska Institutet
 Ligases,Karolinska Institutet
-membrane protein,Karolinska Institutet
-nuclear receptor,Karolinska Institutet
-ion channel,Karolinska Institutet
+Membrane protein,Karolinska Institutet
+Nuclear receptor,Karolinska Institutet
+Ion channel,Karolinska Institutet
+GPCR complex,Karolinska Institutet
+2D structure similarity search,Chemotargets
+3D structure similarity search,Chemotargets
+AutoDock docking method,Chemotargets
+AutoDock3 docking method,Chemotargets
+AutoDock3 scoring function,Chemotargets
+cheminformatics method,Chemotargets
+comparative molecular similarity indices analysis,Chemotargets
+computational phylogenetic analysis,Chemotargets
+computational structure analysis,Chemotargets
+computational structure solution,Chemotargets
+computer simulation method,Chemotargets
+constraint molecular dynamics simulation,Chemotargets
+data based structure generation,Chemotargets
+database filtering,Chemotargets
+de novo structure design,Chemotargets
+empirical scoring function,Chemotargets
+energy minimization method,Chemotargets
+exact match structure search,Chemotargets
+fragment based structure generation,Chemotargets
+knowledge based scoring function,Chemotargets
+ligand based pharmacophore model,Chemotargets
+ligand based virtual screening,Chemotargets
+linear QSAR,Chemotargets
+Lipinski rule of 5 filtering,Chemotargets
+molecular docking by method,Chemotargets
+molecular dynamics simulation,Chemotargets
+neural network model,Chemotargets
+neural network QSAR,Chemotargets
+Newton-Raphson method,Chemotargets
+partial least squares QSAR,Chemotargets
+quantitative structure activity relationship analysis,Chemotargets
+receptor based pharmacophore search,Chemotargets
+regression QSAR,Chemotargets
+scaffold hopping,Chemotargets
+structure based virtual screening,Chemotargets
+structure database search,Chemotargets
+structure similarity search,Chemotargets
+substructure search,Chemotargets
+target family knowledge analysis,Chemotargets
+two dimensional QSAR,Chemotargets
+virtual screening,Chemotargets
+Nuclear receptor,Chemotargets
+Lipid,Chemotargets
+Histone deacetylase,Chemotargets
+GPCR complex,Chemotargets
 24 well plate,Ljubljana University
 96 well plate,Ljubljana University
 acetylated histone assay,Ljubljana University
@@ -861,254 +1116,9 @@ Cysteine endopeptidases,Ljubljana University
 Aspartic endopeptidases,Ljubljana University
 Metalloendopeptidases,Ljubljana University
 Threonine endopeptidases,Ljubljana University
-ion channel,Ljubljana University
-24 well plate,Mario Negri Institute for Pharmacological Research
-96 well plate,Mario Negri Institute for Pharmacological Research
-ADMET,Mario Negri Institute for Pharmacological Research
-assay screening throughput,Mario Negri Institute for Pharmacological Research
-ATAC-seq epigenetic profiling assay,Mario Negri Institute for Pharmacological Research
-atomic force microscopy,Mario Negri Institute for Pharmacological Research
-binding assay,Mario Negri Institute for Pharmacological Research
-bioassay,Mario Negri Institute for Pharmacological Research
-bioassay specification,Mario Negri Institute for Pharmacological Research
-bioassay type,Mario Negri Institute for Pharmacological Research
-bioavailability assay,Mario Negri Institute for Pharmacological Research
-biochemical format,Mario Negri Institute for Pharmacological Research
-brightfield microscopy,Mario Negri Institute for Pharmacological Research
-cell based format,Mario Negri Institute for Pharmacological Research
-cell binding assay,Mario Negri Institute for Pharmacological Research
-cell cycle assay,Mario Negri Institute for Pharmacological Research
-cell density determination,Mario Negri Institute for Pharmacological Research
-cell growth assay,Mario Negri Institute for Pharmacological Research
-cell morphology assay,Mario Negri Institute for Pharmacological Research
-cell motility assay,Mario Negri Institute for Pharmacological Research
-cell permeability assay,Mario Negri Institute for Pharmacological Research
-cell proliferation assay,Mario Negri Institute for Pharmacological Research
-cell viability assay,Mario Negri Institute for Pharmacological Research
-cell viability ATP quantitation assay,Mario Negri Institute for Pharmacological Research
-chemiluminescence-linked immunosorbent assay,Mario Negri Institute for Pharmacological Research
-chemotaxis assay,Mario Negri Institute for Pharmacological Research
-ChIP-seq assay,Mario Negri Institute for Pharmacological Research
-circular dichroism,Mario Negri Institute for Pharmacological Research
-compound aggregation assay,Mario Negri Institute for Pharmacological Research
-compound fluorescence assay,Mario Negri Institute for Pharmacological Research
-compound toxicity assay,Mario Negri Institute for Pharmacological Research
-confocal microscopy,Mario Negri Institute for Pharmacological Research
-cytokine secretion assay,Mario Negri Institute for Pharmacological Research
-dot immunobinding assay,Mario Negri Institute for Pharmacological Research
-electron microscopy,Mario Negri Institute for Pharmacological Research
-ELISA,Mario Negri Institute for Pharmacological Research
-endpoint assay,Mario Negri Institute for Pharmacological Research
-Fluorescence imaging apoptosis assay,Mario Negri Institute for Pharmacological Research
-Fluorescence imaging cell count assay,Mario Negri Institute for Pharmacological Research
-Fluorescence imaging cell cycle state assay,Mario Negri Institute for Pharmacological Research
-Fluorescence imaging cell growth inhibition assay,Mario Negri Institute for Pharmacological Research
-Fluorescence imaging morphology assay,Mario Negri Institute for Pharmacological Research
-Fluorescence imaging multiplex cytological profiling assay,Mario Negri Institute for Pharmacological Research
-Fluorescence imaging protein state assay,Mario Negri Institute for Pharmacological Research
-fluorescence microscopy,Mario Negri Institute for Pharmacological Research
-functional,Mario Negri Institute for Pharmacological Research
-functional phenotypic,Mario Negri Institute for Pharmacological Research
-"functional target-based_x000D_
-",Mario Negri Institute for Pharmacological Research
-gene expression assay,Mario Negri Institute for Pharmacological Research
-gene knock in,Mario Negri Institute for Pharmacological Research
-gene knockdown,Mario Negri Institute for Pharmacological Research
-gene knockout,Mario Negri Institute for Pharmacological Research
-genotoxicity assay,Mario Negri Institute for Pharmacological Research
-HPLC System,Mario Negri Institute for Pharmacological Research
-immunoassay,Mario Negri Institute for Pharmacological Research
-immunoblot,Mario Negri Institute for Pharmacological Research
-immunocapture,Mario Negri Institute for Pharmacological Research
-immunocytochemistry,Mario Negri Institute for Pharmacological Research
-immunodepletion,Mario Negri Institute for Pharmacological Research
-immunofluorescent labeling,Mario Negri Institute for Pharmacological Research
-immunogold labeling,Mario Negri Institute for Pharmacological Research
-immunohistochemistry,Mario Negri Institute for Pharmacological Research
-in situ immunoassay,Mario Negri Institute for Pharmacological Research
-in vivo efficacy assay,Mario Negri Institute for Pharmacological Research
-kinetic assay,Mario Negri Institute for Pharmacological Research
-localization assay,Mario Negri Institute for Pharmacological Research
-low throughput screening,Mario Negri Institute for Pharmacological Research
-luciferase reporter gene assay,Mario Negri Institute for Pharmacological Research
-mass spectrometry,Mario Negri Institute for Pharmacological Research
-metastasis assay,Mario Negri Institute for Pharmacological Research
-Migration Assay,Mario Negri Institute for Pharmacological Research
-mitochondrial membrane potential assay,Mario Negri Institute for Pharmacological Research
-mitosis/apoptosis assay,Mario Negri Institute for Pharmacological Research
-mitotic cell cycle state assay,Mario Negri Institute for Pharmacological Research
-optical microscopy,Mario Negri Institute for Pharmacological Research
-organism behavior assay,Mario Negri Institute for Pharmacological Research
-other pharmacokinetic studies,Mario Negri Institute for Pharmacological Research
-oxidative stress assay,Mario Negri Institute for Pharmacological Research
-permeability assay,Mario Negri Institute for Pharmacological Research
-pharmacokinetic assay,Mario Negri Institute for Pharmacological Research
-Pharmacology: Pharmacodynamic Drug Interactions,Mario Negri Institute for Pharmacological Research
-Pharmacology: Primary Pharmacodynamics,Mario Negri Institute for Pharmacological Research
-Pharmacology: Secondary Pharmacodynamics,Mario Negri Institute for Pharmacological Research
-phosphorylation assay,Mario Negri Institute for Pharmacological Research
-plasma stability assay,Mario Negri Institute for Pharmacological Research
-posttranslation modification assay,Mario Negri Institute for Pharmacological Research
-preclinical development stage,Mario Negri Institute for Pharmacological Research
-protease activity assay,Mario Negri Institute for Pharmacological Research
-protein expression assay,Mario Negri Institute for Pharmacological Research
-protein folding assay,Mario Negri Institute for Pharmacological Research
-protein profiling assay,Mario Negri Institute for Pharmacological Research
-protein unfolding assay,Mario Negri Institute for Pharmacological Research
-protein-protein interaction assay,Mario Negri Institute for Pharmacological Research
-protein-small molecule interaction assay,Mario Negri Institute for Pharmacological Research
-quantitative PCR,Mario Negri Institute for Pharmacological Research
-quantitative reverse transcription PCR,Mario Negri Institute for Pharmacological Research
-real-time PCR ,Mario Negri Institute for Pharmacological Research
-reporter gene assay,Mario Negri Institute for Pharmacological Research
-reverse transcription PCR,Mario Negri Institute for Pharmacological Research
-RNA-seq gene expression profiling assay,Mario Negri Institute for Pharmacological Research
-sandwich ELISA,Mario Negri Institute for Pharmacological Research
-signal transduction assay,Mario Negri Institute for Pharmacological Research
-signaling pathway assay,Mario Negri Institute for Pharmacological Research
-surface plasmon resonance,Mario Negri Institute for Pharmacological Research
-targeted transcriptional assay,Mario Negri Institute for Pharmacological Research
-tissue distribution assay,Mario Negri Institute for Pharmacological Research
-toxicity assay,Mario Negri Institute for Pharmacological Research
-transcriptional profiling assay,Mario Negri Institute for Pharmacological Research
-transmission electron microscopy,Mario Negri Institute for Pharmacological Research
-turbidimetric solubility assay,Mario Negri Institute for Pharmacological Research
-solid state peptide synthesis,Mario Negri Institute for Pharmacological Research
-C. elegans  studies,Mario Negri Institute for Pharmacological Research
-3D structure prediction,Mario Negri Institute for Pharmacological Research
-3D structure similarity search,Mario Negri Institute for Pharmacological Research
-AMBER force field simulation,Mario Negri Institute for Pharmacological Research
-CHARMM force field simulation,Mario Negri Institute for Pharmacological Research
-classical force field simulation,Mario Negri Institute for Pharmacological Research
-Clustal sequence alignment,Mario Negri Institute for Pharmacological Research
-ClustalW sequence alignment,Mario Negri Institute for Pharmacological Research
-computational structure analysis,Mario Negri Institute for Pharmacological Research
-computer simulation method,Mario Negri Institute for Pharmacological Research
-computer simulation method by force field,Mario Negri Institute for Pharmacological Research
-energy minimization method,Mario Negri Institute for Pharmacological Research
-force field based scoring function,Mario Negri Institute for Pharmacological Research
-GROMOS force field simulation,Mario Negri Institute for Pharmacological Research
-homology modeling,Mario Negri Institute for Pharmacological Research
-k means clustering,Mario Negri Institute for Pharmacological Research
-molecular docking,Mario Negri Institute for Pharmacological Research
-molecular docking by method,Mario Negri Institute for Pharmacological Research
-molecular docking by scoring function,Mario Negri Institute for Pharmacological Research
-molecular dynamics simulation,Mario Negri Institute for Pharmacological Research
-principal component analysis,Mario Negri Institute for Pharmacological Research
-protein threading,Mario Negri Institute for Pharmacological Research
-protein-protein docking,Mario Negri Institute for Pharmacological Research
-Design new protein molecules with specific structural or functional properties.,Mario Negri Institute for Pharmacological Research
-Peptidyl-dipeptidases,Mario Negri Institute for Pharmacological Research
-Cysteine endopeptidases,Mario Negri Institute for Pharmacological Research
-Metalloendopeptidases,Mario Negri Institute for Pharmacological Research
-membrane protein,Mario Negri Institute for Pharmacological Research
-nuclear receptor,Mario Negri Institute for Pharmacological Research
-1536 well plate,University of Helsinki (FIMM-UH)
-24 well plate,University of Helsinki (FIMM-UH)
-384 well plate,University of Helsinki (FIMM-UH)
-96 well plate,University of Helsinki (FIMM-UH)
-ADMET,University of Helsinki (FIMM-UH)
-antigen down assay,University of Helsinki (FIMM-UH)
-apoptosis assay,University of Helsinki (FIMM-UH)
-artifact assay,University of Helsinki (FIMM-UH)
-assay format,University of Helsinki (FIMM-UH)
-assay screening campaign stage,University of Helsinki (FIMM-UH)
-assay screening throughput,University of Helsinki (FIMM-UH)
-binding assay,University of Helsinki (FIMM-UH)
-bioassay,University of Helsinki (FIMM-UH)
-bioassay specification,University of Helsinki (FIMM-UH)
-bioassay type,University of Helsinki (FIMM-UH)
-biochemical format,University of Helsinki (FIMM-UH)
-brightfield microscopy,University of Helsinki (FIMM-UH)
-cell based format,University of Helsinki (FIMM-UH)
-cell cycle assay,University of Helsinki (FIMM-UH)
-cell density determination,University of Helsinki (FIMM-UH)
-cell growth assay,University of Helsinki (FIMM-UH)
-cell morphology assay,University of Helsinki (FIMM-UH)
-cell motility assay,University of Helsinki (FIMM-UH)
-cell permeability assay,University of Helsinki (FIMM-UH)
-cell proliferation assay,University of Helsinki (FIMM-UH)
-cell viability assay,University of Helsinki (FIMM-UH)
-cell viability ATP quantitation assay,University of Helsinki (FIMM-UH)
-chemotaxis assay,University of Helsinki (FIMM-UH)
-competitive immunoassay,University of Helsinki (FIMM-UH)
-compound fluorescence assay,University of Helsinki (FIMM-UH)
-compound library,University of Helsinki (FIMM-UH)
-compound toxicity assay,University of Helsinki (FIMM-UH)
-concentration response assay,University of Helsinki (FIMM-UH)
-confirmatory assay,University of Helsinki (FIMM-UH)
-confocal microscopy,University of Helsinki (FIMM-UH)
-counter screening assay,University of Helsinki (FIMM-UH)
-cytokine secretion assay,University of Helsinki (FIMM-UH)
-direct enzyme activity measurement method,University of Helsinki (FIMM-UH)
-drug absorption assay,University of Helsinki (FIMM-UH)
-drug excretion assay,University of Helsinki (FIMM-UH)
-dye redistribution assay,University of Helsinki (FIMM-UH)
-ELISA,University of Helsinki (FIMM-UH)
-endpoint assay,University of Helsinki (FIMM-UH)
-enzymatic stability assay,University of Helsinki (FIMM-UH)
-enzyme activity assay,University of Helsinki (FIMM-UH)
-enzyme complementation,University of Helsinki (FIMM-UH)
-enzyme fragment complementation,University of Helsinki (FIMM-UH)
-enzyme induction assay,University of Helsinki (FIMM-UH)
-enzyme inhibition assay,University of Helsinki (FIMM-UH)
-Fluorescence imaging apoptosis assay,University of Helsinki (FIMM-UH)
-Fluorescence imaging cell count assay,University of Helsinki (FIMM-UH)
-Fluorescence imaging cell cycle state assay,University of Helsinki (FIMM-UH)
-Fluorescence imaging cell growth inhibition assay,University of Helsinki (FIMM-UH)
-Fluorescence imaging morphology assay,University of Helsinki (FIMM-UH)
-Fluorescence imaging multiplex cytological profiling assay,University of Helsinki (FIMM-UH)
-Fluorescence imaging protein state assay,University of Helsinki (FIMM-UH)
-fluorescence microscopy,University of Helsinki (FIMM-UH)
-fluorescent protein reporter gene assay,University of Helsinki (FIMM-UH)
-functional,University of Helsinki (FIMM-UH)
-functional phenotypic,University of Helsinki (FIMM-UH)
-"functional target-based_x000D_
-",University of Helsinki (FIMM-UH)
-gene expression assay,University of Helsinki (FIMM-UH)
-gene knock in,University of Helsinki (FIMM-UH)
-gene knockdown,University of Helsinki (FIMM-UH)
-gene knockout,University of Helsinki (FIMM-UH)
-high throughput screening,University of Helsinki (FIMM-UH)
-homogeneous time resolved fluorescence,University of Helsinki (FIMM-UH)
-immunoassay,University of Helsinki (FIMM-UH)
-kinase activity assay,University of Helsinki (FIMM-UH)
-kinome activity assay,University of Helsinki (FIMM-UH)
-low throughput screening,University of Helsinki (FIMM-UH)
-luciferase enzyme activity assay,University of Helsinki (FIMM-UH)
-luciferase reporter gene assay,University of Helsinki (FIMM-UH)
-medium throughput screening,University of Helsinki (FIMM-UH)
-membrane permeability assessment,University of Helsinki (FIMM-UH)
-membrane potential assay,University of Helsinki (FIMM-UH)
-metabolic stability assay,University of Helsinki (FIMM-UH)
-Migration Assay,University of Helsinki (FIMM-UH)
-mitochondrial membrane potential assay,University of Helsinki (FIMM-UH)
-mitosis/apoptosis assay,University of Helsinki (FIMM-UH)
-primary assay,University of Helsinki (FIMM-UH)
-protein folding assay,University of Helsinki (FIMM-UH)
-protein-protein interaction assay,University of Helsinki (FIMM-UH)
-real-time PCR ,University of Helsinki (FIMM-UH)
-reporter gene assay,University of Helsinki (FIMM-UH)
-RNA-seq gene expression profiling assay,University of Helsinki (FIMM-UH)
-sandwich ELISA,University of Helsinki (FIMM-UH)
-secondary assay,University of Helsinki (FIMM-UH)
-selectivity assay,University of Helsinki (FIMM-UH)
-signal transduction assay,University of Helsinki (FIMM-UH)
-signaling pathway assay,University of Helsinki (FIMM-UH)
-time resolved fluorescence resonance energy transfer,University of Helsinki (FIMM-UH)
-toxicity assay,University of Helsinki (FIMM-UH)
-automatic pathway analysis,University of Helsinki (FIMM-UH)
-cheminformatics method,University of Helsinki (FIMM-UH)
-computational analysis of gene expression,University of Helsinki (FIMM-UH)
-Cytoscape network analysis,University of Helsinki (FIMM-UH)
-decision tree,University of Helsinki (FIMM-UH)
-genetic algorithm search,University of Helsinki (FIMM-UH)
-integrated pathway analysis,University of Helsinki (FIMM-UH)
-k means clustering,University of Helsinki (FIMM-UH)
-pathway analysis,University of Helsinki (FIMM-UH)
-Protein-tyrosine kinases,University of Helsinki (FIMM-UH)
-Protein-serine/threonine kinases,University of Helsinki (FIMM-UH)
-Other protein kinases,University of Helsinki (FIMM-UH)
+Ion channel,Ljubljana University
+Histone deacetylase,Ljubljana University
+Peptidases/Proteases,Ljubljana University
 384 well plate,Uppsala Universitet
 96 well plate,Uppsala Universitet
 bioassay,Uppsala Universitet

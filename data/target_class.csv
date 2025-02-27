@@ -33,7 +33,10 @@ Phosphorus-oxygen lyases,EC:4. 6.
 Isomerases,EC:5.  
 Cis-trans-isomerases,EC:5. 2. 
 Ligases,EC:6.  
-membrane protein,BAO:0000367
-nuclear receptor,BAO:0000286
-lipid,BAO:0000171
-ion channel,BAO:0000280
+Membrane protein,BAO:0000367
+Nuclear receptor,BAO:0000286
+Lipid,BAO:0000171
+Ion channel,BAO:0000280
+Histone deacetylase,EC:3.5.1.98
+Peptidases/Proteases,EC:3.4
+GPCR complex,BAO:0100014

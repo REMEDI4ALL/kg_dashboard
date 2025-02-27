@@ -16,9 +16,11 @@ Serine endopeptidases,Yojana Gadiya,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Yojana Gadiya,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Yojana Gadiya,Fraunhofer-Gesellschaft
 Ligases,Yojana Gadiya,Fraunhofer-Gesellschaft
-membrane protein,Yojana Gadiya,Fraunhofer-Gesellschaft
-nuclear receptor,Yojana Gadiya,Fraunhofer-Gesellschaft
-ion channel,Yojana Gadiya,Fraunhofer-Gesellschaft
+Membrane protein,Yojana Gadiya,Fraunhofer-Gesellschaft
+Nuclear receptor,Yojana Gadiya,Fraunhofer-Gesellschaft
+Ion channel,Yojana Gadiya,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Yojana Gadiya,Fraunhofer-Gesellschaft
+GPCR complex,Yojana Gadiya,Fraunhofer-Gesellschaft
 Oxidoreductases,Johanna Huchting,Fraunhofer-Gesellschaft
 Hydroxylases,Johanna Huchting,Fraunhofer-Gesellschaft
 Transferases,Johanna Huchting,Fraunhofer-Gesellschaft
@@ -36,9 +38,11 @@ Serine endopeptidases,Johanna Huchting,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Johanna Huchting,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Johanna Huchting,Fraunhofer-Gesellschaft
 Ligases,Johanna Huchting,Fraunhofer-Gesellschaft
-membrane protein,Johanna Huchting,Fraunhofer-Gesellschaft
-nuclear receptor,Johanna Huchting,Fraunhofer-Gesellschaft
-ion channel,Johanna Huchting,Fraunhofer-Gesellschaft
+Membrane protein,Johanna Huchting,Fraunhofer-Gesellschaft
+Nuclear receptor,Johanna Huchting,Fraunhofer-Gesellschaft
+Ion channel,Johanna Huchting,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Johanna Huchting,Fraunhofer-Gesellschaft
+GPCR complex,Johanna Huchting,Fraunhofer-Gesellschaft
 Oxidoreductases,Philip Gribbon,Fraunhofer-Gesellschaft
 Hydroxylases,Philip Gribbon,Fraunhofer-Gesellschaft
 Transferases,Philip Gribbon,Fraunhofer-Gesellschaft
@@ -56,9 +60,11 @@ Serine endopeptidases,Philip Gribbon,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Philip Gribbon,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Philip Gribbon,Fraunhofer-Gesellschaft
 Ligases,Philip Gribbon,Fraunhofer-Gesellschaft
-membrane protein,Philip Gribbon,Fraunhofer-Gesellschaft
-nuclear receptor,Philip Gribbon,Fraunhofer-Gesellschaft
-ion channel,Philip Gribbon,Fraunhofer-Gesellschaft
+Membrane protein,Philip Gribbon,Fraunhofer-Gesellschaft
+Nuclear receptor,Philip Gribbon,Fraunhofer-Gesellschaft
+Ion channel,Philip Gribbon,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Philip Gribbon,Fraunhofer-Gesellschaft
+GPCR complex,Philip Gribbon,Fraunhofer-Gesellschaft
 Protein-tyrosine kinases,Markus Vähä-Koskela,University of Helsinki (FIMM-UH)
 Protein-serine/threonine kinases,Markus Vähä-Koskela,University of Helsinki (FIMM-UH)
 Other protein kinases,Markus Vähä-Koskela,University of Helsinki (FIMM-UH)
@@ -70,10 +76,12 @@ Protein-serine/threonine kinases,Martin de Kort,EATRIS
 Isomerases,Martin de Kort,EATRIS
 Cis-trans-isomerases,Martin de Kort,EATRIS
 Ligases,Martin de Kort,EATRIS
-membrane protein,Martin de Kort,EATRIS
-nuclear receptor,Martin de Kort,EATRIS
-lipid,Martin de Kort,EATRIS
-ion channel,Martin de Kort,EATRIS
+Membrane protein,Martin de Kort,EATRIS
+Nuclear receptor,Martin de Kort,EATRIS
+Lipid,Martin de Kort,EATRIS
+Ion channel,Martin de Kort,EATRIS
+Peptidases/Proteases,Martin de Kort,EATRIS
+GPCR complex,Martin de Kort,EATRIS
 Protein-tyrosine kinases,Swapnil Potdar,University of Helsinki (FIMM-UH)
 Protein-serine/threonine kinases,Swapnil Potdar,University of Helsinki (FIMM-UH)
 Other protein kinases,Swapnil Potdar,University of Helsinki (FIMM-UH)
@@ -94,9 +102,11 @@ Serine endopeptidases,Jeanette Reinshagen,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Jeanette Reinshagen,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Jeanette Reinshagen,Fraunhofer-Gesellschaft
 Ligases,Jeanette Reinshagen,Fraunhofer-Gesellschaft
-membrane protein,Jeanette Reinshagen,Fraunhofer-Gesellschaft
-nuclear receptor,Jeanette Reinshagen,Fraunhofer-Gesellschaft
-ion channel,Jeanette Reinshagen,Fraunhofer-Gesellschaft
+Membrane protein,Jeanette Reinshagen,Fraunhofer-Gesellschaft
+Nuclear receptor,Jeanette Reinshagen,Fraunhofer-Gesellschaft
+Ion channel,Jeanette Reinshagen,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Jeanette Reinshagen,Fraunhofer-Gesellschaft
+GPCR complex,Jeanette Reinshagen,Fraunhofer-Gesellschaft
 Protein-tyrosine kinases,Jani Saarela,University of Helsinki (FIMM-UH)
 Protein-serine/threonine kinases,Jani Saarela,University of Helsinki (FIMM-UH)
 Other protein kinases,Jani Saarela,University of Helsinki (FIMM-UH)
@@ -108,14 +118,16 @@ Other protein kinases,Marianna Tampere,Karolinska Institutet
 Glycosylases,Marianna Tampere,Karolinska Institutet
 Aminopeptidases,Marianna Tampere,Karolinska Institutet
 Ligases,Marianna Tampere,Karolinska Institutet
-membrane protein,Marianna Tampere,Karolinska Institutet
-nuclear receptor,Marianna Tampere,Karolinska Institutet
-ion channel,Marianna Tampere,Karolinska Institutet
+Membrane protein,Marianna Tampere,Karolinska Institutet
+Nuclear receptor,Marianna Tampere,Karolinska Institutet
+Ion channel,Marianna Tampere,Karolinska Institutet
+GPCR complex,Marianna Tampere,Karolinska Institutet
 Transferases,Francesca Bruzzese,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Francesca Bruzzese,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Francesca Bruzzese,Istituto Nazionale Tumori
-lipid,Francesca Bruzzese,Istituto Nazionale Tumori
-ion channel,Francesca Bruzzese,Istituto Nazionale Tumori
+Lipid,Francesca Bruzzese,Istituto Nazionale Tumori
+Ion channel,Francesca Bruzzese,Istituto Nazionale Tumori
+Histone deacetylase,Francesca Bruzzese,Istituto Nazionale Tumori
 Oxidoreductases,Bruce Schultz,Fraunhofer-Gesellschaft
 Hydroxylases,Bruce Schultz,Fraunhofer-Gesellschaft
 Transferases,Bruce Schultz,Fraunhofer-Gesellschaft
@@ -133,9 +145,15 @@ Serine endopeptidases,Bruce Schultz,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Bruce Schultz,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Bruce Schultz,Fraunhofer-Gesellschaft
 Ligases,Bruce Schultz,Fraunhofer-Gesellschaft
-membrane protein,Bruce Schultz,Fraunhofer-Gesellschaft
-nuclear receptor,Bruce Schultz,Fraunhofer-Gesellschaft
-ion channel,Bruce Schultz,Fraunhofer-Gesellschaft
+Membrane protein,Bruce Schultz,Fraunhofer-Gesellschaft
+Nuclear receptor,Bruce Schultz,Fraunhofer-Gesellschaft
+Ion channel,Bruce Schultz,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Bruce Schultz,Fraunhofer-Gesellschaft
+GPCR complex,Bruce Schultz,Fraunhofer-Gesellschaft
+Nuclear receptor,Jordi Quintana,Chemotargets
+Lipid,Jordi Quintana,Chemotargets
+Histone deacetylase,Jordi Quintana,Chemotargets
+GPCR complex,Jordi Quintana,Chemotargets
 Oxidoreductases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 Hydroxylases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 Transferases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
@@ -153,9 +171,11 @@ Serine endopeptidases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 Ligases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
-membrane protein,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
-nuclear receptor,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
-ion channel,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
+Membrane protein,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
+Nuclear receptor,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
+Ion channel,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
+GPCR complex,Martin Hofmann-Apitius,Fraunhofer-Gesellschaft
 Oxidoreductases,Rok Dreu,Ljubljana University
 Methyltransferases,Rok Dreu,Ljubljana University
 Nucleotidyltransferases,Rok Dreu,Ljubljana University
@@ -175,7 +195,9 @@ Cysteine endopeptidases,Rok Dreu,Ljubljana University
 Aspartic endopeptidases,Rok Dreu,Ljubljana University
 Metalloendopeptidases,Rok Dreu,Ljubljana University
 Threonine endopeptidases,Rok Dreu,Ljubljana University
-ion channel,Rok Dreu,Ljubljana University
+Ion channel,Rok Dreu,Ljubljana University
+Histone deacetylase,Rok Dreu,Ljubljana University
+Peptidases/Proteases,Rok Dreu,Ljubljana University
 Transferases,Päivi Östling,Karolinska Institutet
 Methyltransferases,Päivi Östling,Karolinska Institutet
 Protein-tyrosine kinases,Päivi Östling,Karolinska Institutet
@@ -184,9 +206,10 @@ Other protein kinases,Päivi Östling,Karolinska Institutet
 Glycosylases,Päivi Östling,Karolinska Institutet
 Aminopeptidases,Päivi Östling,Karolinska Institutet
 Ligases,Päivi Östling,Karolinska Institutet
-membrane protein,Päivi Östling,Karolinska Institutet
-nuclear receptor,Päivi Östling,Karolinska Institutet
-ion channel,Päivi Östling,Karolinska Institutet
+Membrane protein,Päivi Östling,Karolinska Institutet
+Nuclear receptor,Päivi Östling,Karolinska Institutet
+Ion channel,Päivi Östling,Karolinska Institutet
+GPCR complex,Päivi Östling,Karolinska Institutet
 Oxidoreductases,Igor Locatelli,Ljubljana University
 Methyltransferases,Igor Locatelli,Ljubljana University
 Nucleotidyltransferases,Igor Locatelli,Ljubljana University
@@ -206,12 +229,15 @@ Cysteine endopeptidases,Igor Locatelli,Ljubljana University
 Aspartic endopeptidases,Igor Locatelli,Ljubljana University
 Metalloendopeptidases,Igor Locatelli,Ljubljana University
 Threonine endopeptidases,Igor Locatelli,Ljubljana University
-ion channel,Igor Locatelli,Ljubljana University
+Ion channel,Igor Locatelli,Ljubljana University
+Histone deacetylase,Igor Locatelli,Ljubljana University
+Peptidases/Proteases,Igor Locatelli,Ljubljana University
 Peptidyl-dipeptidases,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
 Cysteine endopeptidases,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
 Metalloendopeptidases,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
-membrane protein,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
-nuclear receptor,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
+Membrane protein,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
+Nuclear receptor,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
+GPCR complex,Maddalena Fratelli,Mario Negri Institute for Pharmacological Research
 Oxidoreductases,Simon Žakelj,Ljubljana University
 Methyltransferases,Simon Žakelj,Ljubljana University
 Nucleotidyltransferases,Simon Žakelj,Ljubljana University
@@ -231,7 +257,9 @@ Cysteine endopeptidases,Simon Žakelj,Ljubljana University
 Aspartic endopeptidases,Simon Žakelj,Ljubljana University
 Metalloendopeptidases,Simon Žakelj,Ljubljana University
 Threonine endopeptidases,Simon Žakelj,Ljubljana University
-ion channel,Simon Žakelj,Ljubljana University
+Ion channel,Simon Žakelj,Ljubljana University
+Histone deacetylase,Simon Žakelj,Ljubljana University
+Peptidases/Proteases,Simon Žakelj,Ljubljana University
 Transferases,Flavio Ballante,Karolinska Institutet
 Methyltransferases,Flavio Ballante,Karolinska Institutet
 Protein-tyrosine kinases,Flavio Ballante,Karolinska Institutet
@@ -240,9 +268,10 @@ Other protein kinases,Flavio Ballante,Karolinska Institutet
 Glycosylases,Flavio Ballante,Karolinska Institutet
 Aminopeptidases,Flavio Ballante,Karolinska Institutet
 Ligases,Flavio Ballante,Karolinska Institutet
-membrane protein,Flavio Ballante,Karolinska Institutet
-nuclear receptor,Flavio Ballante,Karolinska Institutet
-ion channel,Flavio Ballante,Karolinska Institutet
+Membrane protein,Flavio Ballante,Karolinska Institutet
+Nuclear receptor,Flavio Ballante,Karolinska Institutet
+Ion channel,Flavio Ballante,Karolinska Institutet
+GPCR complex,Flavio Ballante,Karolinska Institutet
 Glycosyltransferases,Alicia Soler Cantón,EATRIS
 Hexosyltransferases,Alicia Soler Cantón,EATRIS
 Nucleotidyltransferases,Alicia Soler Cantón,EATRIS
@@ -251,15 +280,18 @@ Protein-serine/threonine kinases,Alicia Soler Cantón,EATRIS
 Isomerases,Alicia Soler Cantón,EATRIS
 Cis-trans-isomerases,Alicia Soler Cantón,EATRIS
 Ligases,Alicia Soler Cantón,EATRIS
-membrane protein,Alicia Soler Cantón,EATRIS
-nuclear receptor,Alicia Soler Cantón,EATRIS
-lipid,Alicia Soler Cantón,EATRIS
-ion channel,Alicia Soler Cantón,EATRIS
+Membrane protein,Alicia Soler Cantón,EATRIS
+Nuclear receptor,Alicia Soler Cantón,EATRIS
+Lipid,Alicia Soler Cantón,EATRIS
+Ion channel,Alicia Soler Cantón,EATRIS
+Peptidases/Proteases,Alicia Soler Cantón,EATRIS
+GPCR complex,Alicia Soler Cantón,EATRIS
 Transferases,Alessandra Leone,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Alessandra Leone,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Alessandra Leone,Istituto Nazionale Tumori
-lipid,Alessandra Leone,Istituto Nazionale Tumori
-ion channel,Alessandra Leone,Istituto Nazionale Tumori
+Lipid,Alessandra Leone,Istituto Nazionale Tumori
+Ion channel,Alessandra Leone,Istituto Nazionale Tumori
+Histone deacetylase,Alessandra Leone,Istituto Nazionale Tumori
 Oxidoreductases,Katja Herzog,Fraunhofer-Gesellschaft
 Hydroxylases,Katja Herzog,Fraunhofer-Gesellschaft
 Transferases,Katja Herzog,Fraunhofer-Gesellschaft
@@ -277,9 +309,11 @@ Serine endopeptidases,Katja Herzog,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Katja Herzog,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Katja Herzog,Fraunhofer-Gesellschaft
 Ligases,Katja Herzog,Fraunhofer-Gesellschaft
-membrane protein,Katja Herzog,Fraunhofer-Gesellschaft
-nuclear receptor,Katja Herzog,Fraunhofer-Gesellschaft
-ion channel,Katja Herzog,Fraunhofer-Gesellschaft
+Membrane protein,Katja Herzog,Fraunhofer-Gesellschaft
+Nuclear receptor,Katja Herzog,Fraunhofer-Gesellschaft
+Ion channel,Katja Herzog,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Katja Herzog,Fraunhofer-Gesellschaft
+GPCR complex,Katja Herzog,Fraunhofer-Gesellschaft
 Transferases,Anna-Lena Gustavsson,Karolinska Institutet
 Methyltransferases,Anna-Lena Gustavsson,Karolinska Institutet
 Protein-tyrosine kinases,Anna-Lena Gustavsson,Karolinska Institutet
@@ -288,9 +322,10 @@ Other protein kinases,Anna-Lena Gustavsson,Karolinska Institutet
 Glycosylases,Anna-Lena Gustavsson,Karolinska Institutet
 Aminopeptidases,Anna-Lena Gustavsson,Karolinska Institutet
 Ligases,Anna-Lena Gustavsson,Karolinska Institutet
-membrane protein,Anna-Lena Gustavsson,Karolinska Institutet
-nuclear receptor,Anna-Lena Gustavsson,Karolinska Institutet
-ion channel,Anna-Lena Gustavsson,Karolinska Institutet
+Membrane protein,Anna-Lena Gustavsson,Karolinska Institutet
+Nuclear receptor,Anna-Lena Gustavsson,Karolinska Institutet
+Ion channel,Anna-Lena Gustavsson,Karolinska Institutet
+GPCR complex,Anna-Lena Gustavsson,Karolinska Institutet
 Oxidoreductases,Leonie von Berlin,Fraunhofer-Gesellschaft
 Hydroxylases,Leonie von Berlin,Fraunhofer-Gesellschaft
 Transferases,Leonie von Berlin,Fraunhofer-Gesellschaft
@@ -308,9 +343,11 @@ Serine endopeptidases,Leonie von Berlin,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Leonie von Berlin,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Leonie von Berlin,Fraunhofer-Gesellschaft
 Ligases,Leonie von Berlin,Fraunhofer-Gesellschaft
-membrane protein,Leonie von Berlin,Fraunhofer-Gesellschaft
-nuclear receptor,Leonie von Berlin,Fraunhofer-Gesellschaft
-ion channel,Leonie von Berlin,Fraunhofer-Gesellschaft
+Membrane protein,Leonie von Berlin,Fraunhofer-Gesellschaft
+Nuclear receptor,Leonie von Berlin,Fraunhofer-Gesellschaft
+Ion channel,Leonie von Berlin,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Leonie von Berlin,Fraunhofer-Gesellschaft
+GPCR complex,Leonie von Berlin,Fraunhofer-Gesellschaft
 Oxidoreductases,Maria Kuzikov,Fraunhofer-Gesellschaft
 Hydroxylases,Maria Kuzikov,Fraunhofer-Gesellschaft
 Transferases,Maria Kuzikov,Fraunhofer-Gesellschaft
@@ -328,9 +365,11 @@ Serine endopeptidases,Maria Kuzikov,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Maria Kuzikov,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Maria Kuzikov,Fraunhofer-Gesellschaft
 Ligases,Maria Kuzikov,Fraunhofer-Gesellschaft
-membrane protein,Maria Kuzikov,Fraunhofer-Gesellschaft
-nuclear receptor,Maria Kuzikov,Fraunhofer-Gesellschaft
-ion channel,Maria Kuzikov,Fraunhofer-Gesellschaft
+Membrane protein,Maria Kuzikov,Fraunhofer-Gesellschaft
+Nuclear receptor,Maria Kuzikov,Fraunhofer-Gesellschaft
+Ion channel,Maria Kuzikov,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Maria Kuzikov,Fraunhofer-Gesellschaft
+GPCR complex,Maria Kuzikov,Fraunhofer-Gesellschaft
 Oxidoreductases,Axel Pahl,Fraunhofer-Gesellschaft
 Hydroxylases,Axel Pahl,Fraunhofer-Gesellschaft
 Transferases,Axel Pahl,Fraunhofer-Gesellschaft
@@ -348,14 +387,17 @@ Serine endopeptidases,Axel Pahl,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Axel Pahl,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Axel Pahl,Fraunhofer-Gesellschaft
 Ligases,Axel Pahl,Fraunhofer-Gesellschaft
-membrane protein,Axel Pahl,Fraunhofer-Gesellschaft
-nuclear receptor,Axel Pahl,Fraunhofer-Gesellschaft
-ion channel,Axel Pahl,Fraunhofer-Gesellschaft
+Membrane protein,Axel Pahl,Fraunhofer-Gesellschaft
+Nuclear receptor,Axel Pahl,Fraunhofer-Gesellschaft
+Ion channel,Axel Pahl,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Axel Pahl,Fraunhofer-Gesellschaft
+GPCR complex,Axel Pahl,Fraunhofer-Gesellschaft
 Transferases,Alfredo Budillon,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Alfredo Budillon,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Alfredo Budillon,Istituto Nazionale Tumori
-lipid,Alfredo Budillon,Istituto Nazionale Tumori
-ion channel,Alfredo Budillon,Istituto Nazionale Tumori
+Lipid,Alfredo Budillon,Istituto Nazionale Tumori
+Ion channel,Alfredo Budillon,Istituto Nazionale Tumori
+Histone deacetylase,Alfredo Budillon,Istituto Nazionale Tumori
 Oxidoreductases,Andrea Zaliani,Fraunhofer-Gesellschaft
 Hydroxylases,Andrea Zaliani,Fraunhofer-Gesellschaft
 Transferases,Andrea Zaliani,Fraunhofer-Gesellschaft
@@ -373,9 +415,11 @@ Serine endopeptidases,Andrea Zaliani,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Andrea Zaliani,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Andrea Zaliani,Fraunhofer-Gesellschaft
 Ligases,Andrea Zaliani,Fraunhofer-Gesellschaft
-membrane protein,Andrea Zaliani,Fraunhofer-Gesellschaft
-nuclear receptor,Andrea Zaliani,Fraunhofer-Gesellschaft
-ion channel,Andrea Zaliani,Fraunhofer-Gesellschaft
+Membrane protein,Andrea Zaliani,Fraunhofer-Gesellschaft
+Nuclear receptor,Andrea Zaliani,Fraunhofer-Gesellschaft
+Ion channel,Andrea Zaliani,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Andrea Zaliani,Fraunhofer-Gesellschaft
+GPCR complex,Andrea Zaliani,Fraunhofer-Gesellschaft
 Transferases,Brinton Seashore-Ludlow,Karolinska Institutet
 Methyltransferases,Brinton Seashore-Ludlow,Karolinska Institutet
 Protein-tyrosine kinases,Brinton Seashore-Ludlow,Karolinska Institutet
@@ -384,9 +428,10 @@ Other protein kinases,Brinton Seashore-Ludlow,Karolinska Institutet
 Glycosylases,Brinton Seashore-Ludlow,Karolinska Institutet
 Aminopeptidases,Brinton Seashore-Ludlow,Karolinska Institutet
 Ligases,Brinton Seashore-Ludlow,Karolinska Institutet
-membrane protein,Brinton Seashore-Ludlow,Karolinska Institutet
-nuclear receptor,Brinton Seashore-Ludlow,Karolinska Institutet
-ion channel,Brinton Seashore-Ludlow,Karolinska Institutet
+Membrane protein,Brinton Seashore-Ludlow,Karolinska Institutet
+Nuclear receptor,Brinton Seashore-Ludlow,Karolinska Institutet
+Ion channel,Brinton Seashore-Ludlow,Karolinska Institutet
+GPCR complex,Brinton Seashore-Ludlow,Karolinska Institutet
 Protein-tyrosine kinases,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
 Protein-serine/threonine kinases,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
 Other protein kinases,Ziaurrehman Tanoli,University of Helsinki (FIMM-UH)
@@ -407,24 +452,29 @@ Serine endopeptidases,Aimo Kannt,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Aimo Kannt,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Aimo Kannt,Fraunhofer-Gesellschaft
 Ligases,Aimo Kannt,Fraunhofer-Gesellschaft
-membrane protein,Aimo Kannt,Fraunhofer-Gesellschaft
-nuclear receptor,Aimo Kannt,Fraunhofer-Gesellschaft
-ion channel,Aimo Kannt,Fraunhofer-Gesellschaft
+Membrane protein,Aimo Kannt,Fraunhofer-Gesellschaft
+Nuclear receptor,Aimo Kannt,Fraunhofer-Gesellschaft
+Ion channel,Aimo Kannt,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Aimo Kannt,Fraunhofer-Gesellschaft
+GPCR complex,Aimo Kannt,Fraunhofer-Gesellschaft
 Transferases,Susan Costantini,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Susan Costantini,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Susan Costantini,Istituto Nazionale Tumori
-lipid,Susan Costantini,Istituto Nazionale Tumori
-ion channel,Susan Costantini,Istituto Nazionale Tumori
+Lipid,Susan Costantini,Istituto Nazionale Tumori
+Ion channel,Susan Costantini,Istituto Nazionale Tumori
+Histone deacetylase,Susan Costantini,Istituto Nazionale Tumori
 Transferases,Maria Serena Roca ,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Maria Serena Roca ,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Maria Serena Roca ,Istituto Nazionale Tumori
-lipid,Maria Serena Roca ,Istituto Nazionale Tumori
-ion channel,Maria Serena Roca ,Istituto Nazionale Tumori
+Lipid,Maria Serena Roca ,Istituto Nazionale Tumori
+Ion channel,Maria Serena Roca ,Istituto Nazionale Tumori
+Histone deacetylase,Maria Serena Roca ,Istituto Nazionale Tumori
 Transferases,Federica Iannelli ,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Federica Iannelli ,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Federica Iannelli ,Istituto Nazionale Tumori
-lipid,Federica Iannelli ,Istituto Nazionale Tumori
-ion channel,Federica Iannelli ,Istituto Nazionale Tumori
+Lipid,Federica Iannelli ,Istituto Nazionale Tumori
+Ion channel,Federica Iannelli ,Istituto Nazionale Tumori
+Histone deacetylase,Federica Iannelli ,Istituto Nazionale Tumori
 Oxidoreductases,Marc Jacobs,Fraunhofer-Gesellschaft
 Hydroxylases,Marc Jacobs,Fraunhofer-Gesellschaft
 Transferases,Marc Jacobs,Fraunhofer-Gesellschaft
@@ -442,9 +492,11 @@ Serine endopeptidases,Marc Jacobs,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Marc Jacobs,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Marc Jacobs,Fraunhofer-Gesellschaft
 Ligases,Marc Jacobs,Fraunhofer-Gesellschaft
-membrane protein,Marc Jacobs,Fraunhofer-Gesellschaft
-nuclear receptor,Marc Jacobs,Fraunhofer-Gesellschaft
-ion channel,Marc Jacobs,Fraunhofer-Gesellschaft
+Membrane protein,Marc Jacobs,Fraunhofer-Gesellschaft
+Nuclear receptor,Marc Jacobs,Fraunhofer-Gesellschaft
+Ion channel,Marc Jacobs,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Marc Jacobs,Fraunhofer-Gesellschaft
+GPCR complex,Marc Jacobs,Fraunhofer-Gesellschaft
 Oxidoreductases,Tanja Rossmanith,Fraunhofer-Gesellschaft
 Hydroxylases,Tanja Rossmanith,Fraunhofer-Gesellschaft
 Transferases,Tanja Rossmanith,Fraunhofer-Gesellschaft
@@ -462,9 +514,11 @@ Serine endopeptidases,Tanja Rossmanith,Fraunhofer-Gesellschaft
 Cysteine endopeptidases,Tanja Rossmanith,Fraunhofer-Gesellschaft
 Phosphorus-oxygen lyases,Tanja Rossmanith,Fraunhofer-Gesellschaft
 Ligases,Tanja Rossmanith,Fraunhofer-Gesellschaft
-membrane protein,Tanja Rossmanith,Fraunhofer-Gesellschaft
-nuclear receptor,Tanja Rossmanith,Fraunhofer-Gesellschaft
-ion channel,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Membrane protein,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Nuclear receptor,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Ion channel,Tanja Rossmanith,Fraunhofer-Gesellschaft
+Peptidases/Proteases,Tanja Rossmanith,Fraunhofer-Gesellschaft
+GPCR complex,Tanja Rossmanith,Fraunhofer-Gesellschaft
 Transferases,Annika Jenmalm Jensen,Karolinska Institutet
 Methyltransferases,Annika Jenmalm Jensen,Karolinska Institutet
 Protein-tyrosine kinases,Annika Jenmalm Jensen,Karolinska Institutet
@@ -473,9 +527,10 @@ Other protein kinases,Annika Jenmalm Jensen,Karolinska Institutet
 Glycosylases,Annika Jenmalm Jensen,Karolinska Institutet
 Aminopeptidases,Annika Jenmalm Jensen,Karolinska Institutet
 Ligases,Annika Jenmalm Jensen,Karolinska Institutet
-membrane protein,Annika Jenmalm Jensen,Karolinska Institutet
-nuclear receptor,Annika Jenmalm Jensen,Karolinska Institutet
-ion channel,Annika Jenmalm Jensen,Karolinska Institutet
+Membrane protein,Annika Jenmalm Jensen,Karolinska Institutet
+Nuclear receptor,Annika Jenmalm Jensen,Karolinska Institutet
+Ion channel,Annika Jenmalm Jensen,Karolinska Institutet
+GPCR complex,Annika Jenmalm Jensen,Karolinska Institutet
 Protein-tyrosine kinases,Tero Aittokallio,University of Helsinki (FIMM-UH)
 Protein-serine/threonine kinases,Tero Aittokallio,University of Helsinki (FIMM-UH)
 Other protein kinases,Tero Aittokallio,University of Helsinki (FIMM-UH)
@@ -487,29 +542,34 @@ Other protein kinases,Elin Asp,Karolinska Institutet
 Glycosylases,Elin Asp,Karolinska Institutet
 Aminopeptidases,Elin Asp,Karolinska Institutet
 Ligases,Elin Asp,Karolinska Institutet
-membrane protein,Elin Asp,Karolinska Institutet
-nuclear receptor,Elin Asp,Karolinska Institutet
-ion channel,Elin Asp,Karolinska Institutet
+Membrane protein,Elin Asp,Karolinska Institutet
+Nuclear receptor,Elin Asp,Karolinska Institutet
+Ion channel,Elin Asp,Karolinska Institutet
+GPCR complex,Elin Asp,Karolinska Institutet
 Transferases,Antonio Avallone,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Antonio Avallone,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Antonio Avallone,Istituto Nazionale Tumori
-lipid,Antonio Avallone,Istituto Nazionale Tumori
-ion channel,Antonio Avallone,Istituto Nazionale Tumori
+Lipid,Antonio Avallone,Istituto Nazionale Tumori
+Ion channel,Antonio Avallone,Istituto Nazionale Tumori
+Histone deacetylase,Antonio Avallone,Istituto Nazionale Tumori
 Transferases,Eugenia Passaro,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Eugenia Passaro,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Eugenia Passaro,Istituto Nazionale Tumori
-lipid,Eugenia Passaro,Istituto Nazionale Tumori
-ion channel,Eugenia Passaro,Istituto Nazionale Tumori
+Lipid,Eugenia Passaro,Istituto Nazionale Tumori
+Ion channel,Eugenia Passaro,Istituto Nazionale Tumori
+Histone deacetylase,Eugenia Passaro,Istituto Nazionale Tumori
 Transferases,Elena Di Gennaro,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Elena Di Gennaro,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Elena Di Gennaro,Istituto Nazionale Tumori
-lipid,Elena Di Gennaro,Istituto Nazionale Tumori
-ion channel,Elena Di Gennaro,Istituto Nazionale Tumori
+Lipid,Elena Di Gennaro,Istituto Nazionale Tumori
+Ion channel,Elena Di Gennaro,Istituto Nazionale Tumori
+Histone deacetylase,Elena Di Gennaro,Istituto Nazionale Tumori
 Transferases,Maria Carmela Piccirillo,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Maria Carmela Piccirillo,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Maria Carmela Piccirillo,Istituto Nazionale Tumori
-lipid,Maria Carmela Piccirillo,Istituto Nazionale Tumori
-ion channel,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+Lipid,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+Ion channel,Maria Carmela Piccirillo,Istituto Nazionale Tumori
+Histone deacetylase,Maria Carmela Piccirillo,Istituto Nazionale Tumori
 Glycosyltransferases,Donald Lo,EATRIS
 Hexosyltransferases,Donald Lo,EATRIS
 Nucleotidyltransferases,Donald Lo,EATRIS
@@ -518,12 +578,15 @@ Protein-serine/threonine kinases,Donald Lo,EATRIS
 Isomerases,Donald Lo,EATRIS
 Cis-trans-isomerases,Donald Lo,EATRIS
 Ligases,Donald Lo,EATRIS
-membrane protein,Donald Lo,EATRIS
-nuclear receptor,Donald Lo,EATRIS
-lipid,Donald Lo,EATRIS
-ion channel,Donald Lo,EATRIS
+Membrane protein,Donald Lo,EATRIS
+Nuclear receptor,Donald Lo,EATRIS
+Lipid,Donald Lo,EATRIS
+Ion channel,Donald Lo,EATRIS
+Peptidases/Proteases,Donald Lo,EATRIS
+GPCR complex,Donald Lo,EATRIS
 Transferases,Gianfranco De Feo,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Gianfranco De Feo,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Gianfranco De Feo,Istituto Nazionale Tumori
-lipid,Gianfranco De Feo,Istituto Nazionale Tumori
-ion channel,Gianfranco De Feo,Istituto Nazionale Tumori
+Lipid,Gianfranco De Feo,Istituto Nazionale Tumori
+Ion channel,Gianfranco De Feo,Istituto Nazionale Tumori
+Histone deacetylase,Gianfranco De Feo,Istituto Nazionale Tumori
