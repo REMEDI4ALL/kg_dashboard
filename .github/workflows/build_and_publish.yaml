@@ -23,13 +23,13 @@ on:
 jobs:
   publish:
     name: Publish to ghcr.io
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         include:
           - dockerfile: ./Dockerfile
-            image: ghcr.io/${{ github.repository }}/kg_dashboard
+            image: ghcr.io/remedi4all/kg_dashboard
     permissions:
       packages: write
       contents: read
