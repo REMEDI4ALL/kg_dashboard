@@ -8,11 +8,12 @@ The form represents data collected from the survey form ([here](https://forms.of
 
 # Preparing files for updating the dashboard
 
-The dashboard is linked to the Expertise KG and pulls data from there. Thus, when the KG is updated, make sure you update the respective files in this repo as well, but simply re-running the [python script](queries.py). 
+The dashboard is linked to the Expertise KG and pulls data from there. Thus, when the KG is updated, make sure you update the respective files in this repo as well, by simply re-running the [python script](queries.py). 
 
 If you have a new data modality added, please make sure you have a CYPHER query to fetch that data or metadata from the KG. All CYPHER queries can be found [here](queries.py). With the CYPHER queries, you can create the files in the [data](data) directory.
 
-To run the file, edit the credentials at the bottom of the [python file](queries.py):
+To run the file, edit the credentials at the bottom of the [python file](queries.py) by replacing the place-holders with
+the credentials:
 ```python
 graph = connect_to_kg(url="URL_HERE", username="USERNAME_HERE", password="PASSWORD_HERE")  #
 ```
@@ -20,7 +21,7 @@ graph = connect_to_kg(url="URL_HERE", username="USERNAME_HERE", password="PASSWO
 
 and then run the file in the terminal using the following command:
 ```bash
-python run queries.py
+python queries.py
 ```
 > **_NOTE:_** If a new data modality is added, please ensure that you add and adapt this in the `run_all_queries()` function in the python file mentioned above.
 
