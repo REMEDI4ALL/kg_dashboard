@@ -1,45 +1,23 @@
 name,skill_name,Individuals
-Drug Development Group,Biological license application (BLA),1
-Sarai Rodríguez Navarro,In-vivo modelling,4
-Alfredo Budillon,In-vivo modelling,4
-Maria Serena Roca ,In-vivo modelling,4
-Donald Lo,In-vivo modelling,4
-Drug Discovery Group,In-vivo modelling,5
-Martin de Kort,In-vivo modelling,4
-Zoltán Kaló,Phase 4 trials and Pharmacovigilance,6
-Andrea Beccari,Phase 4 trials and Pharmacovigilance,6
-Jordi Quintana,Phase 4 trials and Pharmacovigilance,6
-Heleen van der Meer,Phase 4 trials and Pharmacovigilance,6
-Christine Kubiak,Phase 4 trials and Pharmacovigilance,6
-Sareema Javaid,Phase 4 trials and Pharmacovigilance,6
-Drug Development Group,Phase 4 trials and Pharmacovigilance,7
-Saco de Visser,Phase 4 trials and Pharmacovigilance,6
-Philip Gribbon,Hit confirmation | hit validation,19
-Jordi Carreras-Puigvert,Hit confirmation | hit validation,19
-Jeanette Reinshagen,Hit confirmation | hit validation,19
-Marianna Tampere,Hit confirmation | hit validation,19
-Andrea Beccari,Hit confirmation | hit validation,19
-Jordi Quintana,Hit confirmation | hit validation,19
-Anna-Lena Gustavsson,Hit confirmation | hit validation,19
-Maria Kuzikov,Hit confirmation | hit validation,19
-Axel Pahl,Hit confirmation | hit validation,19
-Andrea Zaliani,Hit confirmation | hit validation,19
-Brinton Seashore-Ludlow,Hit confirmation | hit validation,19
-Aimo Kannt,Hit confirmation | hit validation,19
-Maria Serena Roca ,Hit confirmation | hit validation,19
-Federica Iannelli ,Hit confirmation | hit validation,19
-Annika Jenmalm Jensen,Hit confirmation | hit validation,19
-Tero Aittokallio,Hit confirmation | hit validation,19
-Davide Graziani,Hit confirmation | hit validation,19
-Elin Asp,Hit confirmation | hit validation,19
-Donald Lo,Hit confirmation | hit validation,19
-Drug Discovery Group,Hit confirmation | hit validation,20
-Johanna Huchting,Hit confirmation | hit validation,19
-Andrea Beccari,Natural products,3
-Axel Pahl,Natural products,3
-Donald Lo,Natural products,3
-Drug Discovery Group,Natural products,4
-Philip Gribbon,Natural products,3
+Saco de Visser,Pharmacokinetics (PK),11
+Igor Locatelli,Pharmacokinetics (PK),11
+Maddalena Fratelli,Pharmacokinetics (PK),11
+Axel Pahl,Pharmacokinetics (PK),11
+Andrea Zaliani,Pharmacokinetics (PK),11
+Ziaurrehman Tanoli,Pharmacokinetics (PK),11
+Aimo Kannt,Pharmacokinetics (PK),11
+Keiko Ueda,Pharmacokinetics (PK),11
+Davide Graziani,Pharmacokinetics (PK),11
+Donald Lo,Pharmacokinetics (PK),11
+Kristóf Gyöngyösi,Pharmacokinetics (PK),11
+Drug Discovery Group,Pharmacokinetics (PK),12
+Martin de Kort,Pharmacokinetics (PK),11
+Alicia Soler Cantón,Analytical Techniques,4
+Leonie von Berlin,Analytical Techniques,4
+Susan Costantini,Analytical Techniques,4
+Donald Lo,Analytical Techniques,4
+Drug Development Group,Analytical Techniques,5
+Maddalena Fratelli,Analytical Techniques,4
 Alicia Soler Cantón,Patient related documentation creation,10
 Sarai Rodríguez Navarro,Patient related documentation creation,10
 Alfredo Budillon,Patient related documentation creation,10
@@ -52,26 +30,92 @@ Maria Carmela Piccirillo,Patient related documentation creation,10
 Donald Lo,Patient related documentation creation,10
 Drug Development Group,Patient related documentation creation,11
 Claudia Fuchs,Patient related documentation creation,10
-Andrea Beccari,Active pharmaceutical ingredient (API) manufacturing,3
-Alicia Soler Cantón,Active pharmaceutical ingredient (API) manufacturing,3
-Donald Lo,Active pharmaceutical ingredient (API) manufacturing,3
-Drug Development Group,Active pharmaceutical ingredient (API) manufacturing,4
-Martin de Kort,Active pharmaceutical ingredient (API) manufacturing,3
-Jordi Carreras-Puigvert,Target validation,13
-Martin de Kort,Target validation,13
-Claudia Fuchs,Target validation,13
-Alessandra Leone,Target validation,13
-Anna-Lena Gustavsson,Target validation,13
-Maria Kuzikov,Target validation,13
-Alfredo Budillon,Target validation,13
-Brinton Seashore-Ludlow,Target validation,13
-Aimo Kannt,Target validation,13
-Susan Costantini,Target validation,13
-Annika Jenmalm Jensen,Target validation,13
-Maria Carmela Piccirillo,Target validation,13
-Donald Lo,Target validation,13
-Drug Discovery Group,Target validation,14
-Philip Gribbon,Target validation,13
+Axel Pahl,Pro-drugs,4
+Andrea Zaliani,Pro-drugs,4
+Davide Graziani,Pro-drugs,4
+Donald Lo,Pro-drugs,4
+Drug Discovery Group,Pro-drugs,5
+Johanna Huchting,Pro-drugs,4
+Philip Gribbon,High-throughput screening (HTS),26
+Markus Vähä-Koskela,High-throughput screening (HTS),26
+Jordi Carreras-Puigvert,High-throughput screening (HTS),26
+Swapnil Potdar,High-throughput screening (HTS),26
+Jeanette Reinshagen,High-throughput screening (HTS),26
+Jani Saarela,High-throughput screening (HTS),26
+Marianna Tampere,High-throughput screening (HTS),26
+Francesca Bruzzese,High-throughput screening (HTS),26
+Päivi Östling,High-throughput screening (HTS),26
+Alessandra Leone,High-throughput screening (HTS),26
+Anna-Lena Gustavsson,High-throughput screening (HTS),26
+Maria Kuzikov,High-throughput screening (HTS),26
+Axel Pahl,High-throughput screening (HTS),26
+Alfredo Budillon,High-throughput screening (HTS),26
+Andrea Zaliani,High-throughput screening (HTS),26
+Brinton Seashore-Ludlow,High-throughput screening (HTS),26
+Aimo Kannt,High-throughput screening (HTS),26
+Ola Spjuth,High-throughput screening (HTS),26
+Maria Serena Roca ,High-throughput screening (HTS),26
+Federica Iannelli ,High-throughput screening (HTS),26
+Marc Jacobs,High-throughput screening (HTS),26
+Annika Jenmalm Jensen,High-throughput screening (HTS),26
+Tero Aittokallio,High-throughput screening (HTS),26
+Davide Graziani,High-throughput screening (HTS),26
+Elin Asp,High-throughput screening (HTS),26
+Donald Lo,High-throughput screening (HTS),26
+Drug Discovery Group,High-throughput screening (HTS),27
+Johanna Huchting,High-throughput screening (HTS),26
+Rok Dreu,Drug Formulation,5
+Alicia Soler Cantón,Drug Formulation,5
+Sareema Javaid,Drug Formulation,5
+Donald Lo,Drug Formulation,5
+Kristóf Gyöngyösi,Drug Formulation,5
+Drug Discovery Group,Drug Formulation,6
+Martin de Kort,Drug Formulation,5
+Zoltán Kaló,Phase 3 trials,15
+Andrea Beccari,Phase 3 trials,15
+Alessandra Leone,Phase 3 trials,15
+Alfredo Budillon,Phase 3 trials,15
+Judith Cohen,Phase 3 trials,15
+Pier Adelchi Ruffini,Phase 3 trials,15
+Heleen van der Meer,Phase 3 trials,15
+Christine Kubiak,Phase 3 trials,15
+Sareema Javaid,Phase 3 trials,15
+Tanja Rossmanith,Phase 3 trials,15
+Keiko Ueda,Phase 3 trials,15
+Antonio Avallone,Phase 3 trials,15
+Elena Di Gennaro,Phase 3 trials,15
+Maria Carmela Piccirillo,Phase 3 trials,15
+Donald Lo,Phase 3 trials,15
+Drug Development Group,Phase 3 trials,16
+Saco de Visser,Phase 3 trials,15
+Saco de Visser,Phase 2 trials,17
+Andrea Beccari,Phase 2 trials,17
+Alessandra Leone,Phase 2 trials,17
+Alfredo Budillon,Phase 2 trials,17
+Judith Cohen,Phase 2 trials,17
+Pier Adelchi Ruffini,Phase 2 trials,17
+Maria Serena Roca ,Phase 2 trials,17
+Federica Iannelli ,Phase 2 trials,17
+Christine Kubiak,Phase 2 trials,17
+Sareema Javaid,Phase 2 trials,17
+Tanja Rossmanith,Phase 2 trials,17
+Keiko Ueda,Phase 2 trials,17
+Antonio Avallone,Phase 2 trials,17
+Eugenia Passaro,Phase 2 trials,17
+Elena Di Gennaro,Phase 2 trials,17
+Maria Carmela Piccirillo,Phase 2 trials,17
+Donald Lo,Phase 2 trials,17
+Drug Development Group,Phase 2 trials,18
+Martin de Kort,Phase 2 trials,17
+András Inotai,Evidence synthesis,7
+Zoltán Kaló,Evidence synthesis,7
+Dalma Hosszú,Evidence synthesis,7
+Pan Pantziarka,Evidence synthesis,7
+Marc Jacobs,Evidence synthesis,7
+Heleen van der Meer,Evidence synthesis,7
+Marcell Csanádi,Evidence synthesis,7
+Drug Development Group,Evidence synthesis,8
+Zsuzsanna Petykó,Evidence synthesis,7
 Saco de Visser,Clinical study design,19
 Zsuzsanna Petykó,Clinical study design,19
 Zoltán Kaló,Clinical study design,19
@@ -93,6 +137,269 @@ Maria Carmela Piccirillo,Clinical study design,19
 Donald Lo,Clinical study design,19
 Drug Development Group,Clinical study design,20
 Martin de Kort,Clinical study design,19
+Anne Heß,Market access,6
+András Inotai,Market access,6
+Zoltán Kaló,Market access,6
+Heleen van der Meer,Market access,6
+Marcell Csanádi,Market access,6
+Donald Lo,Market access,6
+Drug Development Group,Market access,7
+Zsuzsanna Petykó,Market access,6
+Judith Cohen,Quality assurance (clinical trials),7
+Christine Kubiak,Quality assurance (clinical trials),7
+Sareema Javaid,Quality assurance (clinical trials),7
+Tanja Rossmanith,Quality assurance (clinical trials),7
+Maria Carmela Piccirillo,Quality assurance (clinical trials),7
+Donald Lo,Quality assurance (clinical trials),7
+Gianfranco De Feo,Quality assurance (clinical trials),7
+Drug Development Group,Quality assurance (clinical trials),8
+Alfredo Budillon,Quality assurance (clinical trials),7
+Johanna Huchting,Medicinal chemistry,14
+Martin de Kort,Medicinal chemistry,14
+Andrea Beccari,Medicinal chemistry,14
+Jordi Quintana,Medicinal chemistry,14
+Flavio Ballante,Medicinal chemistry,14
+Anna-Lena Gustavsson,Medicinal chemistry,14
+Axel Pahl,Medicinal chemistry,14
+Andrea Zaliani,Medicinal chemistry,14
+Ziaurrehman Tanoli,Medicinal chemistry,14
+Maria Candida Cesta,Medicinal chemistry,14
+Susan Costantini,Medicinal chemistry,14
+Annika Jenmalm Jensen,Medicinal chemistry,14
+Davide Graziani,Medicinal chemistry,14
+Donald Lo,Medicinal chemistry,14
+Drug Discovery Group,Medicinal chemistry,15
+Yojana Gadiya,Medicinal chemistry,14
+Saco de Visser,Pharmacodynamics (PD),9
+Maddalena Fratelli,Pharmacodynamics (PD),9
+Axel Pahl,Pharmacodynamics (PD),9
+Andrea Zaliani,Pharmacodynamics (PD),9
+Ziaurrehman Tanoli,Pharmacodynamics (PD),9
+Aimo Kannt,Pharmacodynamics (PD),9
+Keiko Ueda,Pharmacodynamics (PD),9
+Donald Lo,Pharmacodynamics (PD),9
+Kristóf Gyöngyösi,Pharmacodynamics (PD),9
+Drug Discovery Group,Pharmacodynamics (PD),10
+Martin de Kort,Pharmacodynamics (PD),9
+Francesca Bruzzese,In-vivo efficacy evaluation,7
+Sarai Rodríguez Navarro,In-vivo efficacy evaluation,7
+Alfredo Budillon,In-vivo efficacy evaluation,7
+Pier Adelchi Ruffini,In-vivo efficacy evaluation,7
+Aimo Kannt,In-vivo efficacy evaluation,7
+Maria Serena Roca ,In-vivo efficacy evaluation,7
+Donald Lo,In-vivo efficacy evaluation,7
+Drug Discovery Group,In-vivo efficacy evaluation,8
+Martin de Kort,In-vivo efficacy evaluation,7
+Andrea Beccari,Investigational new drug (IND) submission,8
+Rok Dreu,Investigational new drug (IND) submission,8
+Alicia Soler Cantón,Investigational new drug (IND) submission,8
+Judith Cohen,Investigational new drug (IND) submission,8
+Sareema Javaid,Investigational new drug (IND) submission,8
+Carmine Talarico,Investigational new drug (IND) submission,8
+Keiko Ueda,Investigational new drug (IND) submission,8
+Donald Lo,Investigational new drug (IND) submission,8
+Drug Development Group,Investigational new drug (IND) submission,9
+Martin de Kort,Investigational new drug (IND) submission,8
+Claudia Fuchs,Medical writing,10
+Zoltán Kaló,Medical writing,10
+Sarai Rodríguez Navarro,Medical writing,10
+Sofia Sintoris,Medical writing,10
+Maria Candida Cesta,Medical writing,10
+Gabriel Ortega Toledo,Medical writing,10
+Pan Pantziarka,Medical writing,10
+Heleen van der Meer,Medical writing,10
+Keiko Ueda,Medical writing,10
+Maria Carmela Piccirillo,Medical writing,10
+Drug Development Group,Medical writing,11
+Zsuzsanna Petykó,Medical writing,10
+Claudia Fuchs,Pre-clinical pharmacology,18
+Jeanette Reinshagen,Pre-clinical pharmacology,18
+Marianna Tampere,Pre-clinical pharmacology,18
+Francesca Bruzzese,Pre-clinical pharmacology,18
+Andrea Beccari,Pre-clinical pharmacology,18
+Maddalena Fratelli,Pre-clinical pharmacology,18
+Sarai Rodríguez Navarro,Pre-clinical pharmacology,18
+Alfredo Budillon,Pre-clinical pharmacology,18
+Brinton Seashore-Ludlow,Pre-clinical pharmacology,18
+Maria Candida Cesta,Pre-clinical pharmacology,18
+Aimo Kannt,Pre-clinical pharmacology,18
+Susan Costantini,Pre-clinical pharmacology,18
+Ola Spjuth,Pre-clinical pharmacology,18
+Carmine Talarico,Pre-clinical pharmacology,18
+Antonio Avallone,Pre-clinical pharmacology,18
+Eugenia Passaro,Pre-clinical pharmacology,18
+Elena Di Gennaro,Pre-clinical pharmacology,18
+Donald Lo,Pre-clinical pharmacology,18
+Drug Development Group,Pre-clinical pharmacology,19
+Martin de Kort,Pre-clinical pharmacology,18
+Andrea Zaliani,Clinical statistics,7
+Sofia Sintoris,Clinical statistics,7
+Ziaurrehman Tanoli,Clinical statistics,7
+Susan Costantini,Clinical statistics,7
+Heleen van der Meer,Clinical statistics,7
+Christine Kubiak,Clinical statistics,7
+Maria Carmela Piccirillo,Clinical statistics,7
+Drug Development Group,Clinical statistics,8
+Martin Hofmann-Apitius,Clinical statistics,7
+Andrea Zaliani,Clinical study report (CSR) creation,6
+Christine Kubiak,Clinical study report (CSR) creation,6
+Sareema Javaid,Clinical study report (CSR) creation,6
+Tanja Rossmanith,Clinical study report (CSR) creation,6
+Keiko Ueda,Clinical study report (CSR) creation,6
+Maria Carmela Piccirillo,Clinical study report (CSR) creation,6
+Drug Development Group,Clinical study report (CSR) creation,7
+Alfredo Budillon,Clinical study report (CSR) creation,6
+Martin de Kort,Hit-to-lead (HTL) | lead generation,13
+Andrea Beccari,Hit-to-lead (HTL) | lead generation,13
+Jordi Quintana,Hit-to-lead (HTL) | lead generation,13
+Flavio Ballante,Hit-to-lead (HTL) | lead generation,13
+Anna-Lena Gustavsson,Hit-to-lead (HTL) | lead generation,13
+Axel Pahl,Hit-to-lead (HTL) | lead generation,13
+Andrea Zaliani,Hit-to-lead (HTL) | lead generation,13
+Maria Candida Cesta,Hit-to-lead (HTL) | lead generation,13
+Aimo Kannt,Hit-to-lead (HTL) | lead generation,13
+Annika Jenmalm Jensen,Hit-to-lead (HTL) | lead generation,13
+Carmine Talarico,Hit-to-lead (HTL) | lead generation,13
+Davide Graziani,Hit-to-lead (HTL) | lead generation,13
+Donald Lo,Hit-to-lead (HTL) | lead generation,13
+Drug Discovery Group,Hit-to-lead (HTL) | lead generation,14
+Philip Gribbon,Hit-to-lead (HTL) | lead generation,13
+Andrea Beccari,Natural products,3
+Axel Pahl,Natural products,3
+Donald Lo,Natural products,3
+Drug Discovery Group,Natural products,4
+Philip Gribbon,Natural products,3
+Drug Development Group,Biological license application (BLA),1
+Martin de Kort,In-vivo toxicity testing,2
+Donald Lo,In-vivo toxicity testing,2
+Drug Discovery Group,In-vivo toxicity testing,3
+Philip Gribbon,In-vivo toxicity testing,2
+Philip Gribbon,Hit confirmation | hit validation,19
+Jordi Carreras-Puigvert,Hit confirmation | hit validation,19
+Jeanette Reinshagen,Hit confirmation | hit validation,19
+Marianna Tampere,Hit confirmation | hit validation,19
+Andrea Beccari,Hit confirmation | hit validation,19
+Jordi Quintana,Hit confirmation | hit validation,19
+Anna-Lena Gustavsson,Hit confirmation | hit validation,19
+Maria Kuzikov,Hit confirmation | hit validation,19
+Axel Pahl,Hit confirmation | hit validation,19
+Andrea Zaliani,Hit confirmation | hit validation,19
+Brinton Seashore-Ludlow,Hit confirmation | hit validation,19
+Aimo Kannt,Hit confirmation | hit validation,19
+Maria Serena Roca ,Hit confirmation | hit validation,19
+Federica Iannelli ,Hit confirmation | hit validation,19
+Annika Jenmalm Jensen,Hit confirmation | hit validation,19
+Tero Aittokallio,Hit confirmation | hit validation,19
+Davide Graziani,Hit confirmation | hit validation,19
+Elin Asp,Hit confirmation | hit validation,19
+Donald Lo,Hit confirmation | hit validation,19
+Drug Discovery Group,Hit confirmation | hit validation,20
+Johanna Huchting,Hit confirmation | hit validation,19
+Andrea Beccari,Active pharmaceutical ingredient (API) manufacturing,3
+Alicia Soler Cantón,Active pharmaceutical ingredient (API) manufacturing,3
+Donald Lo,Active pharmaceutical ingredient (API) manufacturing,3
+Drug Development Group,Active pharmaceutical ingredient (API) manufacturing,4
+Martin de Kort,Active pharmaceutical ingredient (API) manufacturing,3
+Jordi Quintana,Absorption distribution metabolism elimination (ADME),8
+Maddalena Fratelli,Absorption distribution metabolism elimination (ADME),8
+Simon Žakelj,Absorption distribution metabolism elimination (ADME),8
+Axel Pahl,Absorption distribution metabolism elimination (ADME),8
+Andrea Zaliani,Absorption distribution metabolism elimination (ADME),8
+Aimo Kannt,Absorption distribution metabolism elimination (ADME),8
+Davide Graziani,Absorption distribution metabolism elimination (ADME),8
+Donald Lo,Absorption distribution metabolism elimination (ADME),8
+Drug Discovery Group,Absorption distribution metabolism elimination (ADME),9
+Martin de Kort,Absorption distribution metabolism elimination (ADME),8
+Davide Graziani,In-vitro toxicity testing - Ames,2
+Donald Lo,In-vitro toxicity testing - Ames,2
+Drug Discovery Group,In-vitro toxicity testing - Ames,3
+Maria Kuzikov,In-vitro toxicity testing - Ames,2
+Judith Cohen,Ethics and ELSI,4
+Christine Kubiak,Ethics and ELSI,4
+Sareema Javaid,Ethics and ELSI,4
+Gianfranco De Feo,Ethics and ELSI,4
+Communication and Project Management Group,Ethics and ELSI,5
+Alfredo Budillon,Ethics and ELSI,4
+Philip Gribbon,Mechanism of action (MoA),30
+Jordi Carreras-Puigvert,Mechanism of action (MoA),30
+Martin de Kort,Mechanism of action (MoA),30
+Claudia Fuchs,Mechanism of action (MoA),30
+Marianna Tampere,Mechanism of action (MoA),30
+Francesca Bruzzese,Mechanism of action (MoA),30
+Andrea Beccari,Mechanism of action (MoA),30
+Jordi Quintana,Mechanism of action (MoA),30
+Maddalena Fratelli,Mechanism of action (MoA),30
+Flavio Ballante,Mechanism of action (MoA),30
+Alessandra Leone,Mechanism of action (MoA),30
+Anna-Lena Gustavsson,Mechanism of action (MoA),30
+Axel Pahl,Mechanism of action (MoA),30
+Alfredo Budillon,Mechanism of action (MoA),30
+Andrea Zaliani,Mechanism of action (MoA),30
+Brinton Seashore-Ludlow,Mechanism of action (MoA),30
+Ziaurrehman Tanoli,Mechanism of action (MoA),30
+Aimo Kannt,Mechanism of action (MoA),30
+Susan Costantini,Mechanism of action (MoA),30
+Ola Spjuth,Mechanism of action (MoA),30
+Maria Serena Roca ,Mechanism of action (MoA),30
+Federica Iannelli ,Mechanism of action (MoA),30
+Marc Jacobs,Mechanism of action (MoA),30
+Annika Jenmalm Jensen,Mechanism of action (MoA),30
+Carmine Talarico,Mechanism of action (MoA),30
+Nick Bishop,Mechanism of action (MoA),30
+Antonio Avallone,Mechanism of action (MoA),30
+Eugenia Passaro,Mechanism of action (MoA),30
+Elena Di Gennaro,Mechanism of action (MoA),30
+Donald Lo,Mechanism of action (MoA),30
+Drug Discovery Group,Mechanism of action (MoA),31
+Yojana Gadiya,Mechanism of action (MoA),30
+Claudia Fuchs,Adaptive trial design,6
+Päivi Östling,Adaptive trial design,6
+Christine Kubiak,Adaptive trial design,6
+Sareema Javaid,Adaptive trial design,6
+Keiko Ueda,Adaptive trial design,6
+Maria Carmela Piccirillo,Adaptive trial design,6
+Drug Development Group,Adaptive trial design,7
+Martin de Kort,Adaptive trial design,6
+Sarai Rodríguez Navarro,In-vivo modelling,4
+Alfredo Budillon,In-vivo modelling,4
+Maria Serena Roca ,In-vivo modelling,4
+Donald Lo,In-vivo modelling,4
+Drug Discovery Group,In-vivo modelling,5
+Martin de Kort,In-vivo modelling,4
+Saco de Visser,Project communication and dissemination,32
+Zsuzsanna Petykó,Project communication and dissemination,32
+Claudia Fuchs,Project communication and dissemination,32
+Jeanette Reinshagen,Project communication and dissemination,32
+Marianna Tampere,Project communication and dissemination,32
+Francesca Bruzzese,Project communication and dissemination,32
+Jordi Quintana,Project communication and dissemination,32
+Martin Hofmann-Apitius,Project communication and dissemination,32
+Maddalena Fratelli,Project communication and dissemination,32
+Alicia Soler Cantón,Project communication and dissemination,32
+Katja Herzog,Project communication and dissemination,32
+Anna-Lena Gustavsson,Project communication and dissemination,32
+Berta Gumí Audenis,Project communication and dissemination,32
+Gisela Pairó,Project communication and dissemination,32
+Ivette Corominas,Project communication and dissemination,32
+Sarai Rodríguez Navarro,Project communication and dissemination,32
+Alfredo Budillon,Project communication and dissemination,32
+Sofia Sintoris,Project communication and dissemination,32
+Brinton Seashore-Ludlow,Project communication and dissemination,32
+Gabriel Ortega Toledo,Project communication and dissemination,32
+Aimo Kannt,Project communication and dissemination,32
+Pan Pantziarka,Project communication and dissemination,32
+Maria Serena Roca ,Project communication and dissemination,32
+Judith Palou,Project communication and dissemination,32
+Christine Kubiak,Project communication and dissemination,32
+Carmine Talarico,Project communication and dissemination,32
+Nick Bishop,Project communication and dissemination,32
+Eugenia Passaro,Project communication and dissemination,32
+Elena Di Gennaro,Project communication and dissemination,32
+Maria Carmela Piccirillo,Project communication and dissemination,32
+Donald Lo,Project communication and dissemination,32
+Gianfranco De Feo,Project communication and dissemination,32
+Communication and Project Management Group,Project communication and dissemination,33
+Jordi Carreras-Puigvert,Project communication and dissemination,32
 Markus Vähä-Koskela,Project management,44
 Jordi Carreras-Puigvert,Project management,44
 Saco de Visser,Project management,44
@@ -139,360 +446,21 @@ Kristóf Gyöngyösi,Project management,44
 Gianfranco De Feo,Project management,44
 Communication and Project Management Group,Project management,45
 Philip Gribbon,Project management,44
-Alicia Soler Cantón,Analytical Techniques,4
-Leonie von Berlin,Analytical Techniques,4
-Susan Costantini,Analytical Techniques,4
-Donald Lo,Analytical Techniques,4
-Drug Development Group,Analytical Techniques,5
-Maddalena Fratelli,Analytical Techniques,4
-Claudia Fuchs,Adaptive trial design,6
-Päivi Östling,Adaptive trial design,6
-Christine Kubiak,Adaptive trial design,6
-Sareema Javaid,Adaptive trial design,6
-Keiko Ueda,Adaptive trial design,6
-Maria Carmela Piccirillo,Adaptive trial design,6
-Drug Development Group,Adaptive trial design,7
-Martin de Kort,Adaptive trial design,6
-Philip Gribbon,Mechanism of action (MoA),30
-Jordi Carreras-Puigvert,Mechanism of action (MoA),30
-Martin de Kort,Mechanism of action (MoA),30
-Claudia Fuchs,Mechanism of action (MoA),30
-Marianna Tampere,Mechanism of action (MoA),30
-Francesca Bruzzese,Mechanism of action (MoA),30
-Andrea Beccari,Mechanism of action (MoA),30
-Jordi Quintana,Mechanism of action (MoA),30
-Maddalena Fratelli,Mechanism of action (MoA),30
-Flavio Ballante,Mechanism of action (MoA),30
-Alessandra Leone,Mechanism of action (MoA),30
-Anna-Lena Gustavsson,Mechanism of action (MoA),30
-Axel Pahl,Mechanism of action (MoA),30
-Alfredo Budillon,Mechanism of action (MoA),30
-Andrea Zaliani,Mechanism of action (MoA),30
-Brinton Seashore-Ludlow,Mechanism of action (MoA),30
-Ziaurrehman Tanoli,Mechanism of action (MoA),30
-Aimo Kannt,Mechanism of action (MoA),30
-Susan Costantini,Mechanism of action (MoA),30
-Ola Spjuth,Mechanism of action (MoA),30
-Maria Serena Roca ,Mechanism of action (MoA),30
-Federica Iannelli ,Mechanism of action (MoA),30
-Marc Jacobs,Mechanism of action (MoA),30
-Annika Jenmalm Jensen,Mechanism of action (MoA),30
-Carmine Talarico,Mechanism of action (MoA),30
-Nick Bishop,Mechanism of action (MoA),30
-Antonio Avallone,Mechanism of action (MoA),30
-Eugenia Passaro,Mechanism of action (MoA),30
-Elena Di Gennaro,Mechanism of action (MoA),30
-Donald Lo,Mechanism of action (MoA),30
-Drug Discovery Group,Mechanism of action (MoA),31
-Yojana Gadiya,Mechanism of action (MoA),30
-Zoltán Kaló,Phase 3 trials,15
-Andrea Beccari,Phase 3 trials,15
-Alessandra Leone,Phase 3 trials,15
-Alfredo Budillon,Phase 3 trials,15
-Judith Cohen,Phase 3 trials,15
-Pier Adelchi Ruffini,Phase 3 trials,15
-Heleen van der Meer,Phase 3 trials,15
-Christine Kubiak,Phase 3 trials,15
-Sareema Javaid,Phase 3 trials,15
-Tanja Rossmanith,Phase 3 trials,15
-Keiko Ueda,Phase 3 trials,15
-Antonio Avallone,Phase 3 trials,15
-Elena Di Gennaro,Phase 3 trials,15
-Maria Carmela Piccirillo,Phase 3 trials,15
-Donald Lo,Phase 3 trials,15
-Drug Development Group,Phase 3 trials,16
-Saco de Visser,Phase 3 trials,15
-András Inotai,Health technology assessment,8
-Zoltán Kaló,Health technology assessment,8
-Maddalena Fratelli,Health technology assessment,8
-Alfredo Budillon,Health technology assessment,8
-Dalma Hosszú,Health technology assessment,8
-Heleen van der Meer,Health technology assessment,8
-Marcell Csanádi,Health technology assessment,8
-Donald Lo,Health technology assessment,8
-Drug Development Group,Health technology assessment,9
-Zsuzsanna Petykó,Health technology assessment,8
-András Inotai,Health Economics,5
-Zoltán Kaló,Health Economics,5
-Dalma Hosszú,Health Economics,5
-Marcell Csanádi,Health Economics,5
-Kristóf Gyöngyösi,Health Economics,5
-Drug Development Group,Health Economics,6
-Zsuzsanna Petykó,Health Economics,5
-Philip Gribbon,High-throughput screening (HTS),26
-Markus Vähä-Koskela,High-throughput screening (HTS),26
-Jordi Carreras-Puigvert,High-throughput screening (HTS),26
-Swapnil Potdar,High-throughput screening (HTS),26
-Jeanette Reinshagen,High-throughput screening (HTS),26
-Jani Saarela,High-throughput screening (HTS),26
-Marianna Tampere,High-throughput screening (HTS),26
-Francesca Bruzzese,High-throughput screening (HTS),26
-Päivi Östling,High-throughput screening (HTS),26
-Alessandra Leone,High-throughput screening (HTS),26
-Anna-Lena Gustavsson,High-throughput screening (HTS),26
-Maria Kuzikov,High-throughput screening (HTS),26
-Axel Pahl,High-throughput screening (HTS),26
-Alfredo Budillon,High-throughput screening (HTS),26
-Andrea Zaliani,High-throughput screening (HTS),26
-Brinton Seashore-Ludlow,High-throughput screening (HTS),26
-Aimo Kannt,High-throughput screening (HTS),26
-Ola Spjuth,High-throughput screening (HTS),26
-Maria Serena Roca ,High-throughput screening (HTS),26
-Federica Iannelli ,High-throughput screening (HTS),26
-Marc Jacobs,High-throughput screening (HTS),26
-Annika Jenmalm Jensen,High-throughput screening (HTS),26
-Tero Aittokallio,High-throughput screening (HTS),26
-Davide Graziani,High-throughput screening (HTS),26
-Elin Asp,High-throughput screening (HTS),26
-Donald Lo,High-throughput screening (HTS),26
-Drug Discovery Group,High-throughput screening (HTS),27
-Johanna Huchting,High-throughput screening (HTS),26
-Anne Heß,Market access,6
-András Inotai,Market access,6
-Zoltán Kaló,Market access,6
-Heleen van der Meer,Market access,6
-Marcell Csanádi,Market access,6
-Donald Lo,Market access,6
-Drug Development Group,Market access,7
-Zsuzsanna Petykó,Market access,6
-Saco de Visser,Phase 1 trials,11
-Claudia Fuchs,Phase 1 trials,11
-Andrea Beccari,Phase 1 trials,11
-Alessandra Leone,Phase 1 trials,11
-Alfredo Budillon,Phase 1 trials,11
-Pier Adelchi Ruffini,Phase 1 trials,11
-Christine Kubiak,Phase 1 trials,11
-Sareema Javaid,Phase 1 trials,11
-Keiko Ueda,Phase 1 trials,11
-Maria Carmela Piccirillo,Phase 1 trials,11
-Donald Lo,Phase 1 trials,11
-Drug Development Group,Phase 1 trials,12
-Martin de Kort,Phase 1 trials,11
-Saco de Visser,Phase 2 trials,17
-Andrea Beccari,Phase 2 trials,17
-Alessandra Leone,Phase 2 trials,17
-Alfredo Budillon,Phase 2 trials,17
-Judith Cohen,Phase 2 trials,17
-Pier Adelchi Ruffini,Phase 2 trials,17
-Maria Serena Roca ,Phase 2 trials,17
-Federica Iannelli ,Phase 2 trials,17
-Christine Kubiak,Phase 2 trials,17
-Sareema Javaid,Phase 2 trials,17
-Tanja Rossmanith,Phase 2 trials,17
-Keiko Ueda,Phase 2 trials,17
-Antonio Avallone,Phase 2 trials,17
-Eugenia Passaro,Phase 2 trials,17
-Elena Di Gennaro,Phase 2 trials,17
-Maria Carmela Piccirillo,Phase 2 trials,17
-Donald Lo,Phase 2 trials,17
-Drug Development Group,Phase 2 trials,18
-Martin de Kort,Phase 2 trials,17
-Andrea Beccari,Legal expertise,3
-Tanja Rossmanith,Legal expertise,3
-Donald Lo,Legal expertise,3
-Communication and Project Management Group,Legal expertise,4
-Martin de Kort,Legal expertise,3
-Claudia Fuchs,Pre-clinical pharmacology,18
-Jeanette Reinshagen,Pre-clinical pharmacology,18
-Marianna Tampere,Pre-clinical pharmacology,18
-Francesca Bruzzese,Pre-clinical pharmacology,18
-Andrea Beccari,Pre-clinical pharmacology,18
-Maddalena Fratelli,Pre-clinical pharmacology,18
-Sarai Rodríguez Navarro,Pre-clinical pharmacology,18
-Alfredo Budillon,Pre-clinical pharmacology,18
-Brinton Seashore-Ludlow,Pre-clinical pharmacology,18
-Maria Candida Cesta,Pre-clinical pharmacology,18
-Aimo Kannt,Pre-clinical pharmacology,18
-Susan Costantini,Pre-clinical pharmacology,18
-Ola Spjuth,Pre-clinical pharmacology,18
-Carmine Talarico,Pre-clinical pharmacology,18
-Antonio Avallone,Pre-clinical pharmacology,18
-Eugenia Passaro,Pre-clinical pharmacology,18
-Elena Di Gennaro,Pre-clinical pharmacology,18
-Donald Lo,Pre-clinical pharmacology,18
-Drug Development Group,Pre-clinical pharmacology,19
-Martin de Kort,Pre-clinical pharmacology,18
-András Inotai,Evidence synthesis,7
-Zoltán Kaló,Evidence synthesis,7
-Dalma Hosszú,Evidence synthesis,7
-Pan Pantziarka,Evidence synthesis,7
-Marc Jacobs,Evidence synthesis,7
-Heleen van der Meer,Evidence synthesis,7
-Marcell Csanádi,Evidence synthesis,7
-Drug Development Group,Evidence synthesis,8
-Zsuzsanna Petykó,Evidence synthesis,7
-Rok Dreu,Drug Formulation,5
-Alicia Soler Cantón,Drug Formulation,5
-Sareema Javaid,Drug Formulation,5
-Donald Lo,Drug Formulation,5
-Kristóf Gyöngyösi,Drug Formulation,5
-Drug Discovery Group,Drug Formulation,6
-Martin de Kort,Drug Formulation,5
-Axel Pahl,Pro-drugs,4
-Andrea Zaliani,Pro-drugs,4
-Davide Graziani,Pro-drugs,4
-Donald Lo,Pro-drugs,4
-Drug Discovery Group,Pro-drugs,5
-Johanna Huchting,Pro-drugs,4
-Andrea Zaliani,Clinical statistics,7
-Sofia Sintoris,Clinical statistics,7
-Ziaurrehman Tanoli,Clinical statistics,7
-Susan Costantini,Clinical statistics,7
-Heleen van der Meer,Clinical statistics,7
-Christine Kubiak,Clinical statistics,7
-Maria Carmela Piccirillo,Clinical statistics,7
-Drug Development Group,Clinical statistics,8
-Martin Hofmann-Apitius,Clinical statistics,7
-Martin de Kort,Hit-to-lead (HTL) | lead generation,13
-Andrea Beccari,Hit-to-lead (HTL) | lead generation,13
-Jordi Quintana,Hit-to-lead (HTL) | lead generation,13
-Flavio Ballante,Hit-to-lead (HTL) | lead generation,13
-Anna-Lena Gustavsson,Hit-to-lead (HTL) | lead generation,13
-Axel Pahl,Hit-to-lead (HTL) | lead generation,13
-Andrea Zaliani,Hit-to-lead (HTL) | lead generation,13
-Maria Candida Cesta,Hit-to-lead (HTL) | lead generation,13
-Aimo Kannt,Hit-to-lead (HTL) | lead generation,13
-Annika Jenmalm Jensen,Hit-to-lead (HTL) | lead generation,13
-Carmine Talarico,Hit-to-lead (HTL) | lead generation,13
-Davide Graziani,Hit-to-lead (HTL) | lead generation,13
-Donald Lo,Hit-to-lead (HTL) | lead generation,13
-Drug Discovery Group,Hit-to-lead (HTL) | lead generation,14
-Philip Gribbon,Hit-to-lead (HTL) | lead generation,13
-Andrea Beccari,Marketing authorization application (MAA),5
-Alicia Soler Cantón,Marketing authorization application (MAA),5
-Pan Pantziarka,Marketing authorization application (MAA),5
-Christine Kubiak,Marketing authorization application (MAA),5
-Sareema Javaid,Marketing authorization application (MAA),5
-Drug Development Group,Marketing authorization application (MAA),6
-Peggy Beinlich,Marketing authorization application (MAA),5
-Philip Gribbon,Target identification,20
-Jordi Carreras-Puigvert,Target identification,20
-Claudia Fuchs,Target identification,20
-Jordi Quintana,Target identification,20
-Martin Hofmann-Apitius,Target identification,20
-Flavio Ballante,Target identification,20
-Anna-Lena Gustavsson,Target identification,20
-Maria Kuzikov,Target identification,20
-Alfredo Budillon,Target identification,20
-Andrea Zaliani,Target identification,20
-Brinton Seashore-Ludlow,Target identification,20
-Ziaurrehman Tanoli,Target identification,20
-Aimo Kannt,Target identification,20
-Susan Costantini,Target identification,20
-Pan Pantziarka,Target identification,20
-Maria Serena Roca ,Target identification,20
-Marc Jacobs,Target identification,20
-Annika Jenmalm Jensen,Target identification,20
-Tero Aittokallio,Target identification,20
-Donald Lo,Target identification,20
-Drug Discovery Group,Target identification,21
-Yojana Gadiya,Target identification,20
-Claudia Fuchs,Drug delivery,5
-Rok Dreu,Drug delivery,5
-Alicia Soler Cantón,Drug delivery,5
-Gabriel Ortega Toledo,Drug delivery,5
-Donald Lo,Drug delivery,5
-Drug Discovery Group,Drug delivery,6
-Martin de Kort,Drug delivery,5
-Swapnil Potdar,Data management,11
-Jordi Quintana,Data management,11
-Martin Hofmann-Apitius,Data management,11
-Leonie von Berlin,Data management,11
-Alfredo Budillon,Data management,11
-Andrea Zaliani,Data management,11
-Judith Cohen,Data management,11
-Susan Costantini,Data management,11
-Ola Spjuth,Data management,11
-Marc Jacobs,Data management,11
-Christine Kubiak,Data management,11
-Drug Development Group,Data management,12
-Philip Gribbon,Data management,11
-Francesca Bruzzese,In-vivo efficacy evaluation,7
-Sarai Rodríguez Navarro,In-vivo efficacy evaluation,7
-Alfredo Budillon,In-vivo efficacy evaluation,7
-Pier Adelchi Ruffini,In-vivo efficacy evaluation,7
-Aimo Kannt,In-vivo efficacy evaluation,7
-Maria Serena Roca ,In-vivo efficacy evaluation,7
-Donald Lo,In-vivo efficacy evaluation,7
-Drug Discovery Group,In-vivo efficacy evaluation,8
-Martin de Kort,In-vivo efficacy evaluation,7
-Jordi Quintana,Absorption distribution metabolism elimination (ADME),8
-Maddalena Fratelli,Absorption distribution metabolism elimination (ADME),8
-Simon Žakelj,Absorption distribution metabolism elimination (ADME),8
-Axel Pahl,Absorption distribution metabolism elimination (ADME),8
-Andrea Zaliani,Absorption distribution metabolism elimination (ADME),8
-Aimo Kannt,Absorption distribution metabolism elimination (ADME),8
-Davide Graziani,Absorption distribution metabolism elimination (ADME),8
-Donald Lo,Absorption distribution metabolism elimination (ADME),8
-Drug Discovery Group,Absorption distribution metabolism elimination (ADME),9
-Martin de Kort,Absorption distribution metabolism elimination (ADME),8
-Saco de Visser,Project communication and dissemination,32
-Zsuzsanna Petykó,Project communication and dissemination,32
-Claudia Fuchs,Project communication and dissemination,32
-Jeanette Reinshagen,Project communication and dissemination,32
-Marianna Tampere,Project communication and dissemination,32
-Francesca Bruzzese,Project communication and dissemination,32
-Jordi Quintana,Project communication and dissemination,32
-Martin Hofmann-Apitius,Project communication and dissemination,32
-Maddalena Fratelli,Project communication and dissemination,32
-Alicia Soler Cantón,Project communication and dissemination,32
-Katja Herzog,Project communication and dissemination,32
-Anna-Lena Gustavsson,Project communication and dissemination,32
-Berta Gumí Audenis,Project communication and dissemination,32
-Gisela Pairó,Project communication and dissemination,32
-Ivette Corominas,Project communication and dissemination,32
-Sarai Rodríguez Navarro,Project communication and dissemination,32
-Alfredo Budillon,Project communication and dissemination,32
-Sofia Sintoris,Project communication and dissemination,32
-Brinton Seashore-Ludlow,Project communication and dissemination,32
-Gabriel Ortega Toledo,Project communication and dissemination,32
-Aimo Kannt,Project communication and dissemination,32
-Pan Pantziarka,Project communication and dissemination,32
-Maria Serena Roca ,Project communication and dissemination,32
-Judith Palou,Project communication and dissemination,32
-Christine Kubiak,Project communication and dissemination,32
-Carmine Talarico,Project communication and dissemination,32
-Nick Bishop,Project communication and dissemination,32
-Eugenia Passaro,Project communication and dissemination,32
-Elena Di Gennaro,Project communication and dissemination,32
-Maria Carmela Piccirillo,Project communication and dissemination,32
-Donald Lo,Project communication and dissemination,32
-Gianfranco De Feo,Project communication and dissemination,32
-Communication and Project Management Group,Project communication and dissemination,33
-Jordi Carreras-Puigvert,Project communication and dissemination,32
-Martin de Kort,In-vivo toxicity testing,2
-Donald Lo,In-vivo toxicity testing,2
-Drug Discovery Group,In-vivo toxicity testing,3
-Philip Gribbon,In-vivo toxicity testing,2
-Johanna Huchting,Medicinal chemistry,14
-Martin de Kort,Medicinal chemistry,14
-Andrea Beccari,Medicinal chemistry,14
-Jordi Quintana,Medicinal chemistry,14
-Flavio Ballante,Medicinal chemistry,14
-Anna-Lena Gustavsson,Medicinal chemistry,14
-Axel Pahl,Medicinal chemistry,14
-Andrea Zaliani,Medicinal chemistry,14
-Ziaurrehman Tanoli,Medicinal chemistry,14
-Maria Candida Cesta,Medicinal chemistry,14
-Susan Costantini,Medicinal chemistry,14
-Annika Jenmalm Jensen,Medicinal chemistry,14
-Davide Graziani,Medicinal chemistry,14
-Donald Lo,Medicinal chemistry,14
-Drug Discovery Group,Medicinal chemistry,15
-Yojana Gadiya,Medicinal chemistry,14
-Saco de Visser,Pharmacokinetics (PK),11
-Igor Locatelli,Pharmacokinetics (PK),11
-Maddalena Fratelli,Pharmacokinetics (PK),11
-Axel Pahl,Pharmacokinetics (PK),11
-Andrea Zaliani,Pharmacokinetics (PK),11
-Ziaurrehman Tanoli,Pharmacokinetics (PK),11
-Aimo Kannt,Pharmacokinetics (PK),11
-Keiko Ueda,Pharmacokinetics (PK),11
-Davide Graziani,Pharmacokinetics (PK),11
-Donald Lo,Pharmacokinetics (PK),11
-Kristóf Gyöngyösi,Pharmacokinetics (PK),11
-Drug Discovery Group,Pharmacokinetics (PK),12
-Martin de Kort,Pharmacokinetics (PK),11
+Jordi Carreras-Puigvert,Target validation,13
+Martin de Kort,Target validation,13
+Claudia Fuchs,Target validation,13
+Alessandra Leone,Target validation,13
+Anna-Lena Gustavsson,Target validation,13
+Maria Kuzikov,Target validation,13
+Alfredo Budillon,Target validation,13
+Brinton Seashore-Ludlow,Target validation,13
+Aimo Kannt,Target validation,13
+Susan Costantini,Target validation,13
+Annika Jenmalm Jensen,Target validation,13
+Maria Carmela Piccirillo,Target validation,13
+Donald Lo,Target validation,13
+Drug Discovery Group,Target validation,14
+Philip Gribbon,Target validation,13
 Martin de Kort,Drug combinations,20
 Jani Saarela,Drug combinations,20
 Francesca Bruzzese,Drug combinations,20
@@ -515,6 +483,43 @@ Elena Di Gennaro,Drug combinations,20
 Donald Lo,Drug combinations,20
 Drug Discovery Group,Drug combinations,21
 Jordi Carreras-Puigvert,Drug combinations,20
+Claudia Fuchs,Drug delivery,5
+Rok Dreu,Drug delivery,5
+Alicia Soler Cantón,Drug delivery,5
+Gabriel Ortega Toledo,Drug delivery,5
+Donald Lo,Drug delivery,5
+Drug Discovery Group,Drug delivery,6
+Martin de Kort,Drug delivery,5
+András Inotai,Health technology assessment,8
+Zoltán Kaló,Health technology assessment,8
+Maddalena Fratelli,Health technology assessment,8
+Alfredo Budillon,Health technology assessment,8
+Dalma Hosszú,Health technology assessment,8
+Heleen van der Meer,Health technology assessment,8
+Marcell Csanádi,Health technology assessment,8
+Donald Lo,Health technology assessment,8
+Drug Development Group,Health technology assessment,9
+Zsuzsanna Petykó,Health technology assessment,8
+Andrea Beccari,Marketing authorization application (MAA),5
+Alicia Soler Cantón,Marketing authorization application (MAA),5
+Pan Pantziarka,Marketing authorization application (MAA),5
+Christine Kubiak,Marketing authorization application (MAA),5
+Sareema Javaid,Marketing authorization application (MAA),5
+Drug Development Group,Marketing authorization application (MAA),6
+Peggy Beinlich,Marketing authorization application (MAA),5
+Saco de Visser,Phase 1 trials,11
+Claudia Fuchs,Phase 1 trials,11
+Andrea Beccari,Phase 1 trials,11
+Alessandra Leone,Phase 1 trials,11
+Alfredo Budillon,Phase 1 trials,11
+Pier Adelchi Ruffini,Phase 1 trials,11
+Christine Kubiak,Phase 1 trials,11
+Sareema Javaid,Phase 1 trials,11
+Keiko Ueda,Phase 1 trials,11
+Maria Carmela Piccirillo,Phase 1 trials,11
+Donald Lo,Phase 1 trials,11
+Drug Development Group,Phase 1 trials,12
+Martin de Kort,Phase 1 trials,11
 Markus Vähä-Koskela,Biological discovery,15
 Claudia Fuchs,Biological discovery,15
 Francesca Bruzzese,Biological discovery,15
@@ -532,63 +537,58 @@ Federica Iannelli ,Biological discovery,15
 Donald Lo,Biological discovery,15
 Drug Discovery Group,Biological discovery,16
 Yojana Gadiya,Biological discovery,15
-Andrea Zaliani,Clinical study report (CSR) creation,6
-Christine Kubiak,Clinical study report (CSR) creation,6
-Sareema Javaid,Clinical study report (CSR) creation,6
-Tanja Rossmanith,Clinical study report (CSR) creation,6
-Keiko Ueda,Clinical study report (CSR) creation,6
-Maria Carmela Piccirillo,Clinical study report (CSR) creation,6
-Drug Development Group,Clinical study report (CSR) creation,7
-Alfredo Budillon,Clinical study report (CSR) creation,6
-Saco de Visser,Pharmacodynamics (PD),9
-Maddalena Fratelli,Pharmacodynamics (PD),9
-Axel Pahl,Pharmacodynamics (PD),9
-Andrea Zaliani,Pharmacodynamics (PD),9
-Ziaurrehman Tanoli,Pharmacodynamics (PD),9
-Aimo Kannt,Pharmacodynamics (PD),9
-Keiko Ueda,Pharmacodynamics (PD),9
-Donald Lo,Pharmacodynamics (PD),9
-Kristóf Gyöngyösi,Pharmacodynamics (PD),9
-Drug Discovery Group,Pharmacodynamics (PD),10
-Martin de Kort,Pharmacodynamics (PD),9
-Claudia Fuchs,Medical writing,10
-Zoltán Kaló,Medical writing,10
-Sarai Rodríguez Navarro,Medical writing,10
-Sofia Sintoris,Medical writing,10
-Maria Candida Cesta,Medical writing,10
-Gabriel Ortega Toledo,Medical writing,10
-Pan Pantziarka,Medical writing,10
-Heleen van der Meer,Medical writing,10
-Keiko Ueda,Medical writing,10
-Maria Carmela Piccirillo,Medical writing,10
-Drug Development Group,Medical writing,11
-Zsuzsanna Petykó,Medical writing,10
-Davide Graziani,In-vitro toxicity testing - Ames,2
-Donald Lo,In-vitro toxicity testing - Ames,2
-Drug Discovery Group,In-vitro toxicity testing - Ames,3
-Maria Kuzikov,In-vitro toxicity testing - Ames,2
-Judith Cohen,Quality assurance (clinical trials),7
-Christine Kubiak,Quality assurance (clinical trials),7
-Sareema Javaid,Quality assurance (clinical trials),7
-Tanja Rossmanith,Quality assurance (clinical trials),7
-Maria Carmela Piccirillo,Quality assurance (clinical trials),7
-Donald Lo,Quality assurance (clinical trials),7
-Gianfranco De Feo,Quality assurance (clinical trials),7
-Drug Development Group,Quality assurance (clinical trials),8
-Alfredo Budillon,Quality assurance (clinical trials),7
-Judith Cohen,Ethics and ELSI,4
-Christine Kubiak,Ethics and ELSI,4
-Sareema Javaid,Ethics and ELSI,4
-Gianfranco De Feo,Ethics and ELSI,4
-Communication and Project Management Group,Ethics and ELSI,5
-Alfredo Budillon,Ethics and ELSI,4
-Andrea Beccari,Investigational new drug (IND) submission,8
-Rok Dreu,Investigational new drug (IND) submission,8
-Alicia Soler Cantón,Investigational new drug (IND) submission,8
-Judith Cohen,Investigational new drug (IND) submission,8
-Sareema Javaid,Investigational new drug (IND) submission,8
-Carmine Talarico,Investigational new drug (IND) submission,8
-Keiko Ueda,Investigational new drug (IND) submission,8
-Donald Lo,Investigational new drug (IND) submission,8
-Drug Development Group,Investigational new drug (IND) submission,9
-Martin de Kort,Investigational new drug (IND) submission,8
+Andrea Beccari,Legal expertise,3
+Tanja Rossmanith,Legal expertise,3
+Donald Lo,Legal expertise,3
+Communication and Project Management Group,Legal expertise,4
+Martin de Kort,Legal expertise,3
+Swapnil Potdar,Data management,11
+Jordi Quintana,Data management,11
+Martin Hofmann-Apitius,Data management,11
+Leonie von Berlin,Data management,11
+Alfredo Budillon,Data management,11
+Andrea Zaliani,Data management,11
+Judith Cohen,Data management,11
+Susan Costantini,Data management,11
+Ola Spjuth,Data management,11
+Marc Jacobs,Data management,11
+Christine Kubiak,Data management,11
+Drug Development Group,Data management,12
+Philip Gribbon,Data management,11
+András Inotai,Health Economics,5
+Zoltán Kaló,Health Economics,5
+Dalma Hosszú,Health Economics,5
+Marcell Csanádi,Health Economics,5
+Kristóf Gyöngyösi,Health Economics,5
+Drug Development Group,Health Economics,6
+Zsuzsanna Petykó,Health Economics,5
+Philip Gribbon,Target identification,20
+Jordi Carreras-Puigvert,Target identification,20
+Claudia Fuchs,Target identification,20
+Jordi Quintana,Target identification,20
+Martin Hofmann-Apitius,Target identification,20
+Flavio Ballante,Target identification,20
+Anna-Lena Gustavsson,Target identification,20
+Maria Kuzikov,Target identification,20
+Alfredo Budillon,Target identification,20
+Andrea Zaliani,Target identification,20
+Brinton Seashore-Ludlow,Target identification,20
+Ziaurrehman Tanoli,Target identification,20
+Aimo Kannt,Target identification,20
+Susan Costantini,Target identification,20
+Pan Pantziarka,Target identification,20
+Maria Serena Roca ,Target identification,20
+Marc Jacobs,Target identification,20
+Annika Jenmalm Jensen,Target identification,20
+Tero Aittokallio,Target identification,20
+Donald Lo,Target identification,20
+Drug Discovery Group,Target identification,21
+Yojana Gadiya,Target identification,20
+Zoltán Kaló,Phase 4 trials and Pharmacovigilance,6
+Andrea Beccari,Phase 4 trials and Pharmacovigilance,6
+Jordi Quintana,Phase 4 trials and Pharmacovigilance,6
+Heleen van der Meer,Phase 4 trials and Pharmacovigilance,6
+Christine Kubiak,Phase 4 trials and Pharmacovigilance,6
+Sareema Javaid,Phase 4 trials and Pharmacovigilance,6
+Drug Development Group,Phase 4 trials and Pharmacovigilance,7
+Saco de Visser,Phase 4 trials and Pharmacovigilance,6
