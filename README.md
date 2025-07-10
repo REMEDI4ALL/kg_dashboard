@@ -51,7 +51,7 @@ To update the live instance, open the project on SERVE ([link](https://serve.sci
 
 ![project](docs/kg_project_serve.png)
 
-In the settings, scroll down to the **Image** section and replace this with the latest version from the [packages](https://github.com/REMEDI4ALL/kg_dashboard/pkgs/container/kg_dashboard%2Fkg_dashboard). The latest version is always on the top. Make sure, it starts with *ghcr.io/xxx*.
+In the settings, scroll down to the **Image** section and replace this with the latest version from the [packages](https://github.com/REMEDI4ALL/kg_dashboard/pkgs/container/kg_dashboard). The latest version is always on the top. Make sure, it starts with *ghcr.io/xxx*.
 
 *^ You need an active [SERVE account](https://serve.scilifelab.se/) and access to the project.*
 
