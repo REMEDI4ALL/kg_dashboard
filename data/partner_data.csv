@@ -164,6 +164,48 @@ tissue distribution assay,Fraunhofer-Gesellschaft
 tissue homogenate stability assay,Fraunhofer-Gesellschaft
 toxicity assay,Fraunhofer-Gesellschaft
 whole blood stability assay,Fraunhofer-Gesellschaft
+2D structure prediction,Fraunhofer-Gesellschaft
+2D structure similarity search,Fraunhofer-Gesellschaft
+3D structure prediction,Fraunhofer-Gesellschaft
+3D structure similarity search,Fraunhofer-Gesellschaft
+AutoDock docking method,Fraunhofer-Gesellschaft
+cartesian conformational search,Fraunhofer-Gesellschaft
+cheminformatics method,Fraunhofer-Gesellschaft
+circular fingerprint search,Fraunhofer-Gesellschaft
+Clustal sequence alignment,Fraunhofer-Gesellschaft
+ClustalW sequence alignment,Fraunhofer-Gesellschaft
+ClustalX sequence alignment,Fraunhofer-Gesellschaft
+computational phylogenetic analysis,Fraunhofer-Gesellschaft
+computational structure analysis,Fraunhofer-Gesellschaft
+computer simulation method,Fraunhofer-Gesellschaft
+computer simulation method by force field,Fraunhofer-Gesellschaft
+conformational search,Fraunhofer-Gesellschaft
+conjugate gradient method,Fraunhofer-Gesellschaft
+constraint molecular dynamics simulation,Fraunhofer-Gesellschaft
+Cytoscape network analysis,Fraunhofer-Gesellschaft
+data based structure generation,Fraunhofer-Gesellschaft
+database filtering,Fraunhofer-Gesellschaft
+de novo structure design,Fraunhofer-Gesellschaft
+decision tree,Fraunhofer-Gesellschaft
+descriptor matching method,Fraunhofer-Gesellschaft
+dihedral conformational search,Fraunhofer-Gesellschaft
+distance comparison modeling,Fraunhofer-Gesellschaft
+distance matrix alignment,Fraunhofer-Gesellschaft
+DrugScore scoring function,Fraunhofer-Gesellschaft
+energy minimization method,Fraunhofer-Gesellschaft
+exact match structure search,Fraunhofer-Gesellschaft
+experimental design method,Fraunhofer-Gesellschaft
+FASTA local sequence alignment,Fraunhofer-Gesellschaft
+force field based scoring function,Fraunhofer-Gesellschaft
+fractional factorial design,Fraunhofer-Gesellschaft
+fragment based structure generation,Fraunhofer-Gesellschaft
+full factorial design,Fraunhofer-Gesellschaft
+global minimum search,Fraunhofer-Gesellschaft
+GOLD docking method,Fraunhofer-Gesellschaft
+GOLD scoring function,Fraunhofer-Gesellschaft
+Hartree-Fock method,Fraunhofer-Gesellschaft
+hierarchial clustering,Fraunhofer-Gesellschaft
+homology modeling,Fraunhofer-Gesellschaft
 k means clustering,Fraunhofer-Gesellschaft
 ligand based pharmacophore model,Fraunhofer-Gesellschaft
 ligand based virtual screening,Fraunhofer-Gesellschaft
@@ -220,48 +262,6 @@ three dimensional QSAR,Fraunhofer-Gesellschaft
 topomer search,Fraunhofer-Gesellschaft
 two dimensional QSAR,Fraunhofer-Gesellschaft
 virtual screening,Fraunhofer-Gesellschaft
-2D structure prediction,Fraunhofer-Gesellschaft
-2D structure similarity search,Fraunhofer-Gesellschaft
-3D structure prediction,Fraunhofer-Gesellschaft
-3D structure similarity search,Fraunhofer-Gesellschaft
-AutoDock docking method,Fraunhofer-Gesellschaft
-cartesian conformational search,Fraunhofer-Gesellschaft
-cheminformatics method,Fraunhofer-Gesellschaft
-circular fingerprint search,Fraunhofer-Gesellschaft
-Clustal sequence alignment,Fraunhofer-Gesellschaft
-ClustalW sequence alignment,Fraunhofer-Gesellschaft
-ClustalX sequence alignment,Fraunhofer-Gesellschaft
-computational phylogenetic analysis,Fraunhofer-Gesellschaft
-computational structure analysis,Fraunhofer-Gesellschaft
-computer simulation method,Fraunhofer-Gesellschaft
-computer simulation method by force field,Fraunhofer-Gesellschaft
-conformational search,Fraunhofer-Gesellschaft
-conjugate gradient method,Fraunhofer-Gesellschaft
-constraint molecular dynamics simulation,Fraunhofer-Gesellschaft
-Cytoscape network analysis,Fraunhofer-Gesellschaft
-data based structure generation,Fraunhofer-Gesellschaft
-database filtering,Fraunhofer-Gesellschaft
-de novo structure design,Fraunhofer-Gesellschaft
-decision tree,Fraunhofer-Gesellschaft
-descriptor matching method,Fraunhofer-Gesellschaft
-dihedral conformational search,Fraunhofer-Gesellschaft
-distance comparison modeling,Fraunhofer-Gesellschaft
-distance matrix alignment,Fraunhofer-Gesellschaft
-DrugScore scoring function,Fraunhofer-Gesellschaft
-energy minimization method,Fraunhofer-Gesellschaft
-exact match structure search,Fraunhofer-Gesellschaft
-experimental design method,Fraunhofer-Gesellschaft
-FASTA local sequence alignment,Fraunhofer-Gesellschaft
-force field based scoring function,Fraunhofer-Gesellschaft
-fractional factorial design,Fraunhofer-Gesellschaft
-fragment based structure generation,Fraunhofer-Gesellschaft
-full factorial design,Fraunhofer-Gesellschaft
-global minimum search,Fraunhofer-Gesellschaft
-GOLD docking method,Fraunhofer-Gesellschaft
-GOLD scoring function,Fraunhofer-Gesellschaft
-Hartree-Fock method,Fraunhofer-Gesellschaft
-hierarchial clustering,Fraunhofer-Gesellschaft
-homology modeling,Fraunhofer-Gesellschaft
 Oxidoreductases,Fraunhofer-Gesellschaft
 Hydroxylases,Fraunhofer-Gesellschaft
 Transferases,Fraunhofer-Gesellschaft
@@ -378,8 +378,6 @@ signal transduction assay,University of Helsinki (FIMM-UH)
 signaling pathway assay,University of Helsinki (FIMM-UH)
 time resolved fluorescence resonance energy transfer,University of Helsinki (FIMM-UH)
 toxicity assay,University of Helsinki (FIMM-UH)
-k means clustering,University of Helsinki (FIMM-UH)
-pathway analysis,University of Helsinki (FIMM-UH)
 automatic pathway analysis,University of Helsinki (FIMM-UH)
 cheminformatics method,University of Helsinki (FIMM-UH)
 computational analysis of gene expression,University of Helsinki (FIMM-UH)
@@ -387,6 +385,8 @@ Cytoscape network analysis,University of Helsinki (FIMM-UH)
 decision tree,University of Helsinki (FIMM-UH)
 genetic algorithm search,University of Helsinki (FIMM-UH)
 integrated pathway analysis,University of Helsinki (FIMM-UH)
+k means clustering,University of Helsinki (FIMM-UH)
+pathway analysis,University of Helsinki (FIMM-UH)
 Protein-tyrosine kinases,University of Helsinki (FIMM-UH)
 Protein-serine/threonine kinases,University of Helsinki (FIMM-UH)
 Other protein kinases,University of Helsinki (FIMM-UH)
@@ -501,14 +501,6 @@ toxicity assay,Mario Negri Institute for Pharmacological Research
 transcriptional profiling assay,Mario Negri Institute for Pharmacological Research
 transmission electron microscopy,Mario Negri Institute for Pharmacological Research
 turbidimetric solubility assay,Mario Negri Institute for Pharmacological Research
-k means clustering,Mario Negri Institute for Pharmacological Research
-molecular docking,Mario Negri Institute for Pharmacological Research
-molecular docking by method,Mario Negri Institute for Pharmacological Research
-molecular docking by scoring function,Mario Negri Institute for Pharmacological Research
-molecular dynamics simulation,Mario Negri Institute for Pharmacological Research
-principal component analysis,Mario Negri Institute for Pharmacological Research
-protein threading,Mario Negri Institute for Pharmacological Research
-protein-protein docking,Mario Negri Institute for Pharmacological Research
 3D structure prediction,Mario Negri Institute for Pharmacological Research
 3D structure similarity search,Mario Negri Institute for Pharmacological Research
 AMBER force field simulation,Mario Negri Institute for Pharmacological Research
@@ -523,6 +515,14 @@ energy minimization method,Mario Negri Institute for Pharmacological Research
 force field based scoring function,Mario Negri Institute for Pharmacological Research
 GROMOS force field simulation,Mario Negri Institute for Pharmacological Research
 homology modeling,Mario Negri Institute for Pharmacological Research
+k means clustering,Mario Negri Institute for Pharmacological Research
+molecular docking,Mario Negri Institute for Pharmacological Research
+molecular docking by method,Mario Negri Institute for Pharmacological Research
+molecular docking by scoring function,Mario Negri Institute for Pharmacological Research
+molecular dynamics simulation,Mario Negri Institute for Pharmacological Research
+principal component analysis,Mario Negri Institute for Pharmacological Research
+protein threading,Mario Negri Institute for Pharmacological Research
+protein-protein docking,Mario Negri Institute for Pharmacological Research
 Peptidyl-dipeptidases,Mario Negri Institute for Pharmacological Research
 Cysteine endopeptidases,Mario Negri Institute for Pharmacological Research
 Metalloendopeptidases,Mario Negri Institute for Pharmacological Research
@@ -618,6 +618,28 @@ targeted transcriptional assay,Istituto Nazionale Tumori
 T-cell activation assay,Istituto Nazionale Tumori
 T-cell cytotoxicity assay,Istituto Nazionale Tumori
 toxicity assay,Istituto Nazionale Tumori
+AMBER force field simulation,Istituto Nazionale Tumori
+AutoDock docking method,Istituto Nazionale Tumori
+AutoDock3 docking method,Istituto Nazionale Tumori
+AutoDock3 scoring function,Istituto Nazionale Tumori
+automatic pathway analysis,Istituto Nazionale Tumori
+basic local alignment search tool,Istituto Nazionale Tumori
+CFF force field simulation,Istituto Nazionale Tumori
+CHARMM force field simulation,Istituto Nazionale Tumori
+Clustal sequence alignment,Istituto Nazionale Tumori
+ClustalW sequence alignment,Istituto Nazionale Tumori
+ClustalX sequence alignment,Istituto Nazionale Tumori
+conjugate gradient method,Istituto Nazionale Tumori
+Cytoscape network analysis,Istituto Nazionale Tumori
+DIALIGN sequence alignment,Istituto Nazionale Tumori
+DOCK docking method,Istituto Nazionale Tumori
+DOCK4 docking method,Istituto Nazionale Tumori
+energy minimization method,Istituto Nazionale Tumori
+FASTA local sequence alignment,Istituto Nazionale Tumori
+force field based scoring function,Istituto Nazionale Tumori
+GROMOS force field simulation,Istituto Nazionale Tumori
+GSEA-P enrichment analysis,Istituto Nazionale Tumori
+homology modeling,Istituto Nazionale Tumori
 ligand based pharmacophore model,Istituto Nazionale Tumori
 ligand based virtual screening,Istituto Nazionale Tumori
 local sequence alignment,Istituto Nazionale Tumori
@@ -645,28 +667,6 @@ structure database search,Istituto Nazionale Tumori
 structure similarity search,Istituto Nazionale Tumori
 SwissModel homology modeling,Istituto Nazionale Tumori
 virtual screening,Istituto Nazionale Tumori
-AMBER force field simulation,Istituto Nazionale Tumori
-AutoDock docking method,Istituto Nazionale Tumori
-AutoDock3 docking method,Istituto Nazionale Tumori
-AutoDock3 scoring function,Istituto Nazionale Tumori
-automatic pathway analysis,Istituto Nazionale Tumori
-basic local alignment search tool,Istituto Nazionale Tumori
-CFF force field simulation,Istituto Nazionale Tumori
-CHARMM force field simulation,Istituto Nazionale Tumori
-Clustal sequence alignment,Istituto Nazionale Tumori
-ClustalW sequence alignment,Istituto Nazionale Tumori
-ClustalX sequence alignment,Istituto Nazionale Tumori
-conjugate gradient method,Istituto Nazionale Tumori
-Cytoscape network analysis,Istituto Nazionale Tumori
-DIALIGN sequence alignment,Istituto Nazionale Tumori
-DOCK docking method,Istituto Nazionale Tumori
-DOCK4 docking method,Istituto Nazionale Tumori
-energy minimization method,Istituto Nazionale Tumori
-FASTA local sequence alignment,Istituto Nazionale Tumori
-force field based scoring function,Istituto Nazionale Tumori
-GROMOS force field simulation,Istituto Nazionale Tumori
-GSEA-P enrichment analysis,Istituto Nazionale Tumori
-homology modeling,Istituto Nazionale Tumori
 Transferases,Istituto Nazionale Tumori
 Protein-tyrosine kinases,Istituto Nazionale Tumori
 Protein-serine/threonine kinases,Istituto Nazionale Tumori
@@ -826,46 +826,6 @@ target engagement assay,Karolinska Institutet
 thermal shift assay,Karolinska Institutet
 time resolved fluorescence resonance energy transfer,Karolinska Institutet
 toxicity assay,Karolinska Institutet
-k means clustering,Karolinska Institutet
-knowledge based scoring function,Karolinska Institutet
-ligand based pharmacophore model,Karolinska Institutet
-ligand based virtual screening,Karolinska Institutet
-linear QSAR,Karolinska Institutet
-Lipinski rule of 5 filtering,Karolinska Institutet
-local minimum search,Karolinska Institutet
-MMFF force field simulation,Karolinska Institutet
-MODELLER homology modeling,Karolinska Institutet
-molecular docking,Karolinska Institutet
-molecular docking by method,Karolinska Institutet
-molecular docking by scoring function,Karolinska Institutet
-molecular dynamics simulation,Karolinska Institutet
-multiple sequence alignment,Karolinska Institutet
-neural network QSAR,Karolinska Institutet
-Newton-Raphson method,Karolinska Institutet
-non-linear QSAR,Karolinska Institutet
-partial least squares QSAR,Karolinska Institutet
-pathway analysis,Karolinska Institutet
-principal component analysis,Karolinska Institutet
-protein-protein docking,Karolinska Institutet
-quantitative structure activity relationship analysis,Karolinska Institutet
-random conformational search,Karolinska Institutet
-receptor based pharmacophore search,Karolinska Institutet
-regression QSAR,Karolinska Institutet
-scaffold hopping,Karolinska Institutet
-sequence alignment,Karolinska Institutet
-shape fingerprint search,Karolinska Institutet
-structure activity relationship analysis,Karolinska Institutet
-structure alignment,Karolinska Institutet
-structure based virtual screening,Karolinska Institutet
-structure database search,Karolinska Institutet
-structure similarity search,Karolinska Institutet
-substructure search,Karolinska Institutet
-SwissModel homology modeling,Karolinska Institutet
-systematic conformational search,Karolinska Institutet
-target family knowledge analysis,Karolinska Institutet
-three dimensional QSAR,Karolinska Institutet
-two dimensional QSAR,Karolinska Institutet
-virtual screening,Karolinska Institutet
 2D structure prediction,Karolinska Institutet
 2D structure similarity search,Karolinska Institutet
 3D structure prediction,Karolinska Institutet
@@ -908,6 +868,46 @@ GOLD docking method,Karolinska Institutet
 GOLD scoring function,Karolinska Institutet
 hierarchial clustering,Karolinska Institutet
 homology modeling,Karolinska Institutet
+k means clustering,Karolinska Institutet
+knowledge based scoring function,Karolinska Institutet
+ligand based pharmacophore model,Karolinska Institutet
+ligand based virtual screening,Karolinska Institutet
+linear QSAR,Karolinska Institutet
+Lipinski rule of 5 filtering,Karolinska Institutet
+local minimum search,Karolinska Institutet
+MMFF force field simulation,Karolinska Institutet
+MODELLER homology modeling,Karolinska Institutet
+molecular docking,Karolinska Institutet
+molecular docking by method,Karolinska Institutet
+molecular docking by scoring function,Karolinska Institutet
+molecular dynamics simulation,Karolinska Institutet
+multiple sequence alignment,Karolinska Institutet
+neural network QSAR,Karolinska Institutet
+Newton-Raphson method,Karolinska Institutet
+non-linear QSAR,Karolinska Institutet
+partial least squares QSAR,Karolinska Institutet
+pathway analysis,Karolinska Institutet
+principal component analysis,Karolinska Institutet
+protein-protein docking,Karolinska Institutet
+quantitative structure activity relationship analysis,Karolinska Institutet
+random conformational search,Karolinska Institutet
+receptor based pharmacophore search,Karolinska Institutet
+regression QSAR,Karolinska Institutet
+scaffold hopping,Karolinska Institutet
+sequence alignment,Karolinska Institutet
+shape fingerprint search,Karolinska Institutet
+structure activity relationship analysis,Karolinska Institutet
+structure alignment,Karolinska Institutet
+structure based virtual screening,Karolinska Institutet
+structure database search,Karolinska Institutet
+structure similarity search,Karolinska Institutet
+substructure search,Karolinska Institutet
+SwissModel homology modeling,Karolinska Institutet
+systematic conformational search,Karolinska Institutet
+target family knowledge analysis,Karolinska Institutet
+three dimensional QSAR,Karolinska Institutet
+two dimensional QSAR,Karolinska Institutet
+virtual screening,Karolinska Institutet
 Transferases,Karolinska Institutet
 Methyltransferases,Karolinska Institutet
 Protein-tyrosine kinases,Karolinska Institutet
@@ -920,6 +920,25 @@ Membrane protein,Karolinska Institutet
 Nuclear receptor,Karolinska Institutet
 Ion channel,Karolinska Institutet
 GPCR complex,Karolinska Institutet
+2D structure similarity search,Chemotargets
+3D structure similarity search,Chemotargets
+AutoDock docking method,Chemotargets
+AutoDock3 docking method,Chemotargets
+AutoDock3 scoring function,Chemotargets
+cheminformatics method,Chemotargets
+comparative molecular similarity indices analysis,Chemotargets
+computational phylogenetic analysis,Chemotargets
+computational structure analysis,Chemotargets
+computational structure solution,Chemotargets
+computer simulation method,Chemotargets
+constraint molecular dynamics simulation,Chemotargets
+data based structure generation,Chemotargets
+database filtering,Chemotargets
+de novo structure design,Chemotargets
+empirical scoring function,Chemotargets
+energy minimization method,Chemotargets
+exact match structure search,Chemotargets
+fragment based structure generation,Chemotargets
 knowledge based scoring function,Chemotargets
 ligand based pharmacophore model,Chemotargets
 ligand based virtual screening,Chemotargets
@@ -942,25 +961,6 @@ substructure search,Chemotargets
 target family knowledge analysis,Chemotargets
 two dimensional QSAR,Chemotargets
 virtual screening,Chemotargets
-2D structure similarity search,Chemotargets
-3D structure similarity search,Chemotargets
-AutoDock docking method,Chemotargets
-AutoDock3 docking method,Chemotargets
-AutoDock3 scoring function,Chemotargets
-cheminformatics method,Chemotargets
-comparative molecular similarity indices analysis,Chemotargets
-computational phylogenetic analysis,Chemotargets
-computational structure analysis,Chemotargets
-computational structure solution,Chemotargets
-computer simulation method,Chemotargets
-constraint molecular dynamics simulation,Chemotargets
-data based structure generation,Chemotargets
-database filtering,Chemotargets
-de novo structure design,Chemotargets
-empirical scoring function,Chemotargets
-energy minimization method,Chemotargets
-exact match structure search,Chemotargets
-fragment based structure generation,Chemotargets
 Nuclear receptor,Chemotargets
 Lipid,Chemotargets
 Histone deacetylase,Chemotargets
@@ -1143,6 +1143,10 @@ high throughput screening,Uppsala Universitet
 imaging cytometer,Uppsala Universitet
 immunofluorescent labeling,Uppsala Universitet
 microsomal stability assay,Uppsala Universitet
+cheminformatics method,Uppsala Universitet
+computational structure analysis,Uppsala Universitet
+database filtering,Uppsala Universitet
+experimental design method,Uppsala Universitet
 k means clustering,Uppsala Universitet
 linear QSAR,Uppsala Universitet
 Lipinski rule of 5 filtering,Uppsala Universitet
@@ -1153,7 +1157,3 @@ pathway analysis,Uppsala Universitet
 principal component analysis,Uppsala Universitet
 sequence alignment by method,Uppsala Universitet
 two dimensional QSAR,Uppsala Universitet
-cheminformatics method,Uppsala Universitet
-computational structure analysis,Uppsala Universitet
-database filtering,Uppsala Universitet
-experimental design method,Uppsala Universitet

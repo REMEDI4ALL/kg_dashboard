@@ -1,68 +1,4 @@
 Software,Curie
-k means clustering,BAO:0002344
-knowledge based scoring function,BAO:0002402
-ligand based pharmacophore model,BAO:0002366
-ligand based virtual screening,BAO:0002365
-linear QSAR,BAO:0002306
-Lipinski rule of 5 filtering,BAO:0002256
-local minimum search,BAO:0002296
-local sequence alignment,BAO:0002236
-MMFF force field simulation,BAO:0002292
-MODELLER homology modeling,BAO:0002222
-molecular docking,BAO:0002373
-molecular docking by method,BAO:0002374
-molecular docking by scoring function,BAO:0002393
-molecular dynamics simulation,BAO:0002301
-multiple sequence alignment,BAO:0002245
-natural language processing,BAO:0002351
-network analysis,BAO:0002361
-neural network model,BAO:0002345
-neural network QSAR,BAO:0002310
-Newton-Raphson method,BAO:0002298
-non-linear QSAR,BAO:0002309
-pairwise sequence alignment,BAO:0002246
-parameterized model number 3,BAO:0002334
-partial least squares QSAR,BAO:0002307
-pathway analysis,BAO:0002348
-post Hartree-Fock method,BAO:0002322
-PREDATOR structure prediction,BAO:0002214
-PredictProtein structure prediction,BAO:0002215
-principal component analysis,BAO:0002346
-protein threading,BAO:0002224
-protein-protein docking,BAO:0002226
-quantitative structure activity relationship analysis,BAO:0002305
-random conformational search,BAO:0002251
-randomized block design,BAO:0002340
-RAPTOR protein threading,BAO:0002225
-receptor based pharmacophore search,BAO:0002405
-recursive partitioning QSAR,BAO:0002311
-regression QSAR,BAO:0002308
-restricted open-shell Hartree-Fock,BAO:0002320
-scaffold hopping,BAO:0002371
-second generation force field simulation,BAO:0002289
-secondary structure analysis method,BAO:0002409
-self organizing molecular field analysis,BAO:0002315
-sequence alignment,BAO:0002231
-sequence alignment by method,BAO:0002232
-sequence alignment by type,BAO:0002244
-sequencing data alignment software,BAO:0180018
-sequencing data analysis software,BAO:0180022
-shape fingerprint search,BAO:0002265
-simulated annealing,BAO:0002295
-statistical classification method,BAO:0002341
-structure activity relationship analysis,BAO:0002410
-structure alignment,BAO:0002228
-structure based virtual screening,BAO:0002372
-structure database search,BAO:0002258
-structure similarity search,BAO:0002260
-substructure search,BAO:0002268
-SwissModel homology modeling,BAO:0002223
-systematic conformational search,BAO:0002254
-target family knowledge analysis,BAO:0002363
-three dimensional QSAR,BAO:0002312
-topomer search,BAO:0002267
-two dimensional QSAR,BAO:0002316
-virtual screening,BAO:0002364
 2D structure prediction,BAO:0002213
 2D structure similarity search,BAO:0002261
 3D structure prediction,BAO:0002216
@@ -128,3 +64,67 @@ Hartree-Fock method,BAO:0002319
 hierarchial clustering,BAO:0002343
 homology modeling,BAO:0002221
 integrated pathway analysis,BAO:0002359
+k means clustering,BAO:0002344
+knowledge based scoring function,BAO:0002402
+ligand based pharmacophore model,BAO:0002366
+ligand based virtual screening,BAO:0002365
+linear QSAR,BAO:0002306
+Lipinski rule of 5 filtering,BAO:0002256
+local minimum search,BAO:0002296
+local sequence alignment,BAO:0002236
+MMFF force field simulation,BAO:0002292
+MODELLER homology modeling,BAO:0002222
+molecular docking,BAO:0002373
+molecular docking by method,BAO:0002374
+molecular docking by scoring function,BAO:0002393
+molecular dynamics simulation,BAO:0002301
+multiple sequence alignment,BAO:0002245
+natural language processing,BAO:0002351
+network analysis,BAO:0002361
+neural network model,BAO:0002345
+neural network QSAR,BAO:0002310
+Newton-Raphson method,BAO:0002298
+non-linear QSAR,BAO:0002309
+pairwise sequence alignment,BAO:0002246
+parameterized model number 3,BAO:0002334
+partial least squares QSAR,BAO:0002307
+pathway analysis,BAO:0002348
+post Hartree-Fock method,BAO:0002322
+PREDATOR structure prediction,BAO:0002214
+PredictProtein structure prediction,BAO:0002215
+principal component analysis,BAO:0002346
+protein threading,BAO:0002224
+protein-protein docking,BAO:0002226
+quantitative structure activity relationship analysis,BAO:0002305
+random conformational search,BAO:0002251
+randomized block design,BAO:0002340
+RAPTOR protein threading,BAO:0002225
+receptor based pharmacophore search,BAO:0002405
+recursive partitioning QSAR,BAO:0002311
+regression QSAR,BAO:0002308
+restricted open-shell Hartree-Fock,BAO:0002320
+scaffold hopping,BAO:0002371
+second generation force field simulation,BAO:0002289
+secondary structure analysis method,BAO:0002409
+self organizing molecular field analysis,BAO:0002315
+sequence alignment,BAO:0002231
+sequence alignment by method,BAO:0002232
+sequence alignment by type,BAO:0002244
+sequencing data alignment software,BAO:0180018
+sequencing data analysis software,BAO:0180022
+shape fingerprint search,BAO:0002265
+simulated annealing,BAO:0002295
+statistical classification method,BAO:0002341
+structure activity relationship analysis,BAO:0002410
+structure alignment,BAO:0002228
+structure based virtual screening,BAO:0002372
+structure database search,BAO:0002258
+structure similarity search,BAO:0002260
+substructure search,BAO:0002268
+SwissModel homology modeling,BAO:0002223
+systematic conformational search,BAO:0002254
+target family knowledge analysis,BAO:0002363
+three dimensional QSAR,BAO:0002312
+topomer search,BAO:0002267
+two dimensional QSAR,BAO:0002316
+virtual screening,BAO:0002364
