@@ -780,7 +780,7 @@ with tab4:
         """
         A :blue-background[Standard Operating procedure] is a set of instructions to help project members to carry out routine operation in a standardized way. Here we distinguish between :blue-background[Standard Operating Protocol (SOPs)] for detailed step-by-step manuals and :blue-background[Standard Operating Guidelines (SOGs)] for more general principles. 
         
-        Our SOGs and SOPs are assigned to 4 distinct categories (:blue-background[Standard Operating Categories, SOCs]) whether they instruct on: (a) computational analysis, (b) data management and quality, (c) hit identification and validation or (d)d other procedures. On this page you can find and search all our published procedures and 
+        Our SOGs and SOPs are assigned to 4 distinct categories (:blue-background[Standard Operating Categories, SOCs]) whether they instruct on: (a) computational analysis, (b) data management and quality, (c) Pre-clinical experimental workflows or (d) Pre-clinical research reporting. On this page you can find and search all our published procedures and 
         find expertise on a SOG/SOP of interest."""
     )
 
@@ -814,10 +814,10 @@ with tab4:
         soc_stats = so_data["Category"].value_counts().reset_index()
 
         category_order = [
-            "Hit Identification and validation",
-            "Computational analysis",
             "Data management and quality",
-            "Others",
+            "Computational analysis",
+            "Pre-clinical experimental workflows",
+            "Pre-clinical research reporting",
         ]
         for category in category_order:
             if category not in soc_stats["Category"].values:
@@ -897,6 +897,13 @@ with tab4:
             data=[{"hovertemplate": "Individual: %{y}<br>SOC: %{x}<br>#SOG/Ps: %{z}"}],
         )
         fig.update_coloraxes(showscale=False)
+
+        fig.update_yaxes(
+            tickmode="array",
+            tickvals=list(expertise_hp.index),
+            ticktext=[str(i) for i in expertise_hp.index],
+            tickfont=dict(size=9),
+        )
 
         st.plotly_chart(fig, use_container_width=True)
 
