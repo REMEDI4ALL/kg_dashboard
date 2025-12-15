@@ -814,9 +814,9 @@ with tab4:
         soc_stats = so_data["Category"].value_counts().reset_index()
 
         category_order = [
-            "Data management and quality",
-            "Computational analysis",
             "Pre-clinical experimental workflows",
+            "Computational analysis",
+            "Data management and quality",
             "Pre-clinical research reporting",
         ]
         for category in category_order:
@@ -869,16 +869,29 @@ with tab4:
         # Populate the counts
         for _, row in so_data.iterrows():
             category = row["Category"]
-            # Split and clean Creator and Reviewer names
-            creators = [name.strip() for name in row["Creator"].split(",")]
-            reviewers = [name.strip() for name in row["Reviewer"].split(",")]
-            # Combine creators and reviewers
+
+            # Split and clean Creator and Reviewer names (handle NaN safely)
+            creator_str = row["Creator"] if pd.notna(row["Creator"]) else ""
+            reviewer_str = row["Reviewer"] if pd.notna(row["Reviewer"]) else ""
+
+            creators = [name.strip() for name in creator_str.split(",") if name and name.strip()]
+            reviewers = [name.strip() for name in reviewer_str.split(",") if name and name.strip()]
+
+            # Combine creators and reviewers; drop empty strings early
             participants = set(creators + reviewers)
+
             # Increment counts in the result DataFrame
             for participant in participants:
-                if not participant == "":
+                if participant:  # already stripped, so this is enough
                     expertise_hp.loc[participant, category] += 1
-        ###End: Code to create the person/SOC heatmap data###
+
+        # IMPORTANT: This is what controls the y-axis order in the plot
+        expertise_hp = expertise_hp.reindex(
+            sorted(
+                expertise_hp.index,
+                key=lambda name: name.split()[1].lower() if isinstance(name, str) and len(name.split()) > 1 else ""
+            )
+        )
 
         fig = px.imshow(
             expertise_hp,
@@ -888,14 +901,17 @@ with tab4:
             text_auto=True,
             aspect="auto",
         )
+
         fig.update_layout(
             xaxis_title="Standard Operating Category",
             yaxis_title="Individuals",
             margin=dict(l=20, r=20, t=20, b=20),
         )
+
         fig.update(
             data=[{"hovertemplate": "Individual: %{y}<br>SOC: %{x}<br>#SOG/Ps: %{z}"}],
         )
+
         fig.update_coloraxes(showscale=False)
 
         fig.update_yaxes(
