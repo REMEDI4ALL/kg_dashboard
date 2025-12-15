@@ -40,7 +40,7 @@ Ensure that (a) you are in the appropriate conda environment and (b) you are in 
 Once you have tested your local changes, open a pull request (PR). As a good practice, it is good to have your PR reviewed by co-workers to ensure code readability (if possible). 
 
 ### Docker deployment
-Upon reviewing, merge the PR into the main branch. Each commit to the main branch calls a GitHub workflow that allows for building a Docker image of the current instance or updates the old image to the new one. The list of all previous images can be found [here](https://github.com/REMEDI4ALL/kg_dashboard/pkgs/container/kg_dashboard%2Fkg_dashboard). 
+Upon reviewing, merge the PR into the main branch. Each commit to the main branch calls a GitHub workflow that allows for building a Docker image of the current instance or updates the old image to the new one. The list of all previous images can be found [here](https://github.com/REMEDI4ALL/kg_dashboard/pkgs/container/kg_dashboard). 
 
 A green tick (see below) in front of the commit confirms that the Docker image was built without errors. If you see a red cross, please check the run log for you commit [here](https://github.com/REMEDI4ALL/kg_dashboard/actions) and debug the error. Assistance from the SERVE team can also be asked if needed.
 ![docs_1](docs/docker_success.png)
